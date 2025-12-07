@@ -230,7 +230,7 @@ def print_uniqueness_info(data):
 
 
 if __name__ == '__main__':
-    path = "arxiv_data/arxiv-metadata-oai-snapshot.json"
+    path = "../arxiv_data/arxiv-metadata-oai-snapshot.json"
     if not os.path.exists(path):
         download_arxiv_metadata()
 
