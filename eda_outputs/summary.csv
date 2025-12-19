@@ -1,0 +1,8 @@
+key,value
+rows_total,"2908095"
+year_with_most_papers,"{'year': 2025, 'papers': 269378}"
+paper_with_most_authors,"{'id': '2507.06261', 'title': 'Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities', 'num_authors': 3435}"
+paper_with_most_categories,"{'id': '0808.1417', 'title': 'The finite harmonic oscillator and its associated sequences', 'categories': 'cs.IT cs.CR cs.DM math-ph math.GR math.IT math.MP math.NT math.PR math.QA math.RT math.SG quant-ph', 'num_categories': 13}"
+most_common_category,"{'category': 'cs.LG', 'papers': 245072}"
+most_prolific_author,"{'author': 'Zhang Y.', 'papers': 3360}"
+citations_available,"False"

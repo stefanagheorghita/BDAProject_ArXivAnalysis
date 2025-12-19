@@ -4,10 +4,16 @@ from pyspark.sql import SparkSession, Window
 from pyspark.sql import functions as F
 from author_analysis import *
 
+import os
+
+os.environ["JAVA_HOME"] = r"C:\Program Files\Java\jdk-25"
+os.environ["PATH"] = os.path.join(os.environ["JAVA_HOME"], "bin") + os.pathsep + os.environ["PATH"]
+
 
 def load_data(spark, path):
     df = spark.read.json(path)
     return df
+
 
 def analyze_categories(data):
     print("\n=== CATEGORY ANALYSIS ===")
@@ -47,6 +53,7 @@ def analyze_categories(data):
     )
     dist_num_cats.show(truncate=False)
 
+
 def analyze_single_valued_column(data, col, top_n=20):
     print(f"\n=== Analysis for column: {col} ===")
 
@@ -55,18 +62,18 @@ def analyze_single_valued_column(data, col, top_n=20):
 
     distinct_vals = (
         data.filter(F.col(col).isNotNull() & (F.col(col) != ""))
-            .select(col)
-            .distinct()
-            .count()
+        .select(col)
+        .distinct()
+        .count()
     )
     print(f"Distinct non-null values: {distinct_vals}")
 
     print(f"\nTop {top_n} most common values for {col}:")
     freq = (
         data.filter(F.col(col).isNotNull() & (F.col(col) != ""))
-            .groupBy(col)
-            .count()
-            .orderBy(F.desc("count"))
+        .groupBy(col)
+        .count()
+        .orderBy(F.desc("count"))
     )
     freq.show(top_n, truncate=False)
 
@@ -83,8 +90,6 @@ def show_nulls(data):
 
     print("Null counts for non-nested: ")
     non_nested_nulls.show(truncate=False)
-
-
 
     authors_nulls = (
         data
@@ -149,7 +154,6 @@ def show_nulls(data):
     versions_nulls.show(truncate=False)
 
 
-
 def verify_duplicated_ids(data, duplicates):
     dup_ids = [row["id"] for row in duplicates.select("id").collect()]
     dups = data.filter(F.col("id").isin(dup_ids))
@@ -190,6 +194,7 @@ def remove_duplicated_ids(data):
 
     return data_latest
 
+
 def print_uniqueness_info(data):
     total = data.count()
     distinct_ids = data.select("id").distinct().count()
@@ -213,14 +218,12 @@ def print_uniqueness_info(data):
     print("\nTotal rows :", total)
     print("ID distinct:", distinct_ids)
 
-
     doi_non_null = data.filter(F.col("doi").isNotNull()).count()
     doi_distinct = data.filter(F.col("doi").isNotNull()).select("doi").distinct().count()
 
     print("\nTotal rows:", total)
     print("DOI non-null rows:", doi_non_null)
     print("Distinct DOI:", doi_distinct)
-
 
     distinct_titles = data.select("title").distinct().count()
     print("\nTotal rows:", total)
@@ -245,13 +248,10 @@ if __name__ == '__main__':
     data = load_data(spark, path)
     total = data.count()
 
-
     print(f"{YELLOW}Number of rows: {RESET}{total}")
-
 
     print(f"\n{YELLOW}Schema of the data:{RESET}")
     data.printSchema()
-
 
     print(f"\n{YELLOW}Info: {RESET}")
     data = print_uniqueness_info(data)
@@ -266,9 +266,4 @@ if __name__ == '__main__':
     for c in cols:
         analyze_single_valued_column(data, c, top_n=20)
 
-
     author_analysis(data)
-
-
-
-

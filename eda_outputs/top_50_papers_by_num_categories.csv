@@ -1,0 +1,71 @@
+id,title,categories,num_categories
+0808.1417,The finite harmonic oscillator and its associated sequences,cs.IT cs.CR cs.DM math-ph math.GR math.IT math.MP math.NT math.PR math.QA math.RT math.SG quant-ph,13
+cs/0410017,"Automated Pattern Detection--An Algorithm for Constructing Optimally
+  Synchronizing Multi-Regular Language Filters",cs.CV cond-mat.stat-mech cs.CL cs.DS cs.IR cs.LG nlin.AO nlin.CG nlin.PS physics.comp-ph q-bio.GN,11
+0804.1086,Visco-potential free-surface flows and long wave modelling,physics.flu-dyn math-ph math.AP math.MP math.NA nlin.PS nlin.SI physics.ao-ph physics.class-ph physics.comp-ph physics.geo-ph,11
+hep-th/9811118,Tree Structures: A Variational Approach to Shannon--Wiener Information,hep-th cond-mat.dis-nn gr-qc hep-ph math-ph math.CO math.GN math.MP math.OC quant-ph,10
+comp-gas/9403003,Correlations and Renormalization in Lattice Gases,comp-gas adap-org chao-dyn cond-mat hep-th nlin.AO nlin.CD nlin.CG nlin.PS patt-sol,10
+hep-th/9905088,"Renormalization-group Method for Reduction of Evolution Equations;
+  invariant manifolds and envelopes",hep-th cond-mat gr-qc hep-ph math-ph math.MP nlin.PS nlin.SI patt-sol solv-int,10
+hep-th/0011014,"Dynamical Body Frames, Orientation-Shape Variables and Canonical Spin
+  Bases for the Non-Relativistic N-Body Problem",hep-th astro-ph gr-qc math-ph math.MP nucl-th physics.atm-clus physics.atom-ph physics.class-ph physics.plasm-ph,10
+math/0104143,Probabilistic Dynamics of Two-Layer Geophysical Flows,math.AP cond-mat.stat-mech math-ph math.DS math.MP math.PR nlin.CD physics.ao-ph physics.data-an physics.flu-dyn,10
+cs/0111054,The similarity metric,cs.CC cond-mat.stat-mech cs.CE cs.CV math.CO math.MG math.ST physics.data-an q-bio.GN stat.TH,10
+nlin/0202018,Noncoaxial multivortices in the complex sine-Gordon theory on the plane,nlin.SI cond-mat.supr-con hep-th math-ph math.AP math.MP nlin.AO nlin.PS physics.flu-dyn physics.optics,10
+q-alg/9601016,Berezin-Toeplitz Quantization of compact Kaehler manifolds,q-alg alg-geom dg-ga funct-an math-ph math.AG math.DG math.FA math.MP math.QA,10
+0908.3889,Integrating Post-Newtonian Equations on Graphics Processing Units,gr-qc astro-ph.CO astro-ph.EP astro-ph.GA astro-ph.HE astro-ph.IM astro-ph.SR cs.DC cs.GR cs.PF,10
+quant-ph/0108073,Quantum Information in Space and Time,quant-ph cond-mat.mes-hall cs.IT gr-qc hep-ph hep-th math-ph math.IT math.MP math.PR,10
+0708.0654,Structure or Noise?,physics.data-an cond-mat.stat-mech cs.IT cs.LG math-ph math.IT math.MP math.ST nlin.CD stat.TH,10
+solv-int/9902010,"Lax Pair Formulation and Multi-soliton Solution of the Integrable Vector
+  Nonlinear Schrodinger Equation",solv-int adap-org hep-th math-ph math.DS math.MP nlin.AO nlin.PS nlin.SI patt-sol,10
+0708.1593,Updating Probabilities with Data and Moments,physics.data-an cs.IT math.IT math.ST physics.comp-ph physics.pop-ph stat.AP stat.CO stat.ME stat.TH,10
+0808.1664,The Weil Representation in Characteristic Two,math.RT math-ph math.AG math.CT math.GR math.MP math.NT math.QA math.SG quant-ph,10
+hep-th/9701041,"Families of Singular and Subsingular Vectors of the Topological N=2
+  Superconformal Algebra",hep-th alg-geom funct-an math-ph math.AG math.FA math.MP math.QA q-alg,9
+cond-mat/0408364,"Quantum Separation of Variables and Multi-component Dyson Brownian
+  Motion",cond-mat.other cond-mat.mes-hall cond-mat.stat-mech hep-th math-ph math.MP math.PR nlin.CD nlin.SI,9
+hep-th/9706041,"Chiral Determinant Formulae and Subsingular Vectors for the N=2
+  Superconformal Algebras",hep-th alg-geom funct-an math-ph math.AG math.FA math.MP math.QA q-alg,9
+hep-ph/0012142,Dynamics of Symmetry Breaking and Tachyonic Preheating,hep-ph astro-ph cond-mat.stat-mech gr-qc hep-lat hep-th nlin.CD nlin.PS physics.comp-ph,9
+hep-th/9801069,Duality in Perturbation Theory and the Quantum Adiabatic Approximation,hep-th chao-dyn cond-mat gr-qc hep-ph math-ph math.MP nlin.CD quant-ph,9
+cond-mat/0504025,Point process model of 1/f noise versus a sum of Lorentzians,cond-mat.stat-mech astro-ph cond-mat.dis-nn cs.CE math.ST nlin.AO physics.data-an q-bio.NC stat.TH,9
+hep-th/9812061,Theoretical and Phenomenological Aspects of Superstring Theories,hep-th cond-mat hep-ph math-ph math.AG math.MG math.MP math.SG physics.soc-ph,9
+2510.16312,Predictability of Complex Systems,physics.soc-ph cs.GR cs.IT cs.SY eess.SY math-ph math.IT math.MP nlin.AO,9
+math/0010256,"Averaging Principle for Quasi-Geostrophic Motions under Rapidly
+  Oscillating Forcing",math.AP math-ph math.DS math.MP nlin.CD nlin.PS physics.ao-ph physics.flu-dyn physics.geo-ph,9
+cond-mat/9604113,Electronic Structures in C60-Polymers (review),cond-mat.mtrl-sci chem-ph cond-mat.soft cond-mat.str-el mtrl-th physics.atm-clus physics.chem-ph physics.optics quant-ph,9
+math/0101001,The 3D Quasigeostrophic Fluid Dynamics under Random Forcing on Boundary,math.AP math-ph math.DS math.MP math.PR physics.ao-ph physics.data-an physics.flu-dyn physics.geo-ph,9
+hep-ph/0505177,"Adventures in Theoretical Physics: Selected Papers of Stephen L. Adler
+  -- Commentaries",hep-ph cond-mat.other gr-qc hep-lat hep-th math-ph math.MP physics.hist-ph quant-ph,9
+math/0104142,Ergodicity of Stochastically Forced Large Scale Geophysical Flows,math.AP cond-mat.stat-mech math-ph math.DS math.MP math.PR nlin.CD physics.ao-ph physics.data-an,9
+cond-mat/9707301,Random Matrix Theories in Quantum Physics: Common Concepts,cond-mat chao-dyn hep-th nlin.CD nlin.SI nucl-th physics.atom-ph physics.chem-ph solv-int,9
+math/0108086,"Enstrophy Dynamics of Stochastically Forced Large-Scale Geophysical
+  Flows",math.AP cond-mat.stat-mech math-ph math.DS math.MP math.PR nlin.CD physics.ao-ph physics.flu-dyn,9
+adap-org/9902002,A General Approach to the Modelling of Trophic Chains,adap-org chao-dyn cond-mat.stat-mech math.DS nlin.AO nlin.CD physics.bio-ph physics.chem-ph q-bio.PE,9
+math/9902066,"Berezin-Toeplitz quantization and Berezin symbols for arbitrary compact
+  Kaehler manifolds",math.QA hep-th math-ph math.AG math.CV math.DG math.MP math.SG quant-ph,9
+cond-mat/9812161,Self-Organized States in Cellular Automata: Exact Solution,cond-mat.stat-mech adap-org astro-ph comp-gas nlin.AO nlin.CG physics.class-ph physics.flu-dyn physics.plasm-ph,9
+physics/0601161,"Monte Carlo Algorithm for Least Dependent Non-Negative Mixture
+  Decomposition",physics.chem-ph cond-mat.stat-mech cs.IT math.IT math.PR math.ST physics.comp-ph physics.data-an stat.TH,9
+cond-mat/9902011,Cortical Potential Distributions and Cognitive Information Processing,cond-mat.dis-nn adap-org cond-mat.stat-mech cs.NE math-ph math.MP nlin.AO physics.bio-ph q-bio,9
+1108.2700,It was twenty years ago today ...,cs.DL astro-ph.IM cond-mat.other gr-qc hep-ph hep-th math.HO physics.soc-ph quant-ph,9
+cs/0505058,"The Cyborg Astrobiologist: Scouting Red Beds for Uncommon Features with
+  Geological Significance",cs.CV astro-ph cs.AI cs.CE cs.HC cs.RO cs.SE physics.ins-det q-bio.NC,9
+q-alg/9609022,"Noninvertibility and ``Semi-'' Analogs of (Super) Manifolds, Fiber
+  Bundles and Homotopies",q-alg alg-geom dg-ga funct-an hep-th math.AG math.DG math.FA math.QA,9
+0705.2139,Fuzzy Fluid Mechanics in Three Dimensions,math-ph cond-mat.stat-mech gr-qc hep-th math.AP math.MP math.QA nlin.CD physics.flu-dyn,9
+2401.03206,"A Robbins--Monro Sequence That Can Exploit Prior Information For Faster
+  Convergence",cs.LG cs.NA math.NA math.OC math.PR math.ST stat.ME stat.ML stat.TH,9
+0803.4356,"Stochastic Dynamical Structure (SDS) of Nonequilibrium Processes in the
+  Absence of Detailed Balance. II: construction of SDS with nonlinear force and
+  multiplicative noise",cond-mat.other astro-ph math-ph math.DS math.MP nlin.AO physics.bio-ph q-bio.PE q-bio.SC,9
+1112.2770,"The Impact of Recent Advances in Laboratory Astrophysics on our
+  Understanding of the Cosmos",astro-ph.IM hep-ex hep-ph nucl-ex nucl-th physics.atom-ph physics.chem-ph physics.plasm-ph physics.space-ph,9
+2402.14026,Probability Tools for Sequential Random Projection,math.ST cs.DS cs.IT cs.NA math.IT math.NA math.PR stat.ML stat.TH,9
+0902.3014,Fano resonances in nanoscale structures,cond-mat.mtrl-sci cond-mat.mes-hall cond-mat.str-el cond-mat.supr-con math-ph math.MP nlin.SI physics.atom-ph physics.optics,9
+1909.05007,Optimality of the Subgradient Algorithm in the Stochastic Setting,math.ST cs.DS cs.LG cs.SY eess.SY math.OC math.PR stat.ML stat.TH,9
+0911.4212,"Realization of Frobenius manifolds as submanifolds in pseudo-Euclidean
+  spaces",math.DG hep-th math-ph math.AG math.MP math.QA math.RA math.SG nlin.SI,9
+2107.06936,Performance of Bayesian linear regression in a model with mismatch,math.PR cond-mat.dis-nn cs.IT cs.LG math-ph math.IT math.MP math.ST stat.TH,9
+0912.5492,"On compatible metrics and diagonalizability of non-locally
+  bi-Hamiltonian systems of hydrodynamic type",math.DG hep-th math-ph math.AP math.DS math.MP math.SG nlin.SI physics.flu-dyn,9
