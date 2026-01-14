@@ -1,0 +1,14 @@
+{
+  "category": "hep-ex",
+  "n_documents": 24565,
+  "n_topics": 5,
+  "topic_diversity": 0.66,
+  "log_likelihood": -9447927.907018077,
+  "log_perplexity": 6.2793911091026455,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

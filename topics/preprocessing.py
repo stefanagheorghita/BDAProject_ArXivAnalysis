@@ -54,6 +54,15 @@ def load_arxiv_sample(
 #     df.to_csv(f"samples/arxiv_sample_{100000*n_chunks}.csv", index=False)
 #     print("1 done")
 
+# import pandas as pd
+
+# df = pd.read_json(
+#     "../exploratory_analysis/arxiv_data/arxiv-metadata-oai-snapshot.json",
+#     lines=True
+# )
+
+# df.to_csv("arxiv_full.csv", index=False)
+
 
 def build_text_column( df: pd.DataFrame, title_col: str = "title", abstract_col: str = "abstract", output_col: str = "text"
 ) :

@@ -1,0 +1,14 @@
+{
+  "category": "nucl-ex",
+  "n_documents": 12241,
+  "n_topics": 5,
+  "topic_diversity": 0.72,
+  "log_likelihood": -5671238.902918842,
+  "log_perplexity": 6.52192636883826,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

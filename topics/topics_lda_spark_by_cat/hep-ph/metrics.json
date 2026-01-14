@@ -1,0 +1,14 @@
+{
+  "category": "hep-ph",
+  "n_documents": 140365,
+  "n_topics": 5,
+  "topic_diversity": 0.66,
+  "log_likelihood": -63085517.087777995,
+  "log_perplexity": 6.716525561105349,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

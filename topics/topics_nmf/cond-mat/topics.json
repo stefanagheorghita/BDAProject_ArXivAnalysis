@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "system",
+    "particle",
+    "time",
+    "dynamic",
+    "function",
+    "equation",
+    "distribution",
+    "simulation",
+    "theory"
+  ],
+  "1": [
+    "spin",
+    "quantum",
+    "orbit",
+    "current",
+    "coupling",
+    "dot",
+    "interaction",
+    "electron",
+    "hall",
+    "state"
+  ],
+  "2": [
+    "electron",
+    "graphene",
+    "band",
+    "surface",
+    "electronic",
+    "phonon",
+    "structure",
+    "material",
+    "energy",
+    "layer"
+  ],
+  "3": [
+    "magnetic",
+    "field",
+    "temperature",
+    "k",
+    "magnetization",
+    "superconducte",
+    "crystal",
+    "high",
+    "order",
+    "transition"
+  ],
+  "4": [
+    "phase",
+    "topological",
+    "transition",
+    "state",
+    "order",
+    "symmetry",
+    "insulator",
+    "quantum",
+    "lattice",
+    "model"
+  ]
+}

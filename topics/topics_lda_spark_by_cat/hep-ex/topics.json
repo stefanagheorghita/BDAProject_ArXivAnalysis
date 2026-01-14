@@ -1,0 +1,62 @@
+{
+  "0": [
+    "neutrino",
+    "experiment",
+    "search",
+    "dark",
+    "detector",
+    "matter",
+    "energy",
+    "oscillation",
+    "result",
+    "mass"
+  ],
+  "1": [
+    "decay",
+    "mass",
+    "search",
+    "measurement",
+    "model",
+    "boson",
+    "production",
+    "detector",
+    "tev",
+    "collision"
+  ],
+  "2": [
+    "measurement",
+    "collision",
+    "proton",
+    "section",
+    "cross",
+    "jet",
+    "production",
+    "datum",
+    "gev",
+    "energy"
+  ],
+  "3": [
+    "detector",
+    "physics",
+    "particle",
+    "experiment",
+    "high",
+    "datum",
+    "muon",
+    "energy",
+    "system",
+    "new"
+  ],
+  "4": [
+    "measurement",
+    "quark",
+    "physics",
+    "collider",
+    "lhc",
+    "model",
+    "energy",
+    "production",
+    "mass",
+    "present"
+  ]
+}

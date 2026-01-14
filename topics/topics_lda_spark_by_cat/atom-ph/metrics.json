@@ -1,0 +1,14 @@
+{
+  "category": "atom-ph",
+  "n_documents": 68,
+  "n_topics": 5,
+  "topic_diversity": 0.96,
+  "log_likelihood": -28121.145296528044,
+  "log_perplexity": 7.604420036919426,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

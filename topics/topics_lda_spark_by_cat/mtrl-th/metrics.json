@@ -1,0 +1,14 @@
+{
+  "category": "mtrl-th",
+  "n_documents": 165,
+  "n_topics": 5,
+  "topic_diversity": 0.86,
+  "log_likelihood": -82809.91132386538,
+  "log_perplexity": 7.498181032584697,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

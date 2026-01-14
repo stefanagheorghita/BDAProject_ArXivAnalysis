@@ -1,0 +1,14 @@
+{
+  "category": "nucl-th",
+  "n_documents": 35116,
+  "n_topics": 5,
+  "topic_diversity": 0.66,
+  "log_likelihood": -16738155.928914508,
+  "log_perplexity": 6.625152359239388,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

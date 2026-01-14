@@ -1,0 +1,14 @@
+{
+  "category": "solv-int",
+  "n_documents": 844,
+  "n_topics": 5,
+  "topic_diversity": 0.8,
+  "log_likelihood": -277738.68456576613,
+  "log_perplexity": 7.000168478822617,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

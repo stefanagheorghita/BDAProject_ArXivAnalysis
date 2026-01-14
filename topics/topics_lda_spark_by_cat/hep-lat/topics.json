@@ -1,0 +1,62 @@
+{
+  "0": [
+    "lattice",
+    "field",
+    "function",
+    "qcd",
+    "method",
+    "density",
+    "state",
+    "topological",
+    "model",
+    "study"
+  ],
+  "1": [
+    "lattice",
+    "fermion",
+    "mass",
+    "quark",
+    "theory",
+    "operator",
+    "qcd",
+    "result",
+    "chiral",
+    "action"
+  ],
+  "2": [
+    "gauge",
+    "theory",
+    "lattice",
+    "abelian",
+    "monopole",
+    "string",
+    "field",
+    "confinement",
+    "loop",
+    "dual"
+  ],
+  "3": [
+    "model",
+    "lattice",
+    "theory",
+    "gauge",
+    "quantum",
+    "field",
+    "monte",
+    "carlo",
+    "simulation",
+    "dimensional"
+  ],
+  "4": [
+    "lattice",
+    "quark",
+    "qcd",
+    "mass",
+    "result",
+    "phase",
+    "temperature",
+    "transition",
+    "chiral",
+    "finite"
+  ]
+}

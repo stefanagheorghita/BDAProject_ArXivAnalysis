@@ -1,0 +1,62 @@
+{
+  "0": [
+    "invariant",
+    "knot",
+    "vassiliev",
+    "category",
+    "link",
+    "type",
+    "braid",
+    "algebra",
+    "manifold",
+    "degree"
+  ],
+  "1": [
+    "cycle",
+    "zonal",
+    "spherical",
+    "function",
+    "type",
+    "lattice",
+    "representation",
+    "integral",
+    "current",
+    "particular"
+  ],
+  "2": [
+    "polynomial",
+    "conjecture",
+    "macdonald",
+    "operator",
+    "proof",
+    "system",
+    "calogero",
+    "dunkl",
+    "algebra",
+    "multivariable"
+  ],
+  "3": [
+    "algebra",
+    "quantum",
+    "group",
+    "representation",
+    "operator",
+    "lie",
+    "space",
+    "structure",
+    "module",
+    "theory"
+  ],
+  "4": [
+    "pair",
+    "group",
+    "representation",
+    "graph",
+    "quantum",
+    "algebra",
+    "chevalley",
+    "result",
+    "description",
+    "potential"
+  ]
+}

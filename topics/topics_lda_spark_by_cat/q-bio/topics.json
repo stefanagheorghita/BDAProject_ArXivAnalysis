@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "cell",
+    "population",
+    "system",
+    "dynamic",
+    "time",
+    "result",
+    "rate",
+    "process",
+    "specie"
+  ],
+  "1": [
+    "gene",
+    "datum",
+    "cell",
+    "study",
+    "analysis",
+    "genome",
+    "cancer",
+    "model",
+    "base",
+    "result"
+  ],
+  "2": [
+    "model",
+    "population",
+    "disease",
+    "individual",
+    "study",
+    "dynamic",
+    "infection",
+    "time",
+    "epidemic",
+    "result"
+  ],
+  "3": [
+    "network",
+    "brain",
+    "model",
+    "neural",
+    "neuron",
+    "dynamic",
+    "system",
+    "activity",
+    "state",
+    "study"
+  ],
+  "4": [
+    "model",
+    "protein",
+    "method",
+    "datum",
+    "base",
+    "sequence",
+    "structure",
+    "approach",
+    "learning",
+    "prediction"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "0": [
+    "matrix",
+    "operator",
+    "function",
+    "polynomial",
+    "spectral",
+    "eigenvalue",
+    "space",
+    "representation",
+    "random",
+    "result"
+  ],
+  "1": [
+    "system",
+    "equation",
+    "field",
+    "quantum",
+    "model",
+    "theory",
+    "time",
+    "space",
+    "particle",
+    "dynamic"
+  ],
+  "2": [
+    "equation",
+    "theory",
+    "algebra",
+    "group",
+    "function",
+    "system",
+    "quantum",
+    "field",
+    "space",
+    "symmetry"
+  ],
+  "3": [
+    "equation",
+    "model",
+    "solution",
+    "potential",
+    "energy",
+    "state",
+    "system",
+    "function",
+    "problem",
+    "prove"
+  ],
+  "4": [
+    "measure",
+    "random",
+    "quantum",
+    "operator",
+    "distribution",
+    "entropy",
+    "limit",
+    "state",
+    "point",
+    "prove"
+  ]
+}

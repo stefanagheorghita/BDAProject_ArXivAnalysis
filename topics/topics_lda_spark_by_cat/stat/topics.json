@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "effect",
+    "treatment",
+    "datum",
+    "method",
+    "study",
+    "outcome",
+    "estimate",
+    "propose",
+    "trial"
+  ],
+  "1": [
+    "model",
+    "datum",
+    "method",
+    "network",
+    "propose",
+    "approach",
+    "base",
+    "analysis",
+    "bayesian",
+    "study"
+  ],
+  "2": [
+    "algorithm",
+    "method",
+    "propose",
+    "problem",
+    "model",
+    "datum",
+    "sample",
+    "test",
+    "estimator",
+    "base"
+  ],
+  "3": [
+    "model",
+    "method",
+    "datum",
+    "distribution",
+    "time",
+    "process",
+    "propose",
+    "bayesian",
+    "approach",
+    "parameter"
+  ],
+  "4": [
+    "datum",
+    "study",
+    "model",
+    "analysis",
+    "time",
+    "method",
+    "statistical",
+    "result",
+    "base",
+    "level"
+  ]
+}

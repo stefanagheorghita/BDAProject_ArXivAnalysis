@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "mass",
+    "dark",
+    "matter",
+    "higgs",
+    "symmetry",
+    "standard",
+    "scale",
+    "gauge",
+    "scalar"
+  ],
+  "1": [
+    "mass",
+    "model",
+    "quark",
+    "correction",
+    "loop",
+    "order",
+    "decay",
+    "result",
+    "theory",
+    "qcd"
+  ],
+  "2": [
+    "quark",
+    "state",
+    "decay",
+    "meson",
+    "energy",
+    "model",
+    "qcd",
+    "result",
+    "production",
+    "heavy"
+  ],
+  "3": [
+    "neutrino",
+    "mass",
+    "energy",
+    "experiment",
+    "oscillation",
+    "matter",
+    "model",
+    "datum",
+    "dark",
+    "effect"
+  ],
+  "4": [
+    "field",
+    "production",
+    "boson",
+    "higgs",
+    "collider",
+    "particle",
+    "model",
+    "energy",
+    "lhc",
+    "decay"
+  ]
+}

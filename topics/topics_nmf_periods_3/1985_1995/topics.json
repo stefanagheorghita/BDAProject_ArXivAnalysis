@@ -1,0 +1,38 @@
+{
+  "0": [
+    "model",
+    "phase",
+    "spin",
+    "temperature",
+    "transition",
+    "density",
+    "critical",
+    "lattice",
+    "state",
+    "energy"
+  ],
+  "1": [
+    "quark",
+    "higgs",
+    "gamma",
+    "heavy",
+    "mass",
+    "decay",
+    "qcd",
+    "model",
+    "pi",
+    "production"
+  ],
+  "2": [
+    "theory",
+    "quantum",
+    "string",
+    "gauge",
+    "field",
+    "gravity",
+    "space",
+    "dimensional",
+    "theories",
+    "algebra"
+  ]
+}

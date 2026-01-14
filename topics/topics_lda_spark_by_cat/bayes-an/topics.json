@@ -1,0 +1,62 @@
+{
+  "0": [
+    "density",
+    "posterior",
+    "analysis",
+    "error",
+    "likelihood",
+    "future",
+    "mean",
+    "maximum",
+    "maxent",
+    "heavy"
+  ],
+  "1": [
+    "base",
+    "solution",
+    "surprising",
+    "advantage",
+    "present",
+    "conditional",
+    "baye",
+    "heavy",
+    "variant",
+    "important"
+  ],
+  "2": [
+    "algorithm",
+    "distribution",
+    "random",
+    "walk",
+    "markov",
+    "method",
+    "monte",
+    "problem",
+    "carlo",
+    "chain"
+  ],
+  "3": [
+    "model",
+    "linear",
+    "series",
+    "time",
+    "parameter",
+    "problem",
+    "distribution",
+    "function",
+    "moment",
+    "bayesian"
+  ],
+  "4": [
+    "velocity",
+    "classical",
+    "space",
+    "prior",
+    "addition",
+    "non",
+    "relativistic",
+    "mechanic",
+    "law",
+    "lead"
+  ]
+}

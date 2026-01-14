@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "neutrino",
+    "matter",
+    "galaxy",
+    "scale",
+    "mass",
+    "large",
+    "universe",
+    "cosmic",
+    "datum"
+  ],
+  "1": [
+    "hole",
+    "model",
+    "black",
+    "function",
+    "temperature",
+    "result",
+    "energy",
+    "state",
+    "field",
+    "study"
+  ],
+  "2": [
+    "theory",
+    "model",
+    "field",
+    "string",
+    "gauge",
+    "quantum",
+    "dimensional",
+    "non",
+    "state",
+    "symmetry"
+  ],
+  "3": [
+    "model",
+    "quark",
+    "mass",
+    "decay",
+    "energy",
+    "qcd",
+    "heavy",
+    "correction",
+    "result",
+    "effect"
+  ],
+  "4": [
+    "algebra",
+    "space",
+    "quantum",
+    "theory",
+    "group",
+    "equation",
+    "solution",
+    "operator",
+    "field",
+    "structure"
+  ]
+}

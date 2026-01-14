@@ -1,0 +1,62 @@
+{
+  "0": [
+    "portfolio",
+    "risk",
+    "model",
+    "return",
+    "asset",
+    "base",
+    "investment",
+    "datum",
+    "approach",
+    "financial"
+  ],
+  "1": [
+    "market",
+    "model",
+    "financial",
+    "stock",
+    "price",
+    "time",
+    "datum",
+    "network",
+    "base",
+    "order"
+  ],
+  "2": [
+    "model",
+    "volatility",
+    "option",
+    "price",
+    "pricing",
+    "rate",
+    "stochastic",
+    "process",
+    "method",
+    "time"
+  ],
+  "3": [
+    "market",
+    "problem",
+    "price",
+    "optimal",
+    "model",
+    "time",
+    "option",
+    "strategy",
+    "risk",
+    "asset"
+  ],
+  "4": [
+    "risk",
+    "measure",
+    "distribution",
+    "model",
+    "value",
+    "result",
+    "function",
+    "loss",
+    "income",
+    "economic"
+  ]
+}

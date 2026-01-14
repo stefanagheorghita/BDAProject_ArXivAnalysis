@@ -1,0 +1,14 @@
+{
+  "category": "plasm-ph",
+  "n_documents": 28,
+  "n_topics": 5,
+  "topic_diversity": 0.86,
+  "log_likelihood": -16481.621717934508,
+  "log_perplexity": 7.58124274054025,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

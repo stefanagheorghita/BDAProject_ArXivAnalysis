@@ -1,0 +1,14 @@
+{
+  "category": "adap-org",
+  "n_documents": 306,
+  "n_topics": 5,
+  "topic_diversity": 0.9,
+  "log_likelihood": -153093.7971161755,
+  "log_perplexity": 7.714865809119912,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

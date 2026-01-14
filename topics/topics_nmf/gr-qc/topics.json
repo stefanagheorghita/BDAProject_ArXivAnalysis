@@ -1,0 +1,62 @@
+{
+  "0": [
+    "solution",
+    "field",
+    "equation",
+    "scalar",
+    "theory",
+    "spacetime",
+    "einstein",
+    "metric",
+    "tensor",
+    "gravity"
+  ],
+  "1": [
+    "black",
+    "hole",
+    "horizon",
+    "charge",
+    "kerr",
+    "thermodynamic",
+    "entropy",
+    "mass",
+    "schwarzschild",
+    "rotate"
+  ],
+  "2": [
+    "wave",
+    "gravitational",
+    "binary",
+    "star",
+    "signal",
+    "detector",
+    "mass",
+    "neutron",
+    "spin",
+    "waveform"
+  ],
+  "3": [
+    "quantum",
+    "gravity",
+    "theory",
+    "loop",
+    "classical",
+    "space",
+    "cosmology",
+    "state",
+    "time",
+    "quantization"
+  ],
+  "4": [
+    "model",
+    "dark",
+    "energy",
+    "universe",
+    "cosmological",
+    "matter",
+    "parameter",
+    "density",
+    "fluid",
+    "cosmology"
+  ]
+}

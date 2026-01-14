@@ -1,0 +1,14 @@
+{
+  "category": "acc-phys",
+  "n_documents": 46,
+  "n_topics": 5,
+  "topic_diversity": 1.0,
+  "log_likelihood": -18581.102528084815,
+  "log_perplexity": 7.332716072645943,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

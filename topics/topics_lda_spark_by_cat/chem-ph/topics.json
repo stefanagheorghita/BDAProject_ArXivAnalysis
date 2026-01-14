@@ -1,0 +1,62 @@
+{
+  "0": [
+    "cluster",
+    "energy",
+    "potential",
+    "method",
+    "charge",
+    "result",
+    "dynamic",
+    "state",
+    "study",
+    "model"
+  ],
+  "1": [
+    "sequence",
+    "protein",
+    "random",
+    "model",
+    "fold",
+    "chain",
+    "property",
+    "amino",
+    "vibration",
+    "acid"
+  ],
+  "2": [
+    "polyelectrolyte",
+    "method",
+    "emulate",
+    "large",
+    "thermodynamical",
+    "system",
+    "monte",
+    "carlo",
+    "polymer",
+    "small"
+  ],
+  "3": [
+    "dendrimer",
+    "starburst",
+    "bethe",
+    "bound",
+    "topology",
+    "truncated",
+    "architecture",
+    "embedding",
+    "hyperbolic",
+    "convenient"
+  ],
+  "4": [
+    "model",
+    "effect",
+    "ion",
+    "dielectric",
+    "solvent",
+    "interaction",
+    "hydrophobic",
+    "solvation",
+    "solute",
+    "water"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "category": "astro-ph",
+  "n_documents": 328038,
+  "n_topics": 5,
+  "topic_diversity": 0.76,
+  "log_likelihood": -244778847.60493127,
+  "log_perplexity": 7.015840994147207,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

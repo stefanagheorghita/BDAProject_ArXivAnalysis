@@ -1,0 +1,14 @@
+{
+  "category": "math",
+  "n_documents": 560647,
+  "n_topics": 5,
+  "topic_diversity": 0.7,
+  "log_likelihood": -206245888.5764284,
+  "log_perplexity": 6.830534830657099,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

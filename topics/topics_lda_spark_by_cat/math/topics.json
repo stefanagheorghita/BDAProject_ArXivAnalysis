@@ -1,0 +1,62 @@
+{
+  "0": [
+    "graph",
+    "set",
+    "number",
+    "result",
+    "prove",
+    "random",
+    "vertex",
+    "function",
+    "paper",
+    "matrix"
+  ],
+  "1": [
+    "equation",
+    "solution",
+    "model",
+    "result",
+    "system",
+    "time",
+    "problem",
+    "process",
+    "space",
+    "function"
+  ],
+  "2": [
+    "algebra",
+    "group",
+    "prove",
+    "field",
+    "result",
+    "curve",
+    "surface",
+    "variety",
+    "category",
+    "conjecture"
+  ],
+  "3": [
+    "group",
+    "space",
+    "manifold",
+    "algebra",
+    "operator",
+    "function",
+    "result",
+    "prove",
+    "lie",
+    "structure"
+  ],
+  "4": [
+    "method",
+    "problem",
+    "algorithm",
+    "function",
+    "numerical",
+    "propose",
+    "order",
+    "solution",
+    "equation",
+    "operator"
+  ]
+}

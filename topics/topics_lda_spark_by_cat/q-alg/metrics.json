@@ -1,0 +1,14 @@
+{
+  "category": "q-alg",
+  "n_documents": 1177,
+  "n_topics": 5,
+  "topic_diversity": 0.82,
+  "log_likelihood": -340907.27550010104,
+  "log_perplexity": 6.590636730079671,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

@@ -1,66 +1,62 @@
 {
   "0": [
+    "mass",
+    "ray",
+    "galaxies",
+    "star",
+    "stars",
+    "black",
     "model",
-    "field",
-    "spin",
-    "two",
-    "energy",
-    "phase",
-    "magnetic",
-    "state",
-    "quantum",
-    "states"
+    "data",
+    "emission",
+    "high"
   ],
   "1": [
+    "quantum",
+    "model",
     "theory",
-    "space",
-    "show",
-    "non",
-    "also",
     "two",
-    "one",
-    "paper",
-    "results",
-    "field"
+    "states",
+    "energy",
+    "state",
+    "field",
+    "non",
+    "results"
   ],
   "2": [
-    "quantum",
-    "time",
-    "based",
-    "system",
-    "systems",
-    "algorithm",
-    "method",
-    "problem",
+    "magnetic",
+    "field",
+    "phase",
     "two",
+    "spin",
+    "energy",
+    "temperature",
+    "model",
+    "high",
     "using"
   ],
   "3": [
     "data",
     "model",
+    "based",
     "learning",
     "models",
-    "based",
     "performance",
     "using",
-    "methods",
     "method",
-    "training"
+    "methods",
+    "network"
   ],
   "4": [
-    "mass",
-    "data",
-    "high",
-    "ray",
-    "model",
-    "stars",
-    "star",
-    "using",
-    "galaxies",
-    "energy"
+    "show",
+    "problem",
+    "paper",
+    "two",
+    "space",
+    "also",
+    "time",
+    "non",
+    "results",
+    "one"
   ]
 }
-
-//
-//Log-likelihood -1521247485.4463155
-//Log-perplexity 7.112515945019199

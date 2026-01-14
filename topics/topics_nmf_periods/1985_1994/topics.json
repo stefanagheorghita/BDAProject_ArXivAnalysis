@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "phase",
+    "transition",
+    "temperature",
+    "spin",
+    "function",
+    "state",
+    "lattice",
+    "system",
+    "order"
+  ],
+  "1": [
+    "quark",
+    "decay",
+    "mass",
+    "heavy",
+    "higgs",
+    "correction",
+    "qcd",
+    "meson",
+    "model",
+    "production"
+  ],
+  "2": [
+    "hole",
+    "black",
+    "solution",
+    "horizon",
+    "dilaton",
+    "entropy",
+    "string",
+    "dimensional",
+    "gravity",
+    "singularity"
+  ],
+  "3": [
+    "theory",
+    "string",
+    "gauge",
+    "field",
+    "action",
+    "symmetry",
+    "topological",
+    "model",
+    "effective",
+    "gravity"
+  ],
+  "4": [
+    "algebra",
+    "quantum",
+    "group",
+    "space",
+    "operator",
+    "representation",
+    "equation",
+    "lie",
+    "matrix",
+    "classical"
+  ]
+}

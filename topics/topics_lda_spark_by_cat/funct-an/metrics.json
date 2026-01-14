@@ -1,0 +1,14 @@
+{
+  "category": "funct-an",
+  "n_documents": 320,
+  "n_topics": 5,
+  "topic_diversity": 0.8,
+  "log_likelihood": -109773.91436453408,
+  "log_perplexity": 7.27220366773992,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

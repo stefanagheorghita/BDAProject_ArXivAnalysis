@@ -1,0 +1,14 @@
+{
+  "category": "chao-dyn",
+  "n_documents": 1770,
+  "n_topics": 5,
+  "topic_diversity": 0.78,
+  "log_likelihood": -786890.8314713964,
+  "log_perplexity": 7.180250490198978,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

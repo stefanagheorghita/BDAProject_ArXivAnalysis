@@ -1,0 +1,62 @@
+{
+  "0": [
+    "quantum",
+    "state",
+    "system",
+    "theory",
+    "classical",
+    "measurement",
+    "non",
+    "information",
+    "space",
+    "result"
+  ],
+  "1": [
+    "quantum",
+    "algorithm",
+    "qubit",
+    "circuit",
+    "error",
+    "gate",
+    "problem",
+    "state",
+    "code",
+    "method"
+  ],
+  "2": [
+    "quantum",
+    "state",
+    "entanglement",
+    "protocol",
+    "measurement",
+    "key",
+    "channel",
+    "qubit",
+    "system",
+    "communication"
+  ],
+  "3": [
+    "quantum",
+    "photon",
+    "qubit",
+    "state",
+    "single",
+    "system",
+    "time",
+    "optical",
+    "high",
+    "spin"
+  ],
+  "4": [
+    "quantum",
+    "system",
+    "state",
+    "field",
+    "time",
+    "model",
+    "spin",
+    "phase",
+    "dynamic",
+    "energy"
+  ]
+}

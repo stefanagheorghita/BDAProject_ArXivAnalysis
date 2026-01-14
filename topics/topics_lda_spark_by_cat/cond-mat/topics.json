@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "system",
+    "state",
+    "time",
+    "dynamic",
+    "particle",
+    "phase",
+    "result",
+    "study",
+    "function"
+  ],
+  "1": [
+    "temperature",
+    "magnetic",
+    "phase",
+    "transition",
+    "state",
+    "order",
+    "electron",
+    "high",
+    "structure",
+    "field"
+  ],
+  "2": [
+    "spin",
+    "field",
+    "magnetic",
+    "quantum",
+    "electron",
+    "effect",
+    "current",
+    "state",
+    "transport",
+    "system"
+  ],
+  "3": [
+    "state",
+    "topological",
+    "phase",
+    "quantum",
+    "system",
+    "symmetry",
+    "mode",
+    "interaction",
+    "lattice",
+    "non"
+  ],
+  "4": [
+    "material",
+    "surface",
+    "structure",
+    "property",
+    "high",
+    "phase",
+    "model",
+    "study",
+    "base",
+    "energy"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "0": [
+    "discontinuity",
+    "trap",
+    "mode",
+    "impedance",
+    "small",
+    "coupling",
+    "theory",
+    "chamber",
+    "general",
+    "cross"
+  ],
+  "1": [
+    "requirement",
+    "fix",
+    "solution",
+    "lattice",
+    "environment",
+    "hand",
+    "fodo",
+    "match",
+    "different",
+    "degree"
+  ],
+  "2": [
+    "particle",
+    "longitudinal",
+    "damp",
+    "radiation",
+    "dynamic",
+    "find",
+    "wave",
+    "excitation",
+    "quantum",
+    "effect"
+  ],
+  "3": [
+    "beam",
+    "high",
+    "cavity",
+    "machine",
+    "propose",
+    "muon",
+    "proton",
+    "energy",
+    "collider",
+    "coupler"
+  ],
+  "4": [
+    "matrix",
+    "linear",
+    "equation",
+    "motion",
+    "transfer",
+    "element",
+    "compute",
+    "result",
+    "parameter",
+    "coordinate"
+  ]
+}
