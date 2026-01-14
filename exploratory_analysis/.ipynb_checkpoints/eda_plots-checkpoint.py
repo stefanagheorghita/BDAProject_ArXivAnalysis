@@ -7,7 +7,7 @@ from pyspark.sql import functions as F
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
-DATA_PATH = "hdfs:///user/ubuntu/arxiv_data/arxiv-metadata-oai-snapshot.json"
+DATA_PATH = os.path.join(REPO_ROOT, "arxiv_data", "arxiv-metadata-oai-snapshot.json")
 PLOTS_DIR = os.path.join(REPO_ROOT, "plots")
 OUT_DIR = os.path.join(REPO_ROOT, "eda_outputs")
 

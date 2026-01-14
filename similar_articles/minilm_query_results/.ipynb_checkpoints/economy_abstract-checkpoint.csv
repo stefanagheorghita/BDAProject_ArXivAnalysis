@@ -1,0 +1,307 @@
+query_type,query_value,rank,id,categories,similarity,title,abstract
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",1,2510.24781,econ.EM econ.TH stat.AP stat.ME,0.7249888181686401,Dual-Channel Technology Diffusion: Spatial Decay and Network Contagion in Supply Chain Networks,"This paper develops a dual-channel framework for analyzing technology diffusion that integrates spatial decay mechanisms from continuous functional analysis with network contagion dynamics from spectral graph theory. Building on our previous studies, which establish Navier-Stokes-based approaches to spatial treatment effects and financial network fragility, we demonstrate that technology adoption spreads simultaneously through both geographic proximity and supply chain connections. Using comprehensive data on six technologies adopted by 500 firms over 2010-2023, we document three key findings. First, technology adoption exhibits strong exponential geographic decay with spatial decay rate $\kappa \approx 0.043$ per kilometer, implying a spatial boundary of $d^* \approx 69$ kilometers beyond which spillovers are negligible (R-squared = 0.99). Second, supply chain connections create technology-specific networks whose algebraic connectivity ($\lambda_2$) increases 300-380 percent as adoption spreads, with correlation between $\lambda_2$ and adoption exceeding 0.95 across all technologies. Third, traditional difference-in-differences methods that ignore spatial and network structure exhibit 61 percent bias in estimated treatment effects. An event study around COVID-19 reveals that network fragility increased 24.5 percent post-shock, amplifying treatment effects through supply chain spillovers in a manner analogous to financial contagion documented in our recent study. Our framework provides micro-foundations for technology policy: interventions have spatial reach of 69 kilometers and network amplification factor of 10.8, requiring coordinated geographic and supply chain targeting for optimal effectiveness."
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",2,1802.03951,physics.soc-ph,0.8237888216972351,From continuous to discontinuous transitions in social diffusion,"  Models of social diffusion reflect processes of how new products, ideas or
+behaviors are adopted in a population. These models typically lead to a
+continuous or a discontinuous phase transition of the number of adopters as a
+function of a control parameter. We explore a simple model of social adoption
+where the agents can be in two states, either adopters or non-adopters, and can
+switch between these two states interacting with other agents through a
+network. The probability of an agent to switch from non-adopter to adopter
+depends on the number of adopters in her network neighborhood, the adoption
+threshold $T$ and the adoption coefficient $a$, two parameters defining a Hill
+function. In contrast, the transition from adopter to non-adopter is
+spontaneous at a certain rate $\mu$. In a mean-field approach, we derive the
+governing ordinary differential equations and show that the nature of the
+transition between the global non-adoption and global adoption regimes depends
+mostly on the balance between the probability to adopt with one and two
+adopters. The transition changes from continuous, via a transcritical
+bifurcation, to discontinuous, via a combination of a saddle-node and a
+transcritical bifurcation, through a supercritical pitchfork bifurcation. We
+characterize the full parameter space. Finally, we compare our analytical
+results with Montecarlo simulations on annealed and quenched degree regular
+networks, showing a better agreement for the annealed case. Our results show
+how a simple model is able to capture two seemingly very different types of
+transitions, i.e., continuous and discontinuous and thus unifies underlying
+dynamics for different systems. Furthermore the form of the adoption
+probability used here is based on empirical measurements.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",3,1807.09897,math.PR,0.8526789546012878,Dynamic Contagion in a Banking System with Births and Defaults,"  We consider a dynamic model of interconnected banks. New banks can emerge,
+and existing banks can default, creating a birth-and-death setup.
+Microscopically, banks evolve as independent geometric Brownian motions.
+Systemic effects are captured through default contagion: as one bank defaults,
+reserves of other banks are reduced by a random proportion. After examining the
+long-term stability of this system, we investigate mean-field limits as the
+number of banks tends to infinity. Our main results concern the measure-valued
+scaling limit which is governed by a McKean-Vlasov jump-diffusion. The default
+impact creates a mean-field drift, while the births and defaults introduce jump
+terms tied to the current distribution of the process. Individual dynamics in
+the limit is described by the propagation of chaos phenomenon. In certain
+cases, we explicitly characterize the limiting average reserves.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",4,1011.3834,physics.soc-ph cs.SI q-fin.TR,0.8527254462242126,"Ising-like agent-based technology diffusion model: adoption patterns vs.
+  seeding strategies","  The well-known Ising model used in statistical physics was adapted to a
+social dynamics context to simulate the adoption of a technological innovation.
+The model explicitly combines (a) an individual's perception of the advantages
+of an innovation and (b) social influence from members of the decision-maker's
+social network. The micro-level adoption dynamics are embedded into an
+agent-based model that allows exploration of macro-level patterns of technology
+diffusion throughout systems with different configurations (number and
+distributions of early adopters, social network topologies). In the present
+work we carry out many numerical simulations. We find that when the gap between
+the individual's perception of the options is high, the adoption speed
+increases if the dispersion of early adopters grows. Another test was based on
+changing the network topology by means of stochastic connections to a common
+opinion reference (hub), which resulted in an increment in the adoption speed.
+Finally, we performed a simulation of competition between options for both
+regular and small world networks.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",5,2511.08602,q-fin.RM econ.EM stat.AP stat.ME,0.870436429977417,Dynamic Spatial Treatment Effects and Network Fragility: Theory and Evidence from the 2008 Financial Crisis,"The 2008 financial crisis exposed fundamental vulnerabilities in interconnected banking systems, yet existing frameworks fail to integrate spatial propagation with network contagion mechanisms. This paper develops a unified spatial-network framework to analyze systemic risk dynamics, revealing three critical findings that challenge conventional wisdom. First, banking consolidation paradoxically increased systemic fragility: while bank numbers declined 47.3% from 2007 to 2023, network fragility measured by algebraic connectivity rose 315.8%, demonstrating that interconnectedness intensity dominates institutional count. Second, financial contagion propagates globally with negligible spatial decay (boundary d* = 47,474 km), contrasting sharply with localized technology diffusion (d* = 69 km)--a scale difference of 688 times. Third, traditional difference-in-differences methods overestimate crisis impacts by 73.2% when ignoring network structure, producing severely biased policy assessments. Using bilateral exposure data from 156 institutions across 28 countries (2007-2023) and employing spectral analysis of network Laplacian operators combined with spatial difference-in-differences identification, we document that crisis effects amplified over time rather than dissipating, increasing fragility 68.4% above pre-crisis levels with persistent effects through 2023. The consolidation paradox exhibits near-perfect correlation (R = 0.97) between coupling strength and systemic vulnerability, validating theoretical predictions from continuous spatial dynamics. Policy simulations demonstrate network-targeted capital requirements achieve 11.3x amplification effects versus uniform regulations. These findings establish that accurate systemic risk assessment and macroprudential policy design require explicit incorporation of both spatial propagation and network topology."
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",6,1806.01728,q-fin.MF,0.8819218873977661,Financial asset bubbles in banking networks,"  We consider a banking network represented by a system of stochastic
+differential equations coupled by their drift. We assume a core-periphery
+structure, and that the banks in the core hold a bubbly asset. The banks in the
+periphery have not direct access to the bubble, but can take initially
+advantage from its increase by investing on the banks in the core. Investments
+are modeled by the weight of the links, which is a function of the robustness
+of the banks. In this way, a preferential attachment mechanism towards the core
+takes place during the growth of the bubble. We then investigate how the bubble
+distort the shape of the network, both for finite and infinitely large systems,
+assuming a non vanishing impact of the core on the periphery. Due to the
+influence of the bubble, the banks are no longer independent, and the law of
+large numbers cannot be directly applied at the limit. This results in a term
+in the drift of the diffusions which does not average out, and that increases
+systemic risk at the moment of the burst. We test this feature of the model by
+numerical simulations.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",7,1601.07995,physics.soc-ph cond-mat.stat-mech cs.SI physics.data-an,0.8849046230316162,"Local cascades induced global contagion: How heterogeneous thresholds,
+  exogenous effects, and unconcerned behaviour govern online adoption spreading","  Adoption of innovations, products or online services is commonly interpreted
+as a spreading process driven to large extent by social influence and
+conditioned by the needs and capacities of individuals. To model this process
+one usually introduces behavioural threshold mechanisms, which can give rise to
+the evolution of global cascades if the system satisfies a set of conditions.
+However, these models do not address temporal aspects of the emerging cascades,
+which in real systems may evolve through various pathways ranging from slow to
+rapid patterns. Here we fill this gap through the analysis and modelling of
+product adoption in the world's largest voice over internet service, the social
+network of Skype. We provide empirical evidence about the heterogeneous
+distribution of fractional behavioural thresholds, which appears to be
+independent of the degree of adopting egos. We show that the structure of
+real-world adoption clusters is radically different from previous theoretical
+expectations, since vulnerable adoptions --induced by a single adopting
+neighbour-- appear to be important only locally, while spontaneous adopters
+arriving at a constant rate and the involvement of unconcerned individuals
+govern the global emergence of social spreading.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",8,2510.19630,econ.EM econ.TH stat.AP stat.ME,0.8853922486305237,Network Contagion Dynamics in European Banking: A Navier-Stokes Framework for Systemic Risk Assessment,"This paper develops a continuous functional framework for analyzing contagion dynamics in financial networks, extending the Navier-Stokes-based approach to network-structured spatial processes. We model financial distress propagation as a diffusion process on weighted networks, deriving a network diffusion equation from first principles that predicts contagion decay depends on the network's algebraic connectivity through the relation $\kappa = \sqrt{\lambda_2/D}$, where $\lambda_2$ is the second-smallest eigenvalue of the graph Laplacian and $D$ is the diffusion coefficient. Applying this framework to European banking data from the EBA stress tests (2018, 2021, 2023), we estimate interbank exposure networks using maximum entropy methods and track the evolution of systemic risk through the COVID-19 crisis. Our key finding is that network connectivity declined by 45\% from 2018 to 2023, implying a 26\% reduction in the contagion decay parameter. Difference-in-differences analysis reveals this structural change was driven by regulatory-induced deleveraging of systemically important banks, which experienced differential asset reductions of 17\% relative to smaller institutions. The networks exhibit lognormal rather than scale-free degree distributions, suggesting greater resilience than previously assumed in the literature. Extensive robustness checks across parametric and non-parametric estimation methods confirm declining systemic risk, with cross-method correlations exceeding 0.95. These findings demonstrate that post-COVID-19 regulatory reforms effectively reduced network interconnectedness and systemic vulnerability in the European banking system."
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",9,1509.03357,physics.soc-ph cs.SI,0.8856309056282043,"Dynamics of social contagions with heterogeneous adoption thresholds:
+  Crossover phenomena in phase transition","  Heterogeneous adoption thresholds exist widely in social contagions, but were
+always neglected in previous studies. We first propose a non-Markovian
+spreading threshold model with general adoption threshold distribution. In
+order to understand the effects of heterogeneous adoption thresholds
+quantitatively, an edge-based compartmental theory is developed for the
+proposed model. We use a binary spreading threshold model as a specific
+example, in which some individuals have a low adoption threshold (i.e.,
+activists) while the remaining ones hold a relatively high adoption threshold
+(i.e., bigots), to demonstrate that heterogeneous adoption thresholds markedly
+affect the final adoption size and phase transition. Interestingly, the
+first-order, second-order and hybrid phase transitions can be found in the
+system. More importantly, there are two different kinds of crossover phenomena
+in phase transition for distinct values of bigots' adoption threshold: a change
+from first-order or hybrid phase transition to the second-order phase
+transition. The theoretical predictions based on the suggested theory agree
+very well with the results of numerical simulations.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",10,1606.03386,cs.SI physics.soc-ph,0.8904033899307251,A Generalized Bass Model for Product Growth in Networks,"  Many products and innovations become well-known and widely adopted through
+the social interactions of individuals in a population. The Bass diffusion
+model has been widely used to model the temporal evolution of adoption in such
+social systems. In the model, the likelihood of a new adoption is proportional
+to the number of previous adopters, implicitly assuming a global (or
+homogeneous) interaction among all individuals in the network. Such global
+interactions do not exist in many large social networks, however. Instead,
+individuals typically interact with a small part of the larger population. To
+quantify the growth rate (or equivalently the adoption timing) in networks with
+limited interactions, we study a stochastic adoption process where the
+likelihood that each individual adopts is proportional to the number of
+adopters among the small group of persons he/she interacts with (and not the
+entire population of adopters). When the underlying network of interactions is
+a random $k$-regular graph, we compute the sample path limit of the fraction of
+adopters. We show the limit coincides with the solution of a differential
+equation which can viewed as a generalization of the Bass diffusion model. When
+the degree $k$ is bounded, we show the adoption curve differs significantly
+from the one corresponds to the Bass diffusion model. In particular, the
+adoption grows more slowly than what the Bass model projects. In addition, the
+adoption curve is asymmetric, unlike that of the Bass diffusion model. Such
+asymmetry has important consequences for the estimation of market potential.
+Finally, we calculate the timing of early adoptions at finer scales, e.g.,
+logarithmic in the population size.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",11,1607.01265,physics.soc-ph cs.SI,0.8932255506515503,Innovation diffusion equations on correlated scale-free networks,"  We introduce a heterogeneous network structure into the Bass diffusion model,
+in order to study the diffusion times of innovation or information in networks
+with a scale-free structure, typical of regions where diffusion is sensitive to
+geographic and logistic influences (like for instance Alpine regions). We
+consider both the diffusion peak times of the total population and of the link
+classes. In the familiar trickle-down processes the adoption curve of the hubs
+is found to anticipate the total adoption in a predictable way. In a major
+departure from the standard model, we model a trickle-up process by introducing
+heterogeneous publicity coefficients (which can also be negative for the hubs,
+thus turning them into stiflers) and a stochastic term which represents the
+erratic generation of innovation at the periphery of the network. The results
+confirm the robustness of the Bass model and expand considerably its range of
+applicability.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",12,1604.05490,cs.SI cs.SY math.OC physics.soc-ph,0.9069726467132568,Threshold models of cascades in large-scale networks,"  The spread of new beliefs, behaviors, conventions, norms, and technologies in
+social and economic networks are often driven by cascading mechanisms, and so
+are contagion dynamics in financial networks. Global behaviors generally emerge
+from the interplay between the structure of the interconnection topology and
+the local agents' interactions. We focus on the Linear Threshold Model (LTM) of
+cascades first introduced by Granovetter (1978). This can be interpreted as the
+best response dynamics in a network game whereby agents choose strategically
+between two actions and their payoff is an increasing function of the number of
+their neighbors choosing the same action. Each agent is equipped with an
+individual threshold representing the number of her neighbors who must have
+adopted a certain action for that to become the agent's best response. We
+analyze the LTM dynamics on large-scale networks with heterogeneous agents.
+Through a local mean-field approach, we obtain a nonlinear, one-dimensional,
+recursive equation that approximates the evolution of the LTM dynamics on most
+of the networks of a given size and distribution of degrees and thresholds.
+Specifically, we prove that, on all but a fraction of networks with given
+degree and threshold statistics that is vanishing as the network size grows
+large, the actual fraction of adopters of a given action in the LTM dynamics is
+arbitrarily close to the output of the aforementioned recursion. We then
+analyze the dynamic behavior of this recursion and its bifurcations from a
+dynamical systems viewpoint. Applications of our findings to some real network
+testbeds show good adherence of the theoretical predictions to numerical
+simulations.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",13,1403.1177,physics.soc-ph cs.SI physics.data-an,0.915467381477356,"Effects of temporal correlations on cascades: Threshold models on
+  temporal networks","  A person's decision to adopt an idea or product is often driven by the
+decisions of peers, mediated through a network of social ties. A common way of
+modeling adoption dynamics is to use threshold models, where a node may become
+an adopter given a high enough rate of contacts with adopted neighbors. We
+study the dynamics of threshold models that take both the network topology and
+the timings of contacts into account, using empirical contact sequences as
+substrates. The models are designed such that adoption is driven by the number
+of contacts with different adopted neighbors within a chosen time. We find that
+while some networks support cascades leading to network-level adoption, some do
+not: the propagation of adoption depends on several factors from the frequency
+of contacts to burstiness and timing correlations of contact sequences. More
+specifically, burstiness is seen to suppress cascades sizes when compared to
+randomised contact timings, while timing correlations between contacts on
+adjacent links facilitate cascades.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",14,1212.1449,cs.SI physics.soc-ph,0.9157461524009705,"Exploring associations between micro-level models of innovation
+  diffusion and emerging macro-level adoption patterns","  A micro-level agent-based model of innovation diffusion was developed that
+explicitly combines (a) an individual's perception of the advantages or
+relative utility derived from adoption, and (b) social influence from members
+of the individual's social network. The micro-model was used to simulate
+macro-level diffusion patterns emerging from different configurations of
+micro-model parameters. Micro-level simulation results matched very closely the
+adoption patterns predicted by the widely-used Bass macro-level model (Bass,
+1969). For a portion of the domain, results from micro-simulations were
+consistent with aggregate-level adoption patterns reported in the literature.
+Induced Bass macro-level parameters and responded to changes in
+micro-parameters: (1) increased with the number of innovators and with the rate
+at which innovators are introduced; (2) increased with the probability of
+rewiring in small-world networks, as the characteristic path length decreases;
+and (3) an increase in the overall perceived utility of an innovation caused a
+corresponding increase in induced and values. Understanding micro to macro
+linkages can inform the design and assessment of marketing interventions on
+micro-variables - or processes related to them - to enhance adoption of future
+products or technologies.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",15,1710.11512,q-fin.RM,0.9196621179580688,Network models of financial systemic risk: A review,"  The global financial system can be represented as a large complex network in
+which banks, hedge funds and other financial institutions are interconnected to
+each other through visible and invisible financial linkages. Recently, a lot of
+attention has been paid to the understanding of the mechanisms that can lead to
+a breakdown of this network. This can happen when the existing financial links
+turn from being a means of risk diversification to channels for the propagation
+of risk across financial institutions. In this review article, we summarize
+recent developments in the modeling of financial systemic risk. We focus in
+particular on network approaches, such as models of default cascades due to
+bilateral exposures or to overlapping portfolios, and we also report on recent
+findings on the empirical structure of interbank networks. The current review
+provides a landscape of the newly arising interdisciplinary field lying at the
+intersection of several disciplines, such as network science, physics,
+engineering, economics, and ecology.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",16,2510.24775,econ.EM q-fin.GN q-fin.RM stat.AP stat.ME,0.9229514002799988,Dynamic Spatial Treatment Effects and Network Fragility: Theory and Evidence from European Banking,"This paper develops and empirically implements a continuous functional framework for analyzing systemic risk in financial networks, building on the dynamic spatial treatment effect methodology established in our previous studies. We extend the Navier-Stokes-based approach from our previous studies to characterize contagion dynamics in the European banking system through the spectral properties of network evolution operators. Using high-quality bilateral exposure data from the European Banking Authority Transparency Exercise (2014-2023), we estimate the causal impact of the COVID-19 pandemic on network fragility using spatial difference-in-differences methods adapted from our previous studies. Our empirical analysis reveals that COVID-19 elevated network fragility, measured by the algebraic connectivity $\lambda_2$ of the system Laplacian, by 26.9% above pre-pandemic levels (95% CI: [7.4%, 46.5%], p<0.05), with effects persisting through 2023. Paradoxically, this occurred despite a 46% reduction in the number of banks, demonstrating that consolidation increased systemic vulnerability by intensifying interconnectedness-consistent with theoretical predictions from continuous spatial dynamics. Our findings validate the key predictions from \citet{kikuchi2024dynamical}: treatment effects amplify over time through spatial spillovers, consolidation increases fragility when coupling strength rises, and systems exhibit structural hysteresis preventing automatic reversion to pre-shock equilibria. The results demonstrate the empirical relevance of continuous functional methods for financial stability analysis and provide new insights for macroprudential policy design. We propose network-based capital requirements targeting spectral centrality and stress testing frameworks incorporating diffusion dynamics to address the coupling externalities identified in our analysis."
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",17,cond-mat/0104080,cond-mat.dis-nn cond-mat.stat-mech q-fin.GN,0.9236570596694946,Criticality in a model of banking crises,"  An interbank market lets participants pool the risk arising from the
+combination of illiquid investments and random withdrawals by depositors. But
+it also creates the potential for one bank's failure to trigger off avalanches
+of further failures. We simulate a model of interbank lending to study the
+interplay of these two effects. We show that when banks are similar in size and
+exposure to risk, avalanche effects are small so that widening the interbank
+market leads to more stability. But as heterogeneity increases, avalanche
+effects become more important. By varying the heterogeneity and connectivity
+across banks, the system enters a critical regime with a power law distribution
+of avalanche sizes.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",18,1804.01349,physics.soc-ph cs.CY cs.SI,0.927360475063324,The role of geography in the complex diffusion of innovations,"  The urban-rural divide is increasing in modern societies calling for
+geographical extensions of social influence modelling. Improved understanding
+of innovation diffusion across locations and through social connections can
+provide us with new insights into the spread of information, technological
+progress and economic development. In this work, we analyze the spatial
+adoption dynamics of iWiW, an Online Social Network (OSN) in Hungary and
+uncover empirical features about the spatial adoption in social networks.
+During its entire life cycle from 2002 to 2012, iWiW reached up to 300 million
+friendship ties of 3 million users. We find that the number of adopters as a
+function of town population follows a scaling law that reveals a strongly
+concentrated early adoption in large towns and a less concentrated late
+adoption. We also discover a strengthening distance decay of spread over the
+life-cycle indicating high fraction of distant diffusion in early stages but
+the dominance of local diffusion in late stages. The spreading process is
+modelled within the Bass diffusion framework that enables us to compare the
+differential equation version with an agent-based version of the model run on
+the empirical network. Although both models can capture the macro trend of
+adoption, they have limited capacity to describe the observed trends of urban
+scaling and distance decay. We find, however that incorporating adoption
+thresholds, defined by the fraction of social connections that adopt a
+technology before the individual adopts, improves the network model fit to the
+urban scaling of early adopters. Controlling for the threshold distribution
+enables us to eliminate the bias induced by local network structure on
+predicting local adoption peaks. Finally, we show that geographical features
+such as distance from the innovation origin and town size influence prediction
+of adoption peak at local scales.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",19,2304.13608,physics.soc-ph,0.9288960695266724,"Identifying the structure patterns to govern the performance of
+  localization in regulating innovation diffusion","  The macro social influence is recognized as a non-negligible ingredient in
+innovation propagation: more adopters in the network lead to a higher adoption
+tendency for the rest individuals. A recent study to incorporate such a crucial
+mechanism shows that sufficient intensity of macro-level social influence can
+cause a change from a continuous to discontinuous transition, further
+indicating the existence of a tricritical point. Although network localization
+strength determines the tricritical point, it remains unclear what network
+quantities govern the performance of localization in regulating innovation
+diffusion. To address this issue, we herein consider the model incorporating
+both the micro- and macro-levels social influence. We present a dynamic
+message-passing method to analytically treat both the outbreak threshold and
+recovered population, and validate the predictions through agent-based
+simulations. Extensive analysis on the classical synthetic networks shows that
+sparsely available connections, and relatively heterogeneous degree
+distribution, either assortative or extremely disassortative configurations are
+favorable for continuous transition. In such cases, the employed network can
+yield a strong localization effect so that the innovation is trapped in the
+configurations composed of the hubs with high non-backtracking centrality. We
+further explore the dependence of both tricritical point and localization
+strength on three structural quantities: network density, heterogeneity, and
+assortativity, which gives a clear physical picture of the joint effects of the
+three structure quantities on the localization strength. Finally, we conclude
+that the core-periphery structure, being sensitive to the change of the three
+structure quantities, essentially determines localization strength, and further
+regulates the phase transition.
+"
+text,"This paper develops a unified framework for analyzing technology adoption in financial networks that incorporates spatial spillovers, network externalities, and their interaction. The framework characterizes adoption dynamics through a master equation whose solution admits a Feynman-Kac representation as expected cumulative adoption pressure along stochastic paths through spatial-network space. From this representation, I derive the Adoption Amplification Factor -- a structural measure of technology leadership that captures the ratio of total system-wide adoption to initial adoption following a localized shock. A Levy jump-diffusion extension with state-dependent jump intensity captures critical mass dynamics: below threshold, adoption evolves through gradual diffusion; above threshold, cascade dynamics accelerate adoption through discrete jumps. Applying the framework to SWIFT gpi adoption among 17 Global Systemically Important Banks, I find strong support for the two-regime characterization. Network-central banks adopt significantly earlier (ho = -0.69, p = 0.002), and pre-threshold adopters have significantly higher amplification factors than post-threshold adopters (11.81 versus 7.83, p = 0.010). Founding members, representing 29 percent of banks, account for 39 percent of total system amplification -- sufficient to trigger cascade dynamics. Controlling for firm size and network position, CEO age delays adoption by 11-15 days per year.",20,1403.3472,physics.soc-ph cond-mat.dis-nn cond-mat.stat-mech,0.9326577186584473,Threshold cascades with response heterogeneity in multiplex networks,"  Threshold cascade models have been used to describe spread of behavior in
+social networks and cascades of default in financial networks. In some cases,
+these networks may have multiple kinds of interactions, such as distinct types
+of social ties or distinct types of financial liabilities; furthermore, nodes
+may respond in different ways to in influence from their neighbors of multiple
+types. To start to capture such settings in a stylized way, we generalize a
+threshold cascade model to a multiplex network in which nodes follow one of two
+response rules: some nodes activate when, in at least one layer, a large enough
+fraction of neighbors are active, while the other nodes activate when, in all
+layers, a large enough fraction of neighbors are active. Varying the fractions
+of nodes following either rule facilitates or inhibits cascades. Near the
+inhibition regime, global cascades appear discontinuously as the network
+density increases; however, the cascade grows more slowly over time. This
+behavior suggests a way in which various collective phenomena in the real world
+could appear abruptly yet slowly.
+"

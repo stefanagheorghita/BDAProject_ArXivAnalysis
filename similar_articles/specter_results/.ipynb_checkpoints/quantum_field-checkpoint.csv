@@ -1,0 +1,57 @@
+query_id,query_text,rank,doc_id,specter_score,title,categories,abstract
+quantum_field,quantum field theory gauge symmetry,1,1110.1176,0.8293875,Classical gauge gravitation theory,math-ph gr-qc math.MP,"  Classical gravitation theory is formulated as gauge theory on natural bundles
+where gauge symmetries are general covariant transformations and a
+gravitational field is a Higgs field responsible for their spontaneous symmetry
+breaking.
+"
+quantum_field,quantum field theory gauge symmetry,2,hep-th/0602185,0.8290782,Twist to close,hep-th,"  It has been proposed that the Poincare and some other symmetries of
+noncommutative field theories should be twisted. Here we extend this idea to
+gauge transformations and find that twisted gauge symmetries close for
+arbitrary gauge group. We also analyse twisted-invariant actions in
+noncommutative theories.
+"
+quantum_field,quantum field theory gauge symmetry,3,1310.8164,0.82000995,Gauge fields beyond perturbation theory,hep-th,"  A new formulation of nonabelian gauge theories, introducing new ghost fields
+and new symmetry is proposed. This formulation does not suffer from Gribov
+ambiguity and allows to quantize nonabelian gauge fields beyond perturbation
+theory.
+"
+quantum_field,quantum field theory gauge symmetry,4,1302.3183,0.818429,Lattice BRST without Neuberger 0/0 problem,hep-th hep-lat,"  We illustrate in a simple toy model how the methods of SUSY quantum mechanics
+and topological quantum field theory can be used for covariant gauge-fixing
+with unbroken BRST symmetry on a finite lattice.
+"
+quantum_field,quantum field theory gauge symmetry,5,0711.4091,0.81541044,Symmetries in noncommutative field theories: Hopf versus Lie,hep-th,"  I discuss motivations for introducing Hopf algebra symmetries in
+noncommutative field theories and briefly describe twisting of main symmetry
+transformations. New results include an extended list of twisted gauge
+invariants (which may help to overcome the problem of inconsistency of
+equations of motion) and a gauge-covariant twist operator (leading to a
+gauge-covariant star product).
+"
+quantum_field,quantum field theory gauge symmetry,6,1611.08856,0.81266,Gauge Fixing Invariance and Anti-BRST Symmetry,hep-th,"  It is shown that anti-BRST invariance in quantum gauge theories can be
+considered as the quantized version of the symmetry of classical gauge theories
+with respect to different gauge fixing mechanisms.
+"
+quantum_field,quantum field theory gauge symmetry,7,1602.06776,0.8103095,Lecture on Gauge Gravitation Theory. Gravity as a Higgs Field,math-ph gr-qc hep-th math.MP,"  Gravitation theory is formulated as gauge theory on natural bundles with
+spontaneous symmetry breaking where gauge symmetries are general covariant
+transformations, gauge fields are general linear connections, and Higgs fields
+are pseudo-Riemannian metrics.
+"
+quantum_field,quantum field theory gauge symmetry,8,0802.2382,0.8075937,Mathematical models of spontaneous symmetry breaking,math-ph math.MP,"  The Higgs mechanism of mass generation is the main ingredient in the
+contemporary Standard Model and its various generalizations. However, there is
+no comprehensive theory of spontaneous symmetry breaking. We summarize the
+relevant mathematical results characterizing spontaneous symmetry breaking
+phenomena in algebraic quantum theory, axiomatic quantum field theory, group
+theory, and classical gauge theory.
+"
+quantum_field,quantum field theory gauge symmetry,9,1612.02612,0.8042072,Off-Shell Covariantization of Algebroid Gauge Theories,hep-th math-ph math.MP,"  We present a generalized method to construct field strengths and gauge
+symmetries, which yield a Yang-Mills type action with Lie n-algebroid gauge
+symmetry. The procedure makes use of off-shell covariantization in a
+supergeometric setting. We apply this method to the system of a 1-form gauge
+field and scalar fields with Lie n-algebroid gauge symmetry. We work out some
+characteristic examples.
+"
+quantum_field,quantum field theory gauge symmetry,10,1006.1039,0.8034327,Theories on noncommutative spaces and deformed symmetries,hep-th,"  In this thesis we study different aspects of noncommutativity in quantum
+mechanics, field theory and gravity. We give particular emphasis on the
+underlying symmetries of these theories. Deformations of usual symmetries like
+the external space time symmetries and the internal gauge symmetry in
+noncommutative theories are analyzed in detail.
+"

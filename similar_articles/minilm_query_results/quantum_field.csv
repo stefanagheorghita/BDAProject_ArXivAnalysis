@@ -1,0 +1,158 @@
+query_type,query_value,rank,id,categories,similarity,title,abstract
+text,quantum field theory gauge symmetry,1,quant-ph/0306071,quant-ph,0.6710941791534424,The problem of gauge invariance in Dirac field theory,"  Quantum field theory is assumed to be gauge invariant. However it is well
+known that when certain quantities are calculated using perturbation theory the
+results are not gauge invariant. The non-gauge invariant terms have to be
+removed in order to obtain a physically correct result. In this paper we will
+examine this problem and determine why a theory that is supposed to be gauge
+invariant produces non-gauge invariant results.
+"
+text,quantum field theory gauge symmetry,2,2005.04125,hep-th,0.6640387773513794,A Gauge Theory that mixes Bosonic and Fermionic Gauge Fields,"  Using a gauge symmetry derived by applying the Dirac constraint formalism to
+supergravity with cosmological term in 2+1 dimensions, we construct a gauge
+theory with many characteristics of Yang-Mills theory. The gauge transformation
+mixes two Bosonic fields and one Fermionic field.
+"
+text,quantum field theory gauge symmetry,3,1403.6194,hep-th math-ph math.MP,0.6630984544754028,Gaugeon formalism in the framework of generalized BRST symmetry,"  We consider gaugeon formulations which discuss the quantum gauge freedom
+covariantly in the framework of generalized BRST transformation for the
+Yang-Mills theory as well as the BRST invariant Higgs model. We generalize the
+BRST symmetries of both the Yang-Mills theory and the Higgs model by making the
+transformation parameter finite and field-dependent. Remarkably, we observe
+that the gaugeon Lagrangian which describe the quantum gauge freedom appear
+automatically in the effective theories along with the natural shift in gauge
+parameters under specific finite field-dependent parameters.
+"
+text,quantum field theory gauge symmetry,4,1707.09086,hep-th,0.6614906787872314,Gaugeon formalism for the two-form gauge fields,"  We present a BRST symmetric gaugeon formalism for the two-form gauge fields.
+A set of vector gaugeon fields is introduced as a quantum gauge freedom. One of
+the gaugeon fields satisfies a higher derivative field equation; this property
+is necessary to change the gauge-fixing parameter of the two-form gauge field.
+A naive Lagrangian for the vector gaugeon fields is itself invariant under a
+gauge transformation for the vector gaugeon field. The Lagrangian of our theory
+includes the gauge-fixing terms for the gaugeon fields and corresponding
+Faddeev--Popov ghosts terms.
+"
+text,quantum field theory gauge symmetry,5,hep-th/0507127,hep-th,0.6600053310394287,"Unique Nilpotent Symmetry Transformations For Matter Fields In QED:
+  Augmented Superfield Formalism","  We derive the local, covariant, continuous, anticommuting and off-shell
+nilpotent (anti-)BRST symmetry transformations for the interacting U(1) gauge
+theory of quantum electrodynamics (QED) in the framework of augmented
+superfield approach to BRST formalism. In addition to the horizontality
+condition, we invoke another gauge invariant condition on the six (4,
+2)-dimensional supermanifold to obtain the exact and unique nilpotent symmetry
+transformations for all the basic fields, present in the (anti-)BRST invariant
+Lagrangian density of the physical four (3 + 1)-dimensional QED. The above
+supermanifold is parametrized by four even spacetime variables x^\mu (with \mu
+= 0, 1, 2, 3) and a couple of odd variables (\theta and \bar\theta) of the
+Grassmann algebra. The new gauge invariant condition on the supermanifold owes
+its origin to the (super) covariant derivatives and leads to the derivation of
+unique nilpotent symmetry transformations for the matter fields. The
+geometrical interpretations for all the above off-shell nilpotent
+transformations are discussed, too.
+"
+text,quantum field theory gauge symmetry,6,gr-qc/9610024,gr-qc,0.6584728956222534,On Symmetric Gauge Fields for arbitrary Gauge and Symmetry Groups,"  A classification of the possible symmetric principal bundles with a compact
+gauge group, a compact symmetry group and a base manifold which is regularly
+foliated by the orbits of the symmetry group is derived. A generalization of
+Wang's theorem (classifying the invariant connections) is proven and local
+expressions for the gauge potential of an invariant connection are given.
+"
+text,quantum field theory gauge symmetry,7,1202.1190,hep-th,0.6501530408859253,Gauge and Poincare' Invariant Regularization and Hopf Symmetries,"  We consider the regularization of a gauge quantum field theory following a
+modification of the Polchinski proof based on the introduction of a cutoff
+function. We work with a Poincare' invariant deformation of the ordinary
+point-wise product of fields introduced by Ardalan, Arfaei, Ghasemkhani and
+Sadooghi, and show that it yields, through a limiting procedure of the cutoff
+functions, to a regularized theory, preserving all symmetries at every stage.
+The new gauge symmetry yields a new Hopf algebra with deformed co-structures,
+which is inequivalent to the standard one.
+"
+text,quantum field theory gauge symmetry,8,1312.2671,math-ph hep-th math.MP,0.6480319499969482,Gauge symmetries in 2D field theory,"  A simple algorithm is proposed for constructing generators of gauge symmetry
+as well as reducibility relations for arbitrary systems of field equations in
+two dimensions.
+"
+text,quantum field theory gauge symmetry,9,0706.2830,quant-ph,0.640637993812561,A new look at the problem of gauge invariance in quantum field theory,"  Quantum field theory is assumed to be gauge invariant. However it is well
+known that when certain quantities are calculated using perturbation theory the
+results are not gauge invariant. The non-gauge invariant terms have to be
+removed in order to obtain a physically correct result. In this paper we will
+examine this problem and determine why a theory that is supposed to be gauge
+invariant produces non-gauge invariant results.
+"
+text,quantum field theory gauge symmetry,10,1301.7037,math-ph hep-th math.MP,0.6377419829368591,"Remarks on local symmetry invariance in perturbative algebraic quantum
+  field theory","  We investigate various aspects of invariance under local symmetries in the
+framework of perturbative algebraic quantum field theory (pAQFT). Our main
+result is the proof that the quantum Batalin-Vilkovisky (BV) operator,
+on-shell, can be written as the commutator with the interacting BRST charge. Up
+to now, this was proven only for a certain class of fields in quantum
+electrodynamics and in Yang-Mills theory. Our result is more general and it
+holds in a wide class of theories with local symmetries, including general
+relativity and the bosonic string. We also comment on other issues related to
+local gauge invariance and, using the language of homological algebra, we
+compare different approaches to quantization of gauge theories in the pAQFT
+framework.
+"
+text,quantum field theory gauge symmetry,11,2511.23350,hep-th,0.6346856355667114,Generalised Symmetries and Manifest Duality I: Flat Spacetime,"We present a novel, manifestly Lorentz-invariant, polynomial, and straightforwardly quantisable action for duality-symmetric gauge theories formulated using gauge potentials. Central to our construction is the identification of a harmonic higher-form symmetry which uniquely determines the field-strength and resolves the tension between Bianchi identities and dynamical equations of motion. Gauging this symmetry reproduces the flux-based description due to Sen and shows that the quantum consistency checks established for Sen's formalism are automatically subsumed by our action. Unlike Sen's flux-based formalism, our framework admits a simple minimal coupling to matter, the Witten effect, and extends readily to non-Abelian gauge fields. The new action admits remarkably simple supersymmetrisation. Using this action, we derive self-dual Yang-Mills equations from first principles and demonstrate the formalism explicitly for quantum electro-magnetodynamics in $D=4$. We also present a proof of charge quantisation that applies equally to ours and Sen's formulations."
+text,quantum field theory gauge symmetry,12,1702.02753,math-ph gr-qc hep-th math.DG math.MP,0.6266970038414001,"The dressing field method of gauge symmetry reduction, a review with
+  examples","  Gauge symmetries are a cornerstone of modern physics but they come with
+technical difficulties when it comes to quantization, to accurately describe
+particles phenomenology or to extract observables in general. These
+shortcomings must be met by essentially finding a way to effectively reduce
+gauge symmetries. We propose a review of a way to do so which we call the
+dressing field method. We show how the BRST algebra satisfied by gauge fields,
+encoding their gauge transformations, is modified. We outline noticeable
+applications of the method, such as the electroweak sector of the Standard
+Model and the local twistors of Penrose.
+"
+text,quantum field theory gauge symmetry,13,2503.04546,hep-th,0.6102770566940308,Symmetry Topological Field Theory for Flavor Symmetry,"  In this Letter, we demonstrate that the Symmetry Topological Field Theory
+(SymTFT) associated to a Quantum Field Theory (QFT) with continuous non-abelian
+$G$-flavor symmetry is a $BF$-theory with gauge group $G$. We show that gauging
+$G$-symmetry with a flat connection yields a theory with global symmetry
+characterized by exchanging the conjugate variables in the quantization of
+$BF$-theory. We construct the extended operators that generate the $G$-flavor
+symmetry and the $(d-2)$-form $\text{Rep}(G)$-symmetry of the gauged QFT. We
+demonstrate that $BF$-theory arises as the theory characterizing $G$-flavor
+symmetry of a QFT in the AdS/CFT setup. 't Hooft anomalies of the $G$-flavor
+symmetry are realized as extra terms in the action.
+"
+text,quantum field theory gauge symmetry,14,hep-th/9802142,hep-th,0.6096083521842957,Spontaneous Symmetry Breaking in Gauge Theories: a Historical Survey,"  The personal and scientific history of the discovery of spontaneous symmetry
+breaking in gauge theories is outlined and its scientific content is reviewed
+"
+text,quantum field theory gauge symmetry,15,hep-th/9406086,hep-th,0.609379768371582,"Symmetry Breaking in the Schr\""odinger Representation for Chern-Simons
+  Theories","  This paper discusses the phenomenon of spontaneous symmetry breaking in the
+Schr\""odinger representation formulation of quantum field theory. The analysis
+is presented for three-dimensional space-time abelian gauge theories with
+either Maxwell, Maxwell-Chern-Simons, or pure Chern-Simons terms as the gauge
+field contribution to the action, each of which leads to a different form of
+mass generation for the gauge fields.
+"
+text,quantum field theory gauge symmetry,16,hep-th/0007092,hep-th quant-ph,0.6076159477233887,Quantum gauge symmetry from finite field dependent BRST transformations,"  Using the technique of finite field dependent BRST transformations we show
+that the classical massive Yang-Mills theory and the pure Yang-Mills theory
+whose gauge symmetry is broken by a gauge fixing term are identical from the
+view point of quantum gauge symmetry. The explicit infinitesimal
+transformations which leave the massive Yang-Mills theory BRST invariant are
+given.
+"
+text,quantum field theory gauge symmetry,17,1608.01515,hep-th cond-mat.stat-mech gr-qc,0.5866187810897827,Gauge symmetry from decoupling,"  Gauge symmetries emerge from a redundant description of the effective action
+for light degrees of freedom after the decoupling of heavy modes. This
+redundant description avoids the use of explicit constraints in configuration
+space. For non-linear constraints the gauge symmetries are non-linear. In a
+quantum field theory setting the gauge symmetries are local and can describe
+Yang-Mills theories or quantum gravity. We formulate gauge invariant fields
+that correspond to the non-linear light degrees of freedom. In the context of
+functional renormalization gauge symmetries can emerge if the flow generates or
+preserves large mass-like terms for the heavy degrees of freedom. They
+correspond to a particular form of gauge fixing terms in quantum field
+theories.
+"
+text,quantum field theory gauge symmetry,18,1611.08856,hep-th,0.583991527557373,Gauge Fixing Invariance and Anti-BRST Symmetry,"  It is shown that anti-BRST invariance in quantum gauge theories can be
+considered as the quantized version of the symmetry of classical gauge theories
+with respect to different gauge fixing mechanisms.
+"
+text,quantum field theory gauge symmetry,19,2212.00195,hep-th math-ph math.AT math.MP math.QA,0.5681191682815552,Introduction to topological symmetry in QFT,"  This brief note publicizes the quantum framework for symmetry that is
+developed in our joint paper arXiv:2209.07471 with Greg Moore and Constantin
+Teleman. We include additional motivation and an application to a selection
+rule for line defects in 4-dimensional gauge theories.
+"
+text,quantum field theory gauge symmetry,20,1702.02027,physics.gen-ph hep-th,0.5566954016685486,Quantum gauge symmetry of reducible gauge theory,"  We derive the gaugeon formalism of the Kalb-Ramond field theory, a reducible
+gauge theory, which discusses the quantum gauge freedom. In gaugeon formalism,
+theory admits quantum gauge symmetry which leaves the action form-invariant.
+The BRST symmetric gaugeon formalism is also studied which introduces the
+gaugeon ghost fields and gaugeon ghosts of ghosts fields. To replace the
+Yokoyama subsidiary conditions by a single Kugo-Ojima type condition the virtue
+of BRST symmetry is utilized. Under generalized BRST transformations, we show
+that the gaugeon fields appear naturally in the reducible gauge theory.
+"

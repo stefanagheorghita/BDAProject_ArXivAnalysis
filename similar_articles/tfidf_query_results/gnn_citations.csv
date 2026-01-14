@@ -1,0 +1,282 @@
+query,id,categories,similarity,text
+gnn_citations,1906.00554,cs.LG stat.ML,0.6828031090511972,"Factor Graph Neural Network.   Most of the successful deep neural network architectures are structured,
+often consisting of elements like convolutional neural networks and gated
+recurrent neural networks. Recently, graph neural networks have been
+successfully applied to graph structured data such as point cloud and molecular
+data. These networks often only consider pairwise dependencies, as they operate
+on a graph structure. We generalize the graph neural network into a factor
+graph neural network (FGNN) in order to capture higher order dependencies. We
+show that FGNN is able to represent Max-Product Belief Propagation, an
+approximate inference algorithm on probabilistic graphical models; hence it is
+able to do well when Max-Product does well. Promising results on both synthetic
+and real datasets demonstrate the effectiveness of the proposed model.
+"
+gnn_citations,2303.15487,cs.AI cs.LG cs.LO cs.SC,0.7054749963935979,"Knowledge Enhanced Graph Neural Networks for Graph Completion.   Graph data is omnipresent and has a wide variety of applications, such as in
+natural science, social networks, or the semantic web. However, while being
+rich in information, graphs are often noisy and incomplete. As a result, graph
+completion tasks, such as node classification or link prediction, have gained
+attention. On one hand, neural methods, such as graph neural networks, have
+proven to be robust tools for learning rich representations of noisy graphs. On
+the other hand, symbolic methods enable exact reasoning on graphs.We propose
+Knowledge Enhanced Graph Neural Networks (KeGNN), a neuro-symbolic framework
+for graph completion that combines both paradigms as it allows for the
+integration of prior knowledge into a graph neural network model.Essentially,
+KeGNN consists of a graph neural network as a base upon which knowledge
+enhancement layers are stacked with the goal of refining predictions with
+respect to prior knowledge.We instantiate KeGNN in conjunction with two
+state-of-the-art graph neural networks, Graph Convolutional Networks and Graph
+Attention Networks, and evaluate KeGNN on multiple benchmark datasets for node
+classification.
+"
+gnn_citations,2001.07922,cs.LG cs.NE stat.ML,0.6869892341903991,"Get Rid of Suspended Animation Problem: Deep Diffusive Neural Network on
+  Graph Semi-Supervised Classification.   Existing graph neural networks may suffer from the ""suspended animation
+problem"" when the model architecture goes deep. Meanwhile, for some graph
+learning scenarios, e.g., nodes with text/image attributes or graphs with
+long-distance node correlations, deep graph neural networks will be necessary
+for effective graph representation learning. In this paper, we propose a new
+graph neural network, namely DIFNET (Graph Diffusive Neural Network), for graph
+representation learning and node classification. DIFNET utilizes both neural
+gates and graph residual learning for node hidden state modeling, and includes
+an attention mechanism for node neighborhood information diffusion. Extensive
+experiments will be done in this paper to compare DIFNET against several
+state-of-the-art graph neural network models. The experimental results can
+illustrate both the learning performance advantages and effectiveness of
+DIFNET, especially in addressing the ""suspended animation problem"".
+"
+gnn_citations,1911.08795,cs.LG stat.ML,0.660163805268668,"On Node Features for Graph Neural Networks.   Graph neural network (GNN) is a deep model for graph representation learning.
+One advantage of graph neural network is its ability to incorporate node
+features into the learning process. However, this prevents graph neural network
+from being applied into featureless graphs. In this paper, we first analyze the
+effects of node features on the performance of graph neural network. We show
+that GNNs work well if there is a strong correlation between node features and
+node labels. Based on these results, we propose new feature initialization
+methods that allows to apply graph neural network to non-attributed graphs. Our
+experimental results show that the artificial features are highly competitive
+with real features.
+"
+gnn_citations,2111.06679,cs.LG cs.AI cs.NE,0.6859918119402131,"deepstruct -- linking deep learning and graph theory.   deepstruct connects deep learning models and graph theory such that different
+graph structures can be imposed on neural networks or graph structures can be
+extracted from trained neural network models. For this, deepstruct provides
+deep neural network models with different restrictions which can be created
+based on an initial graph. Further, tools to extract graph structures from
+trained models are available. This step of extracting graphs can be
+computationally expensive even for models of just a few dozen thousand
+parameters and poses a challenging problem. deepstruct supports research in
+pruning, neural architecture search, automated network design and structure
+analysis of neural networks.
+"
+gnn_citations,2301.11164,cs.LG cs.SI,0.6786156045215076,"A Graph Neural Network with Negative Message Passing for Graph Coloring.   Graph neural networks have received increased attention over the past years
+due to their promising ability to handle graph-structured data, which can be
+found in many real-world problems such as recommended systems and drug
+synthesis. Most existing research focuses on using graph neural networks to
+solve homophilous problems, but little attention has been paid to
+heterophily-type problems. In this paper, we propose a graph network model for
+graph coloring, which is a class of representative heterophilous problems.
+Different from the conventional graph networks, we introduce negative message
+passing into the proposed graph neural network for more effective information
+exchange in handling graph coloring problems. Moreover, a new loss function
+taking into account the self-information of the nodes is suggested to
+accelerate the learning process. Experimental studies are carried out to
+compare the proposed graph model with five state-of-the-art algorithms on ten
+publicly available graph coloring problems and one real-world application.
+Numerical results demonstrate the effectiveness of the proposed graph neural
+network.
+"
+gnn_citations,2007.06559,cs.LG cs.CV cs.SI stat.ML,0.7500202759813125,"Graph Structure of Neural Networks.   Neural networks are often represented as graphs of connections between
+neurons. However, despite their wide use, there is currently little
+understanding of the relationship between the graph structure of the neural
+network and its predictive performance. Here we systematically investigate how
+does the graph structure of neural networks affect their predictive
+performance. To this end, we develop a novel graph-based representation of
+neural networks called relational graph, where layers of neural network
+computation correspond to rounds of message exchange along the graph structure.
+Using this representation we show that: (1) a ""sweet spot"" of relational graphs
+leads to neural networks with significantly improved predictive performance;
+(2) neural network's performance is approximately a smooth function of the
+clustering coefficient and average path length of its relational graph; (3) our
+findings are consistent across many different tasks and datasets; (4) the sweet
+spot can be identified efficiently; (5) top-performing neural networks have
+graph structure surprisingly similar to those of real biological neural
+networks. Our work opens new directions for the design of neural architectures
+and the understanding on neural networks in general.
+"
+gnn_citations,2012.08752,cs.LG,0.7446855493239635,"Graph Neural Networks: Taxonomy, Advances and Trends.   Graph neural networks provide a powerful toolkit for embedding real-world
+graphs into low-dimensional spaces according to specific tasks. Up to now,
+there have been several surveys on this topic. However, they usually lay
+emphasis on different angles so that the readers can not see a panorama of the
+graph neural networks. This survey aims to overcome this limitation, and
+provide a comprehensive review on the graph neural networks. First of all, we
+provide a novel taxonomy for the graph neural networks, and then refer to up to
+400 relevant literatures to show the panorama of the graph neural networks. All
+of them are classified into the corresponding categories. In order to drive the
+graph neural networks into a new stage, we summarize four future research
+directions so as to overcome the facing challenges. It is expected that more
+and more scholars can understand and exploit the graph neural networks, and use
+them in their research community.
+"
+gnn_citations,2412.01176,cs.AI cs.CE cs.LG math.CO math.LO,0.7262465753470655,"Superhypergraph Neural Networks and Plithogenic Graph Neural Networks: Theoretical Foundations. Hypergraphs extend traditional graphs by allowing edges to connect multiple nodes, while superhypergraphs further generalize this concept to represent even more complex relationships. Neural networks, inspired by biological systems, are widely used for tasks such as pattern recognition, data classification, and prediction. Graph Neural Networks (GNNs), a well-established framework, have recently been extended to Hypergraph Neural Networks (HGNNs), with their properties and applications being actively studied. The Plithogenic Graph framework enhances graph representations by integrating multi-valued attributes, as well as membership and contradiction functions, enabling the detailed modeling of complex relationships. In the context of handling uncertainty, concepts such as Fuzzy Graphs and Neutrosophic Graphs have gained prominence. It is well established that Plithogenic Graphs serve as a generalization of both Fuzzy Graphs and Neutrosophic Graphs. Furthermore, the Fuzzy Graph Neural Network has been proposed and is an active area of research. This paper establishes the theoretical foundation for the development of SuperHyperGraph Neural Networks (SHGNNs) and Plithogenic Graph Neural Networks, expanding the applicability of neural networks to these advanced graph structures. While mathematical generalizations and proofs are presented, future computational experiments are anticipated."
+gnn_citations,1902.10042,cs.LG stat.ML,0.6756982212008733,"Graph Neural Processes: Towards Bayesian Graph Neural Networks.   We introduce Graph Neural Processes (GNP), inspired by the recent work in
+conditional and latent neural processes. A Graph Neural Process is defined as a
+Conditional Neural Process that operates on arbitrary graph data. It takes
+features of sparsely observed context points as input, and outputs a
+distribution over target points. We demonstrate graph neural processes in edge
+imputation and discuss benefits and drawbacks of the method for other
+application areas. One major benefit of GNPs is the ability to quantify
+uncertainty in deep learning on graph structures. An additional benefit of this
+method is the ability to extend graph neural networks to inputs of dynamic
+sized graphs.
+"
+gnn_citations,2302.04451,cs.LG cs.SI math.ST stat.ML stat.TH,0.6852514350728309,"Generalization in Graph Neural Networks: Improved PAC-Bayesian Bounds on
+  Graph Diffusion.   Graph neural networks are widely used tools for graph prediction tasks.
+Motivated by their empirical performance, prior works have developed
+generalization bounds for graph neural networks, which scale with graph
+structures in terms of the maximum degree. In this paper, we present
+generalization bounds that instead scale with the largest singular value of the
+graph neural network's feature diffusion matrix. These bounds are numerically
+much smaller than prior bounds for real-world graphs. We also construct a lower
+bound of the generalization gap that matches our upper bound asymptotically. To
+achieve these results, we analyze a unified model that includes prior works'
+settings (i.e., convolutional and message-passing networks) and new settings
+(i.e., graph isomorphism networks). Our key idea is to measure the stability of
+graph neural networks against noise perturbations using Hessians. Empirically,
+we find that Hessian-based measurements correlate with the observed
+generalization gaps of graph neural networks accurately. Optimizing noise
+stability properties for fine-tuning pretrained graph neural networks also
+improves test performance on several graph-level classification tasks.
+"
+gnn_citations,2301.10569,cs.LG,0.6819272652940642,"Spatio-Temporal Graph Neural Networks: A Survey.   Graph Neural Networks have gained huge interest in the past few years. These
+powerful algorithms expanded deep learning models to non-Euclidean space and
+were able to achieve state of art performance in various applications including
+recommender systems and social networks. However, this performance is based on
+static graph structures assumption which limits the Graph Neural Networks
+performance when the data varies with time. Spatiotemporal Graph Neural
+Networks are extension of Graph Neural Networks that takes the time factor into
+account. Recently, various Spatiotemporal Graph Neural Network algorithms were
+proposed and achieved superior performance compared to other deep learning
+algorithms in several time dependent applications. This survey discusses
+interesting topics related to Spatiotemporal Graph Neural Networks, including
+algorithms, applications, and open challenges.
+"
+gnn_citations,2104.13492,cs.LG,0.7061352213281025,"An Energy-Based View of Graph Neural Networks.   Graph neural networks are a popular variant of neural networks that work with
+graph-structured data. In this work, we consider combining graph neural
+networks with the energy-based view of Grathwohl et al. (2019) with the aim of
+obtaining a more robust classifier. We successfully implement this framework by
+proposing a novel method to ensure generation over features as well as the
+adjacency matrix and evaluate our method against the standard graph
+convolutional network (GCN) architecture (Kipf & Welling (2016)). Our approach
+obtains comparable discriminative performance while improving robustness,
+opening promising new directions for future research for energy-based graph
+neural networks.
+"
+gnn_citations,1901.00596,cs.LG stat.ML,0.7170974896342249,"A Comprehensive Survey on Graph Neural Networks.   Deep learning has revolutionized many machine learning tasks in recent years,
+ranging from image classification and video processing to speech recognition
+and natural language understanding. The data in these tasks are typically
+represented in the Euclidean space. However, there is an increasing number of
+applications where data are generated from non-Euclidean domains and are
+represented as graphs with complex relationships and interdependency between
+objects. The complexity of graph data has imposed significant challenges on
+existing machine learning algorithms. Recently, many studies on extending deep
+learning approaches for graph data have emerged. In this survey, we provide a
+comprehensive overview of graph neural networks (GNNs) in data mining and
+machine learning fields. We propose a new taxonomy to divide the
+state-of-the-art graph neural networks into four categories, namely recurrent
+graph neural networks, convolutional graph neural networks, graph autoencoders,
+and spatial-temporal graph neural networks. We further discuss the applications
+of graph neural networks across various domains and summarize the open source
+codes, benchmark data sets, and model evaluation of graph neural networks.
+Finally, we propose potential research directions in this rapidly growing
+field.
+"
+gnn_citations,2102.02026,cs.LG cs.SI,0.6623273351888704,"Learning Graph Representations.   Social and information networks are gaining huge popularity recently due to
+their various applications. Knowledge representation through graphs in the form
+of nodes and edges should preserve as many characteristics of the original data
+as possible. Some of the interesting and useful applications on these graphs
+are graph classification, node classification, link prediction, etc. The Graph
+Neural Networks have evolved over the last few years. Graph Neural Networks
+(GNNs) are efficient ways to get insight into large and dynamic graph datasets
+capturing relationships among billions of entities also known as knowledge
+graphs.
+  In this paper, we discuss the graph convolutional neural networks graph
+autoencoders and spatio-temporal graph neural networks. The representations of
+the graph in lower dimensions can be learned using these methods. The
+representations in lower dimensions can be used further for downstream machine
+learning tasks.
+"
+gnn_citations,1810.10627,cs.LG stat.ML,0.6837142590627128,"Streaming Graph Neural Networks.   Graphs are essential representations of many real-world data such as social
+networks. Recent years have witnessed the increasing efforts made to extend the
+neural network models to graph-structured data. These methods, which are
+usually known as the graph neural networks, have been applied to advance many
+graphs related tasks such as reasoning dynamics of the physical system, graph
+classification, and node classification. Most of the existing graph neural
+network models have been designed for static graphs, while many real-world
+graphs are inherently dynamic. For example, social networks are naturally
+evolving as new users joining and new relations being created. Current graph
+neural network models cannot utilize the dynamic information in dynamic graphs.
+However, the dynamic information has been proven to enhance the performance of
+many graph analytic tasks such as community detection and link prediction.
+Hence, it is necessary to design dedicated graph neural networks for dynamic
+graphs. In this paper, we propose DGNN, a new {\bf D}ynamic {\bf G}raph {\bf
+N}eural {\bf N}etwork model, which can model the dynamic information as the
+graph evolving. In particular, the proposed framework can keep updating node
+information by capturing the sequential information of edges (interactions),
+the time intervals between edges and information propagation coherently.
+Experimental results on various dynamic graphs demonstrate the effectiveness of
+the proposed framework.
+"
+gnn_citations,1905.09550,stat.ML cs.IT cs.LG math.IT math.SP,0.6603709269371196,"Revisiting Graph Neural Networks: All We Have is Low-Pass Filters.   Graph neural networks have become one of the most important techniques to
+solve machine learning problems on graph-structured data. Recent work on vertex
+classification proposed deep and distributed learning models to achieve high
+performance and scalability. However, we find that the feature vectors of
+benchmark datasets are already quite informative for the classification task,
+and the graph structure only provides a means to denoise the data. In this
+paper, we develop a theoretical framework based on graph signal processing for
+analyzing graph neural networks. Our results indicate that graph neural
+networks only perform low-pass filtering on feature vectors and do not have the
+non-linear manifold learning property. We further investigate their resilience
+to feature noise and propose some insights on GCN-based graph neural network
+design.
+"
+gnn_citations,2002.08104,cs.LG cs.CV q-bio.NC stat.ML,0.673509025670712,"Analyzing Neural Networks Based on Random Graphs.   We perform a massive evaluation of neural networks with architectures
+corresponding to random graphs of various types. We investigate various
+structural and numerical properties of the graphs in relation to neural network
+test accuracy. We find that none of the classical numerical graph invariants by
+itself allows to single out the best networks. Consequently, we introduce a new
+numerical graph characteristic that selects a set of quasi-1-dimensional
+graphs, which are a majority among the best performing networks. We also find
+that networks with primarily short-range connections perform better than
+networks which allow for many long-range connections. Moreover, many resolution
+reducing pathways are beneficial. We provide a dataset of 1020 graphs and the
+test accuracies of their corresponding neural networks at
+https://github.com/rmldj/random-graph-nn-paper
+"
+gnn_citations,2412.19419,cs.LG cs.AI,0.6946535267289661,"Introduction to Graph Neural Networks: A Starting Point for Machine
+  Learning Engineers.   Graph neural networks are deep neural networks designed for graphs with
+attributes attached to nodes or edges. The number of research papers in the
+literature concerning these models is growing rapidly due to their impressive
+performance on a broad range of tasks. This survey introduces graph neural
+networks through the encoder-decoder framework and provides examples of
+decoders for a range of graph analytic tasks. It uses theory and numerous
+experiments on homogeneous graphs to illustrate the behavior of graph neural
+networks for different training sizes and degrees of graph complexity.
+"
+gnn_citations,1908.00187,cs.LG cs.NE stat.ML,0.7666783685737449,"Graph Neural Networks for Small Graph and Giant Network Representation
+  Learning: An Overview.   Graph neural networks denote a group of neural network models introduced for
+the representation learning tasks on graph data specifically. Graph neural
+networks have been demonstrated to be effective for capturing network structure
+information, and the learned representations can achieve the state-of-the-art
+performance on node and graph classification tasks. Besides the different
+application scenarios, the architectures of graph neural network models also
+depend on the studied graph types a lot. Graph data studied in research can be
+generally categorized into two main types, i.e., small graphs vs. giant
+networks, which differ from each other a lot in the size, instance number and
+label annotation. Several different types of graph neural network models have
+been introduced for learning the representations from such different types of
+graphs already. In this paper, for these two different types of graph data, we
+will introduce the graph neural networks introduced in recent years. To be more
+specific, the graph neural networks introduced in this paper include IsoNN,
+SDBN, LF&ER, GCN, GAT, DifNN, GNL, GraphSage and seGEN. Among these graph
+neural network models, IsoNN, SDBN and LF&ER are initially proposed for small
+graphs and the remaining ones are initially proposed for giant networks
+instead. The readers are also suggested to refer to these papers for detailed
+information when reading this tutorial paper.
+"

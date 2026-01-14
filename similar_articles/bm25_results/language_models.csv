@@ -1,0 +1,325 @@
+query_type,query_value,rank,doc_id,score,title,abstract,categories
+text,large language models transformers pretraining,1,2404.04659,19.32891,"Multilingual Pretraining and Instruction Tuning Improve Cross-Lingual
+  Knowledge Alignment, But Only Shallowly","  Despite their strong ability to retrieve knowledge in English, current large
+language models show imbalance abilities in different languages. Two approaches
+are proposed to address this, i.e., multilingual pretraining and multilingual
+instruction tuning. However, whether and how do such methods contribute to the
+cross-lingual knowledge alignment inside the models is unknown. In this paper,
+we propose CLiKA, a systematic framework to assess the cross-lingual knowledge
+alignment of LLMs in the Performance, Consistency and Conductivity levels, and
+explored the effect of multilingual pretraining and instruction tuning on the
+degree of alignment. Results show that: while both multilingual pretraining and
+instruction tuning are beneficial for cross-lingual knowledge alignment, the
+training strategy needs to be carefully designed. Namely, continued pretraining
+improves the alignment of the target language at the cost of other languages,
+while mixed pretraining affect other languages less. Also, the overall
+cross-lingual knowledge alignment, especially in the conductivity level, is
+unsatisfactory for all tested LLMs, and neither multilingual pretraining nor
+instruction tuning can substantially improve the cross-lingual knowledge
+conductivity.
+",cs.CL
+text,large language models transformers pretraining,2,2410.23956,18.713406,"Multilingual Pretraining Using a Large Corpus Machine-Translated from a
+  Single Source Language","  English, as a very high-resource language, enables the pretraining of
+high-quality large language models (LLMs). The same cannot be said for most
+other languages, as leading LLMs still underperform for non-English languages,
+likely due to a gap in the quality and diversity of the available multilingual
+pretraining corpora. In this work, we find that machine-translated text from a
+single high-quality source language can contribute significantly to the
+pretraining of multilingual LLMs. We translate FineWeb-Edu, a high-quality
+English web dataset, into French, German, and Spanish, resulting in a final
+300B-token dataset, which we call TransWeb-Edu, and pretrain a 1.3B-parameter
+model, CuatroLLM, from scratch on this dataset. Across five non-English
+reasoning tasks, we show that CuatroLLM matches or outperforms state-of-the-art
+multilingual models trained using closed data, such as Llama3.2 and Gemma2,
+despite using an order of magnitude less data, such as about 6% of the tokens
+used for Llama3.2's training. We further demonstrate that with additional
+domain-specific pretraining, amounting to less than 1% of TransWeb-Edu,
+CuatroLLM surpasses the state of the art in multilingual reasoning. To promote
+reproducibility, we release our corpus, models, and training pipeline under
+open licenses at hf.co/britllm/CuatroLLM.
+",cs.CL
+text,large language models transformers pretraining,3,2109.11129,18.650587,Cross-Lingual Language Model Meta-Pretraining,"  The success of pretrained cross-lingual language models relies on two
+essential abilities, i.e., generalization ability for learning downstream tasks
+in a source language, and cross-lingual transferability for transferring the
+task knowledge to other languages. However, current methods jointly learn the
+two abilities in a single-phase cross-lingual pretraining process, resulting in
+a trade-off between generalization and cross-lingual transfer. In this paper,
+we propose cross-lingual language model meta-pretraining, which learns the two
+abilities in different training phases. Our method introduces an additional
+meta-pretraining phase before cross-lingual pretraining, where the model learns
+generalization ability on a large-scale monolingual corpus. Then, the model
+focuses on learning cross-lingual transfer on a multilingual corpus.
+Experimental results show that our method improves both generalization and
+cross-lingual transfer, and produces better-aligned representations across
+different languages.
+",cs.CL
+text,large language models transformers pretraining,4,2407.14076,18.607872,"Domain-Specific Pretraining of Language Models: A Comparative Study in
+  the Medical Field","  There are many cases where LLMs are used for specific tasks in a single
+domain. These usually require less general, but more domain-specific knowledge.
+Highly capable, general-purpose state-of-the-art language models like GPT-4 or
+Claude-3-opus can often be used for such tasks, but they are very large and
+cannot be run locally, even if they were not proprietary. This can be a problem
+when working with sensitive data. This paper focuses on domain-specific and
+mixed-domain pretraining as potentially more efficient methods than general
+pretraining for specialized language models. We will take a look at work
+related to domain-specific pretraining, specifically in the medical area, and
+compare benchmark results of specialized language models to general-purpose
+language models.
+",cs.LG cs.AI cs.CL
+text,large language models transformers pretraining,5,2404.05428,18.47067,"Language Models on a Diet: Cost-Efficient Development of Encoders for
+  Closely-Related Languages via Additional Pretraining","  The world of language models is going through turbulent times, better and
+ever larger models are coming out at an unprecedented speed. However, we argue
+that, especially for the scientific community, encoder models of up to 1
+billion parameters are still very much needed, their primary usage being in
+enriching large collections of data with metadata necessary for downstream
+research. We investigate the best way to ensure the existence of such encoder
+models on the set of very closely related languages - Croatian, Serbian,
+Bosnian and Montenegrin, by setting up a diverse benchmark for these languages,
+and comparing the trained-from-scratch models with the new models constructed
+via additional pretraining of existing multilingual models. We show that
+comparable performance to dedicated from-scratch models can be obtained by
+additionally pretraining available multilingual models even with a limited
+amount of computation. We also show that neighboring languages, in our case
+Slovenian, can be included in the additional pretraining with little to no loss
+in the performance of the final model.
+",cs.CL
+text,large language models transformers pretraining,6,2301.04761,18.449047,NarrowBERT: Accelerating Masked Language Model Pretraining and Inference,"  Large-scale language model pretraining is a very successful form of
+self-supervised learning in natural language processing, but it is increasingly
+expensive to perform as the models and pretraining corpora have become larger
+over time. We propose NarrowBERT, a modified transformer encoder that increases
+the throughput for masked language model pretraining by more than $2\times$.
+NarrowBERT sparsifies the transformer model such that the self-attention
+queries and feedforward layers only operate on the masked tokens of each
+sentence during pretraining, rather than all of the tokens as with the usual
+transformer encoder. We also show that NarrowBERT increases the throughput at
+inference time by as much as $3.5\times$ with minimal (or no) performance
+degradation on sentence encoding tasks like MNLI. Finally, we examine the
+performance of NarrowBERT on the IMDB and Amazon reviews classification and
+CoNLL NER tasks and show that it is also comparable to standard BERT
+performance.
+",cs.CL cs.LG
+text,large language models transformers pretraining,7,2510.25067,18.388458,DRIP: Dynamic patch Reduction via Interpretable Pooling,"Recently, the advances in vision-language models, including contrastive pretraining and instruction tuning, have greatly pushed the frontier of multimodal AI. However, owing to the large-scale and hence expensive pretraining, the efficiency concern has discouraged researchers from attempting to pretrain a vision language model from scratch. In this work, we propose Dynamic patch Reduction via Interpretable Pooling (DRIP), which adapts to the input images and dynamically merges tokens in the deeper layers of a visual encoder. Our results on both ImageNet training from scratch and CLIP contrastive pretraining demonstrate a significant GFLOP reduction while maintaining comparable classification/zero-shot performance. To further validate our proposed method, we conduct continual pretraining on a large biology dataset, extending its impact into scientific domains.",cs.CV
+text,large language models transformers pretraining,8,2502.06663,18.384192,"EfficientLLM: Scalable Pruning-Aware Pretraining for
+  Architecture-Agnostic Edge Language Models","  Modern large language models (LLMs) driven by scaling laws, achieve
+intelligence emergency in large model sizes. Recently, the increasing concerns
+about cloud costs, latency, and privacy make it an urgent requirement to
+develop compact edge language models. Distinguished from direct pretraining
+that bounded by the scaling law, this work proposes the pruning-aware
+pretraining, focusing on retaining performance of much larger optimized models.
+It features following characteristics: 1) Data-scalable: we introduce minimal
+parameter groups in LLM and continuously optimize structural pruning, extending
+post-training pruning methods like LLM-Pruner and SparseGPT into the
+pretraining phase. 2) Architecture-agnostic: the LLM architecture is
+auto-designed using saliency-driven pruning, which is the first time to exceed
+SoTA human-designed LLMs in modern pretraining. We reveal that it achieves
+top-quality edge language models, termed EfficientLLM, by scaling up LLM
+compression and extending its boundary. EfficientLLM significantly outperforms
+SoTA baselines with $100M \sim 1B$ parameters, such as MobileLLM, SmolLM,
+Qwen2.5-0.5B, OLMo-1B, Llama3.2-1B in common sense benchmarks. As the first
+attempt, EfficientLLM bridges the performance gap between traditional LLM
+compression and direct pretraining methods, and we will fully open source at
+https://github.com/Xingrun-Xing2/EfficientLLM.
+",cs.LG
+text,large language models transformers pretraining,9,2306.14525,18.25718,ParameterNet: Parameters Are All You Need,"  The large-scale visual pretraining has significantly improve the performance
+of large vision models. However, we observe the \emph{low FLOPs pitfall} that
+the existing low-FLOPs models cannot benefit from large-scale pretraining. In
+this paper, we introduce a novel design principle, termed ParameterNet, aimed
+at augmenting the number of parameters in large-scale visual pretraining models
+while minimizing the increase in FLOPs. We leverage dynamic convolutions to
+incorporate additional parameters into the networks with only a marginal rise
+in FLOPs. The ParameterNet approach allows low-FLOPs networks to take advantage
+of large-scale visual pretraining. Furthermore, we extend the ParameterNet
+concept to the language domain to enhance inference results while preserving
+inference speed. Experiments on the large-scale ImageNet-22K have shown the
+superiority of our ParameterNet scheme. For example, ParameterNet-600M can
+achieve higher accuracy on ImageNet than the widely-used Swin Transformer
+(81.6\% \emph{vs.} 80.9\%) and has much lower FLOPs (0.6G \emph{vs.} 4.5G). In
+the language domain, LLaMA-1B enhanced with ParameterNet achieves 2\% higher
+accuracy over vanilla LLaMA. The code will be released at
+\url{https://parameternet.github.io/}.
+",cs.CV
+text,large language models transformers pretraining,10,2109.06605,18.249928,MDAPT: Multilingual Domain Adaptive Pretraining in a Single Model,"  Domain adaptive pretraining, i.e. the continued unsupervised pretraining of a
+language model on domain-specific text, improves the modelling of text for
+downstream tasks within the domain. Numerous real-world applications are based
+on domain-specific text, e.g. working with financial or biomedical documents,
+and these applications often need to support multiple languages. However,
+large-scale domain-specific multilingual pretraining data for such scenarios
+can be difficult to obtain, due to regulations, legislation, or simply a lack
+of language- and domain-specific text. One solution is to train a single
+multilingual model, taking advantage of the data available in as many languages
+as possible. In this work, we explore the benefits of domain adaptive
+pretraining with a focus on adapting to multiple languages within a specific
+domain. We propose different techniques to compose pretraining corpora that
+enable a language model to both become domain-specific and multilingual.
+Evaluation on nine domain-specific datasets-for biomedical named entity
+recognition and financial sentence classification-covering seven different
+languages show that a single multilingual domain-specific model can outperform
+the general multilingual model, and performs close to its monolingual
+counterpart. This finding holds across two different pretraining methods,
+adapter-based pretraining and full model pretraining.
+",cs.CL
+text,large language models transformers pretraining,11,2107.10474,18.055916,"Back-Translated Task Adaptive Pretraining: Improving Accuracy and
+  Robustness on Text Classification","  Language models (LMs) pretrained on a large text corpus and fine-tuned on a
+downstream text corpus and fine-tuned on a downstream task becomes a de facto
+training strategy for several natural language processing (NLP) tasks.
+Recently, an adaptive pretraining method retraining the pretrained language
+model with task-relevant data has shown significant performance improvements.
+However, current adaptive pretraining methods suffer from underfitting on the
+task distribution owing to a relatively small amount of data to re-pretrain the
+LM. To completely use the concept of adaptive pretraining, we propose a
+back-translated task-adaptive pretraining (BT-TAPT) method that increases the
+amount of task-specific data for LM re-pretraining by augmenting the task data
+using back-translation to generalize the LM to the target task domain. The
+experimental results show that the proposed BT-TAPT yields improved
+classification accuracy on both low- and high-resource data and better
+robustness to noise than the conventional adaptive pretraining method.
+",cs.CL cs.LG
+text,large language models transformers pretraining,12,2109.02555,18.00105,GPT-3 Models are Poor Few-Shot Learners in the Biomedical Domain,"  Deep neural language models have set new breakthroughs in many tasks of
+Natural Language Processing (NLP). Recent work has shown that deep transformer
+language models (pretrained on large amounts of texts) can achieve high levels
+of task-specific few-shot performance comparable to state-of-the-art models.
+However, the ability of these large language models in few-shot transfer
+learning has not yet been explored in the biomedical domain. We investigated
+the performance of two powerful transformer language models, i.e. GPT-3 and
+BioBERT, in few-shot settings on various biomedical NLP tasks. The experimental
+results showed that, to a great extent, both the models underperform a language
+model fine-tuned on the full training data. Although GPT-3 had already achieved
+near state-of-the-art results in few-shot knowledge transfer on open-domain NLP
+tasks, it could not perform as effectively as BioBERT, which is orders of
+magnitude smaller than GPT-3. Regarding that BioBERT was already pretrained on
+large biomedical text corpora, our study suggests that language models may
+largely benefit from in-domain pretraining in task-specific few-shot learning.
+However, in-domain pretraining seems not to be sufficient; novel pretraining
+and few-shot learning strategies are required in the biomedical NLP domain.
+",cs.CL cs.AI cs.LG
+text,large language models transformers pretraining,13,2004.10964,17.830471,Don't Stop Pretraining: Adapt Language Models to Domains and Tasks,"  Language models pretrained on text from a wide variety of sources form the
+foundation of today's NLP. In light of the success of these broad-coverage
+models, we investigate whether it is still helpful to tailor a pretrained model
+to the domain of a target task. We present a study across four domains
+(biomedical and computer science publications, news, and reviews) and eight
+classification tasks, showing that a second phase of pretraining in-domain
+(domain-adaptive pretraining) leads to performance gains, under both high- and
+low-resource settings. Moreover, adapting to the task's unlabeled data
+(task-adaptive pretraining) improves performance even after domain-adaptive
+pretraining. Finally, we show that adapting to a task corpus augmented using
+simple data selection strategies is an effective alternative, especially when
+resources for domain-adaptive pretraining might be unavailable. Overall, we
+consistently find that multi-phase adaptive pretraining offers large gains in
+task performance.
+",cs.CL cs.LG
+text,large language models transformers pretraining,14,2402.10171,17.822956,Data Engineering for Scaling Language Models to 128K Context,"  We study the continual pretraining recipe for scaling language models'
+context lengths to 128K, with a focus on data engineering. We hypothesize that
+long context modeling, in particular \textit{the ability to utilize information
+at arbitrary input locations}, is a capability that is mostly already acquired
+through large-scale pretraining, and that this capability can be readily
+extended to contexts substantially longer than seen during training~(e.g., 4K
+to 128K) through lightweight continual pretraining on appropriate data mixture.
+We investigate the \textit{quantity} and \textit{quality} of the data for
+continual pretraining: (1) for quantity, we show that 500 million to 5 billion
+tokens are enough to enable the model to retrieve information anywhere within
+the 128K context; (2) for quality, our results equally emphasize \textit{domain
+balance} and \textit{length upsampling}. Concretely, we find that naively
+upsampling longer data on certain domains like books, a common practice of
+existing work, gives suboptimal performance, and that a balanced domain mixture
+is important. We demonstrate that continual pretraining of the full model on
+1B-5B tokens of such data is an effective and affordable strategy for scaling
+the context length of language models to 128K. Our recipe outperforms strong
+open-source long-context models and closes the gap to frontier models like
+GPT-4 128K.
+",cs.CL cs.AI
+text,large language models transformers pretraining,15,2405.07745,17.675312,"LlamaTurk: Adapting Open-Source Generative Large Language Models for
+  Low-Resource Language","  Despite advancements in English-dominant generative large language models,
+further development is needed for low-resource languages to enhance global
+accessibility. The primary methods for representing these languages are
+monolingual and multilingual pretraining. Monolingual pretraining is expensive
+due to hardware requirements, and multilingual models often have uneven
+performance across languages. This study explores an alternative solution by
+adapting large language models, primarily trained on English, to low-resource
+languages. We assess various strategies, including continual training,
+instruction fine-tuning, task-specific fine-tuning, and vocabulary extension.
+The results show that continual training improves language comprehension, as
+reflected in perplexity scores, and task-specific tuning generally enhances
+performance of downstream tasks. However, extending the vocabulary shows no
+substantial benefits. Additionally, while larger models improve task
+performance with few-shot tuning, multilingual models perform worse than their
+monolingual counterparts when adapted.
+",cs.CL cs.AI
+text,large language models transformers pretraining,16,2109.15101,17.61507,"Compositional generalization in semantic parsing with pretrained
+  transformers","  Large-scale pretraining instills large amounts of knowledge in deep neural
+networks. This, in turn, improves the generalization behavior of these models
+in downstream tasks. What exactly are the limits to the generalization benefits
+of large-scale pretraining? Here, we report observations from some simple
+experiments aimed at addressing this question in the context of two semantic
+parsing tasks involving natural language, SCAN and COGS. We show that language
+models pretrained exclusively with non-English corpora, or even with
+programming language corpora, significantly improve out-of-distribution
+generalization in these benchmarks, compared with models trained from scratch,
+even though both benchmarks are English-based. This demonstrates the
+surprisingly broad transferability of pretrained representations and knowledge.
+Pretraining with a large-scale protein sequence prediction task, on the other
+hand, mostly deteriorates the generalization performance in SCAN and COGS,
+suggesting that pretrained representations do not transfer universally and that
+there are constraints on the similarity between the pretraining and downstream
+domains for successful transfer. Finally, we show that larger models are harder
+to train from scratch and their generalization accuracy is lower when trained
+up to convergence on the relatively small SCAN and COGS datasets, but the
+benefits of large-scale pretraining become much clearer with larger models.
+",cs.CL cs.LG cs.NE
+text,large language models transformers pretraining,17,2401.00031,17.57032,"Self-supervised Pretraining for Decision Foundation Model: Formulation,
+  Pipeline and Challenges","  Decision-making is a dynamic process requiring perception, memory, and
+reasoning to make choices and find optimal policies. Traditional approaches to
+decision-making suffer from sample efficiency and generalization, while
+large-scale self-supervised pretraining has enabled fast adaptation with
+fine-tuning or few-shot learning in language and vision. We thus argue to
+integrate knowledge acquired from generic large-scale self-supervised
+pretraining into downstream decision-making problems. We propose
+Pretrain-Then-Adapt pipeline and survey recent work on data collection,
+pretraining objectives and adaptation strategies for decision-making
+pretraining and downstream inference. Finally, we identify critical challenges
+and future directions for developing decision foundation model with the help of
+generic and flexible self-supervised pretraining.
+",cs.LG cs.AI
+text,large language models transformers pretraining,18,2305.12816,17.537712,"Farewell to Aimless Large-scale Pretraining: Influential Subset
+  Selection for Language Model","  Pretrained language models have achieved remarkable success in various
+natural language processing tasks. However, pretraining has recently shifted
+toward larger models and larger data, and this has resulted in significant
+computational and energy costs. In this paper, we propose Influence Subset
+Selection (ISS) for language model, which explicitly utilizes end-task
+knowledge to select a tiny subset of the pretraining corpus. Specifically, the
+ISS selects the samples that will provide the most positive influence on the
+performance of the end-task. Furthermore, we design a gradient matching based
+influence estimation method, which can drastically reduce the computation time
+of influence. With only 0.45% of the data and a three-orders-of-magnitude lower
+computational cost, ISS outperformed pretrained models (e.g., RoBERTa) on eight
+datasets covering four domains.
+",cs.CL
+text,large language models transformers pretraining,19,2111.04130,17.525816,"NLP From Scratch Without Large-Scale Pretraining: A Simple and Efficient
+  Framework","  Pretrained language models have become the standard approach for many NLP
+tasks due to strong performance, but they are very expensive to train. We
+propose a simple and efficient learning framework, TLM, that does not rely on
+large-scale pretraining. Given some labeled task data and a large general
+corpus, TLM uses task data as queries to retrieve a tiny subset of the general
+corpus and jointly optimizes the task objective and the language modeling
+objective from scratch. On eight classification datasets in four domains, TLM
+achieves results better than or similar to pretrained language models (e.g.,
+RoBERTa-Large) while reducing the training FLOPs by two orders of magnitude.
+With high accuracy and efficiency, we hope TLM will contribute to democratizing
+NLP and expediting its development.
+",cs.CL cs.LG
+text,large language models transformers pretraining,20,2309.04516,17.49208,"End-to-End Speech Recognition and Disfluency Removal with Acoustic
+  Language Model Pretraining","  The SOTA in transcription of disfluent and conversational speech has in
+recent years favored two-stage models, with separate transcription and cleaning
+stages. We believe that previous attempts at end-to-end disfluency removal have
+fallen short because of the representational advantage that large-scale
+language model pretraining has given to lexical models. Until recently, the
+high dimensionality and limited availability of large audio datasets inhibited
+the development of large-scale self-supervised pretraining objectives for
+learning effective audio representations, giving a relative advantage to the
+two-stage approach, which utilises pretrained representations for lexical
+tokens. In light of recent successes in large scale audio pretraining, we
+revisit the performance comparison between two-stage and end-to-end model and
+find that audio based language models pretrained using weak self-supervised
+objectives match or exceed the performance of similarly trained two-stage
+models, and further, that the choice of pretraining objective substantially
+effects a model's ability to be adapted to the disfluency removal task.
+",eess.AS cs.LG cs.SD

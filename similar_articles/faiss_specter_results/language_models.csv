@@ -1,0 +1,251 @@
+query_type,query_value,rank,doc_id,specter_score,title,categories,abstract
+text,large language models transformers pretraining,1,2108.05542,0.8282673358917236,"AMMUS : A Survey of Transformer-based Pretrained Models in Natural
+  Language Processing",cs.CL,"  Transformer-based pretrained language models (T-PTLMs) have achieved great
+success in almost every NLP task. The evolution of these models started with
+GPT and BERT. These models are built on the top of transformers,
+self-supervised learning and transfer learning. Transformed-based PTLMs learn
+universal language representations from large volumes of text data using
+self-supervised learning and transfer this knowledge to downstream tasks. These
+models provide good background knowledge to downstream tasks which avoids
+training of downstream models from scratch. In this comprehensive survey paper,
+we initially give a brief overview of self-supervised learning. Next, we
+explain various core concepts like pretraining, pretraining methods,
+pretraining tasks, embeddings and downstream adaptation methods. Next, we
+present a new taxonomy of T-PTLMs and then give brief overview of various
+benchmarks including both intrinsic and extrinsic. We present a summary of
+various useful libraries to work with T-PTLMs. Finally, we highlight some of
+the future research directions which will further improve these models. We
+strongly believe that this comprehensive survey paper will serve as a good
+reference to learn the core concepts as well as to stay updated with the recent
+happenings in T-PTLMs.
+"
+text,large language models transformers pretraining,2,2009.08712,0.824267566204071,The birth of Romanian BERT,cs.CL,"  Large-scale pretrained language models have become ubiquitous in Natural
+Language Processing. However, most of these models are available either in
+high-resource languages, in particular English, or as multilingual models that
+compromise performance on individual languages for coverage. This paper
+introduces Romanian BERT, the first purely Romanian transformer-based language
+model, pretrained on a large text corpus. We discuss corpus composition and
+cleaning, the model training process, as well as an extensive evaluation of the
+model on various Romanian datasets. We open source not only the model itself,
+but also a repository that contains information on how to obtain the corpus,
+fine-tune and use this model in production (with practical examples), and how
+to fully replicate the evaluation process.
+"
+text,large language models transformers pretraining,3,2406.02856,0.8026595711708069,Xmodel-LM Technical Report,cs.CL cs.AI,"  We introduce Xmodel-LM, a compact and efficient 1.1B language model
+pre-trained on around 2 trillion tokens. Trained on our self-built dataset
+(Xdata), which balances Chinese and English corpora based on downstream task
+optimization, Xmodel-LM exhibits remarkable performance despite its smaller
+size. It notably surpasses existing open-source language models of similar
+scale. Our model checkpoints and code are publicly accessible on GitHub at
+https://github.com/XiaoduoAILab/XmodelLM.
+"
+text,large language models transformers pretraining,4,2310.12321,0.80221027135849,"A Survey of GPT-3 Family Large Language Models Including ChatGPT and
+  GPT-4",cs.CL,"  Large language models (LLMs) are a special class of pretrained language
+models obtained by scaling model size, pretraining corpus and computation.
+LLMs, because of their large size and pretraining on large volumes of text
+data, exhibit special abilities which allow them to achieve remarkable
+performances without any task-specific training in many of the natural language
+processing tasks. The era of LLMs started with OpenAI GPT-3 model, and the
+popularity of LLMs is increasing exponentially after the introduction of models
+like ChatGPT and GPT4. We refer to GPT-3 and its successor OpenAI models,
+including ChatGPT and GPT4, as GPT-3 family large language models (GLLMs). With
+the ever-rising popularity of GLLMs, especially in the research community,
+there is a strong need for a comprehensive survey which summarizes the recent
+research progress in multiple dimensions and can guide the research community
+with insightful future research directions. We start the survey paper with
+foundation concepts like transformers, transfer learning, self-supervised
+learning, pretrained language models and large language models. We then present
+a brief overview of GLLMs and discuss the performances of GLLMs in various
+downstream tasks, specific domains and multiple languages. We also discuss the
+data labelling and data augmentation abilities of GLLMs, the robustness of
+GLLMs, the effectiveness of GLLMs as evaluators, and finally, conclude with
+multiple insightful future research directions. To summarize, this
+comprehensive survey paper will serve as a good resource for both academic and
+industry people to stay updated with the latest research related to GPT-3
+family large language models.
+"
+text,large language models transformers pretraining,5,2401.04051,0.8017256259918213,"Empirical Analysis of Efficient Fine-Tuning Methods for Large
+  Pre-Trained Language Models",cs.LG cs.CL,"  Fine-tuning large pre-trained language models for downstream tasks remains a
+critical challenge in natural language processing. This paper presents an
+empirical analysis comparing two efficient fine-tuning methods - BitFit and
+adapter modules - to standard full model fine-tuning. Experiments conducted on
+GLUE benchmark datasets (MRPC, COLA, STS-B) reveal several key insights. The
+BitFit approach, which trains only bias terms and task heads, matches full
+fine-tuning performance across varying amounts of training data and time
+constraints. It demonstrates remarkable stability even with only 30\% of data,
+outperforming full fine-tuning at intermediate data levels. Adapter modules
+exhibit high variability, with inconsistent gains over default models. The
+findings indicate BitFit offers an attractive balance between performance and
+parameter efficiency. Our work provides valuable perspectives on model tuning,
+emphasizing robustness and highlighting BitFit as a promising alternative for
+resource-constrained or streaming task settings. The analysis offers actionable
+guidelines for efficient adaptation of large pre-trained models, while
+illustrating open challenges in stabilizing techniques like adapter modules.
+"
+text,large language models transformers pretraining,6,2408.15040,0.8014726042747498,A Survey of Large Language Models for European Languages,cs.CL,"  Large Language Models (LLMs) have gained significant attention due to their
+high performance on a wide range of natural language tasks since the release of
+ChatGPT. The LLMs learn to understand and generate language by training
+billions of model parameters on vast volumes of text data. Despite being a
+relatively new field, LLM research is rapidly advancing in various directions.
+In this paper, we present an overview of LLM families, including LLaMA, PaLM,
+GPT, and MoE, and the methods developed to create and enhance LLMs for official
+European Union (EU) languages. We provide a comprehensive summary of common
+monolingual and multilingual datasets used for pretraining large language
+models.
+"
+text,large language models transformers pretraining,7,2105.00572,0.8013667464256287,Larger-Scale Transformers for Multilingual Masked Language Modeling,cs.CL,"  Recent work has demonstrated the effectiveness of cross-lingual language
+model pretraining for cross-lingual understanding. In this study, we present
+the results of two larger multilingual masked language models, with 3.5B and
+10.7B parameters. Our two new models dubbed XLM-R XL and XLM-R XXL outperform
+XLM-R by 1.8% and 2.4% average accuracy on XNLI. Our model also outperforms the
+RoBERTa-Large model on several English tasks of the GLUE benchmark by 0.3% on
+average while handling 99 more languages. This suggests pretrained models with
+larger capacity may obtain both strong performance on high-resource languages
+while greatly improving low-resource languages. We make our code and models
+publicly available.
+"
+text,large language models transformers pretraining,8,2410.24159,0.8003554344177246,GPT or BERT: why not both?,cs.CL,"  We present a simple way to merge masked language modeling with causal
+language modeling. This hybrid training objective results in a model that
+combines the strengths of both modeling paradigms within a single transformer
+stack: GPT-BERT can be transparently used like any standard causal or masked
+language model. We test the pretraining process that enables this flexible
+behavior on the BabyLM Challenge 2024. The results show that the hybrid
+pretraining outperforms masked-only or causal-only models. We openly release
+the models, training corpora and code.
+"
+text,large language models transformers pretraining,9,1910.03771,0.8000511527061462,HuggingFace's Transformers: State-of-the-art Natural Language Processing,cs.CL,"  Recent progress in natural language processing has been driven by advances in
+both model architecture and model pretraining. Transformer architectures have
+facilitated building higher-capacity models and pretraining has made it
+possible to effectively utilize this capacity for a wide variety of tasks.
+\textit{Transformers} is an open-source library with the goal of opening up
+these advances to the wider machine learning community. The library consists of
+carefully engineered state-of-the art Transformer architectures under a unified
+API. Backing this library is a curated collection of pretrained models made by
+and available for the community. \textit{Transformers} is designed to be
+extensible by researchers, simple for practitioners, and fast and robust in
+industrial deployments. The library is available at
+\url{https://github.com/huggingface/transformers}.
+"
+text,large language models transformers pretraining,10,2201.05613,0.7997332811355591,The Dark Side of the Language: Pre-trained Transformers in the DarkNet,cs.CL cs.LG,"  Pre-trained Transformers are challenging human performances in many NLP
+tasks. The massive datasets used for pre-training seem to be the key to their
+success on existing tasks. In this paper, we explore how a range of pre-trained
+Natural Language Understanding models perform on definitely unseen sentences
+provided by classification tasks over a DarkNet corpus. Surprisingly, results
+show that syntactic and lexical neural networks perform on par with pre-trained
+Transformers even after fine-tuning. Only after what we call extreme domain
+adaptation, that is, retraining with the masked language model task on all the
+novel corpus, pre-trained Transformers reach their standard high results. This
+suggests that huge pre-training corpora may give Transformers unexpected help
+since they are exposed to many of the possible sentences.
+"
+text,large language models transformers pretraining,11,2111.01243,0.7982374429702759,"Recent Advances in Natural Language Processing via Large Pre-Trained
+  Language Models: A Survey",cs.CL cs.AI cs.LG,"  Large, pre-trained transformer-based language models such as BERT have
+drastically changed the Natural Language Processing (NLP) field. We present a
+survey of recent work that uses these large language models to solve NLP tasks
+via pre-training then fine-tuning, prompting, or text generation approaches. We
+also present approaches that use pre-trained language models to generate data
+for training augmentation or other purposes. We conclude with discussions on
+limitations and suggested directions for future research.
+"
+text,large language models transformers pretraining,12,2010.03179,0.7976840734481812,"Transfer Learning and Distant Supervision for Multilingual Transformer
+  Models: A Study on African Languages",cs.CL cs.LG,"  Multilingual transformer models like mBERT and XLM-RoBERTa have obtained
+great improvements for many NLP tasks on a variety of languages. However,
+recent works also showed that results from high-resource languages could not be
+easily transferred to realistic, low-resource scenarios. In this work, we study
+trends in performance for different amounts of available resources for the
+three African languages Hausa, isiXhosa and Yor\`ub\'a on both NER and topic
+classification. We show that in combination with transfer learning or distant
+supervision, these models can achieve with as little as 10 or 100 labeled
+sentences the same performance as baselines with much more supervised training
+data. However, we also find settings where this does not hold. Our discussions
+and additional experiments on assumptions such as time and hardware
+restrictions highlight challenges and opportunities in low-resource learning.
+"
+text,large language models transformers pretraining,13,2402.19204,0.793854832649231,"PeLLE: Encoder-based language models for Brazilian Portuguese based on
+  open data",cs.CL,"  In this paper we present PeLLE, a family of large language models based on
+the RoBERTa architecture, for Brazilian Portuguese, trained on curated, open
+data from the Carolina corpus. Aiming at reproducible results, we describe
+details of the pretraining of the models. We also evaluate PeLLE models against
+a set of existing multilingual and PT-BR refined pretrained Transformer-based
+LLM encoders, contrasting performance of large versus smaller-but-curated
+pretrained models in several downstream tasks. We conclude that several tasks
+perform better with larger models, but some tasks benefit from
+smaller-but-curated data in its pretraining.
+"
+text,large language models transformers pretraining,14,2304.00869,0.7937663793563843,GreekBART: The First Pretrained Greek Sequence-to-Sequence Model,cs.CL,"  The era of transfer learning has revolutionized the fields of Computer Vision
+and Natural Language Processing, bringing powerful pretrained models with
+exceptional performance across a variety of tasks. Specifically, Natural
+Language Processing tasks have been dominated by transformer-based language
+models. In Natural Language Inference and Natural Language Generation tasks,
+the BERT model and its variants, as well as the GPT model and its successors,
+demonstrated exemplary performance. However, the majority of these models are
+pretrained and assessed primarily for the English language or on a multilingual
+corpus. In this paper, we introduce GreekBART, the first Seq2Seq model based on
+BART-base architecture and pretrained on a large-scale Greek corpus. We
+evaluate and compare GreekBART against BART-random, Greek-BERT, and XLM-R on a
+variety of discriminative tasks. In addition, we examine its performance on two
+NLG tasks from GreekSUM, a newly introduced summarization dataset for the Greek
+language. The model, the code, and the new summarization dataset will be
+publicly available.
+"
+text,large language models transformers pretraining,15,2501.03855,0.7924749255180359,"BabyLMs for isiXhosa: Data-Efficient Language Modelling in a
+  Low-Resource Context",cs.CL,"  The BabyLM challenge called on participants to develop sample-efficient
+language models. Submissions were pretrained on a fixed English corpus, limited
+to the amount of words children are exposed to in development (<100m). The
+challenge produced new architectures for data-efficient language modelling,
+which outperformed models trained on trillions of words. This is promising for
+low-resource languages, where available corpora are limited to much less than
+100m words. In this paper, we explore the potential of BabyLMs for low-resource
+languages, using the isiXhosa language as a case study. We pretrain two BabyLM
+architectures, ELC-BERT and MLSM, on an isiXhosa corpus. They outperform a
+vanilla pretrained model on POS tagging and NER, achieving notable gains (+3.2
+F1) for the latter. In some instances, the BabyLMs even outperform XLM-R. Our
+findings show that data-efficient models are viable for low-resource languages,
+but highlight the continued importance, and lack of, high-quality pretraining
+data. Finally, we visually analyse how BabyLM architectures encode isiXhosa.
+"
+text,large language models transformers pretraining,16,2311.02265,0.7919847965240479,Not all layers are equally as important: Every Layer Counts BERT,cs.CL,"  This paper introduces a novel modification of the transformer architecture,
+tailored for the data-efficient pretraining of language models. This aspect is
+evaluated by participating in the BabyLM challenge, where our solution won both
+the strict and strict-small tracks. Our approach allows each transformer layer
+to select which outputs of previous layers to process. The empirical results
+verify the potential of this simple modification and show that not all layers
+are equally as important.
+"
+text,large language models transformers pretraining,17,1909.04761,0.7913788557052612,MultiFiT: Efficient Multi-lingual Language Model Fine-tuning,cs.CL cs.LG,"  Pretrained language models are promising particularly for low-resource
+languages as they only require unlabelled data. However, training existing
+models requires huge amounts of compute, while pretrained cross-lingual models
+often underperform on low-resource languages. We propose Multi-lingual language
+model Fine-Tuning (MultiFiT) to enable practitioners to train and fine-tune
+language models efficiently in their own language. In addition, we propose a
+zero-shot method using an existing pretrained cross-lingual model. We evaluate
+our methods on two widely used cross-lingual classification datasets where they
+outperform models pretrained on orders of magnitude more data and compute. We
+release all models and code.
+"
+text,large language models transformers pretraining,18,2501.08335,0.7907811403274536,"MERaLiON-TextLLM: Cross-Lingual Understanding of Large Language Models
+  in Chinese, Indonesian, Malay, and Singlish",cs.CL cs.AI,"  Multilingual large language models (MLLMs) have shown impressive capabilities
+across a variety of languages. However, efficacy can differ greatly between
+different language families, especially for those with limited linguistic
+resources. This report presents MERaLiON-TextLLM, a series of open-source
+language models specifically tailored to improve understanding and generation
+in Chinese, Indonesian, Malay, and Singlish. The initial released model is
+built on Llama-3-8B-Base and refined through a meticulously crafted process of
+continued pre-training and weight merging. Our approach achieves performance
+improvements across benchmarks in these languages, exceeding the capabilities
+of the official Llama-3 models. We provide the model checkpoints as a resource
+to support further research and development in cross-lingual language
+understanding.
+"
+text,large language models transformers pretraining,19,2410.16168,0.7907082438468933,Exploring Pretraining via Active Forgetting for Improving Cross Lingual Transfer for Decoder Language Models,cs.CL,"Large Language Models (LLMs) demonstrate exceptional capabilities in a multitude of NLP tasks. However, the efficacy of such models to languages other than English is often limited. Prior works have shown that encoder-only models such as BERT or XLM-RoBERTa show impressive cross lingual transfer of their capabilities from English to other languages. In this work, we propose a pretraining strategy that uses active forgetting to achieve similar cross lingual transfer in decoder-only LLMs. We show that LLMs pretrained with active forgetting are highly effective when adapting to new and unseen languages. Through extensive experimentation, we find that LLMs pretrained with active forgetting are able to learn better multilingual representations which translates to better performance in many downstream tasks."
+text,large language models transformers pretraining,20,2211.13184,0.7906355857849121,TorchScale: Transformers at Scale,cs.LG cs.CL,"  Large Transformers have achieved state-of-the-art performance across many
+tasks. Most open-source libraries on scaling Transformers focus on improving
+training or inference with better parallelization. In this work, we present
+TorchScale, an open-source toolkit that allows researchers and developers to
+scale up Transformers efficiently and effectively. TorchScale has the
+implementation of several modeling techniques, which can improve modeling
+generality and capability, as well as training stability and efficiency.
+Experimental results on language modeling and neural machine translation
+demonstrate that TorchScale can successfully scale Transformers to different
+sizes without tears. The library is available at https://aka.ms/torchscale.
+"

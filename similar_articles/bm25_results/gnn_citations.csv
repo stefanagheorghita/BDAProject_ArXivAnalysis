@@ -1,0 +1,335 @@
+query_type,query_value,rank,doc_id,score,title,abstract,categories
+text,graph neural networks for citation analysis,1,2104.02562,22.66139,Structured Citation Trend Prediction Using Graph Neural Networks,"  Academic citation graphs represent citation relationships between
+publications across the full range of academic fields. Top cited papers
+typically reveal future trends in their corresponding domains which is of
+importance to both researchers and practitioners. Prior citation prediction
+methods often require initial citation trends to be established and do not take
+advantage of the recent advancements in graph neural networks (GNNs). We
+present GNN-based architecture that predicts the top set of papers at the time
+of publication. For experiments, we curate a set of academic citation graphs
+for a variety of conferences and show that the proposed model outperforms other
+classic machine learning models in terms of the F1-score.
+",cs.LG cs.SI
+text,graph neural networks for citation analysis,2,2305.01572,21.45781,H2CGL: Modeling Dynamics of Citation Network for Impact Prediction,"  The potential impact of a paper is often quantified by how many citations it
+will receive. However, most commonly used models may underestimate the
+influence of newly published papers over time, and fail to encapsulate this
+dynamics of citation network into the graph. In this study, we construct
+hierarchical and heterogeneous graphs for target papers with an annual
+perspective. The constructed graphs can record the annual dynamics of target
+papers' scientific context information. Then, a novel graph neural network,
+Hierarchical and Heterogeneous Contrastive Graph Learning Model (H2CGL), is
+proposed to incorporate heterogeneity and dynamics of the citation network.
+H2CGL separately aggregates the heterogeneous information for each year and
+prioritizes the highly-cited papers and relationships among references,
+citations, and the target paper. It then employs a weighted GIN to capture
+dynamics between heterogeneous subgraphs over years. Moreover, it leverages
+contrastive learning to make the graph representations more sensitive to
+potential citations. Particularly, co-cited or co-citing papers of the target
+paper with large citation gap are taken as hard negative samples, while
+randomly dropping low-cited papers could generate positive samples. Extensive
+experimental results on two scholarly datasets demonstrate that the proposed
+H2CGL significantly outperforms a series of baseline approaches for both
+previously and freshly published papers. Additional analyses highlight the
+significance of the proposed modules. Our codes and settings have been released
+on Github (https://github.com/ECNU-Text-Computing/H2CGL)
+",cs.DL cs.AI
+text,graph neural networks for citation analysis,3,2202.11360,21.123756,Deep Graph Learning for Anomalous Citation Detection,"  Anomaly detection is one of the most active research areas in various
+critical domains, such as healthcare, fintech, and public security. However,
+little attention has been paid to scholarly data, i.e., anomaly detection in a
+citation network. Citation is considered as one of the most crucial metrics to
+evaluate the impact of scientific research, which may be gamed in multiple
+ways. Therefore, anomaly detection in citation networks is of significant
+importance to identify manipulation and inflation of citations. To address this
+open issue, we propose a novel deep graph learning model, namely GLAD (Graph
+Learning for Anomaly Detection), to identify anomalies in citation networks.
+GLAD incorporates text semantic mining to network representation learning by
+adding both node attributes and link attributes via graph neural networks. It
+exploits not only the relevance of citation contents but also hidden
+relationships between papers. Within the GLAD framework, we propose an
+algorithm called CPU (Citation PUrpose) to discover the purpose of citation
+based on citation texts. The performance of GLAD is validated through a
+simulated anomalous citation dataset. Experimental results demonstrate the
+effectiveness of GLAD on the anomalous citation detection task.
+",cs.LG cs.DL cs.SI
+text,graph neural networks for citation analysis,4,2411.15458,20.90852,"TANGNN: a Concise, Scalable and Effective Graph Neural Networks with
+  Top-m Attention Mechanism for Graph Representation Learning","  In the field of deep learning, Graph Neural Networks (GNNs) and Graph
+Transformer models, with their outstanding performance and flexible
+architectural designs, have become leading technologies for processing
+structured data, especially graph data. Traditional GNNs often face challenges
+in capturing information from distant vertices effectively. In contrast, Graph
+Transformer models are particularly adept at managing long-distance node
+relationships. Despite these advantages, Graph Transformer models still
+encounter issues with computational and storage efficiency when scaled to large
+graph datasets. To address these challenges, we propose an innovative Graph
+Neural Network (GNN) architecture that integrates a Top-m attention mechanism
+aggregation component and a neighborhood aggregation component, effectively
+enhancing the model's ability to aggregate relevant information from both local
+and extended neighborhoods at each layer. This method not only improves
+computational efficiency but also enriches the node features, facilitating a
+deeper analysis of complex graph structures. Additionally, to assess the
+effectiveness of our proposed model, we have applied it to citation sentiment
+prediction, a novel task previously unexplored in the GNN field. Accordingly,
+we constructed a dedicated citation network, ArXivNet. In this dataset, we
+specifically annotated the sentiment polarity of the citations (positive,
+neutral, negative) to enable in-depth sentiment analysis. Our approach has
+shown superior performance across a variety of tasks including vertex
+classification, link prediction, sentiment prediction, graph regression, and
+visualization. It outperforms existing methods in terms of effectiveness, as
+demonstrated by experimental results on multiple datasets.
+",cs.LG cs.AI
+text,graph neural networks for citation analysis,5,2009.13294,20.423195,"Virtual Proximity Citation (VCP): A Supervised Deep Learning Method to
+  Relate Uncited Papers On Grounds of Citation Proximity","  Citation based approaches have seen good progress for recommending research
+papers using citations in the paper. Citation proximity analysis which uses the
+in-text citation proximity to find relatedness between two research papers is
+better than co-citation analysis and bibliographic analysis. However, one
+common problem which exists in each approach is that paper should be well
+cited. If documents are not cited properly or not cited at all, then using
+these approaches will not be helpful. To overcome the problem, this paper
+discusses the approach Virtual Citation Proximity (VCP) which uses Siamese
+Neural Network along with the notion of citation proximity analysis and
+content-based filtering. To train this model, the actual distance between the
+two citations in a document is used as ground truth, this distance is the word
+count between the two citations. VCP is trained on Wikipedia articles for which
+the actual word count is available which is used to calculate the similarity
+between the documents. This can be used to calculate relatedness between two
+documents in a way they would have been cited in the proximity even if the
+documents are uncited. This approach has shown a great improvement in
+predicting proximity with basic neural networks over the approach which uses
+the Average Citation Proximity index value as the ground truth. This can be
+improved by using a complex neural network and proper hyper tuning of
+parameters.
+",cs.DL cs.IR cs.LG
+text,graph neural networks for citation analysis,6,2506.22165,20.3876,The Missing Link: Joint Legal Citation Prediction using Heterogeneous Graph Enrichment,"Legal systems heavily rely on cross-citations of legal norms as well as previous court decisions. Practitioners, novices and legal AI systems need access to these relevant data to inform appraisals and judgments. We propose a Graph-Neural-Network (GNN) link prediction model that can identify Case-Law and Case-Case citations with high proficiency through fusion of semantic and topological information. We introduce adapted relational graph convolutions operating on an extended and enriched version of the original citation graph that allow the topological integration of semantic meta-information. This further improves prediction by 3.1 points of average precision and by 8.5 points in data sparsity as well as showing robust performance over time and in challenging fully inductive prediction. Jointly learning and predicting case and norm citations achieves a large synergistic effect that improves case citation prediction by up to 4.7 points, at almost doubled efficiency.",cs.SI cs.IR
+text,graph neural networks for citation analysis,7,1909.11715,20.191597,GraphMix: Improved Training of GNNs for Semi-Supervised Learning,"  We present GraphMix, a regularization method for Graph Neural Network based
+semi-supervised object classification, whereby we propose to train a
+fully-connected network jointly with the graph neural network via parameter
+sharing and interpolation-based regularization. Further, we provide a
+theoretical analysis of how GraphMix improves the generalization bounds of the
+underlying graph neural network, without making any assumptions about the
+""aggregation"" layer or the depth of the graph neural networks. We
+experimentally validate this analysis by applying GraphMix to various
+architectures such as Graph Convolutional Networks, Graph Attention Networks
+and Graph-U-Net. Despite its simplicity, we demonstrate that GraphMix can
+consistently improve or closely match state-of-the-art performance using even
+simpler architectures such as Graph Convolutional Networks, across three
+established graph benchmarks: Cora, Citeseer and Pubmed citation network
+datasets, as well as three newly proposed datasets: Cora-Full, Co-author-CS and
+Co-author-Physics.
+",cs.LG stat.ML
+text,graph neural networks for citation analysis,8,2110.02585,20.115713,Simplicial Convolutional Neural Networks,"  Graphs can model networked data by representing them as nodes and their
+pairwise relationships as edges. Recently, signal processing and neural
+networks have been extended to process and learn from data on graphs, with
+achievements in tasks like graph signal reconstruction, graph or node
+classifications, and link prediction. However, these methods are only suitable
+for data defined on the nodes of a graph. In this paper, we propose a
+simplicial convolutional neural network (SCNN) architecture to learn from data
+defined on simplices, e.g., nodes, edges, triangles, etc. We study the SCNN
+permutation and orientation equivariance, complexity, and spectral analysis.
+Finally, we test the SCNN performance for imputing citations on a coauthorship
+complex.
+",cs.LG eess.SP
+text,graph neural networks for citation analysis,9,2309.17417,20.058746,"Networked Inequality: Preferential Attachment Bias in Graph Neural
+  Network Link Prediction","  Graph neural network (GNN) link prediction is increasingly deployed in
+citation, collaboration, and online social networks to recommend academic
+literature, collaborators, and friends. While prior research has investigated
+the dyadic fairness of GNN link prediction, the within-group (e.g., queer
+women) fairness and ""rich get richer"" dynamics of link prediction remain
+underexplored. However, these aspects have significant consequences for degree
+and power imbalances in networks. In this paper, we shed light on how degree
+bias in networks affects Graph Convolutional Network (GCN) link prediction. In
+particular, we theoretically uncover that GCNs with a symmetric normalized
+graph filter have a within-group preferential attachment bias. We validate our
+theoretical analysis on real-world citation, collaboration, and online social
+networks. We further bridge GCN's preferential attachment bias with unfairness
+in link prediction and propose a new within-group fairness metric. This metric
+quantifies disparities in link prediction scores within social groups, towards
+combating the amplification of degree and power disparities. Finally, we
+propose a simple training-time strategy to alleviate within-group unfairness,
+and we show that it is effective on citation, social, and credit networks.
+",cs.LG cs.CY cs.SI
+text,graph neural networks for citation analysis,10,2012.05742,19.60185,Longitudinal Citation Prediction using Temporal Graph Neural Networks,"  Citation count prediction is the task of predicting the number of citations a
+paper has gained after a period of time. Prior work viewed this as a static
+prediction task. As papers and their citations evolve over time, considering
+the dynamics of the number of citations a paper will receive would seem
+logical. Here, we introduce the task of sequence citation prediction. The goal
+is to accurately predict the trajectory of the number of citations a scholarly
+work receives over time. We propose to view papers as a structured network of
+citations, allowing us to use topological information as a learning signal.
+Additionally, we learn how this dynamic citation network changes over time and
+the impact of paper meta-data such as authors, venues and abstracts. To
+approach the new task, we derive a dynamic citation network from Semantic
+Scholar spanning over 42 years. We present a model which exploits topological
+and temporal information using graph convolution networks paired with sequence
+prediction, and compare it against multiple baselines, testing the importance
+of topological and temporal information and analyzing model performance. Our
+experiments show that leveraging both the temporal and topological information
+greatly increases the performance of predicting citation counts over time.
+",cs.CL cs.LG
+text,graph neural networks for citation analysis,11,2507.17603,19.56513,Citation Recommendation using Deep Canonical Correlation Analysis,"Recent advances in citation recommendation have improved accuracy by leveraging multi-view representation learning to integrate the various modalities present in scholarly documents. However, effectively combining multiple data views requires fusion techniques that can capture complementary information while preserving the unique characteristics of each modality. We propose a novel citation recommendation algorithm that improves upon linear Canonical Correlation Analysis (CCA) methods by applying Deep CCA (DCCA), a neural network extension capable of capturing complex, non-linear relationships between distributed textual and graph-based representations of scientific articles. Experiments on the large-scale DBLP (Digital Bibliography & Library Project) citation network dataset demonstrate that our approach outperforms state-of-the-art CCA-based methods, achieving relative improvements of over 11% in Mean Average Precision@10, 5% in Precision@10, and 7% in Recall@10. These gains reflect more relevant citation recommendations and enhanced ranking quality, suggesting that DCCA's non-linear transformations yield more expressive latent representations than CCA's linear projections.",cs.IR cs.LG
+text,graph neural networks for citation analysis,12,2210.07343,19.544998,"Scientific Impact of Graph-Based Approaches in Deep Learning Studies --
+  A Bibliometric Comparison","  Applying graph-based approaches in deep learning receives more attention over
+time. This study presents statistical analysis on the use of graph-based
+approaches in deep learning and examines the scientific impact of the related
+articles. Processing the data obtained from the Web of Science database,
+metrics such as the type of the articles, funding availability, indexing type,
+annual average number of citations and the number of access were analyzed to
+quantitatively reveal the effects on the scientific audience. It's outlined
+that deep learning-based studies gained momentum after year 2013, and the rate
+of graph-based approaches in all deep learning studies increased linearly from
+1% to 4% within the following 10 years. Conference publications scanned in the
+Conference Proceeding Citation Index (CPCI) on the graph-based approaches
+receive significantly more citations. The citation counts of the SCI-Expanded
+and Emerging SCI indexed publications of the two streams are close to each
+other. While the citation performances of the supported and unsupported
+publications of the two sides were similar, pure deep learning studies received
+more citations on the journal publication side and graph-based approaches
+received more citations on the conference side. Despite their similar
+performance in recent years, graph-based studies show twice more citation
+performance as they get older, compared to traditional approaches. Annual
+average citation performance per article for all deep learning studies is
+11.051 in 2014, while it is 22.483 for graph-based studies. Also, despite
+receiving 16% more access, graph-based papers get almost the same overall
+citation over time with the pure counterpart. This is an indication that
+graph-based approaches need a greater bunch of attention to follow, while pure
+deep learning counterpart is relatively simpler to get inside.
+",cs.DL cs.AI
+text,graph neural networks for citation analysis,13,1909.08738,19.53891,Co-citations in context: disciplinary heterogeneity is relevant,"  Citation analysis of the scientific literature has been used to study and
+define disciplinary boundaries, to trace the dissemination of knowledge, and to
+estimate impact. Co-citation, the frequency with which pairs of publications
+are cited, provides insight into how documents relate to each other and across
+fields. Co-citation analysis has been used to characterize combinations of
+prior work as conventional or innovative and to derive features of highly cited
+publications. Given the organization of science into disciplines, a key
+question is the sensitivity of such analyses to frame of reference. Our study
+examines this question using semantically-themed citation networks. We observe
+that trends reported to be true across the scientific literature do not hold
+for focused citation networks, and we conclude that inferring novelty using
+co-citation analysis and random graph models benefits from disciplinary
+context.
+",cs.DL
+text,graph neural networks for citation analysis,14,2007.09296,19.46412,Towards Deeper Graph Neural Networks,"  Graph neural networks have shown significant success in the field of graph
+representation learning. Graph convolutions perform neighborhood aggregation
+and represent one of the most important graph operations. Nevertheless, one
+layer of these neighborhood aggregation methods only consider immediate
+neighbors, and the performance decreases when going deeper to enable larger
+receptive fields. Several recent studies attribute this performance
+deterioration to the over-smoothing issue, which states that repeated
+propagation makes node representations of different classes indistinguishable.
+In this work, we study this observation systematically and develop new insights
+towards deeper graph neural networks. First, we provide a systematical analysis
+on this issue and argue that the key factor compromising the performance
+significantly is the entanglement of representation transformation and
+propagation in current graph convolution operations. After decoupling these two
+operations, deeper graph neural networks can be used to learn graph node
+representations from larger receptive fields. We further provide a theoretical
+analysis of the above observation when building very deep models, which can
+serve as a rigorous and gentle description of the over-smoothing issue. Based
+on our theoretical and empirical analysis, we propose Deep Adaptive Graph
+Neural Network (DAGNN) to adaptively incorporate information from large
+receptive fields. A set of experiments on citation, co-authorship, and
+co-purchase datasets have confirmed our analysis and insights and demonstrated
+the superiority of our proposed methods.
+",cs.LG stat.ML
+text,graph neural networks for citation analysis,15,2301.11288,19.427193,Classification of vertices on social networks by multiple approaches,"  Due to the advent of the expressions of data other than tabular formats, the
+topological compositions which make samples interrelated came into prominence.
+Analogically, those networks can be interpreted as social connections, dataflow
+maps, citation influence graphs, protein bindings, etc. However, in the case of
+social networks, it is highly crucial to evaluate the labels of discrete
+communities. The reason underneath for such a study is the non-negligible
+importance of analyzing graph networks to partition the vertices by using the
+topological features of network graphs, solely. For each of these
+interaction-based entities, a social graph, a mailing dataset, and two citation
+sets are selected as the testbench repositories. This paper, it was not only
+assessed the most valuable method but also determined how graph neural networks
+work and the need to improve against non-neural network approaches which are
+faster and computationally cost-effective. Also, this paper showed a limit to
+be excesses by prospective graph neural network variations by using the
+topological features of networks trialed.
+",cs.SI cs.LG
+text,graph neural networks for citation analysis,16,2408.15371,19.416752,"Temporal Graph Neural Network-Powered Paper Recommendation on Dynamic
+  Citation Networks","  Due to the rapid growth of scientific publications, identifying all related
+reference articles in the literature has become increasingly challenging yet
+highly demanding. Existing methods primarily assess candidate publications from
+a static perspective, focusing on the content of articles and their structural
+information, such as citation relationships. There is a lack of research
+regarding how to account for the evolving impact among papers on their
+embeddings. Toward this goal, this paper introduces a temporal dimension to
+paper recommendation strategies. The core idea is to continuously update a
+paper's embedding when new citation relationships appear, enhancing its
+relevance for future recommendations. Whenever a citation relationship is added
+to the literature upon the publication of a paper, the embeddings of the two
+related papers are updated through a Temporal Graph Neural Network (TGN). A
+learnable memory update module based on a Recurrent Neural Network (RNN) is
+utilized to study the evolution of the embedding of a paper in order to predict
+its reference impact in a future timestamp. Such a TGN-based model learns a
+pattern of how people's views of the paper may evolve, aiming to guide paper
+recommendations more precisely. Extensive experiments on an open citation
+network dataset, including 313,278 articles from
+https://paperswithcode.com/about PaperWithCode, have demonstrated the
+effectiveness of the proposed approach.
+",cs.IR cs.LG
+text,graph neural networks for citation analysis,17,2404.17048,19.163343,Transductive Spiking Graph Neural Networks for Loihi,"  Graph neural networks have emerged as a specialized branch of deep learning,
+designed to address problems where pairwise relations between objects are
+crucial. Recent advancements utilize graph convolutional neural networks to
+extract features within graph structures. Despite promising results, these
+methods face challenges in real-world applications due to sparse features,
+resulting in inefficient resource utilization. Recent studies draw inspiration
+from the mammalian brain and employ spiking neural networks to model and learn
+graph structures. However, these approaches are limited to traditional Von
+Neumann-based computing systems, which still face hardware inefficiencies. In
+this study, we present a fully neuromorphic implementation of spiking graph
+neural networks designed for Loihi 2. We optimize network parameters using Lava
+Bayesian Optimization, a novel hyperparameter optimization system compatible
+with neuromorphic computing architectures. We showcase the performance benefits
+of combining neuromorphic Bayesian optimization with our approach for citation
+graph classification using fixed-precision spiking neurons. Our results
+demonstrate the capability of integer-precision, Loihi 2 compatible spiking
+neural networks in performing citation graph classification with comparable
+accuracy to existing floating point implementations.
+",cs.ET cs.LG cs.NE
+text,graph neural networks for citation analysis,18,2104.04939,18.969727,"A Graph Convolutional Neural Network based Framework for Estimating
+  Future Citations Count of Research Articles","  Scientific publications play a vital role in the career of a researcher.
+However, some articles become more popular than others among the research
+community and subsequently drive future research directions. One of the
+indicative signs of popular articles is the number of citations an article
+receives. The citation count, which is also the basis with various other
+metrics, such as the journal impact factor score, the $h$-index, is an
+essential measure for assessing a scientific paper's quality. In this work, we
+proposed a Graph Convolutional Network (GCN) based framework for estimating
+future research publication citations for both the short-term (1-year) and
+long-term (for 5-years and 10-years) duration. We have tested our proposed
+approach over the AMiner dataset, specifically on research articles from the
+computer science domain, consisting of more than 0.8 million articles.
+",cs.DL cs.AI cs.ET cs.LG
+text,graph neural networks for citation analysis,19,1602.03103,18.942104,Embedding Graphs in Lorentzian Spacetime,"  Geometric approaches to network analysis combine simply defined models with
+great descriptive power. In this work we provide a method for embedding
+directed acyclic graphs into Minkowski spacetime using Multidimensional scaling
+(MDS). First we generalise the classical MDS algorithm, defined only for
+metrics with a Euclidean signature, to manifolds of any metric signature. We
+then use this general method to develop an algorithm to be used on networks
+which have causal structure allowing them to be embedded in Lorentzian
+manifolds. The method is demonstrated by calculating embeddings for both causal
+sets and citation networks in Minkowski spacetime. We finally suggest a number
+of applications in citation analysis such as paper recommendation, identifying
+missing citations and fitting citation models to data using this geometric
+approach.
+",physics.soc-ph cs.DL cs.SI
+text,graph neural networks for citation analysis,20,2501.04015,18.857098,"Graph Analysis of Citation and Co-authorship Networks of Egyptian
+  Authors","  The current research conducts a comprehensive analysis of citation networks
+focusing on publications by authors affiliated with Egyptian institutions.
+Leveraging the Semantic Scholar platform and its API, a citation network and a
+co-authorship network graphs are constructed to visualize the interconnections
+among these publications and their authors. This is done using the Python
+package for graph analysis (Networkx). The primary objective is to identify
+influential Egyptian publications and assess the centrality of nodes within the
+citation network. Through meticulous data collection including web scraping
+techniques, we obtained a cleaned dataset comprising publications by authors
+affiliated with Egyptian institutions. The analysis addresses challenges
+related to data quality, technical intricacies, and time constraints, resulting
+in a reliable and robust dataset. The findings provide valuable information on
+the impact of Egyptian publications, offering insights into the scholarly
+influence of authors associated with Egyptian institutions. This research
+equips researchers and academics interested in evaluating the impact of
+Egyptian publications with valuable data for future studies, collaborations,
+and policy decisions.
+",cs.DL

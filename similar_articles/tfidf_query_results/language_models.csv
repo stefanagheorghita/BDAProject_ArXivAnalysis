@@ -1,0 +1,327 @@
+query,id,categories,similarity,text
+language_models,2111.13138,cs.CL cs.LG,0.6198022502209065,"TunBERT: Pretrained Contextualized Text Representation for Tunisian
+  Dialect.   Pretrained contextualized text representation models learn an effective
+representation of a natural language to make it machine understandable. After
+the breakthrough of the attention mechanism, a new generation of pretrained
+models have been proposed achieving good performances since the introduction of
+the Transformer. Bidirectional Encoder Representations from Transformers (BERT)
+has become the state-of-the-art model for language understanding. Despite their
+success, most of the available models have been trained on Indo-European
+languages however similar research for under-represented languages and dialects
+remains sparse.
+  In this paper, we investigate the feasibility of training monolingual
+Transformer-based language models for under represented languages, with a
+specific focus on the Tunisian dialect. We evaluate our language model on
+sentiment analysis task, dialect identification task and reading comprehension
+question-answering task. We show that the use of noisy web crawled data instead
+of structured data (Wikipedia, articles, etc.) is more convenient for such
+non-standardized language. Moreover, results indicate that a relatively small
+web crawled dataset leads to performances that are as good as those obtained
+using larger datasets. Finally, our best performing TunBERT model reaches or
+improves the state-of-the-art in all three downstream tasks. We release the
+TunBERT pretrained model and the datasets used for fine-tuning.
+"
+language_models,2010.02480,cs.CL,0.6716607389049375,"Pretrained Language Model Embryology: The Birth of ALBERT.   While behaviors of pretrained language models (LMs) have been thoroughly
+examined, what happened during pretraining is rarely studied. We thus
+investigate the developmental process from a set of randomly initialized
+parameters to a totipotent language model, which we refer to as the embryology
+of a pretrained language model. Our results show that ALBERT learns to
+reconstruct and predict tokens of different parts of speech (POS) in different
+learning speeds during pretraining. We also find that linguistic knowledge and
+world knowledge do not generally improve as pretraining proceeds, nor do
+downstream tasks' performance. These findings suggest that knowledge of a
+pretrained model varies during pretraining, and having more pretrain steps does
+not necessarily provide a model with more comprehensive knowledge. We will
+provide source codes and pretrained models to reproduce our results at
+https://github.com/d223302/albert-embryology.
+"
+language_models,2311.00871,cs.LG cs.CL stat.ML,0.6412340807122762,"Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in
+  Transformer Models.   Transformer models, notably large language models (LLMs), have the remarkable
+ability to perform in-context learning (ICL) -- to perform new tasks when
+prompted with unseen input-output examples without any explicit model training.
+In this work, we study how effectively transformers can bridge between their
+pretraining data mixture, comprised of multiple distinct task families, to
+identify and learn new tasks in-context which are both inside and outside the
+pretraining distribution. Building on previous work, we investigate this
+question in a controlled setting, where we study transformer models trained on
+sequences of $(x, f(x))$ pairs rather than natural language. Our empirical
+results show transformers demonstrate near-optimal unsupervised model selection
+capabilities, in their ability to first in-context identify different task
+families and in-context learn within them when the task families are
+well-represented in their pretraining data. However when presented with tasks
+or functions which are out-of-domain of their pretraining data, we demonstrate
+various failure modes of transformers and degradation of their generalization
+for even simple extrapolation tasks. Together our results highlight that the
+impressive ICL abilities of high-capacity sequence models may be more closely
+tied to the coverage of their pretraining data mixtures than inductive biases
+that create fundamental generalization capabilities.
+"
+language_models,2107.12460,cs.LG cs.AI,0.6211056848413903,"Don't Sweep your Learning Rate under the Rug: A Closer Look at
+  Cross-modal Transfer of Pretrained Transformers.   Self-supervised pre-training of large-scale transformer models on text
+corpora followed by finetuning has achieved state-of-the-art on a number of
+natural language processing tasks. Recently, Lu et al. (2021, arXiv:2103.05247)
+claimed that frozen pretrained transformers (FPTs) match or outperform training
+from scratch as well as unfrozen (fine-tuned) pretrained transformers in a set
+of transfer tasks to other modalities. In our work, we find that this result
+is, in fact, an artifact of not tuning the learning rates. After carefully
+redesigning the empirical setup, we find that when tuning learning rates
+properly, pretrained transformers do outperform or match training from scratch
+in all of our tasks, but only as long as the entire model is finetuned. Thus,
+while transfer from pretrained language models to other modalities does indeed
+provide gains and hints at exciting possibilities for future work, properly
+tuning hyperparameters is important for arriving at robust findings.
+"
+language_models,2112.03014,cs.CL,0.5993608251136736,"Transformer-based Korean Pretrained Language Models: A Survey on Three
+  Years of Progress.   With the advent of Transformer, which was used in translation models in 2017,
+attention-based architectures began to attract attention. Furthermore, after
+the emergence of BERT, which strengthened the NLU-specific encoder part, which
+is a part of the Transformer, and the GPT architecture, which strengthened the
+NLG-specific decoder part, various methodologies, data, and models for learning
+the Pretrained Language Model began to appear. Furthermore, in the past three
+years, various Pretrained Language Models specialized for Korean have appeared.
+In this paper, we intend to numerically and qualitatively compare and analyze
+various Korean PLMs released to the public.
+"
+language_models,2203.10753,cs.CL,0.6306704371148816,"Match the Script, Adapt if Multilingual: Analyzing the Effect of
+  Multilingual Pretraining on Cross-lingual Transferability.   Pretrained multilingual models enable zero-shot learning even for unseen
+languages, and that performance can be further improved via adaptation prior to
+finetuning. However, it is unclear how the number of pretraining languages
+influences a model's zero-shot learning for languages unseen during
+pretraining. To fill this gap, we ask the following research questions: (1) How
+does the number of pretraining languages influence zero-shot performance on
+unseen target languages? (2) Does the answer to that question change with model
+adaptation? (3) Do the findings for our first question change if the languages
+used for pretraining are all related? Our experiments on pretraining with
+related languages indicate that choosing a diverse set of languages is crucial.
+Without model adaptation, surprisingly, increasing the number of pretraining
+languages yields better results up to adding related languages, after which
+performance plateaus. In contrast, with model adaptation via continued
+pretraining, pretraining on a larger number of languages often gives further
+improvement, suggesting that model adaptation is crucial to exploit additional
+pretraining languages.
+"
+language_models,2209.14389,cs.CL cs.LG,0.614124720203466,"Downstream Datasets Make Surprisingly Good Pretraining Corpora.   For most natural language processing tasks, the dominant practice is to
+finetune large pretrained transformer models (e.g., BERT) using smaller
+downstream datasets. Despite the success of this approach, it remains unclear
+to what extent these gains are attributable to the massive background corpora
+employed for pretraining versus to the pretraining objectives themselves. This
+paper introduces a large-scale study of self-pretraining, where the same
+(downstream) training data is used for both pretraining and finetuning. In
+experiments addressing both ELECTRA and RoBERTa models and 10 distinct
+downstream classification datasets, we observe that self-pretraining rivals
+standard pretraining on the BookWiki corpus (despite using around
+$10\times$--$500\times$ less data), outperforming the latter on $7$ and $5$
+datasets, respectively. Surprisingly, these task-specific pretrained models
+often perform well on other tasks, including the GLUE benchmark. Besides
+classification tasks, self-pretraining also provides benefits on structured
+output prediction tasks such as span based question answering and commonsense
+inference, often providing more than $50\%$ of the performance boosts provided
+by pretraining on the BookWiki corpus. Our results hint that in many scenarios,
+performance gains attributable to pretraining are driven primarily by the
+pretraining objective itself and are not always attributable to the use of
+external pretraining data in massive amounts. These findings are especially
+relevant in light of concerns about intellectual property and offensive content
+in web-scale pretraining data.
+"
+language_models,2011.00780,cs.CL cs.AI,0.6189558881398748,"Adapting Pretrained Transformer to Lattices for Spoken Language
+  Understanding.   Lattices are compact representations that encode multiple hypotheses, such as
+speech recognition results or different word segmentations. It is shown that
+encoding lattices as opposed to 1-best results generated by automatic speech
+recognizer (ASR) boosts the performance of spoken language understanding (SLU).
+Recently, pretrained language models with the transformer architecture have
+achieved the state-of-the-art results on natural language understanding, but
+their ability of encoding lattices has not been explored. Therefore, this paper
+aims at adapting pretrained transformers to lattice inputs in order to perform
+understanding tasks specifically for spoken language. Our experiments on the
+benchmark ATIS dataset show that fine-tuning pretrained transformers with
+lattice inputs yields clear improvement over fine-tuning with 1-best results.
+Further evaluation demonstrates the effectiveness of our methods under
+different acoustic conditions. Our code is available at
+https://github.com/MiuLab/Lattice-SLU
+"
+language_models,2207.10666,cs.CV,0.605635879744528,"TinyViT: Fast Pretraining Distillation for Small Vision Transformers.   Vision transformer (ViT) recently has drawn great attention in computer
+vision due to its remarkable model capability. However, most prevailing ViT
+models suffer from huge number of parameters, restricting their applicability
+on devices with limited resources. To alleviate this issue, we propose TinyViT,
+a new family of tiny and efficient small vision transformers pretrained on
+large-scale datasets with our proposed fast distillation framework. The central
+idea is to transfer knowledge from large pretrained models to small ones, while
+enabling small models to get the dividends of massive pretraining data. More
+specifically, we apply distillation during pretraining for knowledge transfer.
+The logits of large teacher models are sparsified and stored in disk in advance
+to save the memory cost and computation overheads. The tiny student
+transformers are automatically scaled down from a large pretrained model with
+computation and parameter constraints. Comprehensive experiments demonstrate
+the efficacy of TinyViT. It achieves a top-1 accuracy of 84.8% on ImageNet-1k
+with only 21M parameters, being comparable to Swin-B pretrained on ImageNet-21k
+while using 4.2 times fewer parameters. Moreover, increasing image resolutions,
+TinyViT can reach 86.5% accuracy, being slightly better than Swin-L while using
+only 11% parameters. Last but not the least, we demonstrate a good transfer
+ability of TinyViT on various downstream tasks. Code and models are available
+at https://github.com/microsoft/Cream/tree/main/TinyViT.
+"
+language_models,2010.01764,cs.LG cs.AI stat.ML,0.6113860393584217,"How Effective is Task-Agnostic Data Augmentation for Pretrained
+  Transformers?.   Task-agnostic forms of data augmentation have proven widely effective in
+computer vision, even on pretrained models. In NLP similar results are reported
+most commonly for low data regimes, non-pretrained models, or situationally for
+pretrained models. In this paper we ask how effective these techniques really
+are when applied to pretrained transformers. Using two popular varieties of
+task-agnostic data augmentation (not tailored to any particular task), Easy
+Data Augmentation (Wei and Zou, 2019) and Back-Translation (Sennrichet al.,
+2015), we conduct a systematic examination of their effects across 5
+classification tasks, 6 datasets, and 3 variants of modern pretrained
+transformers, including BERT, XLNet, and RoBERTa. We observe a negative result,
+finding that techniques which previously reported strong improvements for
+non-pretrained models fail to consistently improve performance for pretrained
+transformers, even when training data is limited. We hope this empirical
+analysis helps inform practitioners where data augmentation techniques may
+confer improvements.
+"
+language_models,2101.03289,cs.CL,0.6133985856884314,"Trankit: A Light-Weight Transformer-based Toolkit for Multilingual
+  Natural Language Processing.   We introduce Trankit, a light-weight Transformer-based Toolkit for
+multilingual Natural Language Processing (NLP). It provides a trainable
+pipeline for fundamental NLP tasks over 100 languages, and 90 pretrained
+pipelines for 56 languages. Built on a state-of-the-art pretrained language
+model, Trankit significantly outperforms prior multilingual NLP pipelines over
+sentence segmentation, part-of-speech tagging, morphological feature tagging,
+and dependency parsing while maintaining competitive performance for
+tokenization, multi-word token expansion, and lemmatization over 90 Universal
+Dependencies treebanks. Despite the use of a large pretrained transformer, our
+toolkit is still efficient in memory usage and speed. This is achieved by our
+novel plug-and-play mechanism with Adapters where a multilingual pretrained
+transformer is shared across pipelines for different languages. Our toolkit
+along with pretrained models and code are publicly available at:
+https://github.com/nlp-uoregon/trankit. A demo website for our toolkit is also
+available at: http://nlp.uoregon.edu/trankit. Finally, we create a demo video
+for Trankit at: https://youtu.be/q0KGP3zGjGc.
+"
+language_models,2211.15965,cs.CL,0.667687406757604,"Extending the Subwording Model of Multilingual Pretrained Models for New
+  Languages.   Multilingual pretrained models are effective for machine translation and
+cross-lingual processing because they contain multiple languages in one model.
+However, they are pretrained after their tokenizers are fixed; therefore it is
+difficult to change the vocabulary after pretraining. When we extend the
+pretrained models to new languages, we must modify the tokenizers
+simultaneously. In this paper, we add new subwords to the SentencePiece
+tokenizer to apply a multilingual pretrained model to new languages (Inuktitut
+in this paper). In our experiments, we segmented Inuktitut sentences into
+subwords without changing the segmentation of already pretrained languages, and
+applied the mBART-50 pretrained model to English-Inuktitut translation.
+"
+language_models,2103.05247,cs.LG cs.AI,0.7880443687089996,"Pretrained Transformers as Universal Computation Engines.   We investigate the capability of a transformer pretrained on natural language
+to generalize to other modalities with minimal finetuning -- in particular,
+without finetuning of the self-attention and feedforward layers of the residual
+blocks. We consider such a model, which we call a Frozen Pretrained Transformer
+(FPT), and study finetuning it on a variety of sequence classification tasks
+spanning numerical computation, vision, and protein fold prediction. In
+contrast to prior works which investigate finetuning on the same modality as
+the pretraining dataset, we show that pretraining on natural language can
+improve performance and compute efficiency on non-language downstream tasks.
+Additionally, we perform an analysis of the architecture, comparing the
+performance of a random initialized transformer to a random LSTM. Combining the
+two insights, we find language-pretrained transformers can obtain strong
+performance on a variety of non-language tasks.
+"
+language_models,2008.07027,cs.CL,0.687152922283967,"Adding Recurrence to Pretrained Transformers for Improved Efficiency and
+  Context Size.   Fine-tuning a pretrained transformer for a downstream task has become a
+standard method in NLP in the last few years. While the results from these
+models are impressive, applying them can be extremely computationally
+expensive, as is pretraining new models with the latest architectures. We
+present a novel method for applying pretrained transformer language models
+which lowers their memory requirement both at training and inference time. An
+additional benefit is that our method removes the fixed context size constraint
+that most transformer models have, allowing for more flexible use. When applied
+to the GPT-2 language model, we find that our method attains better perplexity
+than an unmodified GPT-2 model on the PG-19 and WikiText-103 corpora, for a
+given amount of computation or memory.
+"
+language_models,2309.10931,cs.CL,0.61981123027649,"A Family of Pretrained Transformer Language Models for Russian.   Transformer language models (LMs) are fundamental to NLP research
+methodologies and applications in various languages. However, developing such
+models specifically for the Russian language has received little attention.
+This paper introduces a collection of 13 Russian Transformer LMs, which spans
+encoder (ruBERT, ruRoBERTa, ruELECTRA), decoder (ruGPT-3), and encoder-decoder
+(ruT5, FRED-T5) architectures. We provide a report on the model architecture
+design and pretraining, and the results of evaluating their generalization
+abilities on Russian language understanding and generation datasets and
+benchmarks. By pretraining and releasing these specialized Transformer LMs, we
+aim to broaden the scope of the NLP research directions and enable the
+development of industrial solutions for the Russian language.
+"
+language_models,2004.03720,cs.CL,0.6256645894010168,"Byte Pair Encoding is Suboptimal for Language Model Pretraining.   The success of pretrained transformer language models (LMs) in natural
+language processing has led to a wide range of pretraining setups. In
+particular, these models employ a variety of subword tokenization methods, most
+notably byte-pair encoding (BPE) (Sennrich et al., 2016; Gage, 1994), the
+WordPiece method (Schuster and Nakajima, 2012), and unigram language modeling
+(Kudo, 2018), to segment text. However, to the best of our knowledge, the
+literature does not contain a direct evaluation of the impact of tokenization
+on language model pretraining. We analyze differences between BPE and unigram
+LM tokenization, finding that the latter method recovers subword units that
+align more closely with morphology and avoids problems stemming from BPE's
+greedy construction procedure. We then compare the fine-tuned task performance
+of identical transformer masked language models pretrained with these
+tokenizations. Across downstream tasks and two languages (English and
+Japanese), we find that the unigram LM tokenization method matches or
+outperforms BPE. We hope that developers of future pretrained LMs will consider
+adopting the unigram LM method over the more prevalent BPE.
+"
+language_models,2312.09299,cs.LG cs.CL cs.CV,0.6812763076081293,"Weight subcloning: direct initialization of transformers using larger
+  pretrained ones.   Training large transformer models from scratch for a target task requires
+lots of data and is computationally demanding. The usual practice of transfer
+learning overcomes this challenge by initializing the model with weights of a
+pretrained model of the same size and specification to increase the convergence
+and training speed. However, what if no pretrained model of the required size
+is available? In this paper, we introduce a simple yet effective technique to
+transfer the knowledge of a pretrained model to smaller variants. Our approach
+called weight subcloning expedites the training of scaled-down transformers by
+initializing their weights from larger pretrained models.
+  Weight subcloning involves an operation on the pretrained model to obtain the
+equivalent initialized scaled-down model. It consists of two key steps: first,
+we introduce neuron importance ranking to decrease the embedding dimension per
+layer in the pretrained model. Then, we remove blocks from the transformer
+model to match the number of layers in the scaled-down network. The result is a
+network ready to undergo training, which gains significant improvements in
+training speed compared to random initialization. For instance, we achieve 4x
+faster training for vision transformers in image classification and language
+models designed for next token prediction.
+"
+language_models,2109.01942,cs.CL,0.662816518875543,"On the ability of monolingual models to learn language-agnostic
+  representations.   Pretrained multilingual models have become a de facto default approach for
+zero-shot cross-lingual transfer. Previous work has shown that these models are
+able to achieve cross-lingual representations when pretrained on two or more
+languages with shared parameters. In this work, we provide evidence that a
+model can achieve language-agnostic representations even when pretrained on a
+single language. That is, we find that monolingual models pretrained and
+finetuned on different languages achieve competitive performance compared to
+the ones that use the same target language. Surprisingly, the models show a
+similar performance on a same task regardless of the pretraining language. For
+example, models pretrained on distant languages such as German and Portuguese
+perform similarly on English tasks.
+"
+language_models,2105.00827,cs.CL cs.AI cs.LG,0.6298306124803796,"AMMU : A Survey of Transformer-based Biomedical Pretrained Language
+  Models.   Transformer-based pretrained language models (PLMs) have started a new era in
+modern natural language processing (NLP). These models combine the power of
+transformers, transfer learning, and self-supervised learning (SSL). Following
+the success of these models in the general domain, the biomedical research
+community has developed various in-domain PLMs starting from BioBERT to the
+latest BioELECTRA and BioALBERT models. We strongly believe there is a need for
+a survey paper that can provide a comprehensive survey of various
+transformer-based biomedical pretrained language models (BPLMs). In this
+survey, we start with a brief overview of foundational concepts like
+self-supervised learning, embedding layer and transformer encoder layers. We
+discuss core concepts of transformer-based PLMs like pretraining methods,
+pretraining tasks, fine-tuning methods, and various embedding types specific to
+biomedical domain. We introduce a taxonomy for transformer-based BPLMs and then
+discuss all the models. We discuss various challenges and present possible
+solutions. We conclude by highlighting some of the open issues which will drive
+the research community to further improve transformer-based BPLMs.
+"
+language_models,1904.00585,cs.CL,0.6058675974825348,"Using Similarity Measures to Select Pretraining Data for NER.   Word vectors and Language Models (LMs) pretrained on a large amount of
+unlabelled data can dramatically improve various Natural Language Processing
+(NLP) tasks. However, the measure and impact of similarity between pretraining
+data and target task data are left to intuition. We propose three
+cost-effective measures to quantify different aspects of similarity between
+source pretraining and target task data. We demonstrate that these measures are
+good predictors of the usefulness of pretrained models for Named Entity
+Recognition (NER) over 30 data pairs. Results also suggest that pretrained LMs
+are more effective and more predictable than pretrained word vectors, but
+pretrained word vectors are better when pretraining data is dissimilar.
+"

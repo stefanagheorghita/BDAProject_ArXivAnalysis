@@ -1,0 +1,311 @@
+query_type,query_value,rank,id,categories,similarity,title,abstract
+text,graph neural networks for citation analysis,1,2210.07343,cs.DL cs.AI,0.6830412149429321,"Scientific Impact of Graph-Based Approaches in Deep Learning Studies --
+  A Bibliometric Comparison","  Applying graph-based approaches in deep learning receives more attention over
+time. This study presents statistical analysis on the use of graph-based
+approaches in deep learning and examines the scientific impact of the related
+articles. Processing the data obtained from the Web of Science database,
+metrics such as the type of the articles, funding availability, indexing type,
+annual average number of citations and the number of access were analyzed to
+quantitatively reveal the effects on the scientific audience. It's outlined
+that deep learning-based studies gained momentum after year 2013, and the rate
+of graph-based approaches in all deep learning studies increased linearly from
+1% to 4% within the following 10 years. Conference publications scanned in the
+Conference Proceeding Citation Index (CPCI) on the graph-based approaches
+receive significantly more citations. The citation counts of the SCI-Expanded
+and Emerging SCI indexed publications of the two streams are close to each
+other. While the citation performances of the supported and unsupported
+publications of the two sides were similar, pure deep learning studies received
+more citations on the journal publication side and graph-based approaches
+received more citations on the conference side. Despite their similar
+performance in recent years, graph-based studies show twice more citation
+performance as they get older, compared to traditional approaches. Annual
+average citation performance per article for all deep learning studies is
+11.051 in 2014, while it is 22.483 for graph-based studies. Also, despite
+receiving 16% more access, graph-based papers get almost the same overall
+citation over time with the pure counterpart. This is an indication that
+graph-based approaches need a greater bunch of attention to follow, while pure
+deep learning counterpart is relatively simpler to get inside.
+"
+text,graph neural networks for citation analysis,2,2506.22165,cs.SI cs.IR,0.6822438836097717,The Missing Link: Joint Legal Citation Prediction using Heterogeneous Graph Enrichment,"Legal systems heavily rely on cross-citations of legal norms as well as previous court decisions. Practitioners, novices and legal AI systems need access to these relevant data to inform appraisals and judgments. We propose a Graph-Neural-Network (GNN) link prediction model that can identify Case-Law and Case-Case citations with high proficiency through fusion of semantic and topological information. We introduce adapted relational graph convolutions operating on an extended and enriched version of the original citation graph that allow the topological integration of semantic meta-information. This further improves prediction by 3.1 points of average precision and by 8.5 points in data sparsity as well as showing robust performance over time and in challenging fully inductive prediction. Jointly learning and predicting case and norm citations achieves a large synergistic effect that improves case citation prediction by up to 4.7 points, at almost doubled efficiency."
+text,graph neural networks for citation analysis,3,2104.03057,cs.CL,0.6810029745101929,Enhancing Scientific Papers Summarization with Citation Graph,"  Previous work for text summarization in scientific domain mainly focused on
+the content of the input document, but seldom considering its citation network.
+However, scientific papers are full of uncommon domain-specific terms, making
+it almost impossible for the model to understand its true meaning without the
+help of the relevant research community. In this paper, we redefine the task of
+scientific papers summarization by utilizing their citation graph and propose a
+citation graph-based summarization model CGSum which can incorporate the
+information of both the source paper and its references. In addition, we
+construct a novel scientific papers summarization dataset Semantic Scholar
+Network (SSN) which contains 141K research papers in different domains and 661K
+citation relationships. The entire dataset constitutes a large connected
+citation graph. Extensive experiments show that our model can achieve
+competitive performance when compared with the pretrained models even with a
+simple architecture. The results also indicates the citation graph is crucial
+to better understand the content of papers and generate high-quality summaries.
+"
+text,graph neural networks for citation analysis,4,2009.05836,cs.CL cs.AI,0.6639692783355713,"Fine-tuning Pre-trained Contextual Embeddings for Citation Content
+  Analysis in Scholarly Publication","  Citation function and citation sentiment are two essential aspects of
+citation content analysis (CCA), which are useful for influence analysis, the
+recommendation of scientific publications. However, existing studies are mostly
+traditional machine learning methods, although deep learning techniques have
+also been explored, the improvement of the performance seems not significant
+due to insufficient training data, which brings difficulties to applications.
+In this paper, we propose to fine-tune pre-trained contextual embeddings
+ULMFiT, BERT, and XLNet for the task. Experiments on three public datasets show
+that our strategy outperforms all the baselines in terms of the F1 score. For
+citation function identification, the XLNet model achieves 87.2%, 86.90%, and
+81.6% on DFKI, UMICH, and TKDE2019 datasets respectively, while it achieves
+91.72% and 91.56% on DFKI and UMICH in term of citation sentiment
+identification. Our method can be used to enhance the influence analysis of
+scholars and scholarly publications.
+"
+text,graph neural networks for citation analysis,5,2410.24021,cs.CL,0.6552459001541138,"Detecting text level intellectual influence with knowledge graph
+  embeddings","  Introduction: Tracing the spread of ideas and the presence of influence is a
+question of special importance across a wide range of disciplines, ranging from
+intellectual history to cultural analytics, computational social science, and
+the science of science.
+  Method: We collect a corpus of open source journal articles, generate
+Knowledge Graph representations using the Gemini LLM, and attempt to predict
+the existence of citations between sampled pairs of articles using previously
+published methods and a novel Graph Neural Network based embedding model.
+  Results: We demonstrate that our knowledge graph embedding method is superior
+at distinguishing pairs of articles with and without citation. Once trained, it
+runs efficiently and can be fine-tuned on specific corpora to suit individual
+researcher needs.
+  Conclusion(s): This experiment demonstrates that the relationships encoded in
+a knowledge graph, especially the types of concepts brought together by
+specific relations can encode information capable of revealing intellectual
+influence. This suggests that further work in analyzing document level
+knowledge graphs to understand latent structures could provide valuable
+insights.
+"
+text,graph neural networks for citation analysis,6,2103.13946,cs.DL cs.SI,0.6540874242782593,"A comparative analysis of local network similarity measurements:
+  application to author citation networks","  Understanding the evolution of paper and author citations is of paramount
+importance for the design of research policies and evaluation criteria that can
+promote and accelerate scientific discoveries. Recently many studies on the
+evolution of science have been conducted in the context of the emergent science
+of science field. While many studies have probed the link problem in citation
+networks, only a few works have analyzed the temporal nature of link prediction
+in author citation networks. In this study we compared the performance of 10
+well-known local network similarity measurements to predict future links in
+author citations networks. Differently from traditional link prediction
+methods, the temporal nature of the predict links is relevant for our approach.
+Our analysis revealed interesting results. The Jaccard coefficient was found to
+be among the most relevant measurements. The preferential attachment
+measurement, conversely, displayed the worst performance. We also found that
+the extension of local measurements to their weighted version do not
+significantly improved the performance of predicting citations. Finally, we
+also found that a neural network approach summarizing the information from all
+10 considered similarity measurements was not able to provide the highest
+prediction performance.
+"
+text,graph neural networks for citation analysis,7,2305.17417,cs.DL cs.LG physics.soc-ph,0.6534060835838318,"Modeling Dynamic Heterogeneous Graph and Node Importance for Future
+  Citation Prediction","  Accurate citation count prediction of newly published papers could help
+editors and readers rapidly figure out the influential papers in the future.
+Though many approaches are proposed to predict a paper's future citation, most
+ignore the dynamic heterogeneous graph structure or node importance in academic
+networks. To cope with this problem, we propose a Dynamic heterogeneous Graph
+and Node Importance network (DGNI) learning framework, which fully leverages
+the dynamic heterogeneous graph and node importance information to predict
+future citation trends of newly published papers. First, a dynamic
+heterogeneous network embedding module is provided to capture the dynamic
+evolutionary trends of the whole academic network. Then, a node importance
+embedding module is proposed to capture the global consistency relationship to
+figure out each paper's node importance. Finally, the dynamic evolutionary
+trend embeddings and node importance embeddings calculated above are combined
+to jointly predict the future citation counts of each paper, by a log-normal
+distribution model according to multi-faced paper node representations.
+Extensive experiments on two large-scale datasets demonstrate that our model
+significantly improves all indicators compared to the SOTA models.
+"
+text,graph neural networks for citation analysis,8,2111.15466,cs.DL cs.LG,0.6497098207473755,"Citation network applications in a scientific co-authorship recommender
+  system","  The problem of co-authors selection in the area of scientific collaborations
+might be a daunting one. In this paper, we propose a new pipeline that
+effectively utilizes citation data in the link prediction task on the
+co-authorship network. In particular, we explore the capabilities of a
+recommender system based on data aggregation strategies on different graphs.
+Since graph neural networks proved their efficiency on a wide range of tasks
+related to recommendation systems, we leverage them as a relevant method for
+the forecasting of potential collaborations in the scientific community.
+"
+text,graph neural networks for citation analysis,9,2106.12340,cs.IR cs.DL cs.LG,0.6490753889083862,GraphConfRec: A Graph Neural Network-Based Conference Recommender System,"  In today's academic publishing model, especially in Computer Science,
+conferences commonly constitute the main platforms for releasing the latest
+peer-reviewed advancements in their respective fields. However, choosing a
+suitable academic venue for publishing one's research can represent a
+challenging task considering the plethora of available conferences,
+particularly for those at the start of their academic careers, or for those
+seeking to publish outside of their usual domain. In this paper, we propose
+GraphConfRec, a conference recommender system which combines SciGraph and graph
+neural networks, to infer suggestions based not only on title and abstract, but
+also on co-authorship and citation relationships. GraphConfRec achieves a
+recall@10 of up to 0.580 and a MAP of up to 0.336 with a graph attention
+network-based recommendation model. A user study with 25 subjects supports the
+positive results.
+"
+text,graph neural networks for citation analysis,10,2401.05468,cs.SI cs.AI cs.LG,0.6454890966415405,"Introducing New Node Prediction in Graph Mining: Predicting All Links
+  from Isolated Nodes with Graph Neural Networks","  This paper introduces a new problem in the field of graph mining and social
+network analysis called new node prediction. More technically, the task can be
+categorized as zero-shot out-of-graph all-links prediction. This challenging
+problem aims to predict all links from a new, isolated, and unobserved node
+that was previously disconnected from the graph. Unlike classic approaches to
+link prediction (including few-shot out-of-graph link prediction), this problem
+presents two key differences: (1) the new node has no existing links from which
+to extract patterns for new predictions; and (2) the goal is to predict not
+just one, but all the links of this new node, or at least a significant part of
+them. Experiments demonstrate that an architecture based on Deep Graph Neural
+Networks can learn to solve this challenging problem in a bibliographic
+citation network.
+"
+text,graph neural networks for citation analysis,11,2308.15706,cs.SI physics.soc-ph,0.6341898441314697,"Representing the Disciplinary Structure of Physics: A Comparative
+  Evaluation of Graph and Text Embedding Methods","  Recent advances in machine learning offer new ways to represent and study
+scholarly works and the space of knowledge. Graph and text embeddings provide a
+convenient vector representation of scholarly works based on citations and
+text. Yet, it is unclear whether their representations are consistent or
+provide different views of the structure of science. Here, we compare graph and
+text embedding by testing their ability to capture the hierarchical structure
+of the Physics and Astronomy Classification Scheme (PACS) of papers published
+by the American Physical Society (APS). We also provide a qualitative
+comparison of the overall structure of the graph and text embeddings for
+reference. We find that neural network-based methods outperform traditional
+methods and graph embedding methods such as node2vec are better than other
+methods at capturing the PACS structure. Our results call for further
+investigations into how different contexts of scientific papers are captured by
+different methods, and how we can combine and leverage such information in an
+interpretable manner.
+"
+text,graph neural networks for citation analysis,12,2408.15371,cs.IR cs.LG,0.6195263862609863,"Temporal Graph Neural Network-Powered Paper Recommendation on Dynamic
+  Citation Networks","  Due to the rapid growth of scientific publications, identifying all related
+reference articles in the literature has become increasingly challenging yet
+highly demanding. Existing methods primarily assess candidate publications from
+a static perspective, focusing on the content of articles and their structural
+information, such as citation relationships. There is a lack of research
+regarding how to account for the evolving impact among papers on their
+embeddings. Toward this goal, this paper introduces a temporal dimension to
+paper recommendation strategies. The core idea is to continuously update a
+paper's embedding when new citation relationships appear, enhancing its
+relevance for future recommendations. Whenever a citation relationship is added
+to the literature upon the publication of a paper, the embeddings of the two
+related papers are updated through a Temporal Graph Neural Network (TGN). A
+learnable memory update module based on a Recurrent Neural Network (RNN) is
+utilized to study the evolution of the embedding of a paper in order to predict
+its reference impact in a future timestamp. Such a TGN-based model learns a
+pattern of how people's views of the paper may evolve, aiming to guide paper
+recommendations more precisely. Extensive experiments on an open citation
+network dataset, including 313,278 articles from
+https://paperswithcode.com/about PaperWithCode, have demonstrated the
+effectiveness of the proposed approach.
+"
+text,graph neural networks for citation analysis,13,2012.05742,cs.CL cs.LG,0.5976759195327759,Longitudinal Citation Prediction using Temporal Graph Neural Networks,"  Citation count prediction is the task of predicting the number of citations a
+paper has gained after a period of time. Prior work viewed this as a static
+prediction task. As papers and their citations evolve over time, considering
+the dynamics of the number of citations a paper will receive would seem
+logical. Here, we introduce the task of sequence citation prediction. The goal
+is to accurately predict the trajectory of the number of citations a scholarly
+work receives over time. We propose to view papers as a structured network of
+citations, allowing us to use topological information as a learning signal.
+Additionally, we learn how this dynamic citation network changes over time and
+the impact of paper meta-data such as authors, venues and abstracts. To
+approach the new task, we derive a dynamic citation network from Semantic
+Scholar spanning over 42 years. We present a model which exploits topological
+and temporal information using graph convolution networks paired with sequence
+prediction, and compare it against multiple baselines, testing the importance
+of topological and temporal information and analyzing model performance. Our
+experiments show that leveraging both the temporal and topological information
+greatly increases the performance of predicting citation counts over time.
+"
+text,graph neural networks for citation analysis,14,2302.01826,cs.DL,0.5376467108726501,Graph Embedding for Mapping Interdisciplinary Research Networks,"  Representation learning is the first step in automating tasks such as
+research paper recommendation, classification, and retrieval. Due to the
+accelerating rate of research publication, together with the recognised
+benefits of interdisciplinary research, systems that facilitate researchers in
+discovering and understanding relevant works from beyond their immediate school
+of knowledge are vital. This work explores different methods of research paper
+representation (or document embedding), to identify those methods that are
+capable of preserving the interdisciplinary implications of research papers in
+their embeddings. In addition to evaluating state of the art methods of
+document embedding in a interdisciplinary citation prediction task, we propose
+a novel Graph Neural Network architecture designed to preserve the key
+interdisciplinary implications of research articles in citation network node
+embeddings. Our proposed method outperforms other GNN-based methods in
+interdisciplinary citation prediction, without compromising overall citation
+prediction performance.
+"
+text,graph neural networks for citation analysis,15,1806.04641,cs.DL cs.NE,0.5241713523864746,Predicting Citation Counts with a Neural Network,"  We here describe and present results of a simple neural network that predicts
+individual researchers' future citation counts based on a variety of data from
+the researchers' past. For publications available on the open access-server
+arXiv.org we find a higher predictability than previous studies.
+"
+text,graph neural networks for citation analysis,16,2006.09022,cs.SI cs.LG stat.AP,0.5175457000732422,NodeNet: A Graph Regularised Neural Network for Node Classification,"  Real-world events exhibit a high degree of interdependence and connections,
+and hence data points generated also inherit the linkages. However, the
+majority of AI/ML techniques leave out the linkages among data points. The
+recent surge of interest in graph-based AI/ML techniques is aimed to leverage
+the linkages. Graph-based learning algorithms utilize the data and related
+information effectively to build superior models. Neural Graph Learning (NGL)
+is one such technique that utilizes a traditional machine learning algorithm
+with a modified loss function to leverage the edges in the graph structure. In
+this paper, we propose a model using NGL - NodeNet, to solve node
+classification task for citation graphs. We discuss our modifications and their
+relevance to the task. We further compare our results with the current state of
+the art and investigate reasons for the superior performance of NodeNet.
+"
+text,graph neural networks for citation analysis,17,2305.01572,cs.DL cs.AI,0.5101225972175598,H2CGL: Modeling Dynamics of Citation Network for Impact Prediction,"  The potential impact of a paper is often quantified by how many citations it
+will receive. However, most commonly used models may underestimate the
+influence of newly published papers over time, and fail to encapsulate this
+dynamics of citation network into the graph. In this study, we construct
+hierarchical and heterogeneous graphs for target papers with an annual
+perspective. The constructed graphs can record the annual dynamics of target
+papers' scientific context information. Then, a novel graph neural network,
+Hierarchical and Heterogeneous Contrastive Graph Learning Model (H2CGL), is
+proposed to incorporate heterogeneity and dynamics of the citation network.
+H2CGL separately aggregates the heterogeneous information for each year and
+prioritizes the highly-cited papers and relationships among references,
+citations, and the target paper. It then employs a weighted GIN to capture
+dynamics between heterogeneous subgraphs over years. Moreover, it leverages
+contrastive learning to make the graph representations more sensitive to
+potential citations. Particularly, co-cited or co-citing papers of the target
+paper with large citation gap are taken as hard negative samples, while
+randomly dropping low-cited papers could generate positive samples. Extensive
+experimental results on two scholarly datasets demonstrate that the proposed
+H2CGL significantly outperforms a series of baseline approaches for both
+previously and freshly published papers. Additional analyses highlight the
+significance of the proposed modules. Our codes and settings have been released
+on Github (https://github.com/ECNU-Text-Computing/H2CGL)
+"
+text,graph neural networks for citation analysis,18,2104.04939,cs.DL cs.AI cs.ET cs.LG,0.47125929594039917,"A Graph Convolutional Neural Network based Framework for Estimating
+  Future Citations Count of Research Articles","  Scientific publications play a vital role in the career of a researcher.
+However, some articles become more popular than others among the research
+community and subsequently drive future research directions. One of the
+indicative signs of popular articles is the number of citations an article
+receives. The citation count, which is also the basis with various other
+metrics, such as the journal impact factor score, the $h$-index, is an
+essential measure for assessing a scientific paper's quality. In this work, we
+proposed a Graph Convolutional Network (GCN) based framework for estimating
+future research publication citations for both the short-term (1-year) and
+long-term (for 5-years and 10-years) duration. We have tested our proposed
+approach over the AMiner dataset, specifically on research articles from the
+computer science domain, consisting of more than 0.8 million articles.
+"
+text,graph neural networks for citation analysis,19,2003.12042,cs.SI cs.DL cs.LG physics.soc-ph,0.45158636569976807,"A Heterogeneous Dynamical Graph Neural Networks Approach to Quantify
+  Scientific Impact","  Quantifying and predicting the long-term impact of scientific writings or
+individual scholars has important implications for many policy decisions, such
+as funding proposal evaluation and identifying emerging research fields. In
+this work, we propose an approach based on Heterogeneous Dynamical Graph Neural
+Network (HDGNN) to explicitly model and predict the cumulative impact of papers
+and authors. HDGNN extends heterogeneous GNNs by incorporating temporally
+evolving characteristics and capturing both structural properties of attributed
+graph and the growing sequence of citation behavior. HDGNN is significantly
+different from previous models in its capability of modeling the node impact in
+a dynamic manner while taking into account the complex relations among nodes.
+Experiments conducted on a real citation dataset demonstrate its superior
+performance of predicting the impact of both papers and authors.
+"
+text,graph neural networks for citation analysis,20,2104.02562,cs.LG cs.SI,0.3570707142353058,Structured Citation Trend Prediction Using Graph Neural Networks,"  Academic citation graphs represent citation relationships between
+publications across the full range of academic fields. Top cited papers
+typically reveal future trends in their corresponding domains which is of
+importance to both researchers and practitioners. Prior citation prediction
+methods often require initial citation trends to be established and do not take
+advantage of the recent advancements in graph neural networks (GNNs). We
+present GNN-based architecture that predicts the top set of papers at the time
+of publication. For experiments, we curate a set of academic citation graphs
+for a variety of conferences and show that the proposed model outperforms other
+classic machine learning models in terms of the F1-score.
+"

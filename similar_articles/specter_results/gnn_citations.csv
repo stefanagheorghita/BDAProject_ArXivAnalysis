@@ -1,0 +1,111 @@
+query_id,query_text,rank,doc_id,specter_score,title,categories,abstract
+gnn_citations,graph neural networks for citation analysis,1,1806.04641,0.787161,Predicting Citation Counts with a Neural Network,cs.DL cs.NE,"  We here describe and present results of a simple neural network that predicts
+individual researchers' future citation counts based on a variety of data from
+the researchers' past. For publications available on the open access-server
+arXiv.org we find a higher predictability than previous studies.
+"
+gnn_citations,graph neural networks for citation analysis,2,1409.0753,0.7666752,How many citations are there in the Data Citation Index?,cs.DL,"  Descriptive analysis on the citation distribution of the Thomson Reuters'
+Data Citation Index by publication type and four broad areas: Science,
+Engineering & Technology, Humanities & Arts and Social Sciences.
+"
+gnn_citations,graph neural networks for citation analysis,3,2410.24021,0.76539576,"Detecting text level intellectual influence with knowledge graph
+  embeddings",cs.CL,"  Introduction: Tracing the spread of ideas and the presence of influence is a
+question of special importance across a wide range of disciplines, ranging from
+intellectual history to cultural analytics, computational social science, and
+the science of science.
+  Method: We collect a corpus of open source journal articles, generate
+Knowledge Graph representations using the Gemini LLM, and attempt to predict
+the existence of citations between sampled pairs of articles using previously
+published methods and a novel Graph Neural Network based embedding model.
+  Results: We demonstrate that our knowledge graph embedding method is superior
+at distinguishing pairs of articles with and without citation. Once trained, it
+runs efficiently and can be fine-tuned on specific corpora to suit individual
+researcher needs.
+  Conclusion(s): This experiment demonstrates that the relationships encoded in
+a knowledge graph, especially the types of concepts brought together by
+specific relations can encode information capable of revealing intellectual
+influence. This suggests that further work in analyzing document level
+knowledge graphs to understand latent structures could provide valuable
+insights.
+"
+gnn_citations,graph neural networks for citation analysis,4,2505.21162,0.76264167,Leveraging GANs for citation intent classification and its impact on citation network analysis,cs.DL cs.CL cs.SI,"Citations play a fundamental role in the scientific ecosystem, serving as a foundation for tracking the flow of knowledge, acknowledging prior work, and assessing scholarly influence. In scientometrics, they are also central to the construction of quantitative indicators. Not all citations, however, serve the same function: some provide background, others introduce methods, or compare results. Therefore, understanding citation intent allows for a more nuanced interpretation of scientific impact. In this paper, we adopted a GAN-based method to classify citation intents. Our results revealed that the proposed method achieves competitive classification performance, closely matching state-of-the-art results with substantially fewer parameters. This demonstrates the effectiveness and efficiency of leveraging GAN architectures combined with contextual embeddings in intent classification task. We also investigated whether filtering citation intents affects the centrality of papers in citation networks. Analyzing the network constructed from the unArXiv dataset, we found that paper rankings can be significantly influenced by citation intent. All four centrality metrics examined- degree, PageRank, closeness, and betweenness - were sensitive to the filtering of citation types. The betweenness centrality displayed the greatest sensitivity, showing substantial changes in ranking when specific citation intents were removed."
+gnn_citations,graph neural networks for citation analysis,5,2104.02562,0.76140594,Structured Citation Trend Prediction Using Graph Neural Networks,cs.LG cs.SI,"  Academic citation graphs represent citation relationships between
+publications across the full range of academic fields. Top cited papers
+typically reveal future trends in their corresponding domains which is of
+importance to both researchers and practitioners. Prior citation prediction
+methods often require initial citation trends to be established and do not take
+advantage of the recent advancements in graph neural networks (GNNs). We
+present GNN-based architecture that predicts the top set of papers at the time
+of publication. For experiments, we curate a set of academic citation graphs
+for a variety of conferences and show that the proposed model outperforms other
+classic machine learning models in terms of the F1-score.
+"
+gnn_citations,graph neural networks for citation analysis,6,1904.09981,0.7608434,GraphNAS: Graph Neural Architecture Search with Reinforcement Learning,cs.LG cs.AI stat.ML,"  Graph Neural Networks (GNNs) have been popularly used for analyzing
+non-Euclidean data such as social network data and biological data. Despite
+their success, the design of graph neural networks requires a lot of manual
+work and domain knowledge. In this paper, we propose a Graph Neural
+Architecture Search method (GraphNAS for short) that enables automatic search
+of the best graph neural architecture based on reinforcement learning.
+Specifically, GraphNAS first uses a recurrent network to generate
+variable-length strings that describe the architectures of graph neural
+networks, and then trains the recurrent network with reinforcement learning to
+maximize the expected accuracy of the generated architectures on a validation
+data set. Extensive experimental results on node classification tasks in both
+transductive and inductive learning settings demonstrate that GraphNAS can
+achieve consistently better performance on the Cora, Citeseer, Pubmed citation
+network, and protein-protein interaction network. On node classification tasks,
+GraphNAS can design a novel network architecture that rivals the best
+human-invented architecture in terms of test set accuracy.
+"
+gnn_citations,graph neural networks for citation analysis,7,2305.14996,0.7596731,The ACL OCL Corpus: Advancing Open Science in Computational Linguistics,cs.CL cs.DL,"  We present ACL OCL, a scholarly corpus derived from the ACL Anthology to
+assist Open scientific research in the Computational Linguistics domain.
+Integrating and enhancing the previous versions of the ACL Anthology, the ACL
+OCL contributes metadata, PDF files, citation graphs and additional structured
+full texts with sections, figures, and links to a large knowledge resource
+(Semantic Scholar). The ACL OCL spans seven decades, containing 73K papers,
+alongside 210K figures.
+  We spotlight how ACL OCL applies to observe trends in computational
+linguistics. By detecting paper topics with a supervised neural model, we note
+that interest in ""Syntax: Tagging, Chunking and Parsing"" is waning and ""Natural
+Language Generation"" is resurging. Our dataset is available from HuggingFace
+(https://huggingface.co/datasets/WINGNUS/ACL-OCL).
+"
+gnn_citations,graph neural networks for citation analysis,8,1402.3418,0.75622785,Scientific works citation analysis,cs.DL,"  Several questions of scientometrics parameters organization are considered.
+Two new indices for scientific works citation analysis are proposed. They
+provide more detailed and reliable scientific significance assessment of
+individual authors and scientific groups basing on the publication activity
+"
+gnn_citations,graph neural networks for citation analysis,9,1609.00435,0.75607264,Citation Classification for Behavioral Analysis of a Scientific Field,cs.CL cs.DL,"  Citations are an important indicator of the state of a scientific field,
+reflecting how authors frame their work, and influencing uptake by future
+scholars. However, our understanding of citation behavior has been limited to
+small-scale manual citation analysis. We perform the largest behavioral study
+of citations to date, analyzing how citations are both framed and taken up by
+scholars in one entire field: natural language processing. We introduce a new
+dataset of nearly 2,000 citations annotated for function and centrality, and
+use it to develop a state-of-the-art classifier and label the entire ACL
+Reference Corpus. We then study how citations are framed by authors and use
+both papers and online traces to track how citations are followed by readers.
+We demonstrate that authors are sensitive to discourse structure and
+publication venue when citing, that online readers follow temporal links to
+previous and future work rather than methodological links, and that how a paper
+cites related work is predictive of its citation count. Finally, we use changes
+in citation roles to show that the field of NLP is undergoing a significant
+increase in consensus.
+"
+gnn_citations,graph neural networks for citation analysis,10,2308.15706,0.7557281,"Representing the Disciplinary Structure of Physics: A Comparative
+  Evaluation of Graph and Text Embedding Methods",cs.SI physics.soc-ph,"  Recent advances in machine learning offer new ways to represent and study
+scholarly works and the space of knowledge. Graph and text embeddings provide a
+convenient vector representation of scholarly works based on citations and
+text. Yet, it is unclear whether their representations are consistent or
+provide different views of the structure of science. Here, we compare graph and
+text embedding by testing their ability to capture the hierarchical structure
+of the Physics and Astronomy Classification Scheme (PACS) of papers published
+by the American Physical Society (APS). We also provide a qualitative
+comparison of the overall structure of the graph and text embeddings for
+reference. We find that neural network-based methods outperform traditional
+methods and graph embedding methods such as node2vec are better than other
+methods at capturing the PACS structure. Our results call for further
+investigations into how different contexts of scientific papers are captured by
+different methods, and how we can combine and leverage such information in an
+interpretable manner.
+"

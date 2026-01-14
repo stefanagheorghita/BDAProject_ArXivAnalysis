@@ -1,0 +1,295 @@
+query_type,query_value,rank,doc_id,score,title,abstract,categories
+text,Neutrino decays as a natural explanation of the neutrino mass tension,1,1806.03786,37.59578,"Study Standard Model and Majorana Neutrino Contributions to $B^{+} \to
+  K^{(*)\pm}\mu^+\mu^{\mp}$","  Lepton number violation processes can be induced by the Majorana neutrino
+exchange, which provide evidence for the Majorana nature of neutrinos. In
+addition to the natural explanation of the small neutrino masses, Type-I seesaw
+mechanism predicts the existence of Majorana neutrinos. The aim of this work is
+to study the B meson rare decays $B^{+} \to K^{(*)+}\mu^+\mu^-$ in the standard
+model and its extensions, and then to investigate the same-sign decay processes
+$B^{+}\to K^{(*)-}\mu^{+}\mu^+$. The corresponding dilepton invariant mass
+distributions are predicted. It is found that the dilepton angular
+distributions illustrate the properties of new interactions induced by the
+Majorana neutrinos.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,2,1911.11760,33.400257,"Early dark energy from massive neutrinos -- a natural resolution of the
+  Hubble tension","  The Hubble tension can be significantly eased if there is an early component
+of dark energy that becomes active around the time of matter-radiation
+equality. Early dark energy models suffer from a coincidence problem -- the
+physics of matter-radiation equality and early dark energy are completely
+disconnected, so some degree of fine-tuning is needed in order for them to
+occur nearly simultaneously. In this paper we propose a natural explanation for
+this coincidence. If the early dark energy scalar couples to neutrinos then it
+receives a large injection of energy around the time that neutrinos become
+non-relativistic. This is precisely when their temperature is of order their
+mass, which, coincidentally, occurs around the time of matter-radiation
+equality. Neutrino decoupling therefore provides a natural trigger for early
+dark energy by displacing the field from its minimum just before
+matter-radiation equality. We discuss various theoretical aspects of this
+proposal, potential observational signatures, and future directions for its
+study.
+",astro-ph.CO gr-qc hep-ph hep-th
+text,Neutrino decays as a natural explanation of the neutrino mass tension,3,2012.14825,32.164894,Implications of Rare Kaon Decays on Lepton Number Violating Interactions,"  We explore the possibility of lepton number violation (LNV) manifesting in
+the rare kaon decay $K\to\pi\nu\nu$, and its consequences for radiative
+neutrino mass generation and the washout of Lepton asymmetry in high-scale
+leptogenesis scenarios. We perform the analysis in a model-independent
+framework, the Standard Model effective field theory (SMEFT), and discuss the
+possible LNV nature of the rare kaon decay in the context of the currently
+operating NA62 experiment at CERN. We find that, in case of a LNV interaction,
+its detection would put high-scale leptogenesis under tension and would hint to
+small radiatively generated neutrino masses.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,4,1707.01725,32.121326,Searching for heavy sterile neutrinos in kaon decays,"  We present here a study of the impact of a heavy neutrino (or heavy neutral
+lepton) on leptonic and semileptonic kaon decays. We used a simplified model
+consisting of 3 light neutrinos responsible for neutrino oscillations and a
+heavy sterile neutrino. We found that it can lead to large deviations from the
+Standard Model predictions for leptonic decays, in conflict with experimental
+measurements of $K_{e2}$ and the lepton universality test $R_K$. This allows to
+derive new constraints on the leptonic mixing for heavy sterile neutrinos. No
+tension was found when considering the semileptonic decays. Finally, we point
+out the potential of the decay $K_L \rightarrow \nu \nu$ as a clear signature
+of physics beyond the Standard Model.
+",hep-ph hep-ex
+text,Neutrino decays as a natural explanation of the neutrino mass tension,5,1105.4664,31.949724,On Sterile neutrino explanation of LSND and MiniBooNE anomalies,"  We examine the compatibility between existing experimental data and a
+recently proposed explanation of the LSND and MiniBooNE anomalies, given in
+terms of a sterile neutrino $N$ whose decay is dominated by a radiative mode.
+We find that current experimental data on $\tau\rightarrow \mu\nu\nu\gamma$
+decays are compatible with the sterile neutrino parameters required for the
+explanation of the anomalies, but $K\rightarrow \mu\nu\gamma$ shows a marginal
+tension with those parameters. We also propose experimental cuts on radiative
+$K$ decays that could test the sterile neutrino hypothesis better. Finally, we
+study the contribution of this sterile neutrino to $K\to\mu\nu e e$, and find
+that measurements of this process would provide powerful tests for the sterile
+neutrino explanation of the LSND and MiniBooNE anomalies, if the experimental
+cut on the invariant mass of the $e^{+}e^{-}$ pair could be reduced from its
+current value of 145 MeV to a value below 40 MeV.
+",hep-ph astro-ph.HE hep-ex
+text,Neutrino decays as a natural explanation of the neutrino mass tension,6,hep-ph/9706428,31.900833,A Natural Solution to the Neutrino Mixing Problem,"  The combined requirements, of (i) a natural solution to the fermion mass
+hierarchy problem and (ii) an explanation of both the atmospheric and solar
+neutrino problems, lead to an essentially unique picture of neutrino masses and
+mixing angles. The electron and muon neutrinos are quasi-degenerate in mass
+with maximal mixing, giving $\nu_e - \nu_{\mu}$ vacuum oscillations. The
+overall neutrino mass scale is set by the atmospheric neutrino requirement
+$\Delta m^2 \sim 10^{-2}$ eV$^2$, implying a mass for $\nu_e$ and $\nu_{\mu}$
+of order 1 eV in models with a natural mass hierarchy, whilst the tau neutrino
+is expected to be much lighter than this and only weakly mixed. We present an
+explicit example based on the anti-grand unification model of fermion masses.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,7,2209.13455,31.458288,Testing Explanations of Short Baseline Neutrino Anomalies,"  The experimental observation of neutrino oscillations profoundly impacted the
+physics of neutrinos, from being well understood theoretically to requiring new
+physics beyond the standard model of particle physics. Indeed, the mystery of
+neutrino masses implies the presence of new particles never observed before,
+often called sterile neutrinos, as they would not undergo standard weak
+interactions. And while neutrino oscillation measurements entered the precision
+era, reaching percent-level precision, many experimental results show
+significant discrepancies with the standard model, at baselines much shorter
+than typical oscillation baselines, like LSND, MiniBooNE, gallium experiments,
+and reactor antineutrino measurements. These short baseline anomalies could be
+explained by the addition of a light sterile neutrino, with mass in the
+$1-10~\text{eV}$ range, however, in strong tension with many null experimental
+observations. Other explanations that rely on sterile neutrinos with masses in
+the $1-500~\text{MeV}$ could resolve the tension. Here we test both classes of
+models. On the one hand, we look for datasets collected at a short baseline
+which can constrain heavy sterile neutrino models. We find that the minimal
+model is fully constrained, but several extensions of this model could weaken
+the current constraint and be tested with current and future datasets. On the
+other hand, we test the presence of neutrino oscillations at short baselines,
+induced by a light sterile state, with the data collected by the MicroBooNE
+experiment, a liquid argon time projection chamber specifically designed to
+resolve the details of each neutrino interaction. We report null results from
+both analyses, further constraining the space of possible explanations for the
+short baseline anomalies. If new physics lies behind the short baseline anomaly
+puzzle, it is definitely not described by a simple model.
+",hep-ex hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,8,2011.14481,31.445885,Cosmological bound on neutrino masses in the light of $H_0$ tension,"  Although cosmic microwave background (CMB) is the most powerful cosmological
+probe of neutrino masses, it is in trouble with local direct measurements of
+$H_0$, which is called the $H_0$ tension. Since neutrino masses are correlated
+with $H_0$ in CMB, one can expect the cosmological bound on neutrino masses
+would be much affected by the $H_0$ tension. We investigate what impact this
+tension brings to cosmological bound on neutrino masses by assuming a model
+with modified recombination which has been shown to resolve the tension. We
+argue that constraints on neutrino masses become significantly weaker in models
+where the $H_0$ tension can be resolved.
+",astro-ph.CO gr-qc hep-ph hep-th
+text,Neutrino decays as a natural explanation of the neutrino mass tension,9,1604.06099,30.984724,Shedding Light on Neutrino Masses with Dark Forces,"  Heavy right-handed neutrinos (RHNs) provide the simplest explanation for the
+origin of light neutrino masses and mixings. If the RHN masses are at or below
+the weak scale, direct experimental discovery of these states is possible at
+accelerator experiments such as the LHC or new dedicated beam dump experiments;
+in such experiments, the RHN decays after traversing a macroscopic distance
+from the collision point. The experimental sensitivity to RHNs is significantly
+enhanced if there is a new ""dark"" gauge force connecting them to the Standard
+Model (SM), and detection of RHNs can be the primary discovery mode for the new
+dark force itself. We take the well-motivated example of a B-L gauge symmetry
+and analyze the sensitivity to displaced decays of the RHNs produced via the
+new gauge interaction in two experiments: the LHC and the proposed SHiP beam
+dump experiment. In the most favorable case in which the mediator can be
+produced on-shell and decays to RHNs, the sensitivity reach is controlled by
+the square of the B-L gauge coupling. We demonstrate that these experiments
+could access neutrino parameters responsible for the observed SM neutrino
+masses and mixings in the most straightforward implementation of the see-saw
+mechanism.
+",hep-ph hep-ex
+text,Neutrino decays as a natural explanation of the neutrino mass tension,10,2312.14214,30.921278,"Tension between neutrino masses and gauge coupling unification in
+  natural grand unified theories","  The natural grand unified theories solve various problems of the
+supersymmetric grand unified theory and give realistic quark and lepton mass
+matrices under the natural assumption that all terms allowed by the symmetry
+are introduced with O(1) coefficients. However, because of the natural
+assumption, it is difficult to achieve the gauge coupling unification without
+tuning, while keeping neutrino masses at realistic values. In this paper, we
+try to avoid this tension between the neutrino masses and the gauge coupling
+unification, by introducing suppression factors for several terms. These
+suppression factors can be understood by approximate symmetries in some of the
+solutions. We show that one of the most important results in the natural GUT
+scenario, that the nucleon decay mediated by superheavy gauge fields is
+enhanced due to smaller unification scale while the nucleon decay mediated by
+superheavy colored Higgs is suppressed, can change in those models proposed in
+this paper.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,11,astro-ph/9602104,30.804174,"Can a ``natural'' three-generation neutrino mixing scheme satisfy
+  everything?","  We examine the potential for a ``natural'' three-neutrino mixing scheme to
+satisfy available data and astrophysical arguments. By ``natural'' we mean no
+sterile neutrinos, and a neutrino mass hierarchy similar to that of the charged
+leptons. We seek to satisfy (or solve): 1. Accelerator and reactor neutrino
+oscillation constraints, including LSND; 2. The atmospheric muon neutrino
+deficit problem; 3. The solar neutrino problem; 4. Supernova $r$-process
+nucleosynthesis in neutrino-heated supernova ejecta; 5. Cold+hot dark matter
+models. We argue that putative supernova $r$-process nucleosynthesis bounds on
+two-neutrino flavor mixing can be applied directly to three-neutrino mixing in
+the case where one vacuum neutrino mass eigenvalue difference dominates the
+others. We show that in this ``one mass scale dominance'' limit, a natural
+three-neutrino oscillation solution meeting all the above constraints exists
+only if the atmospheric neutrino data {\em and} the LSND data can be explained
+with one neutrino mass difference. In this model, an explanation for the solar
+neutrino data can be effected by employing the {\em other} independent neutrino
+mass difference. Such a solution is only marginally allowed by the current
+data, and proposed long-baseline neutrino oscillation experiments can
+definitively rule it out. If it were ruled out, the simultaneous solution of
+the above constraints by neutrino oscillations would then require sterile
+neutrinos and/or a neutrino mass hierarchy of a different nature than that of
+the charged leptons.
+",astro-ph hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,12,hep-ph/9505394,30.730522,Limits on the Neutrino Mass and Mixing Angle from Pion and Lepton Decays,"  Motivated by a recent rather surprising conclusion based on the 1992 PDG data
+on the pion, kaon and lepton decays that if three generations of neutrinos are
+assumed to be massive and mixed, the heaviest neutrino, $\nu_3$, could have a
+mass in the range, $155~\mbox{MeV} \lsim m_3 \lsim 225~\mbox{MeV}$, we have
+analyzed the latest 1995 data on the leptonic decays of pion, $\mu$ and $\tau$
+with the assumption that three generations of neutrinos are massive and mixed.
+It is shown that when the radiative corrections are included and the constraint
+{}from partial decay widths is imposed, the 1995 data are consistent with three
+massless neutrinos with no mixing. Various limits on the neutrino mass and
+mixing angle implied by the 1995 data are presented together with a critique of
+the previous analysis.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,13,1205.1791,30.702211,Neutrino Phenomenology in a 3+1+1 Framework,"  Evidence continues to grow in the MiniBooNE (MB) antineutrino mode supporting
+a low-energy excess compatible with the MB neutrino mode and possibly also
+confirming the results of the LSND experiment. At least one sterile neutrino is
+required to explain the anomalies consistent with the observations of other
+experiments. At the same time, there is a strong tension between the positive
+signals of LSND and MB and the null results of nu_e and nu_mu disappearance
+experiments. We explore a scenario, first proposed in \cite{Nelson:2010hz},
+where the presence of an additional heavy sterile neutrino (with mass well
+above an eV) can alleviate tension between LSND, MB and the null results of
+disappearance experiments. We compare and contrast this 3+1+1 scenario with the
+more standard 3+1 scenario and carry out global fits to all oscillation data
+including new 2011 MB anti-nu data. We find that the tension can be somewhat
+alleviated and that a phenomenologically viable window for the heavy neutrino,
+consistent with rare decays and BBN constraints, can be found if the fifth
+neutrino has a mass of order 0.3 - 10 GeV. We also find, however, that the 2011
+MB anti-nu data exacerbates the tension with null experiments in both the 3+1
+and 3+1+1 models when the lowest energy bins are included, resulting in little
+improvement in the global fit. We also discuss the implications of an
+additional neutrino for the reactor and gallium anomalies, and show that an
+oscillation explanation of the anomalies is disfavored by cosmological
+considerations, direct searches, and precision electroweak tests.
+",hep-ph astro-ph.CO
+text,Neutrino decays as a natural explanation of the neutrino mass tension,14,hep-ph/0008080,30.458378,Effective Majorana neutrino masses,"  A generalisation of the neutrinoless double beta decay process is presented.
+Neutrinoless double beta decay measures only one out of nine possible effective
+Majorana neutrino masses in case of three flavours. Limits obtained for all the
+matrix elements - some of them for the first time - are presented using data
+from $\mu - e$ conversion, neutrino-nucleon scattering, HERA and rare kaon
+decays. An outlook towards future possibilities to improve on the bounds is
+given.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,15,1303.3011,30.36356,Sterile Neutrino Oscillations: The Global Picture,"  Neutrino oscillations involving eV-scale neutrino mass states are
+investigated in the context of global neutrino oscillation data including short
+and long-baseline accelerator, reactor, and radioactive source experiments, as
+well as atmospheric and solar neutrinos. We consider sterile neutrino mass
+schemes involving one or two mass-squared differences at the eV^2 scale denoted
+by 3+1, 3+2, and 1+3+1. We discuss the hints for eV-scale neutrinos from nu_e
+disappearance (reactor and Gallium anomalies) and nu_mu->nu_e appearance (LSND
+and MiniBooNE) searches, and we present constraints on sterile neutrino mixing
+from nu_mu and neutral-current disappearance data. An explanation of all hints
+in terms of oscillations suffers from severe tension between appearance and
+disappearance data. The best compatibility is obtained in the 1+3+1 scheme with
+a p-value of 0.2% and exceedingly worse compatibilities in the 3+1 and 3+2
+schemes.
+",hep-ph astro-ph.CO hep-ex
+text,Neutrino decays as a natural explanation of the neutrino mass tension,16,1403.1985,30.276934,"Remarks on the lifetime of sterile neutrinos and the effect on detection
+  of rare meson decays M+ -> M'- lepton+ lepton+","  We review the detection of the Delta L=2 semileptonic meson decays of the
+form M(+) -> M'(-) lepton(+) lepton(-) that we studied in a previous work,
+mediated by a Majorana neutrino with a mass in the range between the masses of
+the initial and final mesons. For such range of masses, the Majorana neutrino
+will go on its mass shell and the two charged leptons will appear at displaced
+vertices or, if the lifetime is long enough, most secondary vertices will fall
+outside the detector. We study the consequences of this effect on the
+experimental searches and limits that can be extracted.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,17,1107.0739,30.250996,"How the Inverse See-Saw Mechanism Can Reveal Itself Natural, Canonical
+  and Independent of the Right-Handed Neutrino Mass","  The common lore in the literature of neutrino mass generation is that the
+canonical see-saw mechanism beautifully offers an explanation for the tiny
+neutrino mass but at the cost of introducing right-handed neutrinos at a scale
+that is out of range for the current experiments. The inverse see-saw mechanism
+is an interesting alternative to the canonical one once it leads to tiny
+neutrino masses with the advantage of being testable at TeV scale. However,
+this last mechanism suffers from an issue of naturalness concerning the scale
+responsible for such small masses, namely, the parameter $\mu$ that is related
+to lepton number violation and is supposed to be at the keV scale, much lower
+than the electroweak one. However, no theoretical framework was built that
+offers an explanation for obtaining this specific scale. In this work we
+propose a variation of the inverse see-saw mechanism by assuming a minimal
+scalar and fermionic set of singlet fields, along with a $Z_5\otimes Z_2$
+symmetry, that allows a dynamical explanation for the smallness of $\mu$,
+recovering the neat canonical see-saw formula and with right-handed (RH)
+neutrinos free to be at the electroweak scale, thus testable at LHC and current
+neutrino experiments.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,18,hep-ph/0102155,30.21446,Sterile neutrinos in tau lepton decays,"  We study possible contributions of heavy sterile neutrinos $\nu_h$ to the
+decays $\tau^-\to e^{\pm}(\mu^{\pm})\pi^{\mp}\pi^-$. From the experimental
+upper bounds on their rates we derive new constraints on the $\nu_h-\nu_{\tau}$
+mixing in the mass region $140.5{MeV}\leq m_{\nu_h}\leq 1637$ MeV. We discuss
+cosmological and astrophysical status of $\nu_h$ in this mass region and
+compare our constraints with those recently derived by the NOMAD collaboration.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,19,1704.05849,30.204254,"Reconsidering the One Leptoquark solution: flavor anomalies and neutrino
+  mass","  We reconsider a model introducing a scalar leptoquark $\phi \sim (\mathbf{3},
+\mathbf{1}, -1/3)$ to explain recent deviations from the standard model in
+semileptonic $B$ decays. The leptoquark can accommodate the persistent tension
+in the decays $\bar{B}\rightarrow D^{(*)}\tau \bar{\nu}$ as long as its mass is
+lower than approximately $10 \text{ TeV}$, and we show that a sizeable Yukawa
+coupling to the right-chiral tau lepton is necessary for an acceptable
+explanation. Agreement with the measured $\bar{B}\rightarrow D^{(*)}\tau
+\bar{\nu}$ rates is mildly compromised for parameter choices addressing the
+tensions in $b \to s \mu \mu$, where the model can significantly reduce the
+discrepancies in angular observables, branching ratios and the
+lepton-flavor-universality observables $R_K$ and $R_{K^*}$. The leptoquark can
+also reconcile the predicted and measured value of the anomalous magnetic
+moment of the muon and appears naturally in models of radiative neutrino mass
+derived from lepton-number violating effective operators. As a representative
+example, we incorporate the particle into an existing two-loop neutrino mass
+scenario derived from a dimension-nine operator. In this specific model, the
+structure of the neutrino mass matrix provides enough freedom to explain the
+small masses of the neutrinos in the region of parameter space dictated by
+agreement with the anomalies in $\bar{B}\rightarrow D^{(*)}\tau \bar{\nu}$, but
+not the $b \to s$ transition. This is achieved without excessive fine-tuning in
+the parameters important for neutrino mass.
+",hep-ph
+text,Neutrino decays as a natural explanation of the neutrino mass tension,20,1910.13172,30.189466,Light sterile neutrinos: oscillations and cosmology,"  Light sterile neutrinos with a mass around 1 eV have been studied for many
+years as a possible explanation of the so called short-baseline neutrino
+oscillation anomalies. Recently, several neutrino oscillation experiments
+reported preferences for non-zero values of the mixing angles and squared mass
+differences for active-sterile mixing, which however are not always in
+agreement. I review our current knowledge of the light sterile neutrino in the
+3+1 model, starting with a separate discussion on the status of the most
+relevant searches and then analyzing the problems that arise when combining
+different probes in a global fit. A short summary on the tension with
+cosmological observations is also provided.
+",hep-ph astro-ph.CO

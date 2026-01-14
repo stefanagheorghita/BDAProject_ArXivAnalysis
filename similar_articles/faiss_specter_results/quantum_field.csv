@@ -1,0 +1,96 @@
+query_type,query_value,rank,doc_id,specter_score,title,categories,abstract
+text,quantum field theory gauge symmetry,1,hep-th/0602185,0.829078197479248,Twist to close,hep-th,"  It has been proposed that the Poincare and some other symmetries of
+noncommutative field theories should be twisted. Here we extend this idea to
+gauge transformations and find that twisted gauge symmetries close for
+arbitrary gauge group. We also analyse twisted-invariant actions in
+noncommutative theories.
+"
+text,quantum field theory gauge symmetry,2,q-alg/9611007,0.826947808265686,Weak C* Hopf Symmetry,q-alg hep-th math.QA,"  Weak C* Hopf algebras can act as global symmetries in low-dimensional quantum
+field theories, when braid group statistics prevents group symmetries.
+Possibilities to construct field algebras with weak C* Hopf symmetry from a
+given theory of local observables are discussed.
+"
+text,quantum field theory gauge symmetry,3,1705.05099,0.8266598582267761,"Quantum Field Theory, Quantum Geometry, and Quantum Algebras",hep-th math-ph math.MP math.QA math.RT,"  We demonstrate how one can see quantization of geometry, and quantum
+algebraic structure in supersymmetric gauge theory.
+"
+text,quantum field theory gauge symmetry,4,hep-th/0309268,0.822898805141449,"A Map between (q,h)-deformed Gauge Theories and ordinary Gauge Theories",hep-th,"  We introduce a new map between a (q,h)-deformed gauge theory and ordinary
+gauge theory in a full analogy with Seiberg-Witten map.
+"
+text,quantum field theory gauge symmetry,5,hep-th/0202014,0.8212988972663879,Gauge Invariance and Noncommutativity,hep-th,"  The role of the gauge invariance in noncommutative field theory is discussed.
+A basic introduction to noncommutative geometry and noncommutative field theory
+is given. Background invariant formulation of Wilson lines is proposed. Duality
+symmetries relating various noncommutative gauge models are being discussed.
+"
+text,quantum field theory gauge symmetry,6,hep-th/9511109,0.8205678462982178,Gauge Theory Without Ghosts,hep-th,"  A quantum effective action for gauge field theories is constructed that is
+gauge invariant and independent of the choice of gauge breaking terms and the
+ghost determinant.
+"
+text,quantum field theory gauge symmetry,7,1310.8164,0.8200099468231201,Gauge fields beyond perturbation theory,hep-th,"  A new formulation of nonabelian gauge theories, introducing new ghost fields
+and new symmetry is proposed. This formulation does not suffer from Gribov
+ambiguity and allows to quantize nonabelian gauge fields beyond perturbation
+theory.
+"
+text,quantum field theory gauge symmetry,8,1302.3183,0.8184289932250977,Lattice BRST without Neuberger 0/0 problem,hep-th hep-lat,"  We illustrate in a simple toy model how the methods of SUSY quantum mechanics
+and topological quantum field theory can be used for covariant gauge-fixing
+with unbroken BRST symmetry on a finite lattice.
+"
+text,quantum field theory gauge symmetry,9,hep-th/0209005,0.8163421750068665,A Map between q-deformed and ordinary Gauge Theories,hep-th,"  In complete analogy with Seiberg-Witten map defined in noncommutative
+geometry we introduce a new map between a q-deformed gauge theory and an
+ordinary gauge theory. The construction of this map is elaborated in order to
+fit the Hopf algebra structure.
+"
+text,quantum field theory gauge symmetry,10,0711.4091,0.8154104351997375,Symmetries in noncommutative field theories: Hopf versus Lie,hep-th,"  I discuss motivations for introducing Hopf algebra symmetries in
+noncommutative field theories and briefly describe twisting of main symmetry
+transformations. New results include an extended list of twisted gauge
+invariants (which may help to overcome the problem of inconsistency of
+equations of motion) and a gauge-covariant twist operator (leading to a
+gauge-covariant star product).
+"
+text,quantum field theory gauge symmetry,11,hep-th/9710224,0.8149499893188477,BRST-co-BRST Quantization of Reparametrization Invariant Theories,hep-th,"  We study some reparametrization invariant theories in context of the
+BRST-co-BRST quantization method. The method imposes restrictions on the
+possible gauge fixing conditions and leads to well defined inner product states
+through a gauge regularisation procedure. Two explicit examples are also
+treated in detail.
+"
+text,quantum field theory gauge symmetry,12,1205.3293,0.8145594596862793,BRST Symmetry and Cohomology,hep-th,"  We present the mathematical considerations which determine all gauge
+invariant actions and anomaly candidates in gauge theories of standard type
+such as ordinary or gravitational Yang Mills theories. Starting from elementary
+concepts of field theory the discussion tries to be explicit and complete, only
+the cohomology of simple Lie algebras it quoted from the literature.
+"
+text,quantum field theory gauge symmetry,13,hep-th/9602163,0.813592255115509,BRS Symmetry and Cohomology,hep-th,"  The BRS symmetry determines physical states, Lagrange densities and candidate
+anomalies. It renders gauge fixing unobservable in physical states and is
+required if negative norm states are to decouple also in interacting models.
+The relevant mathematical structures and the elementary cohomological
+investigations are presented.
+"
+text,quantum field theory gauge symmetry,14,1011.1095,0.8133008480072021,"Axial Symmetry, Anti-BRST Invariance and Modified Anomalies",hep-th math-ph math.MP,"  It is shown that anti-BRST symmetry is the quantized counterpart of local
+axial symmetry in gauge theories. An extended form of descent equations is
+worked out which yields a set of modified consistent anomalies.
+"
+text,quantum field theory gauge symmetry,15,0909.4135,0.8130537867546082,Non-fixing Gauge Field Quantization,hep-th hep-ph,"  The gauge field theories are usually quantized by fixing gauge. In this
+paper, we propose a new formalism that quantizes gauge fields without gauge
+fixing but naturally follows canonical formalism. New physical implications
+will follow.
+"
+text,quantum field theory gauge symmetry,16,hep-th/9703221,0.8126652240753174,Rigid Invariance in Gauge Theories,hep-th hep-ph,"  Rigid gauge invariance comprises the symmetry content for physical quantities
+in a local gauge theory. Its derivation from BRS invariance is thus crucial for
+determining the physical consequences of the symmetry.
+"
+text,quantum field theory gauge symmetry,17,1611.08856,0.8126599788665771,Gauge Fixing Invariance and Anti-BRST Symmetry,hep-th,"  It is shown that anti-BRST invariance in quantum gauge theories can be
+considered as the quantized version of the symmetry of classical gauge theories
+with respect to different gauge fixing mechanisms.
+"
+text,quantum field theory gauge symmetry,18,1511.05713,0.8114550113677979,60 years of gauge fields,hep-th,"  The development of nonabelian gauge fields for last 60 years is reviewed. The
+new method of quantization of gauge fields applicable beyond perturbation
+theory is proposed.
+"
+text,quantum field theory gauge symmetry,19,hep-th/9912014,0.8108332753181458,Gaugeon Formalism for Spin-3/2 Rarita-Schwinger Gauge Field,hep-th,"  We provide a gauge covariant formalism of the canonically quantized theory of
+spin-3/2 Rarita-Schwinger gauge field. The theory admits a quantum gauge
+transformation by which we can shift the gauge fixing parameter. The quantum
+gauge transformation does not change the BRST charge. Thus, the physical
+Hilbert space is trivially independent of the gauge fixing parameter.
+"
+text,quantum field theory gauge symmetry,20,1111.0758,0.8106613755226135,Gauge invariance and non-constant gauge couplings,hep-th gr-qc hep-ph,"  It is shown that space-time dependent gauge couplings do not completely break
+gauge invariance. We demonstrate this in various gauge theories.
+"

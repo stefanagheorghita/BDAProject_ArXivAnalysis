@@ -1,0 +1,205 @@
+query_type,query_value,rank,doc_id,specter_score,title,categories,abstract
+text,convex optimization gradient descent convergence,1,1708.00555,0.8130056858062744,Mini-batch stochastic gradient descent with dynamic sample sizes,math.OC,"  We focus on solving constrained convex optimization problems using mini-batch
+stochastic gradient descent. Dynamic sample size rules are presented which
+ensure a descent direction with high probability. Empirical results from two
+applications show superior convergence compared to fixed sample
+implementations.
+"
+text,convex optimization gradient descent convergence,2,2106.08020,0.8108644485473633,"A note on the optimal convergence rate of descent methods with fixed
+  step sizes for smooth strongly convex functions",math.OC,"  Based on a result by Taylor, Hendrickx, and Glineur (J. Optim. Theory Appl.,
+178(2):455--476, 2018) on the attainable convergence rate of gradient descent
+for smooth and strongly convex functions in terms of function values, an
+elementary convergence analysis for general descent methods with fixed step
+sizes is presented. It covers general variable metric methods, gradient related
+search directions under angle and scaling conditions, as well as inexact
+gradient methods. In all cases, optimal rates are obtained.
+"
+text,convex optimization gradient descent convergence,3,2412.06070,0.8095669746398926,Stochastic Gradient Descent Revisited,math.OC math.PR stat.ML,"  Stochastic gradient descent (SGD) has been a go-to algorithm for nonconvex
+stochastic optimization problems arising in machine learning. Its theory
+however often requires a strong framework to guarantee convergence properties.
+We hereby present a full scope convergence study of biased nonconvex SGD,
+including weak convergence, function-value convergence and global convergence,
+and also provide subsequent convergence rates and complexities, all under
+relatively mild conditions in comparison with literature.
+"
+text,convex optimization gradient descent convergence,4,2012.12856,0.8077322840690613,"Adaptive Mirror Descent Methods for Convex Programming Problems with
+  delta-subgradients",math.OC,"  We propose some adaptive mirror descent dethods for convex programming
+problems with delta-subgradients and prove some theoretical results.
+"
+text,convex optimization gradient descent convergence,5,2010.05109,0.8024343848228455,AEGD: Adaptive Gradient Descent with Energy,math.OC cs.LG cs.NA math.NA stat.ML,"  We propose AEGD, a new algorithm for first-order gradient-based optimization
+of non-convex objective functions, based on a dynamically updated energy
+variable. The method is shown to be unconditionally energy stable, irrespective
+of the step size. We prove energy-dependent convergence rates of AEGD for both
+non-convex and convex objectives, which for a suitably small step size recovers
+desired convergence rates for the batch gradient descent. We also provide an
+energy-dependent bound on the stationary convergence of AEGD in the stochastic
+non-convex setting. The method is straightforward to implement and requires
+little tuning of hyper-parameters. Experimental results demonstrate that AEGD
+works well for a large variety of optimization problems: it is robust with
+respect to initial data, capable of making rapid initial progress. The
+stochastic AEGD shows comparable and often better generalization performance
+than SGD with momentum for deep neural networks.
+"
+text,convex optimization gradient descent convergence,6,2301.11235,0.8001174926757812,Handbook of Convergence Theorems for (Stochastic) Gradient Methods,math.OC,"  This is a handbook of simple proofs of the convergence of gradient and
+stochastic gradient descent type methods. We consider functions that are
+Lipschitz, smooth, convex, strongly convex, and/or Polyak-{\L}ojasiewicz
+functions. Our focus is on ``good proofs'' that are also simple. Each section
+can be consulted separately. We start with proofs of gradient descent, then on
+stochastic variants, including minibatching and momentum. Then move on to
+nonsmooth problems with the subgradient method, the proximal gradient descent
+and their stochastic variants. Our focus is on global convergence rates and
+complexity rates. Some slightly less common proofs found here include that of
+SGD (Stochastic gradient descent) with a proximal step, with momentum, and with
+mini-batching without replacement.
+"
+text,convex optimization gradient descent convergence,7,2102.09700,0.7995007634162903,AI-SARAH: Adaptive and Implicit Stochastic Recursive Gradient Methods,cs.LG math.OC,"  We present AI-SARAH, a practical variant of SARAH. As a variant of SARAH,
+this algorithm employs the stochastic recursive gradient yet adjusts step-size
+based on local geometry. AI-SARAH implicitly computes step-size and efficiently
+estimates local Lipschitz smoothness of stochastic functions. It is fully
+adaptive, tune-free, straightforward to implement, and computationally
+efficient. We provide technical insight and intuitive illustrations on its
+design and convergence. We conduct extensive empirical analysis and demonstrate
+its strong performance compared with its classical counterparts and other
+state-of-the-art first-order methods in solving convex machine learning
+problems.
+"
+text,convex optimization gradient descent convergence,8,2111.03932,0.7987950444221497,AGGLIO: Global Optimization for Locally Convex Functions,math.OC cs.LG stat.ML,"  This paper presents AGGLIO (Accelerated Graduated Generalized LInear-model
+Optimization), a stage-wise, graduated optimization technique that offers
+global convergence guarantees for non-convex optimization problems whose
+objectives offer only local convexity and may fail to be even quasi-convex at a
+global scale. In particular, this includes learning problems that utilize
+popular activation functions such as sigmoid, softplus and SiLU that yield
+non-convex training objectives. AGGLIO can be readily implemented using point
+as well as mini-batch SGD updates and offers provable convergence to the global
+optimum in general conditions. In experiments, AGGLIO outperformed several
+recently proposed optimization techniques for non-convex and locally convex
+objectives in terms of convergence rate as well as convergent accuracy. AGGLIO
+relies on a graduation technique for generalized linear models, as well as a
+novel proof strategy, both of which may be of independent interest.
+"
+text,convex optimization gradient descent convergence,9,2507.00810,0.7971871495246887,A Robust Algorithm for Non-IID Machine Learning Problems with Convergence Analysis,cs.AI math.OC,"In this paper, we propose an improved numerical algorithm for solving minimax problems based on nonsmooth optimization, quadratic programming and iterative process. We also provide a rigorous proof of convergence for our algorithm under some mild assumptions, such as gradient continuity and boundedness. Such an algorithm can be widely applied in various fields such as robust optimization, imbalanced learning, etc."
+text,convex optimization gradient descent convergence,10,2010.04786,0.7968764305114746,Reparametrizing gradient descent,cs.LG cs.NE math.OC,"  In this work, we propose an optimization algorithm which we call norm-adapted
+gradient descent. This algorithm is similar to other gradient-based
+optimization algorithms like Adam or Adagrad in that it adapts the learning
+rate of stochastic gradient descent at each iteration. However, rather than
+using statistical properties of observed gradients, norm-adapted gradient
+descent relies on a first-order estimate of the effect of a standard gradient
+descent update step, much like the Newton-Raphson method in many dimensions.
+Our algorithm can also be compared to quasi-Newton methods, but we seek roots
+rather than stationary points. Seeking roots can be justified by the fact that
+for models with sufficient capacity measured by nonnegative loss functions,
+roots coincide with global optima. This work presents several experiments where
+we have used our algorithm; in these results, it appears norm-adapted descent
+is particularly strong in regression settings but is also capable of training
+classifiers.
+"
+text,convex optimization gradient descent convergence,11,1506.02186,0.7929787635803223,A Universal Catalyst for First-Order Optimization,math.OC,"  We introduce a generic scheme for accelerating first-order optimization
+methods in the sense of Nesterov, which builds upon a new analysis of the
+accelerated proximal point algorithm. Our approach consists of minimizing a
+convex objective by approximately solving a sequence of well-chosen auxiliary
+problems, leading to faster convergence. This strategy applies to a large class
+of algorithms, including gradient descent, block coordinate descent, SAG, SAGA,
+SDCA, SVRG, Finito/MISO, and their proximal variants. For all of these methods,
+we provide acceleration and explicit support for non-strongly convex
+objectives. In addition to theoretical speed-up, we also show that acceleration
+is useful in practice, especially for ill-conditioned problems where we measure
+significant improvements.
+"
+text,convex optimization gradient descent convergence,12,1610.00960,0.792092502117157,"An Inexact Variable Metric Proximal Point Algorithm for Generic
+  Quasi-Newton Acceleration",stat.ML math.OC,"  We propose an inexact variable-metric proximal point algorithm to accelerate
+gradient-based optimization algorithms. The proposed scheme, called QNing can
+be notably applied to incremental first-order methods such as the stochastic
+variance-reduced gradient descent algorithm (SVRG) and other randomized
+incremental optimization algorithms. QNing is also compatible with composite
+objectives, meaning that it has the ability to provide exactly sparse solutions
+when the objective involves a sparsity-inducing regularization. When combined
+with limited-memory BFGS rules, QNing is particularly effective to solve
+high-dimensional optimization problems, while enjoying a worst-case linear
+convergence rate for strongly convex problems. We present experimental results
+where QNing gives significant improvements over competing methods for training
+machine learning methods on large samples and in high dimensions.
+"
+text,convex optimization gradient descent convergence,13,1508.02087,0.7897785902023315,A Linearly-Convergent Stochastic L-BFGS Algorithm,math.OC cs.LG math.NA stat.CO stat.ML,"  We propose a new stochastic L-BFGS algorithm and prove a linear convergence
+rate for strongly convex and smooth functions. Our algorithm draws heavily from
+a recent stochastic variant of L-BFGS proposed in Byrd et al. (2014) as well as
+a recent approach to variance reduction for stochastic gradient descent from
+Johnson and Zhang (2013). We demonstrate experimentally that our algorithm
+performs well on large-scale convex and non-convex optimization problems,
+exhibiting linear convergence and rapidly solving the optimization problems to
+high levels of precision. Furthermore, we show that our algorithm performs well
+for a wide-range of step sizes, often differing by several orders of magnitude.
+"
+text,convex optimization gradient descent convergence,14,1706.09880,0.789722204208374,A Fixed-Point of View on Gradient Methods for Big Data,stat.ML,"  Interpreting gradient methods as fixed-point iterations, we provide a
+detailed analysis of those methods for minimizing convex objective functions.
+Due to their conceptual and algorithmic simplicity, gradient methods are widely
+used in machine learning for massive data sets (big data). In particular,
+stochastic gradient methods are considered the de- facto standard for training
+deep neural networks. Studying gradient methods within the realm of fixed-point
+theory provides us with powerful tools to analyze their convergence properties.
+In particular, gradient methods using inexact or noisy gradients, such as
+stochastic gradient descent, can be studied conveniently using well-known
+results on inexact fixed-point iterations. Moreover, as we demonstrate in this
+paper, the fixed-point approach allows an elegant derivation of accelerations
+for basic gradient methods. In particular, we will show how gradient descent
+can be accelerated by a fixed-point preserving transformation of an operator
+associated with the objective function.
+"
+text,convex optimization gradient descent convergence,15,2406.13888,0.7867960929870605,Open Problem: Anytime Convergence Rate of Gradient Descent,math.OC cs.LG,"  Recent results show that vanilla gradient descent can be accelerated for
+smooth convex objectives, merely by changing the stepsize sequence. We show
+that this can lead to surprisingly large errors indefinitely, and therefore
+ask: Is there any stepsize schedule for gradient descent that accelerates the
+classic $\mathcal{O}(1/T)$ convergence rate, at \emph{any} stopping time $T$?
+"
+text,convex optimization gradient descent convergence,16,1901.08369,0.7859713435173035,"Simple Stochastic Gradient Methods for Non-Smooth Non-Convex Regularized
+  Optimization",math.OC,"  Our work focuses on stochastic gradient methods for optimizing a smooth
+non-convex loss function with a non-smooth non-convex regularizer. Research on
+this class of problem is quite limited, and until recently no non-asymptotic
+convergence results have been reported. We present two simple stochastic
+gradient algorithms, for finite-sum and general stochastic optimization
+problems, which have superior convergence complexities compared to the current
+state-of-the-art. We also compare our algorithms' performance in practice for
+empirical risk minimization.
+"
+text,convex optimization gradient descent convergence,17,1711.00394,0.7855333089828491,Universal gradient descent,math.OC,"  In this book we collect many different and useful facts around gradient
+descent method. First of all we consider gradient descent with inexact oracle.
+We build a general model of optimized function that include composite
+optimization approach, level's methods, proximal methods etc. Then we
+investigate primal-dual properties of the gradient descent in general model
+set-up. At the end we generalize method to universal one.
+"
+text,convex optimization gradient descent convergence,18,2405.18976,0.7850592732429504,Accelerated Mirror Descent for Non-Euclidean Star-convex Functions,math.OC,"  Acceleration for non-convex functions is a fundamental challenge in
+optimisation. We revisit star-convex functions, which are strictly unimodal on
+all lines through a minimizer. [1] accelerate unconstrained star-convex
+minimization of functions that are smooth with respect to the Euclidean norm.
+To do so, they add a certain binary search step to gradient descent. In this
+paper, we accelerate unconstrained star-convex minimization of functions that
+are weakly smooth with respect to an arbitrary norm. We add a binary search
+step to mirror descent, generalize the approach and refine its complexity
+analysis. We prove that our algorithms have sharp convergence rates for
+star-convex functions with $\alpha$-Holder continuous gradients and demonstrate
+that our rates are nearly optimal for $p$-norms.
+  [1] Near-Optimal Methods for Minimizing Star-Convex Functions and Beyond,
+Hinder Oliver and Sidford Aaron and Sohoni Nimit
+"
+text,convex optimization gradient descent convergence,19,1006.2425,0.7844760417938232,An optimal algorithm for stochastic strongly-convex optimization,math.OC,"  We consider stochastic convex optimization with a strongly convex (but not
+necessarily smooth) objective. We give an algorithm which performs only
+gradient updates with optimal rate of convergence.
+"
+text,convex optimization gradient descent convergence,20,1405.4980,0.7840659618377686,Convex Optimization: Algorithms and Complexity,math.OC cs.CC cs.LG cs.NA stat.ML,"  This monograph presents the main complexity theorems in convex optimization
+and their corresponding algorithms. Starting from the fundamental theory of
+black-box optimization, the material progresses towards recent advances in
+structural optimization and stochastic optimization. Our presentation of
+black-box optimization, strongly influenced by Nesterov's seminal book and
+Nemirovski's lecture notes, includes the analysis of cutting plane methods, as
+well as (accelerated) gradient descent schemes. We also pay special attention
+to non-Euclidean settings (relevant algorithms include Frank-Wolfe, mirror
+descent, and dual averaging) and discuss their relevance in machine learning.
+We provide a gentle introduction to structural optimization with FISTA (to
+optimize a sum of a smooth and a simple non-smooth term), saddle-point mirror
+prox (Nemirovski's alternative to Nesterov's smoothing), and a concise
+description of interior point methods. In stochastic optimization we discuss
+stochastic gradient descent, mini-batches, random coordinate descent, and
+sublinear algorithms. We also briefly touch upon convex relaxation of
+combinatorial problems and the use of randomness to round solutions, as well as
+random walks based methods.
+"

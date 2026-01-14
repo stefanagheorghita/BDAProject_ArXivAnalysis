@@ -1,0 +1,131 @@
+query_type,query_value,rank,doc_id,specter_score,title,categories,abstract
+text,quantum field theory gauge symmetry,1,1110.1176,0.8293874859809875,Classical gauge gravitation theory,math-ph gr-qc math.MP,"  Classical gravitation theory is formulated as gauge theory on natural bundles
+where gauge symmetries are general covariant transformations and a
+gravitational field is a Higgs field responsible for their spontaneous symmetry
+breaking.
+"
+text,quantum field theory gauge symmetry,2,hep-th/0602185,0.829078197479248,Twist to close,hep-th,"  It has been proposed that the Poincare and some other symmetries of
+noncommutative field theories should be twisted. Here we extend this idea to
+gauge transformations and find that twisted gauge symmetries close for
+arbitrary gauge group. We also analyse twisted-invariant actions in
+noncommutative theories.
+"
+text,quantum field theory gauge symmetry,3,1310.8164,0.8200099468231201,Gauge fields beyond perturbation theory,hep-th,"  A new formulation of nonabelian gauge theories, introducing new ghost fields
+and new symmetry is proposed. This formulation does not suffer from Gribov
+ambiguity and allows to quantize nonabelian gauge fields beyond perturbation
+theory.
+"
+text,quantum field theory gauge symmetry,4,1302.3183,0.8184289932250977,Lattice BRST without Neuberger 0/0 problem,hep-th hep-lat,"  We illustrate in a simple toy model how the methods of SUSY quantum mechanics
+and topological quantum field theory can be used for covariant gauge-fixing
+with unbroken BRST symmetry on a finite lattice.
+"
+text,quantum field theory gauge symmetry,5,0711.4091,0.8154104351997375,Symmetries in noncommutative field theories: Hopf versus Lie,hep-th,"  I discuss motivations for introducing Hopf algebra symmetries in
+noncommutative field theories and briefly describe twisting of main symmetry
+transformations. New results include an extended list of twisted gauge
+invariants (which may help to overcome the problem of inconsistency of
+equations of motion) and a gauge-covariant twist operator (leading to a
+gauge-covariant star product).
+"
+text,quantum field theory gauge symmetry,6,1611.08856,0.8126599788665771,Gauge Fixing Invariance and Anti-BRST Symmetry,hep-th,"  It is shown that anti-BRST invariance in quantum gauge theories can be
+considered as the quantized version of the symmetry of classical gauge theories
+with respect to different gauge fixing mechanisms.
+"
+text,quantum field theory gauge symmetry,7,1602.06776,0.8103095293045044,Lecture on Gauge Gravitation Theory. Gravity as a Higgs Field,math-ph gr-qc hep-th math.MP,"  Gravitation theory is formulated as gauge theory on natural bundles with
+spontaneous symmetry breaking where gauge symmetries are general covariant
+transformations, gauge fields are general linear connections, and Higgs fields
+are pseudo-Riemannian metrics.
+"
+text,quantum field theory gauge symmetry,8,0802.2382,0.8075937032699585,Mathematical models of spontaneous symmetry breaking,math-ph math.MP,"  The Higgs mechanism of mass generation is the main ingredient in the
+contemporary Standard Model and its various generalizations. However, there is
+no comprehensive theory of spontaneous symmetry breaking. We summarize the
+relevant mathematical results characterizing spontaneous symmetry breaking
+phenomena in algebraic quantum theory, axiomatic quantum field theory, group
+theory, and classical gauge theory.
+"
+text,quantum field theory gauge symmetry,9,1612.02612,0.8042072057723999,Off-Shell Covariantization of Algebroid Gauge Theories,hep-th math-ph math.MP,"  We present a generalized method to construct field strengths and gauge
+symmetries, which yield a Yang-Mills type action with Lie n-algebroid gauge
+symmetry. The procedure makes use of off-shell covariantization in a
+supergeometric setting. We apply this method to the system of a 1-form gauge
+field and scalar fields with Lie n-algebroid gauge symmetry. We work out some
+characteristic examples.
+"
+text,quantum field theory gauge symmetry,10,1006.1039,0.8034327030181885,Theories on noncommutative spaces and deformed symmetries,hep-th,"  In this thesis we study different aspects of noncommutativity in quantum
+mechanics, field theory and gravity. We give particular emphasis on the
+underlying symmetries of these theories. Deformations of usual symmetries like
+the external space time symmetries and the internal gauge symmetry in
+noncommutative theories are analyzed in detail.
+"
+text,quantum field theory gauge symmetry,11,2005.04125,0.8032451868057251,A Gauge Theory that mixes Bosonic and Fermionic Gauge Fields,hep-th,"  Using a gauge symmetry derived by applying the Dirac constraint formalism to
+supergravity with cosmological term in 2+1 dimensions, we construct a gauge
+theory with many characteristics of Yang-Mills theory. The gauge transformation
+mixes two Bosonic fields and one Fermionic field.
+"
+text,quantum field theory gauge symmetry,12,math-ph/9807029,0.801643967628479,Constrained quantization in algebraic field theory,math-ph math.MP math.OA,"  Quantization relates Poisson algebras to $C^*$-algebras. The analysis of
+local gauge symmetries in algebraic quantum field theory is approached through
+the quantization of classical gauge theories, regarded as constrained dynamical
+systems. This approach is based on the analogy between symplectic reduction and
+Rieffel induction on the classical and on the quantum side, respectively. Thus
+one is led to a description of e.g. $\theta$-angles and gauge anomalies in the
+algebraic setting.
+"
+text,quantum field theory gauge symmetry,13,2307.07547,0.8016241788864136,Lectures on Generalized Symmetries,hep-th,"  These are a set of lecture notes on generalized global symmetries in quantum
+field theory. The focus is on invertible symmetries with a few comments
+regarding non-invertible symmetries. The main topics covered are the basics of
+higher-form symmetries and their properties including 't Hooft anomalies,
+gauging and spontaneous symmetry breaking. We also introduce the useful notion
+of symmetry topological field theories (SymTFTs). Furthermore, an introduction
+to higher-group symmetries describing mixings of higher-form symmetries is
+provided. Some advanced topics covered include the encoding of higher-form
+symmetries in holography and geometric engineering constructions in string
+theory. Throughout the text, all concepts are consistently illustrated using
+gauge theories as examples.
+"
+text,quantum field theory gauge symmetry,14,0903.0478,0.8011409640312195,"Poincare' Quasi-Hopf Symmetry and Non-Associative Spacetime Algebra from
+  Twisted Gauge Theories",hep-th gr-qc math-ph math.MP math.QA,"  In previous work, starting from the Moyal plane, we formulated interacting
+theories of matter and gauge fields with only the former fields twisted. In
+this approach, gauge theories, including the standard model, can be formulated
+without new gauge degrees of freedom. We show their underlying symmetry algebra
+to be Poincar\'e quasi-Hopf . The associated spacetime algebra is hence
+non-associative.
+"
+text,quantum field theory gauge symmetry,15,1702.08073,0.800207257270813,Spontaneous Breaking of Gauge Groups to Discrete Symmetries,hep-ph hep-th math-ph math.MP,"  Many models of beyond Standard Model physics connect flavor symmetry with a
+discrete group. Having this symmetry arise spontaneously from a gauge theory
+maintains compatibility with quantum gravity and can be used to systematically
+prevent anomalies. We minimize a number of Higgs potentials that break gauge
+groups to discrete symmetries of interest, and examine their scalar mass
+spectra.
+"
+text,quantum field theory gauge symmetry,16,1503.08397,0.7997798323631287,Exceptional Field Theory for $E_{6(6)}$ supergravity,hep-th,"  A brief description of the supersymmetric and duality covariant approach to
+supergravity is presented. The formalism is based on exceptional geometric
+structures and turns the hidden U-duality group into a manifest gauge symmetry.
+Tensor hierarchy of gauged supergravity appears naturally here as a consequence
+of covariance of the construction. Finally, the full supersymmetric Lagrangian
+is explicitly constructed. This work was presented on the International
+Conference ""Quantum Field Theory and Gravity (QFTG'14)"" in Tomsk.
+"
+text,quantum field theory gauge symmetry,17,1402.3373,0.798509418964386,Field-dependent quantum gauge transformation,hep-th math-ph math.MP,"  In this paper we generalize the quantum gauge transformation of Maxwell
+theory obtained through gaugeon formalism. The generalization is made by making
+the bosonic transformation parameter field-dependent. The Jacobian of vacuum
+functional under field-dependent quantum gauge transformation is calculated
+explicitly. We show that the quantum gauge transformation with a particular
+choice of field-dependent parameter connects the gaugeon actions of Maxwell
+theory in two different gauges. We establish the result by connecting two
+well-known gauges, namely, Lorentz gauge and axial gauge.
+"
+text,quantum field theory gauge symmetry,18,0906.4955,0.7949104309082031,At the root of things,physics.pop-ph,"  Modern theories of fundamental interactions describe strong, electromagnetic
+and weak interactions as quantum field theories with certain kinds of embedded
+internal symmetries called `gauge symmetries'. This article introduces quantum
+field theories and gauge symmetries to the uninitiated.
+"
+text,quantum field theory gauge symmetry,19,1312.2671,0.7939479351043701,Gauge symmetries in 2D field theory,math-ph hep-th math.MP,"  A simple algorithm is proposed for constructing generators of gauge symmetry
+as well as reducibility relations for arbitrary systems of field equations in
+two dimensions.
+"
+text,quantum field theory gauge symmetry,20,2504.05960,0.7939169406890869,Generalised Symmetries in Particle Physics,hep-ph hep-th,"  In this talk I review various notions of generalised global symmetry:
+higher-form, higher-group, and non-invertible symmetry. All these notions have
+had profound impact on quantum field theory research in the last decade. I
+highlight various applications of these new symmetries in particle physics,
+focussing on theories beyond the Standard Model. Areas touched upon include
+axions, gauge unification, dark matter, neutrino masses, and flavour
+hierarchies.
+"
