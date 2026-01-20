@@ -30,15 +30,14 @@ df_work.select(
 df_clean = (df_work
             .na.drop(subset=["title", "abstract", "categories"])
             .withColumn("text", F.concat_ws(" ", F.col("title"), F.col("abstract")))
-            .withColumn("label_str", F.split(F.col("categories"), " ").getItem(0))  # primary category
+            .withColumn("label_str", F.split(F.col("categories"), " ").getItem(0))
             )
 
 print("Clean rows:", df_clean.count())
 df_clean.select("id", "label_str", "text").show(3, truncate=80)
 
 # df_clean = df_clean.select("id", "text", "label_str", "update_date").cache()
-# df_clean.count()  # materialize cache
-
+# df_clean.count()
 
 label_counts = (
     df_clean

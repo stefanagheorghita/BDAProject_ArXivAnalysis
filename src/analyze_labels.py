@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
@@ -101,7 +100,6 @@ def plot_coverage_curve(ordered_counts: List[int], total: int, out_png: str, k_m
 
 
 def plot_long_tail_distribution(ordered_counts: List[int], out_png: str) -> None:
-    # plot count vs rank on log scale (shows imbalance)
     ranks = list(range(1, len(ordered_counts) + 1))
 
     plt.figure(figsize=(10, 6))
