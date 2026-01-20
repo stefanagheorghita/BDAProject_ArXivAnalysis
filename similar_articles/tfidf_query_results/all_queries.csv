@@ -1,0 +1,1112 @@
+query,id,categories,similarity,text
+gnn_citations,1906.00554,cs.LG stat.ML,0.6828031090511972,"Factor Graph Neural Network.   Most of the successful deep neural network architectures are structured,
+often consisting of elements like convolutional neural networks and gated
+recurrent neural networks. Recently, graph neural networks have been
+successfully applied to graph structured data such as point cloud and molecular
+data. These networks often only consider pairwise dependencies, as they operate
+on a graph structure. We generalize the graph neural network into a factor
+graph neural network (FGNN) in order to capture higher order dependencies. We
+show that FGNN is able to represent Max-Product Belief Propagation, an
+approximate inference algorithm on probabilistic graphical models; hence it is
+able to do well when Max-Product does well. Promising results on both synthetic
+and real datasets demonstrate the effectiveness of the proposed model.
+"
+gnn_citations,2303.15487,cs.AI cs.LG cs.LO cs.SC,0.7054749963935979,"Knowledge Enhanced Graph Neural Networks for Graph Completion.   Graph data is omnipresent and has a wide variety of applications, such as in
+natural science, social networks, or the semantic web. However, while being
+rich in information, graphs are often noisy and incomplete. As a result, graph
+completion tasks, such as node classification or link prediction, have gained
+attention. On one hand, neural methods, such as graph neural networks, have
+proven to be robust tools for learning rich representations of noisy graphs. On
+the other hand, symbolic methods enable exact reasoning on graphs.We propose
+Knowledge Enhanced Graph Neural Networks (KeGNN), a neuro-symbolic framework
+for graph completion that combines both paradigms as it allows for the
+integration of prior knowledge into a graph neural network model.Essentially,
+KeGNN consists of a graph neural network as a base upon which knowledge
+enhancement layers are stacked with the goal of refining predictions with
+respect to prior knowledge.We instantiate KeGNN in conjunction with two
+state-of-the-art graph neural networks, Graph Convolutional Networks and Graph
+Attention Networks, and evaluate KeGNN on multiple benchmark datasets for node
+classification.
+"
+gnn_citations,2001.07922,cs.LG cs.NE stat.ML,0.6869892341903991,"Get Rid of Suspended Animation Problem: Deep Diffusive Neural Network on
+  Graph Semi-Supervised Classification.   Existing graph neural networks may suffer from the ""suspended animation
+problem"" when the model architecture goes deep. Meanwhile, for some graph
+learning scenarios, e.g., nodes with text/image attributes or graphs with
+long-distance node correlations, deep graph neural networks will be necessary
+for effective graph representation learning. In this paper, we propose a new
+graph neural network, namely DIFNET (Graph Diffusive Neural Network), for graph
+representation learning and node classification. DIFNET utilizes both neural
+gates and graph residual learning for node hidden state modeling, and includes
+an attention mechanism for node neighborhood information diffusion. Extensive
+experiments will be done in this paper to compare DIFNET against several
+state-of-the-art graph neural network models. The experimental results can
+illustrate both the learning performance advantages and effectiveness of
+DIFNET, especially in addressing the ""suspended animation problem"".
+"
+gnn_citations,1911.08795,cs.LG stat.ML,0.660163805268668,"On Node Features for Graph Neural Networks.   Graph neural network (GNN) is a deep model for graph representation learning.
+One advantage of graph neural network is its ability to incorporate node
+features into the learning process. However, this prevents graph neural network
+from being applied into featureless graphs. In this paper, we first analyze the
+effects of node features on the performance of graph neural network. We show
+that GNNs work well if there is a strong correlation between node features and
+node labels. Based on these results, we propose new feature initialization
+methods that allows to apply graph neural network to non-attributed graphs. Our
+experimental results show that the artificial features are highly competitive
+with real features.
+"
+gnn_citations,2111.06679,cs.LG cs.AI cs.NE,0.6859918119402131,"deepstruct -- linking deep learning and graph theory.   deepstruct connects deep learning models and graph theory such that different
+graph structures can be imposed on neural networks or graph structures can be
+extracted from trained neural network models. For this, deepstruct provides
+deep neural network models with different restrictions which can be created
+based on an initial graph. Further, tools to extract graph structures from
+trained models are available. This step of extracting graphs can be
+computationally expensive even for models of just a few dozen thousand
+parameters and poses a challenging problem. deepstruct supports research in
+pruning, neural architecture search, automated network design and structure
+analysis of neural networks.
+"
+gnn_citations,2301.11164,cs.LG cs.SI,0.6786156045215076,"A Graph Neural Network with Negative Message Passing for Graph Coloring.   Graph neural networks have received increased attention over the past years
+due to their promising ability to handle graph-structured data, which can be
+found in many real-world problems such as recommended systems and drug
+synthesis. Most existing research focuses on using graph neural networks to
+solve homophilous problems, but little attention has been paid to
+heterophily-type problems. In this paper, we propose a graph network model for
+graph coloring, which is a class of representative heterophilous problems.
+Different from the conventional graph networks, we introduce negative message
+passing into the proposed graph neural network for more effective information
+exchange in handling graph coloring problems. Moreover, a new loss function
+taking into account the self-information of the nodes is suggested to
+accelerate the learning process. Experimental studies are carried out to
+compare the proposed graph model with five state-of-the-art algorithms on ten
+publicly available graph coloring problems and one real-world application.
+Numerical results demonstrate the effectiveness of the proposed graph neural
+network.
+"
+gnn_citations,2007.06559,cs.LG cs.CV cs.SI stat.ML,0.7500202759813125,"Graph Structure of Neural Networks.   Neural networks are often represented as graphs of connections between
+neurons. However, despite their wide use, there is currently little
+understanding of the relationship between the graph structure of the neural
+network and its predictive performance. Here we systematically investigate how
+does the graph structure of neural networks affect their predictive
+performance. To this end, we develop a novel graph-based representation of
+neural networks called relational graph, where layers of neural network
+computation correspond to rounds of message exchange along the graph structure.
+Using this representation we show that: (1) a ""sweet spot"" of relational graphs
+leads to neural networks with significantly improved predictive performance;
+(2) neural network's performance is approximately a smooth function of the
+clustering coefficient and average path length of its relational graph; (3) our
+findings are consistent across many different tasks and datasets; (4) the sweet
+spot can be identified efficiently; (5) top-performing neural networks have
+graph structure surprisingly similar to those of real biological neural
+networks. Our work opens new directions for the design of neural architectures
+and the understanding on neural networks in general.
+"
+gnn_citations,2012.08752,cs.LG,0.7446855493239635,"Graph Neural Networks: Taxonomy, Advances and Trends.   Graph neural networks provide a powerful toolkit for embedding real-world
+graphs into low-dimensional spaces according to specific tasks. Up to now,
+there have been several surveys on this topic. However, they usually lay
+emphasis on different angles so that the readers can not see a panorama of the
+graph neural networks. This survey aims to overcome this limitation, and
+provide a comprehensive review on the graph neural networks. First of all, we
+provide a novel taxonomy for the graph neural networks, and then refer to up to
+400 relevant literatures to show the panorama of the graph neural networks. All
+of them are classified into the corresponding categories. In order to drive the
+graph neural networks into a new stage, we summarize four future research
+directions so as to overcome the facing challenges. It is expected that more
+and more scholars can understand and exploit the graph neural networks, and use
+them in their research community.
+"
+gnn_citations,2412.01176,cs.AI cs.CE cs.LG math.CO math.LO,0.7262465753470655,"Superhypergraph Neural Networks and Plithogenic Graph Neural Networks: Theoretical Foundations. Hypergraphs extend traditional graphs by allowing edges to connect multiple nodes, while superhypergraphs further generalize this concept to represent even more complex relationships. Neural networks, inspired by biological systems, are widely used for tasks such as pattern recognition, data classification, and prediction. Graph Neural Networks (GNNs), a well-established framework, have recently been extended to Hypergraph Neural Networks (HGNNs), with their properties and applications being actively studied. The Plithogenic Graph framework enhances graph representations by integrating multi-valued attributes, as well as membership and contradiction functions, enabling the detailed modeling of complex relationships. In the context of handling uncertainty, concepts such as Fuzzy Graphs and Neutrosophic Graphs have gained prominence. It is well established that Plithogenic Graphs serve as a generalization of both Fuzzy Graphs and Neutrosophic Graphs. Furthermore, the Fuzzy Graph Neural Network has been proposed and is an active area of research. This paper establishes the theoretical foundation for the development of SuperHyperGraph Neural Networks (SHGNNs) and Plithogenic Graph Neural Networks, expanding the applicability of neural networks to these advanced graph structures. While mathematical generalizations and proofs are presented, future computational experiments are anticipated."
+gnn_citations,1902.10042,cs.LG stat.ML,0.6756982212008733,"Graph Neural Processes: Towards Bayesian Graph Neural Networks.   We introduce Graph Neural Processes (GNP), inspired by the recent work in
+conditional and latent neural processes. A Graph Neural Process is defined as a
+Conditional Neural Process that operates on arbitrary graph data. It takes
+features of sparsely observed context points as input, and outputs a
+distribution over target points. We demonstrate graph neural processes in edge
+imputation and discuss benefits and drawbacks of the method for other
+application areas. One major benefit of GNPs is the ability to quantify
+uncertainty in deep learning on graph structures. An additional benefit of this
+method is the ability to extend graph neural networks to inputs of dynamic
+sized graphs.
+"
+gnn_citations,2302.04451,cs.LG cs.SI math.ST stat.ML stat.TH,0.6852514350728309,"Generalization in Graph Neural Networks: Improved PAC-Bayesian Bounds on
+  Graph Diffusion.   Graph neural networks are widely used tools for graph prediction tasks.
+Motivated by their empirical performance, prior works have developed
+generalization bounds for graph neural networks, which scale with graph
+structures in terms of the maximum degree. In this paper, we present
+generalization bounds that instead scale with the largest singular value of the
+graph neural network's feature diffusion matrix. These bounds are numerically
+much smaller than prior bounds for real-world graphs. We also construct a lower
+bound of the generalization gap that matches our upper bound asymptotically. To
+achieve these results, we analyze a unified model that includes prior works'
+settings (i.e., convolutional and message-passing networks) and new settings
+(i.e., graph isomorphism networks). Our key idea is to measure the stability of
+graph neural networks against noise perturbations using Hessians. Empirically,
+we find that Hessian-based measurements correlate with the observed
+generalization gaps of graph neural networks accurately. Optimizing noise
+stability properties for fine-tuning pretrained graph neural networks also
+improves test performance on several graph-level classification tasks.
+"
+gnn_citations,2301.10569,cs.LG,0.6819272652940642,"Spatio-Temporal Graph Neural Networks: A Survey.   Graph Neural Networks have gained huge interest in the past few years. These
+powerful algorithms expanded deep learning models to non-Euclidean space and
+were able to achieve state of art performance in various applications including
+recommender systems and social networks. However, this performance is based on
+static graph structures assumption which limits the Graph Neural Networks
+performance when the data varies with time. Spatiotemporal Graph Neural
+Networks are extension of Graph Neural Networks that takes the time factor into
+account. Recently, various Spatiotemporal Graph Neural Network algorithms were
+proposed and achieved superior performance compared to other deep learning
+algorithms in several time dependent applications. This survey discusses
+interesting topics related to Spatiotemporal Graph Neural Networks, including
+algorithms, applications, and open challenges.
+"
+gnn_citations,2104.13492,cs.LG,0.7061352213281025,"An Energy-Based View of Graph Neural Networks.   Graph neural networks are a popular variant of neural networks that work with
+graph-structured data. In this work, we consider combining graph neural
+networks with the energy-based view of Grathwohl et al. (2019) with the aim of
+obtaining a more robust classifier. We successfully implement this framework by
+proposing a novel method to ensure generation over features as well as the
+adjacency matrix and evaluate our method against the standard graph
+convolutional network (GCN) architecture (Kipf & Welling (2016)). Our approach
+obtains comparable discriminative performance while improving robustness,
+opening promising new directions for future research for energy-based graph
+neural networks.
+"
+gnn_citations,1901.00596,cs.LG stat.ML,0.7170974896342249,"A Comprehensive Survey on Graph Neural Networks.   Deep learning has revolutionized many machine learning tasks in recent years,
+ranging from image classification and video processing to speech recognition
+and natural language understanding. The data in these tasks are typically
+represented in the Euclidean space. However, there is an increasing number of
+applications where data are generated from non-Euclidean domains and are
+represented as graphs with complex relationships and interdependency between
+objects. The complexity of graph data has imposed significant challenges on
+existing machine learning algorithms. Recently, many studies on extending deep
+learning approaches for graph data have emerged. In this survey, we provide a
+comprehensive overview of graph neural networks (GNNs) in data mining and
+machine learning fields. We propose a new taxonomy to divide the
+state-of-the-art graph neural networks into four categories, namely recurrent
+graph neural networks, convolutional graph neural networks, graph autoencoders,
+and spatial-temporal graph neural networks. We further discuss the applications
+of graph neural networks across various domains and summarize the open source
+codes, benchmark data sets, and model evaluation of graph neural networks.
+Finally, we propose potential research directions in this rapidly growing
+field.
+"
+gnn_citations,2102.02026,cs.LG cs.SI,0.6623273351888704,"Learning Graph Representations.   Social and information networks are gaining huge popularity recently due to
+their various applications. Knowledge representation through graphs in the form
+of nodes and edges should preserve as many characteristics of the original data
+as possible. Some of the interesting and useful applications on these graphs
+are graph classification, node classification, link prediction, etc. The Graph
+Neural Networks have evolved over the last few years. Graph Neural Networks
+(GNNs) are efficient ways to get insight into large and dynamic graph datasets
+capturing relationships among billions of entities also known as knowledge
+graphs.
+  In this paper, we discuss the graph convolutional neural networks graph
+autoencoders and spatio-temporal graph neural networks. The representations of
+the graph in lower dimensions can be learned using these methods. The
+representations in lower dimensions can be used further for downstream machine
+learning tasks.
+"
+gnn_citations,1810.10627,cs.LG stat.ML,0.6837142590627128,"Streaming Graph Neural Networks.   Graphs are essential representations of many real-world data such as social
+networks. Recent years have witnessed the increasing efforts made to extend the
+neural network models to graph-structured data. These methods, which are
+usually known as the graph neural networks, have been applied to advance many
+graphs related tasks such as reasoning dynamics of the physical system, graph
+classification, and node classification. Most of the existing graph neural
+network models have been designed for static graphs, while many real-world
+graphs are inherently dynamic. For example, social networks are naturally
+evolving as new users joining and new relations being created. Current graph
+neural network models cannot utilize the dynamic information in dynamic graphs.
+However, the dynamic information has been proven to enhance the performance of
+many graph analytic tasks such as community detection and link prediction.
+Hence, it is necessary to design dedicated graph neural networks for dynamic
+graphs. In this paper, we propose DGNN, a new {\bf D}ynamic {\bf G}raph {\bf
+N}eural {\bf N}etwork model, which can model the dynamic information as the
+graph evolving. In particular, the proposed framework can keep updating node
+information by capturing the sequential information of edges (interactions),
+the time intervals between edges and information propagation coherently.
+Experimental results on various dynamic graphs demonstrate the effectiveness of
+the proposed framework.
+"
+gnn_citations,1905.09550,stat.ML cs.IT cs.LG math.IT math.SP,0.6603709269371196,"Revisiting Graph Neural Networks: All We Have is Low-Pass Filters.   Graph neural networks have become one of the most important techniques to
+solve machine learning problems on graph-structured data. Recent work on vertex
+classification proposed deep and distributed learning models to achieve high
+performance and scalability. However, we find that the feature vectors of
+benchmark datasets are already quite informative for the classification task,
+and the graph structure only provides a means to denoise the data. In this
+paper, we develop a theoretical framework based on graph signal processing for
+analyzing graph neural networks. Our results indicate that graph neural
+networks only perform low-pass filtering on feature vectors and do not have the
+non-linear manifold learning property. We further investigate their resilience
+to feature noise and propose some insights on GCN-based graph neural network
+design.
+"
+gnn_citations,2002.08104,cs.LG cs.CV q-bio.NC stat.ML,0.673509025670712,"Analyzing Neural Networks Based on Random Graphs.   We perform a massive evaluation of neural networks with architectures
+corresponding to random graphs of various types. We investigate various
+structural and numerical properties of the graphs in relation to neural network
+test accuracy. We find that none of the classical numerical graph invariants by
+itself allows to single out the best networks. Consequently, we introduce a new
+numerical graph characteristic that selects a set of quasi-1-dimensional
+graphs, which are a majority among the best performing networks. We also find
+that networks with primarily short-range connections perform better than
+networks which allow for many long-range connections. Moreover, many resolution
+reducing pathways are beneficial. We provide a dataset of 1020 graphs and the
+test accuracies of their corresponding neural networks at
+https://github.com/rmldj/random-graph-nn-paper
+"
+gnn_citations,2412.19419,cs.LG cs.AI,0.6946535267289661,"Introduction to Graph Neural Networks: A Starting Point for Machine
+  Learning Engineers.   Graph neural networks are deep neural networks designed for graphs with
+attributes attached to nodes or edges. The number of research papers in the
+literature concerning these models is growing rapidly due to their impressive
+performance on a broad range of tasks. This survey introduces graph neural
+networks through the encoder-decoder framework and provides examples of
+decoders for a range of graph analytic tasks. It uses theory and numerous
+experiments on homogeneous graphs to illustrate the behavior of graph neural
+networks for different training sizes and degrees of graph complexity.
+"
+gnn_citations,1908.00187,cs.LG cs.NE stat.ML,0.7666783685737449,"Graph Neural Networks for Small Graph and Giant Network Representation
+  Learning: An Overview.   Graph neural networks denote a group of neural network models introduced for
+the representation learning tasks on graph data specifically. Graph neural
+networks have been demonstrated to be effective for capturing network structure
+information, and the learned representations can achieve the state-of-the-art
+performance on node and graph classification tasks. Besides the different
+application scenarios, the architectures of graph neural network models also
+depend on the studied graph types a lot. Graph data studied in research can be
+generally categorized into two main types, i.e., small graphs vs. giant
+networks, which differ from each other a lot in the size, instance number and
+label annotation. Several different types of graph neural network models have
+been introduced for learning the representations from such different types of
+graphs already. In this paper, for these two different types of graph data, we
+will introduce the graph neural networks introduced in recent years. To be more
+specific, the graph neural networks introduced in this paper include IsoNN,
+SDBN, LF&ER, GCN, GAT, DifNN, GNL, GraphSage and seGEN. Among these graph
+neural network models, IsoNN, SDBN and LF&ER are initially proposed for small
+graphs and the remaining ones are initially proposed for giant networks
+instead. The readers are also suggested to refer to these papers for detailed
+information when reading this tutorial paper.
+"
+quantum_field,1609.00985,cond-mat.str-el cond-mat.stat-mech quant-ph,0.6754522717172979,"Symmetry Enrichment in Three-Dimensional Topological Phases.   While two-dimensional symmetry-enriched topological phases ($\mathsf{SET}$s)
+have been studied intensively and systematically, three-dimensional ones are
+still open issues. We propose an algorithmic approach of imposing global
+symmetry $G_s$ on gauge theories (denoted by $\mathsf{GT}$) with gauge group
+$G_g$. The resulting symmetric gauge theories are dubbed ""symmetry-enriched
+gauge theories"" ($\mathsf{SEG}$), which may be served as low-energy effective
+theories of three-dimensional symmetric topological quantum spin liquids. We
+focus on $\mathsf{SEG}$s with gauge group
+$G_g=\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2}\times\cdots$ and on-site unitary
+symmetry group $G_s=\mathbb{Z}_{K_1}\times\mathbb{Z}_{K_2}\times\cdots$ or
+$G_s=\mathrm{U(1)}\times \mathbb{Z}_{K_1}\times\cdots$. Each
+$\mathsf{SEG}(G_g,G_s)$ is described in the path integral formalism associated
+with certain symmetry assignment. From the path-integral expression, we propose
+how to physically diagnose the ground state properties (i.e., $\mathsf{SET}$
+orders) of $\mathsf{SEG}$s in experiments of charge-loop braidings (patterns of
+symmetry fractionalization) and the \emph{mixed} multi-loop braidings among
+deconfined loop excitations and confined symmetry fluxes. From these
+symmetry-enriched properties, one can obtain the map from $\mathsf{SEG}$s to
+$\mathsf{SET}$s. By giving full dynamics to background gauge fields,
+$\mathsf{SEG}$s may be eventually promoted to a set of new gauge theories
+(denoted by $\mathsf{GT}^*$). Based on their gauge groups, $\mathsf{GT}^*$s may
+be further regrouped into different classes each of which is labeled by a gauge
+group ${G}^*_g$. Finally, a web of gauge theories involving $\mathsf{GT}$,
+$\mathsf{SEG}$, $\mathsf{SET}$ and $\mathsf{GT}^*$ is achieved. We demonstrate
+the above symmetry-enrichment physics and the web of gauge theories through
+many concrete examples.
+"
+quantum_field,1904.04038,hep-th,0.6861201265032633,"A note on unfree gauge symmetry.   We study the general structure of field theories with the unfree gauge
+symmetry where the gauge parameters are restricted by differential equations.
+The examples of unfree gauge symmetries include volume preserving
+diffeomorphisms in the unimodular gravity and various higher spin field
+theories with transverse gauge symmetries. All the known examples of the models
+with unfree gauge symmetry share one common feature. They admit local
+quantities which vanish on shell, though they are not linear combinations of
+Lagrangian equations and their derivatives. We term these quantities as mass
+shell completion functions.
+  In the case of usual gauge symmetry with unconstrained gauge parameters, the
+irreducible gauge algebra involves the two basic constituents: the action
+functional and gauge symmetry generators. For the case of unfree gauge
+symmetry, we identify two more basic constituents: operators of gauge parameter
+constraints and completion functions. These two extra constituents are involved
+in the algebra of unfree gauge symmetry on equal footing with action and gauge
+symmetry generators.
+  Proceeding from the algebra, we adjust the Faddeev-Popov (FP) path integral
+quantization scheme to the case of unfree gauge symmetry. The modified FP
+action involves the operators of the constraints imposed on the gauge
+parameters, while the corresponding BRST transformation involves the completion
+functions. The BRST symmetry ensures gauge independence of the path integral.
+We provide two examples which admit the alternative unconstrained
+parametrization of gauge symmetry and demonstrate that they lead to the
+equivalent FP path integral.
+"
+quantum_field,2301.10207,hep-lat quant-ph,0.6976192820241488,"Robustness of Gauge Digitization to Quantum Noise.   Quantum noise limits the use of quantum memory in high energy physics
+simulations. In particular, it breaks the gauge symmetry of stored quantum
+states. We examine this effect for abelian and nonabelian theories and
+demonstrate that optimizing the digitization of gauge theories to quantum
+memory to account for noise channels can extend the lifetime before complete
+loss of gauge symmetry by $2-10\times$ over some other digitizations. These
+constructions also allow for quantum error correction to integrate the
+symmetries of quantum fields and prioritize the largest gauge violations.
+"
+quantum_field,1812.04716,hep-th cond-mat.str-el,0.6671670566717335,"Comments on One-Form Global Symmetries and Their Gauging in 3d and 4d.   We study 3d and 4d systems with a one-form global symmetry, explore their
+consequences, and analyze their gauging. For simplicity, we focus on
+$\mathbb{Z}_N$ one-form symmetries. A 3d topological quantum field theory
+(TQFT) $\mathcal{T}$ with such a symmetry has $N$ special lines that generate
+it. The braiding of these lines and their spins are characterized by a single
+integer $p$ modulo $2N$. Surprisingly, if $\gcd(N,p)=1$ the TQFT factorizes
+$\mathcal{T}=\mathcal{T}'\otimes \mathcal{A}^{N,p}$. Here $\mathcal{T}'$ is a
+decoupled TQFT, whose lines are neutral under the global symmetry and
+$\mathcal{A}^{N,p}$ is a minimal TQFT with the $\mathbb{Z}_N$ one-form symmetry
+of label $p$. The parameter $p$ labels the obstruction to gauging the
+$\mathbb{Z}_N$ one-form symmetry; i.e.\ it characterizes the 't Hooft anomaly
+of the global symmetry. When $p=0$ mod $2N$, the symmetry can be gauged.
+Otherwise, it cannot be gauged unless we couple the system to a 4d bulk with
+gauge fields extended to the bulk. This understanding allows us to consider
+$SU(N)$ and $PSU(N)$ 4d gauge theories. Their dynamics is gapped and it is
+associated with confinement and oblique confinement -- probe quarks are
+confined. In the $PSU(N)$ theory the low-energy theory can include a discrete
+gauge theory. We will study the behavior of the theory with a space-dependent
+$\theta$-parameter, which leads to interfaces. Typically, the theory on the
+interface is not confining. Furthermore, the liberated probe quarks are anyons
+on the interface. The $PSU(N)$ theory is obtained by gauging the $\mathbb{Z}_N$
+one-form symmetry of the $SU(N)$ theory. Our understanding of the symmetries in
+3d TQFTs allows us to describe the interface in the $PSU(N)$ theory.
+"
+quantum_field,2304.10042,hep-th,0.6886930600876938,"Unfree gauge symmetry.   The gauge symmetry is said unfree if the gauge transformation leaves the
+action functional unchanged provided for the gauge parameters are constrained
+by the system of partial differential equations. The best known example of this
+phenomenon is the volume preserving diffeomorphism being the gauge symmetry of
+unimodular gravity (UG). Various extensions are known of the UG, including the
+higher spin analogs - all with unfree gauge symmetry. Given the distinctions of
+the unfree gauge symmetry from the symmetry with unrestricted gauge parameters,
+the algebra of gauge transformations is essentially different. These
+distinctions have consequences for all the key constituents of general gauge
+theory, starting from the second Noether theorem, Hamiltonian constrained
+formalism, BRST complex, and quantization. In this review article, we summarise
+the modifications of general gauge theory worked out in recent years to cover
+the case of unfree gauge symmetry.
+"
+quantum_field,1702.02027,physics.gen-ph hep-th,0.680372619610242,"Quantum gauge symmetry of reducible gauge theory.   We derive the gaugeon formalism of the Kalb-Ramond field theory, a reducible
+gauge theory, which discusses the quantum gauge freedom. In gaugeon formalism,
+theory admits quantum gauge symmetry which leaves the action form-invariant.
+The BRST symmetric gaugeon formalism is also studied which introduces the
+gaugeon ghost fields and gaugeon ghosts of ghosts fields. To replace the
+Yokoyama subsidiary conditions by a single Kugo-Ojima type condition the virtue
+of BRST symmetry is utilized. Under generalized BRST transformations, we show
+that the gaugeon fields appear naturally in the reducible gauge theory.
+"
+quantum_field,math-ph/0702061,math-ph math.DG math.MP,0.6609473767716513,"Gauge Theory in Riem(M).   This paper has been withdrawn.
+"
+quantum_field,hep-ph/9807416,hep-ph,0.7272198962571339,"General Gauge Field Theory And Its Application.   A gauge field model, which simultaneously has strict local gauge symmetry and
+contains massive general gauge bosons, is discussed in this paper. The model
+has SU(N) gauge symmetry. In order to introduce the mass term of gauge fields
+directly without violating the gauge symmetry of the theory, two sets of gauge
+fields will be introduced into the theory. After some transformations, one set
+of gauge fields obtain masses and another set of gauge fields keep massless. In
+the limit $\alpha \longrightarrow 0$ or $\alpha \longrightarrow \infty$, the
+gauge field model discussed in this paper will return to Yang-Mills gauge field
+model. Finally, some applications of this model are discussed.
+"
+quantum_field,2010.07338,cond-mat.quant-gas cond-mat.stat-mech cond-mat.str-el hep-lat quant-ph,0.7380183606925437,"Gauge-Symmetry Violation Quantum Phase Transition in Lattice Gauge
+  Theories.   Gauge symmetry plays a key role in our description of subatomic matter. The
+vanishing photon mass, the long-ranged Coulomb law, and asymptotic freedom are
+all due to gauge invariance. Recent years have seen tantalizing progress in the
+microscopic reconstruction of gauge theories in engineered quantum simulators.
+Yet, many of these are plagued by a fundamental question: When gauge symmetry
+is only approximate in the quantum device, do we actually quantum-simulate a
+gauge theory? Here, we answer this question in the affirmative for a paradigm
+gauge theory akin to quantum electrodynamics. Analytically, we derive a
+renormalized gauge symmetry that is at least exponentially accurate. Further,
+numerically computing the phase diagram in the thermodynamic limit, we find
+that the long-distance behavior of the gauge theory is only compromised upon
+reaching a sharp quantum phase transition. This behavior is enabled by an
+energy penalty term, which lends a mass to the Higgs boson to which the
+coherent gauge breaking couples. Our results not only lend validity to ongoing
+gauge-theory quantum simulations, they also probe the fundamental question of
+how gauge symmetry could emerge in nature.
+"
+quantum_field,2104.09892,hep-lat cond-mat.stat-mech hep-th,0.6614833299381961,"Breaking of the gauge symmetry in lattice gauge theories.   We study perturbations that break gauge symmetries in lattice gauge theories.
+As a paradigmatic model, we consider the three-dimensional Abelian-Higgs (AH)
+model with an N-component scalar field and a noncompact gauge field, which is
+invariant under U(1) gauge and SU(N) transformations. We consider
+gauge-symmetry breaking perturbations that are quadratic in the gauge field,
+such as a photon mass term, and determine their effect on the critical behavior
+of the gauge-invariant model, focusing mainly on the continuous transitions
+associated with the charged fixed point of the AH field theory. We discuss
+their relevance and compute the (gauge-dependent) exponents that parametrize
+the departure from the critical behavior (continuum limit) of the
+gauge-invariant model. We also address the critical behavior of lattice AH
+models with broken gauge symmetry, showing an effective enlargement of the
+global symmetry, from U(N) to O(2N), which reflects a peculiar cyclic
+renormalization-group flow in the space of the lattice AH parameters and of the
+photon mass.
+"
+quantum_field,1107.4664,physics.hist-ph,0.7196639642008076,"Gauge symmetry breaking in gauge theories---In search of clarification.   The paper investigates the spontaneous breaking of gauge symmetries in gauge
+theories from a philosophical angle, taking into account the fact that the
+notion of a spontaneously broken local gauge symmetry, though widely employed
+in textbook expositions of the Higgs mechanism, is not supported by our leading
+theoretical frameworks of gauge quantum theories. In the context of lattice
+gauge theory, the statement that local gauge symmetry cannot be spontaneously
+broken can even be made rigorous in the form of Elitzur's theorem.
+Nevertheless, gauge symmetry breaking does occur in gauge quantum field
+theories in the form of the breaking of remnant subgroups of the original local
+gauge group under which the theories typically remain invariant after gauge
+fixing. The paper discusses the relation between these instances of symmetry
+breaking and phase transitions and draws some more general conclusions for the
+philosophical interpretation of gauge symmetries and their breaking.
+"
+quantum_field,2304.00756,hep-th hep-ph,0.7069121543750079,"Gauge fixing and physical symmetries.   We analyze how gauge fixing, which is required by any practical continuum
+approach to gauge systems, can interfere with the physical symmetries of such
+systems. In principle, the gauge fixing procedure, which deals with the
+(unphysical) gauge symmetry, should not interfere with the other (physical)
+symmetries. In practice, however, there can be an interference which takes two
+different forms. First, depending on the considered gauge, it might not always
+be simple or possible to devise approximation schemes that preserve the
+physical symmetry constraints on (gauge-independent) observables. Second, even
+at an exact level of discussion, the (gauge-dependent) effective action for the
+gauge field, and thus the related vertex functions, may not reflect the
+physical symmetries of the problem. We illustrate these difficulties using a
+very general class of gauge fixings that contains the usual gauge fixings as
+particular cases. Using background field techniques, we then propose specific
+gauge choices that allow one to keep the physical symmetries explicit, both at
+the level of the observables and at the level of the effective action for the
+gauge field. Our analysis is based on the notion of invariance modulo gauge
+transformations. This is not only a convenient framework to discuss symmetries
+in the presence of unphysical degrees of freedom, but it also allows one to
+reinterpret certain well known phenomena in gauge theories without the need to
+invoke the conceptually annoying ``breaking of a gauge symmetry''.
+"
+quantum_field,2110.07941,hep-lat cond-mat.stat-mech,0.7067470924381555,"Breaking the gauge symmetry in lattice gauge-invariant models.   We consider the role that gauge symmetry breaking terms play on the continuum
+limit of gauge theories in three dimensions. As a paradigmatic example we
+consider scalar electrodynamics in which $N_f$ complex scalar fields interact
+with a U(1) gauge field. We discuss under which conditions a gauge-symmetry
+breaking term destabilizes the critical behavior (continuum limit) of the
+gauge-invariant theory. We find that the gauge symmetry is robust at
+transitions at which gauge fields are not critical. At charged transitions,
+where gauge fields are critical, gauge symmetry is lost as soon as the
+perturbation is added.
+"
+quantum_field,2503.04546,hep-th,0.6737483896571921,"Symmetry Topological Field Theory for Flavor Symmetry.   In this Letter, we demonstrate that the Symmetry Topological Field Theory
+(SymTFT) associated to a Quantum Field Theory (QFT) with continuous non-abelian
+$G$-flavor symmetry is a $BF$-theory with gauge group $G$. We show that gauging
+$G$-symmetry with a flat connection yields a theory with global symmetry
+characterized by exchanging the conjugate variables in the quantization of
+$BF$-theory. We construct the extended operators that generate the $G$-flavor
+symmetry and the $(d-2)$-form $\text{Rep}(G)$-symmetry of the gauged QFT. We
+demonstrate that $BF$-theory arises as the theory characterizing $G$-flavor
+symmetry of a QFT in the AdS/CFT setup. 't Hooft anomalies of the $G$-flavor
+symmetry are realized as extra terms in the action.
+"
+quantum_field,1312.2671,math-ph hep-th math.MP,0.6880310356117905,"Gauge symmetries in 2D field theory.   A simple algorithm is proposed for constructing generators of gauge symmetry
+as well as reducibility relations for arbitrary systems of field equations in
+two dimensions.
+"
+quantum_field,0906.4955,physics.pop-ph,0.6738247689192931,"At the root of things.   Modern theories of fundamental interactions describe strong, electromagnetic
+and weak interactions as quantum field theories with certain kinds of embedded
+internal symmetries called `gauge symmetries'. This article introduces quantum
+field theories and gauge symmetries to the uninitiated.
+"
+quantum_field,1205.0890,hep-th hep-lat hep-ph,0.6622991870393018,"(Non-)Aligned gauges and global gauge symmetry breaking.   The concept of (global) gauge symmetry breaking plays an important role in
+many areas of physics. Since the corresponding symmetry is a gauge symmetry,
+its breaking is actually gauge-dependent. Thus, it is possible to design gauges
+which restore the symmetry as good as possible. Such gauge constructions will
+be detailed here, illustrated with the use of lattice gauge theory. Their use
+will be discussed for the cases of the Higgs effect, high-baryon density color
+superconductors, and BRST symmetry.
+"
+quantum_field,2305.00117,hep-th gr-qc,0.672539709632709,"Henneaux-Teitelboim gauge symmetry and its applications to higher gauge
+  theories.   When discussing the gauge symmetries of any theory, the Henneaux-Teitelboim
+transformations are often underappreciated or even completely ignored, due to
+their on-shell triviality. Nevertheless, these gauge transformations play an
+important role in understanding the structure of the full gauge symmetry group
+of any theory, especially regarding the subgroup of diffeomorphisms. We give a
+review of the Henneaux-Teitelboim transformations and the resulting gauge group
+in the general case, and then discuss its role in the applications to the class
+of topological theories called nBF models, relevant for the constructions of
+higher gauge theories and quantum gravity.
+"
+quantum_field,hep-th/0004190,hep-th hep-ph,0.6890321915698059,"Quantum and Classical Gauge Symmetries in a Modified Quantization Scheme.   The use of the mass term as a gauge fixing term has been studied by
+Zwanziger, Parrinello and Jona-Lasinio, which is related to the non-linear
+gauge $A_{\mu}^{2}=\lambda$ of Dirac and Nambu in the large mass limit. We have
+recently shown that this modified quantization scheme is in fact identical to
+the conventional {\em local} Faddeev-Popov formula {\em without} taking the
+large mass limit, if one takes into account the variation of the gauge field
+along the entire gauge orbit and if the Gribov complications can be ignored.
+This suggests that the classical massive vector theory, for example, is
+interpreted in a more flexible manner either as a gauge invariant theory with a
+gauge fixing term added, or as a conventional massive non-gauge theory. As for
+massive gauge particles, the Higgs mechanics, where the mass term is gauge
+invariant, has a more intrinsic meaning.
+  It is suggested to extend the notion of quantum gauge symmetry (BRST
+symmetry) not only to classical gauge theory but also to a wider class of
+theories whose gauge symmetry is broken by some extra terms in the classical
+action. We comment on the implications of this extended notion of quantum gauge
+symmetry.
+"
+quantum_field,hep-th/0006080,hep-th gr-qc,0.7337542396356596,"Gauge symmetries of the teleparallel theory of gravity.   We study gauge properties of the general teleparallel theory of gravity,
+defined in the framework of Poincare gauge theory. It is found that the general
+theory is characterized by two kinds of gauge symmetries: a specific gauge
+symmetry that acts on Lagrange multipliers, and the standard Poincare gauge
+symmetry. The canonical generators of these symmetries are explicitly
+constructed and investigated.
+"
+optimization,2004.09740,cs.LG stat.ML,0.64711043477606,"AdaX: Adaptive Gradient Descent with Exponential Long Term Memory.   Although adaptive optimization algorithms such as Adam show fast convergence
+in many machine learning tasks, this paper identifies a problem of Adam by
+analyzing its performance in a simple non-convex synthetic problem, showing
+that Adam's fast convergence would possibly lead the algorithm to local
+minimums. To address this problem, we improve Adam by proposing a novel
+adaptive gradient descent algorithm named AdaX. Unlike Adam that ignores the
+past gradients, AdaX exponentially accumulates the long-term gradient
+information in the past during training, to adaptively tune the learning rate.
+We thoroughly prove the convergence of AdaX in both the convex and non-convex
+settings. Extensive experiments show that AdaX outperforms Adam in various
+tasks of computer vision and natural language processing and can catch up with
+Stochastic Gradient Descent.
+"
+optimization,2409.14989,math.OC cs.LG,0.6396003052609324,"Methods for Convex $(L_0,L_1)$-Smooth Optimization: Clipping,
+  Acceleration, and Adaptivity.   Due to the non-smoothness of optimization problems in Machine Learning,
+generalized smoothness assumptions have been gaining a lot of attention in
+recent years. One of the most popular assumptions of this type is
+$(L_0,L_1)$-smoothness (Zhang et al., 2020). In this paper, we focus on the
+class of (strongly) convex $(L_0,L_1)$-smooth functions and derive new
+convergence guarantees for several existing methods. In particular, we derive
+improved convergence rates for Gradient Descent with (Smoothed) Gradient
+Clipping and for Gradient Descent with Polyak Stepsizes. In contrast to the
+existing results, our rates do not rely on the standard smoothness assumption
+and do not suffer from the exponential dependency from the initial distance to
+the solution. We also extend these results to the stochastic case under the
+over-parameterization assumption, propose a new accelerated method for convex
+$(L_0,L_1)$-smooth optimization, and derive new convergence rates for Adaptive
+Gradient Descent (Malitsky and Mishchenko, 2020).
+"
+optimization,1507.02030,cs.LG math.OC,0.64917527442713,"Beyond Convexity: Stochastic Quasi-Convex Optimization.   Stochastic convex optimization is a basic and well studied primitive in
+machine learning. It is well known that convex and Lipschitz functions can be
+minimized efficiently using Stochastic Gradient Descent (SGD). The Normalized
+Gradient Descent (NGD) algorithm, is an adaptation of Gradient Descent, which
+updates according to the direction of the gradients, rather than the gradients
+themselves. In this paper we analyze a stochastic version of NGD and prove its
+convergence to a global minimum for a wider class of functions: we require the
+functions to be quasi-convex and locally-Lipschitz. Quasi-convexity broadens
+the con- cept of unimodality to multidimensions and allows for certain types of
+saddle points, which are a known hurdle for first-order optimization methods
+such as gradient descent. Locally-Lipschitz functions are only required to be
+Lipschitz in a small region around the optimum. This assumption circumvents
+gradient explosion, which is another known hurdle for gradient descent
+variants. Interestingly, unlike the vanilla SGD algorithm, the stochastic
+normalized gradient descent algorithm provably requires a minimal minibatch
+size.
+"
+optimization,2508.09685,cs.LG cs.IT math.IT,0.658750450589374,"Global Convergence Analysis of Vanilla Gradient Descent for Asymmetric Matrix Completion. This paper investigates the asymmetric low-rank matrix completion problem, which can be formulated as an unconstrained non-convex optimization problem with a nonlinear least-squares objective function, and is solved via gradient descent methods. Previous gradient descent approaches typically incorporate regularization terms into the objective function to guarantee convergence. However, numerical experiments and theoretical analysis of the gradient flow both demonstrate that the elimination of regularization terms in gradient descent algorithms does not adversely affect convergence performance. By introducing the leave-one-out technique, we inductively prove that the vanilla gradient descent with spectral initialization achieves a linear convergence rate with high probability. Besides, we demonstrate that the balancing regularization term exhibits a small norm during iterations, which reveals the implicit regularization property of gradient descent. Empirical results show that our algorithm has a lower computational cost while maintaining comparable completion performance compared to other gradient descent algorithms."
+optimization,1911.08380,math.OC,0.6625909696180664,"Adaptive Gradient Descent for Convex and Non-Convex Stochastic
+  Optimization.   In this paper we propose several adaptive gradient methods for stochastic
+optimization. Unlike AdaGrad-type of methods, our algorithms are based on
+Armijo-type line search and they simultaneously adapt to the unknown Lipschitz
+constant of the gradient and variance of the stochastic approximation for the
+gradient. We consider an accelerated and non-accelerated gradient descent for
+convex problems and gradient descent for non-convex problems. In the
+experiments we demonstrate superiority of our methods to existing adaptive
+methods, e.g. AdaGrad and Adam.
+"
+optimization,2303.08785,math.OC,0.6738304938949349,"A New Inexact Gradient Descent Method with Applications to Nonsmooth
+  Convex Optimization.   The paper proposes and develops a novel inexact gradient method (IGD) for
+minimizing C1-smooth functions with Lipschitzian gradients, i.e., for problems
+of C1,1 optimization. We show that the sequence of gradients generated by IGD
+converges to zero. The convergence of iterates to stationary points is
+guaranteed under the Kurdyka- Lojasiewicz (KL) property of the objective
+function with convergence rates depending on the KL exponent. The newly
+developed IGD is applied to designing two novel gradient-based methods of
+nonsmooth convex optimization such as the inexact proximal point methods
+(GIPPM) and the inexact augmented Lagrangian method (GIALM) for convex programs
+with linear equality constraints. These two methods inherit global convergence
+properties from IGD and are confirmed by numerical experiments to have
+practical advantages over some well-known algorithms of nonsmooth convex
+optimization.
+"
+optimization,2411.01803,math.OC cs.LG,0.6386188617695828,"Gradient Methods with Online Scaling.   We introduce a framework to accelerate the convergence of gradient-based
+methods with online learning. The framework learns to scale the gradient at
+each iteration through an online learning algorithm and provably accelerates
+gradient-based methods asymptotically. In contrast with previous literature,
+where convergence is established based on worst-case analysis, our framework
+provides a strong convergence guarantee with respect to the optimal scaling
+matrix for the iteration trajectory. For smooth strongly convex optimization,
+our results provide an $O(\kappa^\star \log(1/\varepsilon)$) complexity result,
+where $\kappa^\star$ is the condition number achievable by the optimal
+preconditioner, improving on the previous $O(\sqrt{n}\kappa^\star
+\log(1/\varepsilon))$ result. In particular, a variant of our method achieves
+superlinear convergence on convex quadratics. For smooth convex optimization,
+we show for the first time that the widely-used hypergradient descent heuristic
+improves on the convergence of gradient descent.
+"
+optimization,2412.17050,math.OC,0.71090666490193,"Linear Convergence Rate in Convex Setup is Possible! Gradient Descent
+  Method Variants under $(L_0,L_1)$-Smoothness.   The gradient descent (GD) method -- is a fundamental and likely the most
+popular optimization algorithm in machine learning (ML), with a history traced
+back to a paper in 1847 (Cauchy, 1847). It was studied under various
+assumptions, including so-called $(L_0,L_1)$-smoothness, which received
+noticeable attention in the ML community recently. In this paper, we provide a
+refined convergence analysis of gradient descent and its variants, assuming
+generalized smoothness. In particular, we show that $(L_0,L_1)$-GD has the
+following behavior in the convex setup: as long as $\|\nabla f(x^k)\| \geq
+\frac{L_0}{L_1}$ the algorithm has linear convergence in function
+suboptimality, and when $\|\nabla f(x^k)\| < \frac{L_0}{L_1}$ is satisfied,
+$(L_0,L_1)$-GD has standard sublinear rate. Moreover, we also show that this
+behavior is common for its variants with different types of oracle: Normalized
+Gradient Descent as well as Clipped Gradient Descent (the case when the full
+gradient $\nabla f(x)$ is available); Random Coordinate Descent (when the
+gradient component $\nabla_{i} f(x)$ is available); Random Coordinate Descent
+with Order Oracle (when only $\text{sign} [f(y) - f(x)]$ is available). In
+addition, we also extend our analysis of $(L_0,L_1)$-GD to the strongly convex
+case.
+"
+optimization,1712.01033,math.OC stat.ML,0.6648646993209159,"NEON+: Accelerated Gradient Methods for Extracting Negative Curvature
+  for Non-Convex Optimization.   Accelerated gradient (AG) methods are breakthroughs in convex optimization,
+improving the convergence rate of the gradient descent method for optimization
+with smooth functions. However, the analysis of AG methods for non-convex
+optimization is still limited. It remains an open question whether AG methods
+from convex optimization can accelerate the convergence of the gradient descent
+method for finding local minimum of non-convex optimization problems. This
+paper provides an affirmative answer to this question. In particular, we
+analyze two renowned variants of AG methods (namely Polyak's Heavy Ball method
+and Nesterov's Accelerated Gradient method) for extracting the negative
+curvature from random noise, which is central to escaping from saddle points.
+By leveraging the proposed AG methods for extracting the negative curvature, we
+present a new AG algorithm with double loops for non-convex
+optimization~\footnote{this is in contrast to a single-loop AG algorithm
+proposed in a recent manuscript~\citep{AGNON}, which directly analyzed the
+Nesterov's AG method for non-convex optimization and appeared online on
+November 29, 2017. However, we emphasize that our work is an independent work,
+which is inspired by our earlier work~\citep{NEON17} and is based on a
+different novel analysis.}, which converges to second-order stationary point
+$\x$ such that $\|\nabla f(\x)\|\leq \epsilon$ and $\nabla^2 f(\x)\geq
+-\sqrt{\epsilon} I$ with $\widetilde O(1/\epsilon^{1.75})$ iteration
+complexity, improving that of gradient descent method by a factor of
+$\epsilon^{-0.25}$ and matching the best iteration complexity of second-order
+Hessian-free methods for non-convex optimization.
+"
+optimization,2102.09924,math.NA cs.LG cs.NA math.ST stat.TH,0.6502261016509763,"A proof of convergence for gradient descent in the training of
+  artificial neural networks for constant target functions.   Gradient descent optimization algorithms are the standard ingredients that
+are used to train artificial neural networks (ANNs). Even though a huge number
+of numerical simulations indicate that gradient descent optimization methods do
+indeed convergence in the training of ANNs, until today there is no rigorous
+theoretical analysis which proves (or disproves) this conjecture. In
+particular, even in the case of the most basic variant of gradient descent
+optimization algorithms, the plain vanilla gradient descent method, it remains
+an open problem to prove or disprove the conjecture that gradient descent
+converges in the training of ANNs. In this article we solve this problem in the
+special situation where the target function under consideration is a constant
+function. More specifically, in the case of constant target functions we prove
+in the training of rectified fully-connected feedforward ANNs with one-hidden
+layer that the risk function of the gradient descent method does indeed
+converge to zero. Our mathematical analysis strongly exploits the property that
+the rectifier function is the activation function used in the considered ANNs.
+A key contribution of this work is to explicitly specify a Lyapunov function
+for the gradient flow system of the ANN parameters. This Lyapunov function is
+the central tool in our convergence proof of the gradient descent method.
+"
+optimization,2106.08020,math.OC,0.6331758557383536,"A note on the optimal convergence rate of descent methods with fixed
+  step sizes for smooth strongly convex functions.   Based on a result by Taylor, Hendrickx, and Glineur (J. Optim. Theory Appl.,
+178(2):455--476, 2018) on the attainable convergence rate of gradient descent
+for smooth and strongly convex functions in terms of function values, an
+elementary convergence analysis for general descent methods with fixed step
+sizes is presented. It covers general variable metric methods, gradient related
+search directions under angle and scaling conditions, as well as inexact
+gradient methods. In all cases, optimal rates are obtained.
+"
+optimization,2406.13888,math.OC cs.LG,0.639917358736278,"Open Problem: Anytime Convergence Rate of Gradient Descent.   Recent results show that vanilla gradient descent can be accelerated for
+smooth convex objectives, merely by changing the stepsize sequence. We show
+that this can lead to surprisingly large errors indefinitely, and therefore
+ask: Is there any stepsize schedule for gradient descent that accelerates the
+classic $\mathcal{O}(1/T)$ convergence rate, at \emph{any} stopping time $T$?
+"
+optimization,1910.01277,math.OC cs.LG stat.ML,0.6346961428961201,"Escaping Saddle Points for Zeroth-order Nonconvex Optimization using
+  Estimated Gradient Descent.   Gradient descent and its variants are widely used in machine learning.
+However, oracle access of gradient may not be available in many applications,
+limiting the direct use of gradient descent. This paper proposes a method of
+estimating gradient to perform gradient descent, that converges to a stationary
+point for general non-convex optimization problems. Beyond the first-order
+stationary properties, the second-order stationary properties are important in
+machine learning applications to achieve better performance. We show that the
+proposed model-free non-convex optimization algorithm returns an
+$\epsilon$-second-order stationary point with
+$\widetilde{O}(\frac{d^{2+\frac{\theta}{2}}}{\epsilon^{8+\theta}})$ queries of
+the function for any arbitrary $\theta>0$.
+"
+optimization,2412.04427,math.OC,0.6731226152413989,"A Proof of the Exact Convergence Rate of Gradient Descent.   We prove the exact worst-case convergence rate of gradient descent for smooth
+strongly convex optimization on $\mathbb{R}^d$. Concretely, assuming that the
+objective function $f$ is $\mu$-strongly convex and $L$-smooth, we identify the
+smallest possible value of $\tau$ for which the inequality
+$f(x_{N})-f_{*}\leq\tau\|x_{0}-x_{*}\|^{2}$ always holds. The result was
+previously conjectured by Drori and Teboulle for the case $\mu=0$, and by
+Taylor, Hendrickx, and Glineur for the case $\mu>0$.
+"
+optimization,2310.06733,math.OC cs.NA math.NA,0.6486630773135333,"Adaptive Preconditioned Gradient Descent with Energy.   We propose an adaptive step size with an energy approach for a suitable class
+of preconditioned gradient descent methods. We focus on settings where the
+preconditioning is applied to address the constraints in optimization problems,
+such as the Hessian-Riemannian and natural gradient descent methods. More
+specifically, we incorporate these preconditioned gradient descent algorithms
+in the recently introduced Adaptive Energy Gradient Descent (AEGD) framework.
+In particular, we discuss theoretical results on the unconditional
+energy-stability and convergence rates across three classes of objective
+functions. Furthermore, our numerical results demonstrate excellent performance
+of the proposed method on several test bed optimization problems.
+"
+optimization,2507.20773,math.OC,0.6626249109945006,"Numerical Design of Optimized First-Order Algorithms. We derive several numerical methods for designing optimized first-order algorithms in unconstrained convex optimization settings. Our methods are based on the Performance Estimation Problem (PEP) framework, which casts the worst-case analysis of optimization algorithms as an optimization problem itself. We benchmark our methods against existing approaches in the literature on the task of optimizing the step sizes of memoryless gradient descent (which uses only the current gradient for updates) over the class of smooth convex functions. We then apply our methods to numerically tune the step sizes of several memoryless and full (i.e., using all past gradient information for updates) fixed-step first-order algorithms, namely coordinate descent, inexact gradient descent, and cyclic gradient descent, in the context of linear convergence. In all cases, we report accelerated convergence rates compared to those of classical algorithms."
+optimization,1603.07421,cs.SY cs.LG math.OC,0.6661068658757134,"On the Powerball Method for Optimization.   We propose a new method to accelerate the convergence of optimization
+algorithms. This method simply adds a power coefficient $\gamma\in[0,1)$ to the
+gradient during optimization. We call this the Powerball method and analyze the
+convergence rate for the Powerball method for strongly convex functions. While
+theoretically the Powerball method is guaranteed to have a linear convergence
+rate in the same order of the gradient method, we show that empirically it
+significantly outperforms the gradient descent and Newton's method, especially
+during the initial iterations. We demonstrate that the Powerball method
+provides a $10$-fold speedup of the convergence of both gradient descent and
+L-BFGS on multiple real datasets.
+"
+optimization,1810.12273,stat.ML cs.LG math.OC,0.6352270663468257,"Kalman Gradient Descent: Adaptive Variance Reduction in Stochastic
+  Optimization.   We introduce Kalman Gradient Descent, a stochastic optimization algorithm
+that uses Kalman filtering to adaptively reduce gradient variance in stochastic
+gradient descent by filtering the gradient estimates. We present both a
+theoretical analysis of convergence in a non-convex setting and experimental
+results which demonstrate improved performance on a variety of machine learning
+areas including neural networks and black box variational inference. We also
+present a distributed version of our algorithm that enables large-dimensional
+optimization, and we extend our algorithm to SGD with momentum and RMSProp.
+"
+optimization,2503.02155,math.OC,0.6271303232196556,"Nonconvex optimization and convergence of stochastic gradient descent,
+  and solution of asynchronous game.   We review convergence and behavior of stochastic gradient descent for convex
+and nonconvex optimization, establishing various conditions for convergence to
+zero of the variance of the gradient of the objective function, and presenting
+a number of simple examples demonstrating the approximate evolution of the
+probability density under iteration, including applications to both classical
+two-player and asynchronous multiplayer games
+"
+optimization,2411.17668,cs.LG cs.SY eess.SY math.OC stat.ML,0.6412729597189054,"Anytime Acceleration of Gradient Descent.   This work investigates stepsize-based acceleration of gradient descent with
+{\em anytime} convergence guarantees. For smooth (non-strongly) convex
+optimization, we propose a stepsize schedule that allows gradient descent to
+achieve convergence guarantees of $O(T^{-1.119})$ for any stopping time $T$,
+where the stepsize schedule is predetermined without prior knowledge of the
+stopping time. This result provides an affirmative answer to a COLT open
+problem \citep{kornowski2024open} regarding whether stepsize-based acceleration
+can yield anytime convergence rates of $o(T^{-1})$. We further extend our
+theory to yield anytime convergence guarantees of
+$\exp(-\Omega(T/\kappa^{0.893}))$ for smooth and strongly convex optimization,
+with $\kappa$ being the condition number.
+"
+language_models,2111.13138,cs.CL cs.LG,0.6198022502209065,"TunBERT: Pretrained Contextualized Text Representation for Tunisian
+  Dialect.   Pretrained contextualized text representation models learn an effective
+representation of a natural language to make it machine understandable. After
+the breakthrough of the attention mechanism, a new generation of pretrained
+models have been proposed achieving good performances since the introduction of
+the Transformer. Bidirectional Encoder Representations from Transformers (BERT)
+has become the state-of-the-art model for language understanding. Despite their
+success, most of the available models have been trained on Indo-European
+languages however similar research for under-represented languages and dialects
+remains sparse.
+  In this paper, we investigate the feasibility of training monolingual
+Transformer-based language models for under represented languages, with a
+specific focus on the Tunisian dialect. We evaluate our language model on
+sentiment analysis task, dialect identification task and reading comprehension
+question-answering task. We show that the use of noisy web crawled data instead
+of structured data (Wikipedia, articles, etc.) is more convenient for such
+non-standardized language. Moreover, results indicate that a relatively small
+web crawled dataset leads to performances that are as good as those obtained
+using larger datasets. Finally, our best performing TunBERT model reaches or
+improves the state-of-the-art in all three downstream tasks. We release the
+TunBERT pretrained model and the datasets used for fine-tuning.
+"
+language_models,2010.02480,cs.CL,0.6716607389049375,"Pretrained Language Model Embryology: The Birth of ALBERT.   While behaviors of pretrained language models (LMs) have been thoroughly
+examined, what happened during pretraining is rarely studied. We thus
+investigate the developmental process from a set of randomly initialized
+parameters to a totipotent language model, which we refer to as the embryology
+of a pretrained language model. Our results show that ALBERT learns to
+reconstruct and predict tokens of different parts of speech (POS) in different
+learning speeds during pretraining. We also find that linguistic knowledge and
+world knowledge do not generally improve as pretraining proceeds, nor do
+downstream tasks' performance. These findings suggest that knowledge of a
+pretrained model varies during pretraining, and having more pretrain steps does
+not necessarily provide a model with more comprehensive knowledge. We will
+provide source codes and pretrained models to reproduce our results at
+https://github.com/d223302/albert-embryology.
+"
+language_models,2311.00871,cs.LG cs.CL stat.ML,0.6412340807122762,"Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in
+  Transformer Models.   Transformer models, notably large language models (LLMs), have the remarkable
+ability to perform in-context learning (ICL) -- to perform new tasks when
+prompted with unseen input-output examples without any explicit model training.
+In this work, we study how effectively transformers can bridge between their
+pretraining data mixture, comprised of multiple distinct task families, to
+identify and learn new tasks in-context which are both inside and outside the
+pretraining distribution. Building on previous work, we investigate this
+question in a controlled setting, where we study transformer models trained on
+sequences of $(x, f(x))$ pairs rather than natural language. Our empirical
+results show transformers demonstrate near-optimal unsupervised model selection
+capabilities, in their ability to first in-context identify different task
+families and in-context learn within them when the task families are
+well-represented in their pretraining data. However when presented with tasks
+or functions which are out-of-domain of their pretraining data, we demonstrate
+various failure modes of transformers and degradation of their generalization
+for even simple extrapolation tasks. Together our results highlight that the
+impressive ICL abilities of high-capacity sequence models may be more closely
+tied to the coverage of their pretraining data mixtures than inductive biases
+that create fundamental generalization capabilities.
+"
+language_models,2107.12460,cs.LG cs.AI,0.6211056848413903,"Don't Sweep your Learning Rate under the Rug: A Closer Look at
+  Cross-modal Transfer of Pretrained Transformers.   Self-supervised pre-training of large-scale transformer models on text
+corpora followed by finetuning has achieved state-of-the-art on a number of
+natural language processing tasks. Recently, Lu et al. (2021, arXiv:2103.05247)
+claimed that frozen pretrained transformers (FPTs) match or outperform training
+from scratch as well as unfrozen (fine-tuned) pretrained transformers in a set
+of transfer tasks to other modalities. In our work, we find that this result
+is, in fact, an artifact of not tuning the learning rates. After carefully
+redesigning the empirical setup, we find that when tuning learning rates
+properly, pretrained transformers do outperform or match training from scratch
+in all of our tasks, but only as long as the entire model is finetuned. Thus,
+while transfer from pretrained language models to other modalities does indeed
+provide gains and hints at exciting possibilities for future work, properly
+tuning hyperparameters is important for arriving at robust findings.
+"
+language_models,2112.03014,cs.CL,0.5993608251136736,"Transformer-based Korean Pretrained Language Models: A Survey on Three
+  Years of Progress.   With the advent of Transformer, which was used in translation models in 2017,
+attention-based architectures began to attract attention. Furthermore, after
+the emergence of BERT, which strengthened the NLU-specific encoder part, which
+is a part of the Transformer, and the GPT architecture, which strengthened the
+NLG-specific decoder part, various methodologies, data, and models for learning
+the Pretrained Language Model began to appear. Furthermore, in the past three
+years, various Pretrained Language Models specialized for Korean have appeared.
+In this paper, we intend to numerically and qualitatively compare and analyze
+various Korean PLMs released to the public.
+"
+language_models,2203.10753,cs.CL,0.6306704371148816,"Match the Script, Adapt if Multilingual: Analyzing the Effect of
+  Multilingual Pretraining on Cross-lingual Transferability.   Pretrained multilingual models enable zero-shot learning even for unseen
+languages, and that performance can be further improved via adaptation prior to
+finetuning. However, it is unclear how the number of pretraining languages
+influences a model's zero-shot learning for languages unseen during
+pretraining. To fill this gap, we ask the following research questions: (1) How
+does the number of pretraining languages influence zero-shot performance on
+unseen target languages? (2) Does the answer to that question change with model
+adaptation? (3) Do the findings for our first question change if the languages
+used for pretraining are all related? Our experiments on pretraining with
+related languages indicate that choosing a diverse set of languages is crucial.
+Without model adaptation, surprisingly, increasing the number of pretraining
+languages yields better results up to adding related languages, after which
+performance plateaus. In contrast, with model adaptation via continued
+pretraining, pretraining on a larger number of languages often gives further
+improvement, suggesting that model adaptation is crucial to exploit additional
+pretraining languages.
+"
+language_models,2209.14389,cs.CL cs.LG,0.614124720203466,"Downstream Datasets Make Surprisingly Good Pretraining Corpora.   For most natural language processing tasks, the dominant practice is to
+finetune large pretrained transformer models (e.g., BERT) using smaller
+downstream datasets. Despite the success of this approach, it remains unclear
+to what extent these gains are attributable to the massive background corpora
+employed for pretraining versus to the pretraining objectives themselves. This
+paper introduces a large-scale study of self-pretraining, where the same
+(downstream) training data is used for both pretraining and finetuning. In
+experiments addressing both ELECTRA and RoBERTa models and 10 distinct
+downstream classification datasets, we observe that self-pretraining rivals
+standard pretraining on the BookWiki corpus (despite using around
+$10\times$--$500\times$ less data), outperforming the latter on $7$ and $5$
+datasets, respectively. Surprisingly, these task-specific pretrained models
+often perform well on other tasks, including the GLUE benchmark. Besides
+classification tasks, self-pretraining also provides benefits on structured
+output prediction tasks such as span based question answering and commonsense
+inference, often providing more than $50\%$ of the performance boosts provided
+by pretraining on the BookWiki corpus. Our results hint that in many scenarios,
+performance gains attributable to pretraining are driven primarily by the
+pretraining objective itself and are not always attributable to the use of
+external pretraining data in massive amounts. These findings are especially
+relevant in light of concerns about intellectual property and offensive content
+in web-scale pretraining data.
+"
+language_models,2011.00780,cs.CL cs.AI,0.6189558881398748,"Adapting Pretrained Transformer to Lattices for Spoken Language
+  Understanding.   Lattices are compact representations that encode multiple hypotheses, such as
+speech recognition results or different word segmentations. It is shown that
+encoding lattices as opposed to 1-best results generated by automatic speech
+recognizer (ASR) boosts the performance of spoken language understanding (SLU).
+Recently, pretrained language models with the transformer architecture have
+achieved the state-of-the-art results on natural language understanding, but
+their ability of encoding lattices has not been explored. Therefore, this paper
+aims at adapting pretrained transformers to lattice inputs in order to perform
+understanding tasks specifically for spoken language. Our experiments on the
+benchmark ATIS dataset show that fine-tuning pretrained transformers with
+lattice inputs yields clear improvement over fine-tuning with 1-best results.
+Further evaluation demonstrates the effectiveness of our methods under
+different acoustic conditions. Our code is available at
+https://github.com/MiuLab/Lattice-SLU
+"
+language_models,2207.10666,cs.CV,0.605635879744528,"TinyViT: Fast Pretraining Distillation for Small Vision Transformers.   Vision transformer (ViT) recently has drawn great attention in computer
+vision due to its remarkable model capability. However, most prevailing ViT
+models suffer from huge number of parameters, restricting their applicability
+on devices with limited resources. To alleviate this issue, we propose TinyViT,
+a new family of tiny and efficient small vision transformers pretrained on
+large-scale datasets with our proposed fast distillation framework. The central
+idea is to transfer knowledge from large pretrained models to small ones, while
+enabling small models to get the dividends of massive pretraining data. More
+specifically, we apply distillation during pretraining for knowledge transfer.
+The logits of large teacher models are sparsified and stored in disk in advance
+to save the memory cost and computation overheads. The tiny student
+transformers are automatically scaled down from a large pretrained model with
+computation and parameter constraints. Comprehensive experiments demonstrate
+the efficacy of TinyViT. It achieves a top-1 accuracy of 84.8% on ImageNet-1k
+with only 21M parameters, being comparable to Swin-B pretrained on ImageNet-21k
+while using 4.2 times fewer parameters. Moreover, increasing image resolutions,
+TinyViT can reach 86.5% accuracy, being slightly better than Swin-L while using
+only 11% parameters. Last but not the least, we demonstrate a good transfer
+ability of TinyViT on various downstream tasks. Code and models are available
+at https://github.com/microsoft/Cream/tree/main/TinyViT.
+"
+language_models,2010.01764,cs.LG cs.AI stat.ML,0.6113860393584217,"How Effective is Task-Agnostic Data Augmentation for Pretrained
+  Transformers?.   Task-agnostic forms of data augmentation have proven widely effective in
+computer vision, even on pretrained models. In NLP similar results are reported
+most commonly for low data regimes, non-pretrained models, or situationally for
+pretrained models. In this paper we ask how effective these techniques really
+are when applied to pretrained transformers. Using two popular varieties of
+task-agnostic data augmentation (not tailored to any particular task), Easy
+Data Augmentation (Wei and Zou, 2019) and Back-Translation (Sennrichet al.,
+2015), we conduct a systematic examination of their effects across 5
+classification tasks, 6 datasets, and 3 variants of modern pretrained
+transformers, including BERT, XLNet, and RoBERTa. We observe a negative result,
+finding that techniques which previously reported strong improvements for
+non-pretrained models fail to consistently improve performance for pretrained
+transformers, even when training data is limited. We hope this empirical
+analysis helps inform practitioners where data augmentation techniques may
+confer improvements.
+"
+language_models,2101.03289,cs.CL,0.6133985856884314,"Trankit: A Light-Weight Transformer-based Toolkit for Multilingual
+  Natural Language Processing.   We introduce Trankit, a light-weight Transformer-based Toolkit for
+multilingual Natural Language Processing (NLP). It provides a trainable
+pipeline for fundamental NLP tasks over 100 languages, and 90 pretrained
+pipelines for 56 languages. Built on a state-of-the-art pretrained language
+model, Trankit significantly outperforms prior multilingual NLP pipelines over
+sentence segmentation, part-of-speech tagging, morphological feature tagging,
+and dependency parsing while maintaining competitive performance for
+tokenization, multi-word token expansion, and lemmatization over 90 Universal
+Dependencies treebanks. Despite the use of a large pretrained transformer, our
+toolkit is still efficient in memory usage and speed. This is achieved by our
+novel plug-and-play mechanism with Adapters where a multilingual pretrained
+transformer is shared across pipelines for different languages. Our toolkit
+along with pretrained models and code are publicly available at:
+https://github.com/nlp-uoregon/trankit. A demo website for our toolkit is also
+available at: http://nlp.uoregon.edu/trankit. Finally, we create a demo video
+for Trankit at: https://youtu.be/q0KGP3zGjGc.
+"
+language_models,2211.15965,cs.CL,0.667687406757604,"Extending the Subwording Model of Multilingual Pretrained Models for New
+  Languages.   Multilingual pretrained models are effective for machine translation and
+cross-lingual processing because they contain multiple languages in one model.
+However, they are pretrained after their tokenizers are fixed; therefore it is
+difficult to change the vocabulary after pretraining. When we extend the
+pretrained models to new languages, we must modify the tokenizers
+simultaneously. In this paper, we add new subwords to the SentencePiece
+tokenizer to apply a multilingual pretrained model to new languages (Inuktitut
+in this paper). In our experiments, we segmented Inuktitut sentences into
+subwords without changing the segmentation of already pretrained languages, and
+applied the mBART-50 pretrained model to English-Inuktitut translation.
+"
+language_models,2103.05247,cs.LG cs.AI,0.7880443687089996,"Pretrained Transformers as Universal Computation Engines.   We investigate the capability of a transformer pretrained on natural language
+to generalize to other modalities with minimal finetuning -- in particular,
+without finetuning of the self-attention and feedforward layers of the residual
+blocks. We consider such a model, which we call a Frozen Pretrained Transformer
+(FPT), and study finetuning it on a variety of sequence classification tasks
+spanning numerical computation, vision, and protein fold prediction. In
+contrast to prior works which investigate finetuning on the same modality as
+the pretraining dataset, we show that pretraining on natural language can
+improve performance and compute efficiency on non-language downstream tasks.
+Additionally, we perform an analysis of the architecture, comparing the
+performance of a random initialized transformer to a random LSTM. Combining the
+two insights, we find language-pretrained transformers can obtain strong
+performance on a variety of non-language tasks.
+"
+language_models,2008.07027,cs.CL,0.687152922283967,"Adding Recurrence to Pretrained Transformers for Improved Efficiency and
+  Context Size.   Fine-tuning a pretrained transformer for a downstream task has become a
+standard method in NLP in the last few years. While the results from these
+models are impressive, applying them can be extremely computationally
+expensive, as is pretraining new models with the latest architectures. We
+present a novel method for applying pretrained transformer language models
+which lowers their memory requirement both at training and inference time. An
+additional benefit is that our method removes the fixed context size constraint
+that most transformer models have, allowing for more flexible use. When applied
+to the GPT-2 language model, we find that our method attains better perplexity
+than an unmodified GPT-2 model on the PG-19 and WikiText-103 corpora, for a
+given amount of computation or memory.
+"
+language_models,2309.10931,cs.CL,0.61981123027649,"A Family of Pretrained Transformer Language Models for Russian.   Transformer language models (LMs) are fundamental to NLP research
+methodologies and applications in various languages. However, developing such
+models specifically for the Russian language has received little attention.
+This paper introduces a collection of 13 Russian Transformer LMs, which spans
+encoder (ruBERT, ruRoBERTa, ruELECTRA), decoder (ruGPT-3), and encoder-decoder
+(ruT5, FRED-T5) architectures. We provide a report on the model architecture
+design and pretraining, and the results of evaluating their generalization
+abilities on Russian language understanding and generation datasets and
+benchmarks. By pretraining and releasing these specialized Transformer LMs, we
+aim to broaden the scope of the NLP research directions and enable the
+development of industrial solutions for the Russian language.
+"
+language_models,2004.03720,cs.CL,0.6256645894010168,"Byte Pair Encoding is Suboptimal for Language Model Pretraining.   The success of pretrained transformer language models (LMs) in natural
+language processing has led to a wide range of pretraining setups. In
+particular, these models employ a variety of subword tokenization methods, most
+notably byte-pair encoding (BPE) (Sennrich et al., 2016; Gage, 1994), the
+WordPiece method (Schuster and Nakajima, 2012), and unigram language modeling
+(Kudo, 2018), to segment text. However, to the best of our knowledge, the
+literature does not contain a direct evaluation of the impact of tokenization
+on language model pretraining. We analyze differences between BPE and unigram
+LM tokenization, finding that the latter method recovers subword units that
+align more closely with morphology and avoids problems stemming from BPE's
+greedy construction procedure. We then compare the fine-tuned task performance
+of identical transformer masked language models pretrained with these
+tokenizations. Across downstream tasks and two languages (English and
+Japanese), we find that the unigram LM tokenization method matches or
+outperforms BPE. We hope that developers of future pretrained LMs will consider
+adopting the unigram LM method over the more prevalent BPE.
+"
+language_models,2312.09299,cs.LG cs.CL cs.CV,0.6812763076081293,"Weight subcloning: direct initialization of transformers using larger
+  pretrained ones.   Training large transformer models from scratch for a target task requires
+lots of data and is computationally demanding. The usual practice of transfer
+learning overcomes this challenge by initializing the model with weights of a
+pretrained model of the same size and specification to increase the convergence
+and training speed. However, what if no pretrained model of the required size
+is available? In this paper, we introduce a simple yet effective technique to
+transfer the knowledge of a pretrained model to smaller variants. Our approach
+called weight subcloning expedites the training of scaled-down transformers by
+initializing their weights from larger pretrained models.
+  Weight subcloning involves an operation on the pretrained model to obtain the
+equivalent initialized scaled-down model. It consists of two key steps: first,
+we introduce neuron importance ranking to decrease the embedding dimension per
+layer in the pretrained model. Then, we remove blocks from the transformer
+model to match the number of layers in the scaled-down network. The result is a
+network ready to undergo training, which gains significant improvements in
+training speed compared to random initialization. For instance, we achieve 4x
+faster training for vision transformers in image classification and language
+models designed for next token prediction.
+"
+language_models,2109.01942,cs.CL,0.662816518875543,"On the ability of monolingual models to learn language-agnostic
+  representations.   Pretrained multilingual models have become a de facto default approach for
+zero-shot cross-lingual transfer. Previous work has shown that these models are
+able to achieve cross-lingual representations when pretrained on two or more
+languages with shared parameters. In this work, we provide evidence that a
+model can achieve language-agnostic representations even when pretrained on a
+single language. That is, we find that monolingual models pretrained and
+finetuned on different languages achieve competitive performance compared to
+the ones that use the same target language. Surprisingly, the models show a
+similar performance on a same task regardless of the pretraining language. For
+example, models pretrained on distant languages such as German and Portuguese
+perform similarly on English tasks.
+"
+language_models,2105.00827,cs.CL cs.AI cs.LG,0.6298306124803796,"AMMU : A Survey of Transformer-based Biomedical Pretrained Language
+  Models.   Transformer-based pretrained language models (PLMs) have started a new era in
+modern natural language processing (NLP). These models combine the power of
+transformers, transfer learning, and self-supervised learning (SSL). Following
+the success of these models in the general domain, the biomedical research
+community has developed various in-domain PLMs starting from BioBERT to the
+latest BioELECTRA and BioALBERT models. We strongly believe there is a need for
+a survey paper that can provide a comprehensive survey of various
+transformer-based biomedical pretrained language models (BPLMs). In this
+survey, we start with a brief overview of foundational concepts like
+self-supervised learning, embedding layer and transformer encoder layers. We
+discuss core concepts of transformer-based PLMs like pretraining methods,
+pretraining tasks, fine-tuning methods, and various embedding types specific to
+biomedical domain. We introduce a taxonomy for transformer-based BPLMs and then
+discuss all the models. We discuss various challenges and present possible
+solutions. We conclude by highlighting some of the open issues which will drive
+the research community to further improve transformer-based BPLMs.
+"
+language_models,1904.00585,cs.CL,0.6058675974825348,"Using Similarity Measures to Select Pretraining Data for NER.   Word vectors and Language Models (LMs) pretrained on a large amount of
+unlabelled data can dramatically improve various Natural Language Processing
+(NLP) tasks. However, the measure and impact of similarity between pretraining
+data and target task data are left to intuition. We propose three
+cost-effective measures to quantify different aspects of similarity between
+source pretraining and target task data. We demonstrate that these measures are
+good predictors of the usefulness of pretrained models for Named Entity
+Recognition (NER) over 30 data pairs. Results also suggest that pretrained LMs
+are more effective and more predictable than pretrained word vectors, but
+pretrained word vectors are better when pretraining data is dissimilar.
+"

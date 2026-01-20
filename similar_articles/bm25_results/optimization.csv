@@ -1,0 +1,236 @@
+query_type,query_value,rank,doc_id,score,title,abstract,categories
+text,convex optimization gradient descent convergence,1,1901.10682,33.79379,"On the Convergence of (Stochastic) Gradient Descent with Extrapolation
+  for Non-Convex Optimization","  Extrapolation is a well-known technique for solving convex optimization and
+variational inequalities and recently attracts some attention for non-convex
+optimization. Several recent works have empirically shown its success in some
+machine learning tasks. However, it has not been analyzed for non-convex
+minimization and there still remains a gap between the theory and the practice.
+In this paper, we analyze gradient descent and stochastic gradient descent with
+extrapolation for finding an approximate first-order stationary point in smooth
+non-convex optimization problems. Our convergence upper bounds show that the
+algorithms with extrapolation can be accelerated than without extrapolation.
+",math.OC
+text,convex optimization gradient descent convergence,2,2311.18426,32.70807,Convergence Analysis of Fractional Gradient Descent,"  Fractional derivatives are a well-studied generalization of integer order
+derivatives. Naturally, for optimization, it is of interest to understand the
+convergence properties of gradient descent using fractional derivatives.
+Convergence analysis of fractional gradient descent is currently limited both
+in the methods analyzed and the settings analyzed. This paper aims to fill in
+these gaps by analyzing variations of fractional gradient descent in smooth and
+convex, smooth and strongly convex, and smooth and non-convex settings. First,
+novel bounds will be established bridging fractional and integer derivatives.
+Then, these bounds will be applied to the aforementioned settings to prove
+linear convergence for smooth and strongly convex functions and $O(1/T)$
+convergence for smooth and convex functions. Additionally, we prove $O(1/T)$
+convergence for smooth and non-convex functions using an extended notion of
+smoothness - H\""older smoothness - that is more natural for fractional
+derivatives. Finally, empirical results will be presented on the potential
+speed up of fractional gradient descent over standard gradient descent as well
+as some preliminary theoretical results explaining this speed up.
+",math.OC cs.LG cs.NA math.NA
+text,convex optimization gradient descent convergence,3,2411.17668,32.452435,Anytime Acceleration of Gradient Descent,"  This work investigates stepsize-based acceleration of gradient descent with
+{\em anytime} convergence guarantees. For smooth (non-strongly) convex
+optimization, we propose a stepsize schedule that allows gradient descent to
+achieve convergence guarantees of $O(T^{-1.119})$ for any stopping time $T$,
+where the stepsize schedule is predetermined without prior knowledge of the
+stopping time. This result provides an affirmative answer to a COLT open
+problem \citep{kornowski2024open} regarding whether stepsize-based acceleration
+can yield anytime convergence rates of $o(T^{-1})$. We further extend our
+theory to yield anytime convergence guarantees of
+$\exp(-\Omega(T/\kappa^{0.893}))$ for smooth and strongly convex optimization,
+with $\kappa$ being the condition number.
+",cs.LG cs.SY eess.SY math.OC stat.ML
+text,convex optimization gradient descent convergence,4,2002.06768,32.219387,Last iterate convergence in no-regret learning: constrained min-max optimization for convex-concave landscapes,"In a recent series of papers it has been established that variants of Gradient Descent/Ascent and Mirror Descent exhibit last iterate convergence in convex-concave zero-sum games. Specifically, \cite{DISZ17, LiangS18} show last iterate convergence of the so called ""Optimistic Gradient Descent/Ascent"" for the case of \textit{unconstrained} min-max optimization. Moreover, in \cite{Metal} the authors show that Mirror Descent with an extra gradient step displays last iterate convergence for convex-concave problems (both constrained and unconstrained), though their algorithm does not follow the online learning framework; it uses extra information rather than \textit{only} the history to compute the next iteration. In this work, we show that ""Optimistic Multiplicative-Weights Update (OMWU)"" which follows the no-regret online learning framework, exhibits last iterate convergence locally for convex-concave games, generalizing the results of \cite{DP19} where last iterate convergence of OMWU was shown only for the \textit{bilinear case}. We complement our results with experiments that indicate fast convergence of the method.",cs.LG cs.GT stat.ML
+text,convex optimization gradient descent convergence,5,2508.20823,32.09856,Revisit Stochastic Gradient Descent for Strongly Convex Objectives: Tight Uniform-in-Time Bounds,"Stochastic optimization for strongly convex objectives is a fundamental problem in statistics and optimization. This paper revisits the standard Stochastic Gradient Descent (SGD) algorithm for strongly convex objectives and establishes tight uniform-in-time convergence bounds. We prove that with probability larger than $1 - \beta$, a $\frac{\log \log k + \log (1/\beta)}{k}$ convergence bound simultaneously holds for all $k \in \mathbb{N}_+$, and show that this rate is tight up to constants. Our results also include an improved last-iterate convergence rate for SGD on strongly convex objectives.",math.OC
+text,convex optimization gradient descent convergence,6,2412.17050,31.975716,"Linear Convergence Rate in Convex Setup is Possible! Gradient Descent
+  Method Variants under $(L_0,L_1)$-Smoothness","  The gradient descent (GD) method -- is a fundamental and likely the most
+popular optimization algorithm in machine learning (ML), with a history traced
+back to a paper in 1847 (Cauchy, 1847). It was studied under various
+assumptions, including so-called $(L_0,L_1)$-smoothness, which received
+noticeable attention in the ML community recently. In this paper, we provide a
+refined convergence analysis of gradient descent and its variants, assuming
+generalized smoothness. In particular, we show that $(L_0,L_1)$-GD has the
+following behavior in the convex setup: as long as $\|\nabla f(x^k)\| \geq
+\frac{L_0}{L_1}$ the algorithm has linear convergence in function
+suboptimality, and when $\|\nabla f(x^k)\| < \frac{L_0}{L_1}$ is satisfied,
+$(L_0,L_1)$-GD has standard sublinear rate. Moreover, we also show that this
+behavior is common for its variants with different types of oracle: Normalized
+Gradient Descent as well as Clipped Gradient Descent (the case when the full
+gradient $\nabla f(x)$ is available); Random Coordinate Descent (when the
+gradient component $\nabla_{i} f(x)$ is available); Random Coordinate Descent
+with Order Oracle (when only $\text{sign} [f(y) - f(x)]$ is available). In
+addition, we also extend our analysis of $(L_0,L_1)$-GD to the strongly convex
+case.
+",math.OC
+text,convex optimization gradient descent convergence,7,2409.14989,31.772676,"Methods for Convex $(L_0,L_1)$-Smooth Optimization: Clipping,
+  Acceleration, and Adaptivity","  Due to the non-smoothness of optimization problems in Machine Learning,
+generalized smoothness assumptions have been gaining a lot of attention in
+recent years. One of the most popular assumptions of this type is
+$(L_0,L_1)$-smoothness (Zhang et al., 2020). In this paper, we focus on the
+class of (strongly) convex $(L_0,L_1)$-smooth functions and derive new
+convergence guarantees for several existing methods. In particular, we derive
+improved convergence rates for Gradient Descent with (Smoothed) Gradient
+Clipping and for Gradient Descent with Polyak Stepsizes. In contrast to the
+existing results, our rates do not rely on the standard smoothness assumption
+and do not suffer from the exponential dependency from the initial distance to
+the solution. We also extend these results to the stochastic case under the
+over-parameterization assumption, propose a new accelerated method for convex
+$(L_0,L_1)$-smooth optimization, and derive new convergence rates for Adaptive
+Gradient Descent (Malitsky and Mishchenko, 2020).
+",math.OC cs.LG
+text,convex optimization gradient descent convergence,8,2503.02155,31.570263,"Nonconvex optimization and convergence of stochastic gradient descent,
+  and solution of asynchronous game","  We review convergence and behavior of stochastic gradient descent for convex
+and nonconvex optimization, establishing various conditions for convergence to
+zero of the variance of the gradient of the objective function, and presenting
+a number of simple examples demonstrating the approximate evolution of the
+probability density under iteration, including applications to both classical
+two-player and asynchronous multiplayer games
+",math.OC
+text,convex optimization gradient descent convergence,9,2501.18198,31.489702,Power of Generalized Smoothness in Stochastic Convex Optimization: First- and Zero-Order Algorithms,"This paper is devoted to the study of stochastic optimization problems under the generalized smoothness assumption. By considering the unbiased gradient oracle in Stochastic Gradient Descent, we provide strategies to achieve in bounds the summands describing linear rate. In particular, in the case $L_0 = 0$, we obtain in the convex setup the iteration complexity: $N = \mathcal{O}\left(L_1R \log\frac{1}{\varepsilon} + \frac{L_1 c R^2}{\varepsilon}\right)$ for Clipped Stochastic Gradient Descent and $N = \mathcal{O}\left(L_1R \log\frac{1}{\varepsilon}\right)$ for Normalized Stochastic Gradient Descent. Furthermore, we generalize the convergence results to the case with a biased gradient oracle, and show that the power of $(L_0,L_1)$-smoothness extends to zero-order algorithms. Finally, we demonstrate the possibility of linear convergence in the convex setup through numerical experimentation, which has aroused some interest in the machine learning community.",math.OC
+text,convex optimization gradient descent convergence,10,2411.01803,31.473862,Gradient Methods with Online Scaling,"  We introduce a framework to accelerate the convergence of gradient-based
+methods with online learning. The framework learns to scale the gradient at
+each iteration through an online learning algorithm and provably accelerates
+gradient-based methods asymptotically. In contrast with previous literature,
+where convergence is established based on worst-case analysis, our framework
+provides a strong convergence guarantee with respect to the optimal scaling
+matrix for the iteration trajectory. For smooth strongly convex optimization,
+our results provide an $O(\kappa^\star \log(1/\varepsilon)$) complexity result,
+where $\kappa^\star$ is the condition number achievable by the optimal
+preconditioner, improving on the previous $O(\sqrt{n}\kappa^\star
+\log(1/\varepsilon))$ result. In particular, a variant of our method achieves
+superlinear convergence on convex quadratics. For smooth convex optimization,
+we show for the first time that the widely-used hypergradient descent heuristic
+improves on the convergence of gradient descent.
+",math.OC cs.LG
+text,convex optimization gradient descent convergence,11,2507.20773,31.290024,Numerical Design of Optimized First-Order Algorithms,"We derive several numerical methods for designing optimized first-order algorithms in unconstrained convex optimization settings. Our methods are based on the Performance Estimation Problem (PEP) framework, which casts the worst-case analysis of optimization algorithms as an optimization problem itself. We benchmark our methods against existing approaches in the literature on the task of optimizing the step sizes of memoryless gradient descent (which uses only the current gradient for updates) over the class of smooth convex functions. We then apply our methods to numerically tune the step sizes of several memoryless and full (i.e., using all past gradient information for updates) fixed-step first-order algorithms, namely coordinate descent, inexact gradient descent, and cyclic gradient descent, in the context of linear convergence. In all cases, we report accelerated convergence rates compared to those of classical algorithms.",math.OC
+text,convex optimization gradient descent convergence,12,1507.02030,31.225437,Beyond Convexity: Stochastic Quasi-Convex Optimization,"  Stochastic convex optimization is a basic and well studied primitive in
+machine learning. It is well known that convex and Lipschitz functions can be
+minimized efficiently using Stochastic Gradient Descent (SGD). The Normalized
+Gradient Descent (NGD) algorithm, is an adaptation of Gradient Descent, which
+updates according to the direction of the gradients, rather than the gradients
+themselves. In this paper we analyze a stochastic version of NGD and prove its
+convergence to a global minimum for a wider class of functions: we require the
+functions to be quasi-convex and locally-Lipschitz. Quasi-convexity broadens
+the con- cept of unimodality to multidimensions and allows for certain types of
+saddle points, which are a known hurdle for first-order optimization methods
+such as gradient descent. Locally-Lipschitz functions are only required to be
+Lipschitz in a small region around the optimum. This assumption circumvents
+gradient explosion, which is another known hurdle for gradient descent
+variants. Interestingly, unlike the vanilla SGD algorithm, the stochastic
+normalized gradient descent algorithm provably requires a minimal minibatch
+size.
+",cs.LG math.OC
+text,convex optimization gradient descent convergence,13,2309.09961,31.196972,Accelerated Gradient Descent via Long Steps,"  Recently Grimmer [1] showed for smooth convex optimization by utilizing
+longer steps periodically, gradient descent's textbook $LD^2/2T$ convergence
+guarantees can be improved by constant factors, conjecturing an accelerated
+rate strictly faster than $O(1/T)$ could be possible. Here we prove such a
+big-O gain, establishing gradient descent's first accelerated convergence rate
+in this setting. Namely, we prove a $O(1/T^{1.0564})$ rate for smooth convex
+minimization by utilizing a nonconstant nonperiodic sequence of increasingly
+large stepsizes. It remains open if one can achieve the $O(1/T^{1.178})$ rate
+conjectured by Das Gupta et. al. [2] or the optimal gradient method rate of
+$O(1/T^2)$. Big-O convergence rate accelerations from long steps follow from
+our theory for strongly convex optimization, similar to but somewhat weaker
+than those concurrently developed by Altschuler and Parrilo [3].
+",math.OC
+text,convex optimization gradient descent convergence,14,2412.04427,31.086721,A Proof of the Exact Convergence Rate of Gradient Descent,"  We prove the exact worst-case convergence rate of gradient descent for smooth
+strongly convex optimization on $\mathbb{R}^d$. Concretely, assuming that the
+objective function $f$ is $\mu$-strongly convex and $L$-smooth, we identify the
+smallest possible value of $\tau$ for which the inequality
+$f(x_{N})-f_{*}\leq\tau\|x_{0}-x_{*}\|^{2}$ always holds. The result was
+previously conjectured by Drori and Teboulle for the case $\mu=0$, and by
+Taylor, Hendrickx, and Glineur for the case $\mu>0$.
+",math.OC
+text,convex optimization gradient descent convergence,15,1603.07421,31.00991,On the Powerball Method for Optimization,"  We propose a new method to accelerate the convergence of optimization
+algorithms. This method simply adds a power coefficient $\gamma\in[0,1)$ to the
+gradient during optimization. We call this the Powerball method and analyze the
+convergence rate for the Powerball method for strongly convex functions. While
+theoretically the Powerball method is guaranteed to have a linear convergence
+rate in the same order of the gradient method, we show that empirically it
+significantly outperforms the gradient descent and Newton's method, especially
+during the initial iterations. We demonstrate that the Powerball method
+provides a $10$-fold speedup of the convergence of both gradient descent and
+L-BFGS on multiple real datasets.
+",cs.SY cs.LG math.OC
+text,convex optimization gradient descent convergence,16,1906.02027,31.006912,Last-iterate convergence rates for min-max optimization,"  While classic work in convex-concave min-max optimization relies on
+average-iterate convergence results, the emergence of nonconvex applications
+such as training Generative Adversarial Networks has led to renewed interest in
+last-iterate convergence guarantees. Proving last-iterate convergence is
+challenging because many natural algorithms, such as Simultaneous Gradient
+Descent/Ascent, provably diverge or cycle even in simple convex-concave min-max
+settings, and previous work on global last-iterate convergence rates has been
+limited to the bilinear and convex-strongly concave settings. In this work, we
+show that the Hamiltonian Gradient Descent (HGD) algorithm achieves linear
+convergence in a variety of more general settings, including convex-concave
+problems that satisfy a ""sufficiently bilinear"" condition. We also prove
+similar convergence rates for the Consensus Optimization (CO) algorithm of
+[MNG17] for some parameter settings of CO.
+",math.OC cs.GT cs.LG stat.ML
+text,convex optimization gradient descent convergence,17,2110.15412,30.932724,"Stochastic Mirror Descent: Convergence Analysis and Adaptive Variants
+  via the Mirror Stochastic Polyak Stepsize","  We investigate the convergence of stochastic mirror descent (SMD) under
+interpolation in relatively smooth and smooth convex optimization. In
+relatively smooth convex optimization we provide new convergence guarantees for
+SMD with a constant stepsize. For smooth convex optimization we propose a new
+adaptive stepsize scheme -- the mirror stochastic Polyak stepsize (mSPS).
+Notably, our convergence results in both settings do not make bounded gradient
+assumptions or bounded variance assumptions, and we show convergence to a
+neighborhood that vanishes under interpolation. Consequently, these results
+correspond to the first convergence guarantees under interpolation for the
+exponentiated gradient algorithm for fixed or adaptive stepsizes. mSPS
+generalizes the recently proposed stochastic Polyak stepsize (SPS) (Loizou et
+al. 2021) to mirror descent and remains both practical and efficient for modern
+machine learning applications while inheriting the benefits of mirror descent.
+We complement our results with experiments across various supervised learning
+tasks and different instances of SMD, demonstrating the effectiveness of mSPS.
+",math.OC cs.LG
+text,convex optimization gradient descent convergence,18,2012.14558,30.894247,"Gradient Descent Averaging and Primal-dual Averaging for Strongly Convex
+  Optimization","  Averaging scheme has attracted extensive attention in deep learning as well
+as traditional machine learning. It achieves theoretically optimal convergence
+and also improves the empirical model performance. However, there is still a
+lack of sufficient convergence analysis for strongly convex optimization.
+Typically, the convergence about the last iterate of gradient descent methods,
+which is referred to as individual convergence, fails to attain its optimality
+due to the existence of logarithmic factor. In order to remove this factor, we
+first develop gradient descent averaging (GDA), which is a general
+projection-based dual averaging algorithm in the strongly convex setting. We
+further present primal-dual averaging for strongly convex cases (SC-PDA), where
+primal and dual averaging schemes are simultaneously utilized. We prove that
+GDA yields the optimal convergence rate in terms of output averaging, while
+SC-PDA derives the optimal individual convergence. Several experiments on SVMs
+and deep learning models validate the correctness of theoretical analysis and
+effectiveness of algorithms.
+",cs.LG math.OC
+text,convex optimization gradient descent convergence,19,2101.01323,30.84001,"On the global convergence of randomized coordinate gradient descent for
+  non-convex optimization","  In this work, we analyze the global convergence property of coordinate
+gradient descent with random choice of coordinates and stepsizes for non-convex
+optimization problems. Under generic assumptions, we prove that the algorithm
+iterate will almost surely escape strict saddle points of the objective
+function. As a result, the algorithm is guaranteed to converge to local minima
+if all saddle points are strict. Our proof is based on viewing coordinate
+descent algorithm as a nonlinear random dynamical system and a quantitative
+finite block analysis of its linearization around saddle points.
+",math.OC cs.NA math.DS math.NA
+text,convex optimization gradient descent convergence,20,1712.01033,30.776695,"NEON+: Accelerated Gradient Methods for Extracting Negative Curvature
+  for Non-Convex Optimization","  Accelerated gradient (AG) methods are breakthroughs in convex optimization,
+improving the convergence rate of the gradient descent method for optimization
+with smooth functions. However, the analysis of AG methods for non-convex
+optimization is still limited. It remains an open question whether AG methods
+from convex optimization can accelerate the convergence of the gradient descent
+method for finding local minimum of non-convex optimization problems. This
+paper provides an affirmative answer to this question. In particular, we
+analyze two renowned variants of AG methods (namely Polyak's Heavy Ball method
+and Nesterov's Accelerated Gradient method) for extracting the negative
+curvature from random noise, which is central to escaping from saddle points.
+By leveraging the proposed AG methods for extracting the negative curvature, we
+present a new AG algorithm with double loops for non-convex
+optimization~\footnote{this is in contrast to a single-loop AG algorithm
+proposed in a recent manuscript~\citep{AGNON}, which directly analyzed the
+Nesterov's AG method for non-convex optimization and appeared online on
+November 29, 2017. However, we emphasize that our work is an independent work,
+which is inspired by our earlier work~\citep{NEON17} and is based on a
+different novel analysis.}, which converges to second-order stationary point
+$\x$ such that $\|\nabla f(\x)\|\leq \epsilon$ and $\nabla^2 f(\x)\geq
+-\sqrt{\epsilon} I$ with $\widetilde O(1/\epsilon^{1.75})$ iteration
+complexity, improving that of gradient descent method by a factor of
+$\epsilon^{-0.25}$ and matching the best iteration complexity of second-order
+Hessian-free methods for non-convex optimization.
+",math.OC stat.ML

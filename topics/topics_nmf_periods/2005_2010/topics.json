@@ -1,0 +1,62 @@
+{
+  "0": [
+    "quantum",
+    "state",
+    "system",
+    "entanglement",
+    "qubit",
+    "classical",
+    "time",
+    "information",
+    "network",
+    "dot"
+  ],
+  "1": [
+    "galaxy",
+    "star",
+    "ray",
+    "cluster",
+    "x",
+    "mass",
+    "emission",
+    "source",
+    "stellar",
+    "formation"
+  ],
+  "2": [
+    "equation",
+    "group",
+    "space",
+    "solution",
+    "function",
+    "theory",
+    "algebra",
+    "problem",
+    "prove",
+    "operator"
+  ],
+  "3": [
+    "model",
+    "energy",
+    "mass",
+    "quark",
+    "decay",
+    "neutrino",
+    "dark",
+    "matter",
+    "production",
+    "particle"
+  ],
+  "4": [
+    "spin",
+    "magnetic",
+    "field",
+    "phase",
+    "temperature",
+    "transition",
+    "electron",
+    "effect",
+    "interaction",
+    "state"
+  ]
+}

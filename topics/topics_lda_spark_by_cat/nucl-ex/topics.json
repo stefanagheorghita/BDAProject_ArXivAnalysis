@@ -1,0 +1,62 @@
+{
+  "0": [
+    "experiment",
+    "physics",
+    "nuclear",
+    "measurement",
+    "detector",
+    "proton",
+    "present",
+    "study",
+    "datum",
+    "radius"
+  ],
+  "1": [
+    "collision",
+    "energy",
+    "measurement",
+    "gev",
+    "particle",
+    "production",
+    "result",
+    "heavy",
+    "correlation",
+    "jet"
+  ],
+  "2": [
+    "decay",
+    "experiment",
+    "beta",
+    "neutrino",
+    "detector",
+    "background",
+    "neutron",
+    "result",
+    "double",
+    "search"
+  ],
+  "3": [
+    "neutron",
+    "state",
+    "nucleus",
+    "energy",
+    "mass",
+    "decay",
+    "measurement",
+    "reaction",
+    "nuclear",
+    "model"
+  ],
+  "4": [
+    "reaction",
+    "section",
+    "cross",
+    "energy",
+    "datum",
+    "mev",
+    "proton",
+    "measurement",
+    "beam",
+    "target"
+  ]
+}

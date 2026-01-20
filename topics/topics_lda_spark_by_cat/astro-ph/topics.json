@@ -1,0 +1,62 @@
+{
+  "0": [
+    "ray",
+    "emission",
+    "source",
+    "energy",
+    "radio",
+    "hole",
+    "black",
+    "observation",
+    "gamma",
+    "model"
+  ],
+  "1": [
+    "model",
+    "datum",
+    "parameter",
+    "method",
+    "field",
+    "result",
+    "time",
+    "energy",
+    "scale",
+    "present"
+  ],
+  "2": [
+    "star",
+    "mass",
+    "stellar",
+    "cluster",
+    "disk",
+    "system",
+    "binary",
+    "model",
+    "planet",
+    "dwarf"
+  ],
+  "3": [
+    "magnetic",
+    "field",
+    "model",
+    "star",
+    "solar",
+    "line",
+    "gas",
+    "find",
+    "simulation",
+    "region"
+  ],
+  "4": [
+    "galaxy",
+    "mass",
+    "redshift",
+    "line",
+    "cluster",
+    "high",
+    "survey",
+    "star",
+    "find",
+    "gas"
+  ]
+}

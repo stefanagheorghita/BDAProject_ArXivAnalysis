@@ -1,0 +1,62 @@
+{
+  "0": [
+    "collision",
+    "heavy",
+    "energy",
+    "ion",
+    "model",
+    "flow",
+    "relativistic",
+    "particle",
+    "hydrodynamic",
+    "quark"
+  ],
+  "1": [
+    "nucleus",
+    "model",
+    "energy",
+    "state",
+    "nuclear",
+    "shell",
+    "particle",
+    "calculation",
+    "result",
+    "method"
+  ],
+  "2": [
+    "nucleon",
+    "model",
+    "reaction",
+    "energy",
+    "section",
+    "cross",
+    "state",
+    "nucleus",
+    "interaction",
+    "nuclear"
+  ],
+  "3": [
+    "neutron",
+    "matter",
+    "nuclear",
+    "density",
+    "energy",
+    "model",
+    "star",
+    "mass",
+    "state",
+    "phase"
+  ],
+  "4": [
+    "energy",
+    "theory",
+    "field",
+    "nuclear",
+    "state",
+    "interaction",
+    "chiral",
+    "nucleon",
+    "effective",
+    "body"
+  ]
+}

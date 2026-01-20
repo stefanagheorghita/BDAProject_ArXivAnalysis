@@ -1,0 +1,14 @@
+{
+  "category": "patt-sol",
+  "n_documents": 452,
+  "n_topics": 5,
+  "topic_diversity": 0.82,
+  "log_likelihood": -218829.80548709226,
+  "log_perplexity": 7.364039759291031,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

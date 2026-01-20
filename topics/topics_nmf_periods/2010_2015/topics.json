@@ -1,0 +1,62 @@
+{
+  "0": [
+    "group",
+    "equation",
+    "space",
+    "solution",
+    "function",
+    "operator",
+    "prove",
+    "theory",
+    "algebra",
+    "finite"
+  ],
+  "1": [
+    "star",
+    "galaxy",
+    "ray",
+    "mass",
+    "cluster",
+    "x",
+    "emission",
+    "stellar",
+    "formation",
+    "line"
+  ],
+  "2": [
+    "quantum",
+    "spin",
+    "state",
+    "magnetic",
+    "phase",
+    "field",
+    "temperature",
+    "system",
+    "transition",
+    "electron"
+  ],
+  "3": [
+    "network",
+    "algorithm",
+    "method",
+    "problem",
+    "model",
+    "system",
+    "base",
+    "propose",
+    "time",
+    "datum"
+  ],
+  "4": [
+    "model",
+    "mass",
+    "dark",
+    "energy",
+    "matter",
+    "decay",
+    "higgs",
+    "quark",
+    "neutrino",
+    "boson"
+  ]
+}

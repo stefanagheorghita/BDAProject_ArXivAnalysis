@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "datum",
+    "detection",
+    "base",
+    "system",
+    "method",
+    "time",
+    "analysis",
+    "propose",
+    "sensor"
+  ],
+  "1": [
+    "image",
+    "method",
+    "propose",
+    "model",
+    "base",
+    "high",
+    "datum",
+    "network",
+    "imaging",
+    "deep"
+  ],
+  "2": [
+    "model",
+    "speech",
+    "propose",
+    "network",
+    "method",
+    "base",
+    "segmentation",
+    "datum",
+    "dataset",
+    "learning"
+  ],
+  "3": [
+    "system",
+    "control",
+    "model",
+    "propose",
+    "base",
+    "network",
+    "power",
+    "energy",
+    "time",
+    "approach"
+  ],
+  "4": [
+    "system",
+    "propose",
+    "signal",
+    "base",
+    "channel",
+    "algorithm",
+    "time",
+    "method",
+    "communication",
+    "result"
+  ]
+}

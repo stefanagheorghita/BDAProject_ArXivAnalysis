@@ -1,0 +1,14 @@
+{
+  "category": "chem-ph",
+  "n_documents": 129,
+  "n_topics": 5,
+  "topic_diversity": 0.94,
+  "log_likelihood": -74198.72876521641,
+  "log_perplexity": 7.689784305649953,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

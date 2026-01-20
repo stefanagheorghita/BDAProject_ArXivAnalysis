@@ -1,0 +1,14 @@
+{
+  "category": "bayes-an",
+  "n_documents": 11,
+  "n_topics": 5,
+  "topic_diversity": 0.94,
+  "log_likelihood": -6059.512713129351,
+  "log_perplexity": 7.309424261917191,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

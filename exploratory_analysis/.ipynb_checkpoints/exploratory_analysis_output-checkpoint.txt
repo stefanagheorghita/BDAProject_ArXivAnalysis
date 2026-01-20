@@ -1,0 +1,587 @@
+Number of rows: 2918474                                                                                                                                                                                          
+
+Schema of the data:
+root
+ |-- abstract: string (nullable = true)
+ |-- authors: string (nullable = true)
+ |-- authors_parsed: array (nullable = true)
+ |    |-- element: array (containsNull = true)
+ |    |    |-- element: string (containsNull = true)
+ |-- categories: string (nullable = true)
+ |-- comments: string (nullable = true)
+ |-- doi: string (nullable = true)
+ |-- id: string (nullable = true)
+ |-- journal-ref: string (nullable = true)
+ |-- license: string (nullable = true)
+ |-- report-no: string (nullable = true)
+ |-- submitter: string (nullable = true)
+ |-- title: string (nullable = true)
+ |-- update_date: string (nullable = true)
+ |-- versions: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- created: string (nullable = true)
+ |    |    |-- version: string (nullable = true)
+
+
+Info: 
+                                                                                                                                                                                                                 
+Total rows : 2918474
+ID distinct: 2918448
+Duplicates :
++---------------+-----+                                                                                                                                                                                          
+|             id|count|
++---------------+-----+
+|math-ph/0702049|    3|
+|math-ph/0203043|    3|
+|math-ph/0510046|    2|
+|math-ph/0512019|    4|
+|math-ph/0007036|    2|
+|math-ph/0303066|    3|
+|math-ph/0606041|    2|
+|math-ph/0703090|    2|
+|math-ph/0509047|    3|
+|math-ph/0606001|    3|
+|math-ph/0002045|    2|
+|math-ph/0605055|    4|
+|math-ph/0511015|    2|
+|math-ph/0605066|    2|
+|math-ph/0611044|    3|
+|math-ph/0406061|    2|
++---------------+-----+
+
+Removed duplicate IDs:
+                                                                                                                                                                                                                 
+Total rows : 2918448
+ID distinct: 2918448
+                                                                                                                                                                                                                 
+Total rows: 2918448
+DOI non-null rows: 1280894
+Distinct DOI: 1278587
+                                                                                                                                                                                                                 
+Total rows: 2918448
+Number of distinct titles: 2914146
+
+Number of missing values: :
+Null counts for non-nested: 
++--------+-------+----------+--------+-------+---+-----------+-------+---------+---------+-----+-----------+                                                                                                     
+|abstract|authors|categories|comments|doi    |id |journal-ref|license|report-no|submitter|title|update_date|
++--------+-------+----------+--------+-------+---+-----------+-------+---------+---------+-----+-----------+
+|0       |0      |0         |788251  |1637554|0  |1994501    |452748 |2729578  |15186    |0    |0          |
++--------+-------+----------+--------+-------+---+-----------+-------+---------+---------+-----+-----------+
+
+Maximum number of elements in authors_parsed entries: 8                                                                                                                                                          
+
+Null counts for nested column 'authors_parsed':
++-------------------+------------------------+---------------------+-------------------------+--------------------+                                                                                              
+|authors_parsed_NULL|authors_inner_array_NULL|surname_NULL_or_empty|first_names_NULL_or_empty|suffix_NULL_or_empty|
++-------------------+------------------------+---------------------+-------------------------+--------------------+
+|0                  |0                       |0                    |25875                    |13675911            |
++-------------------+------------------------+---------------------+-------------------------+--------------------+
+
+
+Null counts for nested column 'versions':
++-------------+---------------------+------------------------------+------------------------------+                                                                                                              
+|versions_NULL|versions_element_NULL|versions_created_NULL_or_empty|versions_version_NULL_or_empty|
++-------------+---------------------+------------------------------+------------------------------+
+|0            |0                    |0                             |0                             |
++-------------+---------------------+------------------------------+------------------------------+
+
+
+=== CATEGORY ANALYSIS ===
+Unique categories: 176                                                                                                                                                                                           
+
+Top categories:
++------------------+------+                                                                                                                                                                                      
+|cat               |count |
++------------------+------+
+|cs.LG             |246472|
+|hep-ph            |192753|
+|hep-th            |178885|
+|cs.CV             |177554|
+|quant-ph          |172178|
+|cs.AI             |155931|
+|gr-qc             |118532|
+|astro-ph          |105380|
+|cond-mat.mtrl-sci |105116|
+|cond-mat.mes-hall |98894 |
+|cs.CL             |98884 |
+|math.MP           |87470 |
+|math-ph           |87470 |
+|cond-mat.str-el   |80786 |
+|cond-mat.stat-mech|79484 |
+|math.CO           |75319 |
+|astro-ph.CO       |74963 |
+|stat.ML           |74884 |
+|astro-ph.GA       |74508 |
+|math.AP           |71110 |
++------------------+------+
+only showing top 20 rows
+
+                                                                                                                                                                                                                 
+Mean number of categories per paper: 1.7231926009988872
+Median number of categories per paper: 1.0                                                                                                                                                                       
+
+Distribution of category counts per paper:
++--------------+-------+                                                                                                                                                                                         
+|num_categories|count  |
++--------------+-------+
+|1             |1528096|
+|2             |878038 |
+|3             |355894 |
+|4             |114909 |
+|5             |33051  |
+|6             |7212   |
+|7             |1026   |
+|8             |171    |
+|9             |34     |
+|10            |14     |
+|11            |2      |
+|13            |1      |
++--------------+-------+
+
+
+=== Analysis for column: journal-ref ===
+Non-null entries: 923947                                                                                                                                                                                         
+Distinct non-null values: 911269                                                                                                                                                                                 
+
+Top 20 most common values for journal-ref:
++--------------------------------------------------------------------------------------------------------------------------------------+-----+                                                                   
+|journal-ref                                                                                                                           |count|
++--------------------------------------------------------------------------------------------------------------------------------------+-----+
+|Dans Design, Automation and Test in Europe - DATE'05, Munich :\n  Allemagne (2005)                                                    |128  |
+|Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2008, Nice : France (2008)                          |77   |
+|Prog Theor Exp Phys (2020)                                                                                                            |75   |
+|Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2007, Stresa, lago Maggiore : Italie (2007)         |66   |
+|Prog Theor Exp Phys (2019)                                                                                                            |57   |
+|Prog Theor Exp Phys (2022)                                                                                                            |57   |
+|NeurIPS 2025                                                                                                                          |56   |
+|Prog Theor Exp Phys (2018)                                                                                                            |56   |
+|Prog Theor Exp Phys (2017)                                                                                                            |53   |
+|Dans Symposium on Design, Test, Integration and Packaging of\n  MEMS/MOEMS - DTIP 2006, Stresa, Lago Maggiore : Italie (2006)         |49   |
+|Mon Not R Astron Soc (2025)                                                                                                           |44   |
+|Dans Design, Automation and Test in Europe | Designers'Forum -\n  DATE'05, Munich : Allemagne (2005)                                  |41   |
+|ICLR 2025                                                                                                                             |40   |
+|Dans Proceedings of the 25th Annual Symposium on the Theoretical\n  Aspects of Computer Science - STACS 2008, Bordeaux : France (2008)|39   |
+|NeurIPS 2024                                                                                                                          |38   |
+|NeurIPS 2020                                                                                                                          |38   |
+|Dans Proceedings of 12th International Workshop on Thermal\n  investigations of ICs - THERMINIC 2006, Nice : France (2006)            |37   |
+|Prog Theor Exp Phys (2023)                                                                                                            |34   |
+|NeurIPS 2023                                                                                                                          |34   |
+|Transactions on Machine Learning Research, 2025                                                                                       |34   |
++--------------------------------------------------------------------------------------------------------------------------------------+-----+
+only showing top 20 rows
+
+
+=== Analysis for column: license ===
+Non-null entries: 2465700                                                                                                                                                                                        
+Distinct non-null values: 9                                                                                                                                                                                      
+
+Top 20 most common values for license:
++---------------------------------------------------+-------+                                                                                                                                                    
+|license                                            |count  |
++---------------------------------------------------+-------+
+|http://arxiv.org/licenses/nonexclusive-distrib/1.0/|1802307|
+|http://creativecommons.org/licenses/by/4.0/        |471082 |
+|http://creativecommons.org/licenses/by-nc-nd/4.0/  |74423  |
+|http://creativecommons.org/licenses/by-nc-sa/4.0/  |56475  |
+|http://creativecommons.org/licenses/by-sa/4.0/     |25861  |
+|http://creativecommons.org/publicdomain/zero/1.0/  |19290  |
+|http://creativecommons.org/licenses/by/3.0/        |7913   |
+|http://creativecommons.org/licenses/by-nc-sa/3.0/  |5874   |
+|http://creativecommons.org/licenses/publicdomain/  |2475   |
++---------------------------------------------------+-------+
+
+
+=== Analysis for column: report-no ===
+Non-null entries: 188870                                                                                                                                                                                         
+Distinct non-null values: 182754                                                                                                                                                                                 
+
+Top 20 most common values for report-no:
++------------------------+-----+                                                                                                                                                                                 
+|report-no               |count|
++------------------------+-----+
+|CPH-SYM-DNRF92          |341  |
+|Roma01.Math             |243  |
+|CPH-GEOTOP-DNRF151      |215  |
+|MPIM-Bonn-2024          |197  |
+|MPIM-Bonn-2025          |191  |
+|RIKEN-iTHEMS-Report-25  |163  |
+|MPIM-Bonn-2022          |139  |
+|CPH-SYM-00              |139  |
+|Bulletin migration 11/99|138  |
+|RIKEN-iTHEMS-Report-24  |131  |
+|ISSN 1947 5500          |131  |
+|RIKEN-iTHEMS-Report-22  |113  |
+|RIKEN-iTHEMS-Report-23  |109  |
+|Annals migration 4-2001 |98   |
+|MPIM-Bonn-2023          |96   |
+|Roma01.Math.MP          |95   |
+|MPIM-Bonn-2021          |87   |
+|RIKEN-iTHEMS-Report-20  |84   |
+|RIKEN-iTHEMS-Report-21  |80   |
+|Roma01.math.AG          |67   |
++------------------------+-----+
+only showing top 20 rows
+
+
+=== Analysis for column: submitter ===
+Non-null entries: 2903262                                                                                                                                                                                        
+Distinct non-null values: 606696                                                                                                                                                                                 
+
+Top 20 most common values for submitter:
++--------------------------+-----+                                                                                                                                                                               
+|submitter                 |count|
++--------------------------+-----+
+|EPTCS                     |4178 |
+|The CMS Collaboration     |1081 |
+|The ATLAS Collaboration   |661  |
+|Atlas Publications        |622  |
+|Delfim F. M. Torres       |462  |
+|Wei Wang                  |456  |
+|Yang Li                   |452  |
+|Xin Zhang                 |449  |
+|Yang Liu                  |425  |
+|EDA Publishing Association|391  |
+|Cms Collaboration         |373  |
+|Hao Wang                  |355  |
+|Xin Wang                  |348  |
+|Wei Zhang                 |346  |
+|Yu Zhang                  |337  |
+|Wei Liu                   |333  |
+|Taekyun Kim               |330  |
+|Wei Chen                  |314  |
+|Yi Zhang                  |309  |
+|Alice Publications        |299  |
++--------------------------+-----+
+only showing top 20 rows
+
+
+====================
+ Author Analysis
+====================
+
+
+Number of authors per paper
++-----------+------+                                                                                                                                                                                             
+|num_authors|count |
++-----------+------+
+|2          |694940|
+|3          |599492|
+|1          |535143|
+|4          |385023|
+|5          |228991|
+|6          |143187|
+|7          |89884 |
+|8          |58939 |
+|9          |39215 |
+|10         |27486 |
+|11         |19737 |
+|12         |14546 |
+|13         |10911 |
+|14         |8414  |
+|15         |6862  |
+|16         |5636  |
+|17         |4415  |
+|18         |3719  |
+|19         |3110  |
+|20         |2806  |
+|21         |2260  |
+|22         |2118  |
+|23         |1840  |
+|24         |1684  |
+|25         |1495  |
+|26         |1354  |
+|27         |1269  |
+|28         |1092  |
+|29         |960   |
+|30         |909   |
++-----------+------+
+only showing top 30 rows
+
+
+Statistics:
++------------------+------+---+----+                                                                                                                                                                             
+|mean              |median|min|max |
++------------------+------+---+----+
+|4.6897755245253645|3.0   |1  |3435|
++------------------+------+---+----+
+
+
+ Most prolific authors (top N) – Basic extraction
++-----------------+-----+                                                                                                                                                                                        
+|full_name        |count|
++-----------------+-----+
+|Zhang Y.         |3377 |
+|Liu Yang         |2593 |
+|Wang Y.          |2552 |
+|Wang J.          |2343 |
+|Wang Z.          |2165 |
+|Li Y.            |2158 |
+|Wang Wei         |2145 |
+|Taniguchi Takashi|1941 |
+|Zhang Lei        |1912 |
+|Liu Y.           |1906 |
+|Watanabe Kenji   |1888 |
+|Gao Y.           |1805 |
+|Liu X.           |1762 |
+|Zhang Wei        |1734 |
+|Li C.            |1699 |
+|Zhang J.         |1625 |
+|Zhang Yu         |1588 |
+|Zhang L.         |1581 |
+|Xu Z.            |1574 |
+|Sun L.           |1541 |
++-----------------+-----+
+only showing top 20 rows
+
+
+ Most prolific authors (top N) – Full extraction
++------------------+-----+                                                                                                                                                                                       
+|full_name         |count|
++------------------+-----+
+|Zhang Y.          |3219 |
+|Liu Yang          |2576 |
+|Wang Y.           |2328 |
+|Wang J.           |2312 |
+|Wang Z.           |2106 |
+|Wang Wei          |2104 |
+|Li Y.             |2098 |
+|Taniguchi Takashi |1927 |
+|Zhang Lei         |1896 |
+|Watanabe Kenji    |1875 |
+|Liu Y.            |1851 |
+|Gao Y.            |1751 |
+|Liu X.            |1714 |
+|Zhang Wei         |1697 |
+|Li C.             |1665 |
+|Zhang Yu          |1559 |
+|Zhang J.          |1554 |
+|Xu Z.             |1543 |
+|Zhang L.          |1519 |
+|Wang Xin          |1505 |
++------------------+-----+
+only showing top 20 rows
+
+
+ Authors per year
++----+-------+                                                                                                                                                                                                   
+|year|  count|
++----+-------+
+|1986|      2|
+|1988|      1|
+|1989|     10|
+|1990|     45|
+|1991|    657|
+|1992|   6653|
+|1993|  14135|
+|1994|  21867|
+|1995|  29568|
+|1996|  38790|
+|1997|  50313|
+|1998|  62343|
+|1999|  74474|
+|2000|  85169|
+|2001|  94540|
+|2002| 100978|
+|2003| 113720|
+|2004| 129962|
+|2005| 140678|
+|2006| 155619|
+|2007| 172605|
+|2008| 192112|
+|2009| 218651|
+|2010| 270929|
+|2011| 328345|
+|2012| 386727|
+|2013| 444104|
+|2014| 474624|
+|2015| 499877|
+|2016| 558838|
+|2017| 609225|
+|2018| 675631|
+|2019| 771445|
+|2020| 897716|
+|2021| 958729|
+|2022| 984056|
+|2023|1119079|
+|2024|1346786|
+|2025|1657863|
++----+-------+
+
+
+ Top authors over time (sample of top 10)
++---------+----+-----+                                                                                                                                                                                           
+|full_name|year|count|
++---------+----+-----+
+|Liu Yang |2004|1    |
+|Liu Yang |2005|2    |
+|Liu Yang |2006|1    |
+|Liu Yang |2007|6    |
+|Liu Yang |2008|3    |
+|Liu Yang |2009|4    |
+|Liu Yang |2010|13   |
+|Liu Yang |2011|15   |
+|Liu Yang |2012|18   |
+|Liu Yang |2013|19   |
+|Liu Yang |2014|43   |
+|Liu Yang |2015|34   |
+|Liu Yang |2016|47   |
+|Liu Yang |2017|47   |
+|Liu Yang |2018|121  |
+|Liu Yang |2019|129  |
+|Liu Yang |2020|189  |
+|Liu Yang |2021|243  |
+|Liu Yang |2022|275  |
+|Liu Yang |2023|342  |
+|Liu Yang |2024|484  |
+|Liu Yang |2025|557  |
+|Wang J.  |1993|1    |
+|Wang J.  |1995|2    |
+|Wang J.  |1996|2    |
+|Wang J.  |1997|1    |
+|Wang J.  |1998|4    |
+|Wang J.  |1999|2    |
+|Wang J.  |2000|2    |
+|Wang J.  |2001|5    |
+|Wang J.  |2002|5    |
+|Wang J.  |2003|8    |
+|Wang J.  |2004|8    |
+|Wang J.  |2005|10   |
+|Wang J.  |2006|7    |
+|Wang J.  |2007|9    |
+|Wang J.  |2008|15   |
+|Wang J.  |2009|15   |
+|Wang J.  |2010|20   |
+|Wang J.  |2011|46   |
+|Wang J.  |2012|76   |
+|Wang J.  |2013|95   |
+|Wang J.  |2014|99   |
+|Wang J.  |2015|74   |
+|Wang J.  |2016|94   |
+|Wang J.  |2017|80   |
+|Wang J.  |2018|70   |
+|Wang J.  |2019|129  |
+|Wang J.  |2020|243  |
+|Wang J.  |2021|262  |
+|Wang J.  |2022|140  |
+|Wang J.  |2023|238  |
+|Wang J.  |2024|260  |
+|Wang J.  |2025|321  |
+|Wang Y.  |1995|1    |
+|Wang Y.  |1996|1    |
+|Wang Y.  |1999|5    |
+|Wang Y.  |2000|1    |
+|Wang Y.  |2001|6    |
+|Wang Y.  |2002|7    |
+|Wang Y.  |2003|3    |
+|Wang Y.  |2004|1    |
+|Wang Y.  |2005|7    |
+|Wang Y.  |2006|6    |
+|Wang Y.  |2007|8    |
+|Wang Y.  |2008|10   |
+|Wang Y.  |2009|19   |
+|Wang Y.  |2010|21   |
+|Wang Y.  |2011|35   |
+|Wang Y.  |2012|24   |
+|Wang Y.  |2013|53   |
+|Wang Y.  |2014|55   |
+|Wang Y.  |2015|60   |
+|Wang Y.  |2016|97   |
+|Wang Y.  |2017|101  |
+|Wang Y.  |2018|165  |
+|Wang Y.  |2019|222  |
+|Wang Y.  |2020|232  |
+|Wang Y.  |2021|246  |
+|Wang Y.  |2022|235  |
+|Wang Y.  |2023|258  |
+|Wang Y.  |2024|266  |
+|Wang Y.  |2025|407  |
+|Wang Z.  |1996|1    |
+|Wang Z.  |1997|3    |
+|Wang Z.  |1998|1    |
+|Wang Z.  |1999|1    |
+|Wang Z.  |2000|5    |
+|Wang Z.  |2001|3    |
+|Wang Z.  |2002|3    |
+|Wang Z.  |2003|2    |
+|Wang Z.  |2004|10   |
+|Wang Z.  |2005|8    |
+|Wang Z.  |2006|5    |
+|Wang Z.  |2007|8    |
+|Wang Z.  |2008|10   |
+|Wang Z.  |2009|9    |
+|Wang Z.  |2010|8    |
+|Wang Z.  |2011|18   |
+|Wang Z.  |2012|33   |
+|Wang Z.  |2013|32   |
+|Wang Z.  |2014|37   |
+|Wang Z.  |2015|63   |
+|Wang Z.  |2016|58   |
+|Wang Z.  |2017|73   |
+|Wang Z.  |2018|126  |
+|Wang Z.  |2019|133  |
+|Wang Z.  |2020|143  |
+|Wang Z.  |2021|233  |
+|Wang Z.  |2022|200  |
+|Wang Z.  |2023|279  |
+|Wang Z.  |2024|323  |
+|Wang Z.  |2025|337  |
+|Zhang Y. |1994|1    |
+|Zhang Y. |1996|2    |
+|Zhang Y. |1997|1    |
+|Zhang Y. |1998|2    |
+|Zhang Y. |1999|7    |
+|Zhang Y. |2000|6    |
+|Zhang Y. |2001|9    |
+|Zhang Y. |2002|5    |
+|Zhang Y. |2003|4    |
+|Zhang Y. |2004|8    |
+|Zhang Y. |2005|7    |
+|Zhang Y. |2006|16   |
+|Zhang Y. |2007|22   |
+|Zhang Y. |2008|21   |
+|Zhang Y. |2009|19   |
+|Zhang Y. |2010|38   |
+|Zhang Y. |2011|62   |
+|Zhang Y. |2012|104  |
+|Zhang Y. |2013|139  |
+|Zhang Y. |2014|139  |
+|Zhang Y. |2015|165  |
+|Zhang Y. |2016|211  |
+|Zhang Y. |2017|182  |
+|Zhang Y. |2018|148  |
+|Zhang Y. |2019|183  |
+|Zhang Y. |2020|233  |
+|Zhang Y. |2021|316  |
+|Zhang Y. |2022|291  |
+|Zhang Y. |2023|366  |
+|Zhang Y. |2024|315  |
+|Zhang Y. |2025|355  |
++---------+----+-----+
+
+ Top co-author pairs
++--------+-----------+-----+                                                                                                                                                                                     
+|a1      |a2         |count|
++--------+-----------+-----+
+|Wang J. |Xu Z.      |3357 |
+|Wang J. |Wang Z.    |3027 |
+|Gao Y.  |Wang J.    |2924 |
+|Li Y.   |Wang J.    |2770 |
+|Wang J. |Yang Z.    |2710 |
+|Wang J. |Zhang Y.   |2482 |
+|Wang Z. |Zhang Y.   |2479 |
+|Wang Y. |Zhang Y.   |2377 |
+|Liang H.|Zhang H. H.|2292 |
+|Gao Y.  |Wang Z.    |2279 |
+|Li C.   |Zhang Y.   |2275 |
+|Liang H.|Zhang Z. Y.|2220 |
+|Wang J. |Zhu X.     |2189 |
+|Wang Z. |Xu Z.      |2168 |
+|Li C.   |Liang H.   |2153 |
+|Li Y.   |Xu Z.      |2103 |
+|Xu Z.   |Zhang Y.   |2091 |
+|Wang J. |Zhang S.   |2056 |
+|Gao Y.  |Xu Z.      |2049 |
+|Li C.   |Liu Y.     |2024 |
++--------+-----------+-----+
+only showing top 20 rows

@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "phase",
+    "temperature",
+    "spin",
+    "transition",
+    "density",
+    "critical",
+    "order",
+    "lattice",
+    "energy"
+  ],
+  "1": [
+    "quark",
+    "gamma",
+    "heavy",
+    "mass",
+    "higgs",
+    "decay",
+    "pi",
+    "qcd",
+    "production",
+    "bar"
+  ],
+  "2": [
+    "gauge",
+    "theory",
+    "string",
+    "field",
+    "theories",
+    "su",
+    "effective",
+    "action",
+    "topological",
+    "symmetry"
+  ],
+  "3": [
+    "black",
+    "hole",
+    "holes",
+    "solutions",
+    "string",
+    "dilaton",
+    "entropy",
+    "horizon",
+    "gravity",
+    "dimensional"
+  ],
+  "4": [
+    "quantum",
+    "algebra",
+    "algebras",
+    "space",
+    "group",
+    "classical",
+    "gravity",
+    "operators",
+    "lie",
+    "equation"
+  ]
+}

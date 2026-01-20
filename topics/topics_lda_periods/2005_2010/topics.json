@@ -1,0 +1,62 @@
+{
+  "0": [
+    "state",
+    "quantum",
+    "field",
+    "phase",
+    "spin",
+    "magnetic",
+    "model",
+    "temperature",
+    "transition",
+    "effect"
+  ],
+  "1": [
+    "theory",
+    "equation",
+    "space",
+    "field",
+    "group",
+    "solution",
+    "quantum",
+    "operator",
+    "non",
+    "function"
+  ],
+  "2": [
+    "star",
+    "galaxy",
+    "ray",
+    "mass",
+    "emission",
+    "cluster",
+    "high",
+    "model",
+    "source",
+    "observation"
+  ],
+  "3": [
+    "problem",
+    "result",
+    "model",
+    "paper",
+    "time",
+    "method",
+    "network",
+    "number",
+    "algorithm",
+    "function"
+  ],
+  "4": [
+    "model",
+    "energy",
+    "mass",
+    "decay",
+    "matter",
+    "quark",
+    "result",
+    "datum",
+    "dark",
+    "neutrino"
+  ]
+}

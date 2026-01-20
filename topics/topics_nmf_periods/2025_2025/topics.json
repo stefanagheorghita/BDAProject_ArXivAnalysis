@@ -1,0 +1,62 @@
+{
+  "0": [
+    "model",
+    "image",
+    "method",
+    "datum",
+    "learning",
+    "network",
+    "base",
+    "dataset",
+    "propose",
+    "feature"
+  ],
+  "1": [
+    "problem",
+    "graph",
+    "equation",
+    "function",
+    "solution",
+    "space",
+    "group",
+    "prove",
+    "algorithm",
+    "operator"
+  ],
+  "2": [
+    "energy",
+    "field",
+    "mass",
+    "magnetic",
+    "star",
+    "phase",
+    "galaxy",
+    "spin",
+    "effect",
+    "temperature"
+  ],
+  "3": [
+    "quantum",
+    "state",
+    "qubit",
+    "circuit",
+    "classical",
+    "system",
+    "entanglement",
+    "gate",
+    "computing",
+    "algorithm"
+  ],
+  "4": [
+    "llm",
+    "language",
+    "reasoning",
+    "model",
+    "agent",
+    "ai",
+    "large",
+    "task",
+    "human",
+    "evaluation"
+  ]
+}

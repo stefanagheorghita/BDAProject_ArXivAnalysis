@@ -1,0 +1,14 @@
+{
+  "category": "quant-ph",
+  "n_documents": 125562,
+  "n_topics": 5,
+  "topic_diversity": 0.68,
+  "log_likelihood": -68448534.87922022,
+  "log_perplexity": 6.869240666134934,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

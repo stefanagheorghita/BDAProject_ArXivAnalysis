@@ -1,0 +1,62 @@
+{
+  "0": [
+    "auction",
+    "model",
+    "gender",
+    "market",
+    "price",
+    "woman",
+    "study",
+    "bidder",
+    "information",
+    "work"
+  ],
+  "1": [
+    "impact",
+    "economic",
+    "increase",
+    "country",
+    "effect",
+    "growth",
+    "income",
+    "study",
+    "household",
+    "find"
+  ],
+  "2": [
+    "market",
+    "price",
+    "firm",
+    "study",
+    "optimal",
+    "model",
+    "cost",
+    "datum",
+    "value",
+    "mechanism"
+  ],
+  "3": [
+    "model",
+    "effect",
+    "method",
+    "datum",
+    "propose",
+    "result",
+    "estimator",
+    "study",
+    "treatment",
+    "paper"
+  ],
+  "4": [
+    "economic",
+    "study",
+    "game",
+    "cost",
+    "energy",
+    "player",
+    "equilibrium",
+    "policy",
+    "system",
+    "agent"
+  ]
+}

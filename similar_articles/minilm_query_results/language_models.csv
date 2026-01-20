@@ -1,0 +1,262 @@
+query_type,query_value,rank,id,categories,similarity,title,abstract
+text,large language models transformers pretraining,1,2402.13137,cs.CL,0.5295882225036621,The Hidden Space of Transformer Language Adapters,"  We analyze the operation of transformer language adapters, which are small
+modules trained on top of a frozen language model to adapt its predictions to
+new target languages. We show that adapted predictions mostly evolve in the
+source language the model was trained on, while the target language becomes
+pronounced only in the very last layers of the model. Moreover, the adaptation
+process is gradual and distributed across layers, where it is possible to skip
+small groups of adapters without decreasing adaptation performance. Last, we
+show that adapters operate on top of the model's frozen representation space
+while largely preserving its structure, rather than on an 'isolated' subspace.
+Our findings provide a deeper view into the adaptation process of language
+models to new languages, showcasing the constraints imposed on it by the
+underlying model and introduces practical implications to enhance its
+efficiency.
+"
+text,large language models transformers pretraining,2,2407.11722,cs.LG,0.5291616916656494,"Exploring Quantization for Efficient Pre-Training of Transformer
+  Language Models","  The increasing scale of Transformer models has led to an increase in their
+pre-training computational requirements. While quantization has proven to be
+effective after pre-training and during fine-tuning, applying quantization in
+Transformers during pre-training has remained largely unexplored at scale for
+language modeling. This study aims to explore the impact of quantization for
+efficient pre-training of Transformers, with a focus on linear layer
+components. By systematically applying straightforward linear quantization to
+weights, activations, gradients, and optimizer states, we assess its effects on
+model efficiency, stability, and performance during training. By offering a
+comprehensive recipe of effective quantization strategies to be applied during
+the pre-training of Transformers, we promote high training efficiency from
+scratch while retaining language modeling ability. Code is available at
+https://github.com/chandar-lab/EfficientLLMs.
+"
+text,large language models transformers pretraining,3,2407.09298,cs.CL,0.5277943015098572,Transformer Layers as Painters,"  Despite their nearly universal adoption for large language models, the
+internal workings of transformers are not well understood. We aim to better
+understand the impact of removing or reorganizing information throughout the
+layers of a pretrained transformer. Such an understanding could both yield
+better usage of existing models as well as to make architectural improvements
+to produce new variants. We present a series of empirical studies on frozen
+models that show that the lower and final layers of pretrained transformers
+differ from middle layers, but that middle layers have a surprising amount of
+uniformity. We further show that some classes of problems have robustness to
+skipping layers, running the layers in an order different from how they were
+trained, or running the layers in parallel. Our observations suggest that even
+frozen pretrained models may gracefully trade accuracy for latency by skipping
+layers or running layers in parallel.
+"
+text,large language models transformers pretraining,4,2110.02402,cs.LG cs.CL,0.5232833623886108,"Language Modeling using LMUs: 10x Better Data Efficiency or Improved
+  Scaling Compared to Transformers","  Recent studies have demonstrated that the performance of transformers on the
+task of language modeling obeys a power-law relationship with model size over
+six orders of magnitude. While transformers exhibit impressive scaling, their
+performance hinges on processing large amounts of data, and their computational
+and memory requirements grow quadratically with sequence length. Motivated by
+these considerations, we construct a Legendre Memory Unit based model that
+introduces a general prior for sequence processing and exhibits an $O(n)$ and
+$O(n \ln n)$ (or better) dependency for memory and computation respectively.
+Over three orders of magnitude, we show that our new architecture attains the
+same accuracy as transformers with 10x fewer tokens. We also show that for the
+same amount of training our model improves the loss over transformers about as
+much as transformers improve over LSTMs. Additionally, we demonstrate that
+adding global self-attention complements our architecture and the augmented
+model improves performance even further.
+"
+text,large language models transformers pretraining,5,2012.11995,cs.CL,0.5183922648429871,Pre-Training a Language Model Without Human Language,"  In this paper, we study how the intrinsic nature of pre-training data
+contributes to the fine-tuned downstream performance. To this end, we pre-train
+different transformer-based masked language models on several corpora with
+certain features, and we fine-tune those language models on GLUE benchmarks. We
+find that models pre-trained on unstructured data beat those trained directly
+from scratch on downstream tasks. Our results also show that pre-training on
+structured data does not always make the model acquire ability that can be
+transferred to natural language downstream tasks. To our great astonishment, we
+uncover that pre-training on certain non-human language data gives GLUE
+performance close to performance pre-trained on another non-English language.
+"
+text,large language models transformers pretraining,6,2404.19484,cs.LG cs.AI cs.CL,0.5147178173065186,More Compute Is What You Need,"  Large language model pre-training has become increasingly expensive, with
+most practitioners relying on scaling laws to allocate compute budgets for
+model size and training tokens, commonly referred to as Compute-Optimal or
+Chinchilla Optimal. In this paper, we hypothesize a new scaling law that
+suggests model performance depends mostly on the amount of compute spent for
+transformer-based models, independent of the specific allocation to model size
+and dataset size. Using this unified scaling law, we predict that (a) for
+inference efficiency, training should prioritize smaller model sizes and larger
+training datasets, and (b) assuming the exhaustion of available web datasets,
+scaling the model size might be the only way to further improve model
+performance.
+"
+text,large language models transformers pretraining,7,2105.00572,cs.CL,0.5125082731246948,Larger-Scale Transformers for Multilingual Masked Language Modeling,"  Recent work has demonstrated the effectiveness of cross-lingual language
+model pretraining for cross-lingual understanding. In this study, we present
+the results of two larger multilingual masked language models, with 3.5B and
+10.7B parameters. Our two new models dubbed XLM-R XL and XLM-R XXL outperform
+XLM-R by 1.8% and 2.4% average accuracy on XNLI. Our model also outperforms the
+RoBERTa-Large model on several English tasks of the GLUE benchmark by 0.3% on
+average while handling 99 more languages. This suggests pretrained models with
+larger capacity may obtain both strong performance on high-resource languages
+while greatly improving low-resource languages. We make our code and models
+publicly available.
+"
+text,large language models transformers pretraining,8,2307.07843,cs.LG cs.CL,0.5099201202392578,Transformers are Universal Predictors,"  We find limits to the Transformer architecture for language modeling and show
+it has a universal prediction property in an information-theoretic sense. We
+further analyze performance in non-asymptotic data regimes to understand the
+role of various components of the Transformer architecture, especially in the
+context of data-efficient training. We validate our theoretical analysis with
+experiments on both synthetic and real datasets.
+"
+text,large language models transformers pretraining,9,2504.04151,cs.CL,0.5086190104484558,STEP: Staged Parameter-Efficient Pre-training for Large Language Models,"  Pre-training large language models (LLMs) faces significant memory challenges
+due to the large size of model parameters. We introduce STaged
+parameter-Efficient Pre-training (STEP), which integrates parameter-efficient
+tuning techniques with model growth. We conduct experiments on pre-training
+LLMs of various sizes and demonstrate that STEP achieves up to a 53.9%
+reduction in maximum memory requirements compared to vanilla pre-training while
+maintaining equivalent performance. Furthermore, we show that the model by STEP
+performs comparably to vanilla pre-trained models on downstream tasks after
+instruction tuning.
+"
+text,large language models transformers pretraining,10,2005.00581,cs.CL cs.LG,0.5084734559059143,Multi-scale Transformer Language Models,"  We investigate multi-scale transformer language models that learn
+representations of text at multiple scales, and present three different
+architectures that have an inductive bias to handle the hierarchical nature of
+language. Experiments on large-scale language modeling benchmarks empirically
+demonstrate favorable likelihood vs memory footprint trade-offs, e.g. we show
+that it is possible to train a hierarchical variant with 30 layers that has 23%
+smaller memory footprint and better perplexity, compared to a vanilla
+transformer with less than half the number of layers, on the Toronto
+BookCorpus. We analyze the advantages of learned representations at multiple
+scales in terms of memory footprint, compute time, and perplexity, which are
+particularly appealing given the quadratic scaling of transformers' run time
+and memory usage with respect to sequence length.
+"
+text,large language models transformers pretraining,11,2212.10503,cs.CL cs.LG,0.48976245522499084,"Mini-Model Adaptation: Efficiently Extending Pretrained Models to New
+  Languages via Aligned Shallow Training","  Prior work shows that it is possible to expand pretrained Masked Language
+Models (MLMs) to new languages by learning a new set of embeddings, while
+keeping the transformer body frozen. Despite learning a small subset of
+parameters, this approach is not compute-efficient, as training the new
+embeddings requires a full forward and backward pass over the entire model. We
+propose mini-model adaptation, a compute-efficient alternative that builds a
+shallow mini-model from a fraction of a large model's parameters. New
+language-specific embeddings can then be efficiently trained over the
+mini-model and plugged into the aligned large model for rapid cross-lingual
+transfer. We explore two approaches to learn mini-models: MiniJoint, which
+jointly pretrains the primary model and the mini-model using a single
+transformer with a secondary MLM head at a middle layer; and MiniPost, where we
+start from a regular pretrained model, build a mini-model by extracting and
+freezing a few layers, and learn a small number of parameters on top.
+Experiments on XNLI, MLQA and PAWS-X show that mini-model adaptation matches
+the performance of the standard approach using 2.3x less compute on average.
+"
+text,large language models transformers pretraining,12,2405.14159,cs.CL cs.AI,0.4882798194885254,Super Tiny Language Models,"  The rapid advancement of large language models (LLMs) has led to significant
+improvements in natural language processing but also poses challenges due to
+their high computational and energy demands. This paper introduces a series of
+research efforts focused on Super Tiny Language Models (STLMs), which aim to
+deliver high performance with significantly reduced parameter counts. We
+explore innovative techniques such as byte-level tokenization with a pooling
+mechanism, weight tying, and efficient training strategies. These methods aim
+to significantly reduce reduce the parameter count compared to traditional
+models -- in future works, we aim to build on these in a way that maintains and
+improves upon the performance of base transformer models. This series of papers
+will explore into various subproblems, including tokenizer-free models,
+self-play based training, and alternative training objectives. We will target
+models with 10M, 50M, and 100M parameters. Our ultimate goal is to make
+high-performance language models more accessible and practical for a wide range
+of applications.
+"
+text,large language models transformers pretraining,13,2311.02265,cs.CL,0.48800694942474365,Not all layers are equally as important: Every Layer Counts BERT,"  This paper introduces a novel modification of the transformer architecture,
+tailored for the data-efficient pretraining of language models. This aspect is
+evaluated by participating in the BabyLM challenge, where our solution won both
+the strict and strict-small tracks. Our approach allows each transformer layer
+to select which outputs of previous layers to process. The empirical results
+verify the potential of this simple modification and show that not all layers
+are equally as important.
+"
+text,large language models transformers pretraining,14,2104.11390,cs.CL,0.4859204590320587,Transfer training from smaller language model,"  Large language models have led to state-of-the-art accuracies across a range
+of tasks. However,training large language model needs massive computing
+resource, as more and more open source pre-training models are available, it is
+worthy to study how to take full advantage of available model. We find a method
+to save training time and resource cost by changing the small well-trained
+model to large model. We initialize a larger target model from a smaller source
+model by copy weight values from source model and padding with zeros or small
+initialization values on it to make the source and target model have
+approximate outputs, which is valid due to block matrix multiplication and
+residual connection in transformer structure. We test the target model on
+several data sets and find it is still comparable with the source model. When
+we continue training the target model, the training loss can start from a
+smaller value.
+"
+text,large language models transformers pretraining,15,2110.07143,cs.CL,0.48236754536628723,bert2BERT: Towards Reusable Pretrained Language Models,"  In recent years, researchers tend to pre-train ever-larger language models to
+explore the upper limit of deep models. However, large language model
+pre-training costs intensive computational resources and most of the models are
+trained from scratch without reusing the existing pre-trained models, which is
+wasteful. In this paper, we propose bert2BERT, which can effectively transfer
+the knowledge of an existing smaller pre-trained model (e.g., BERT_BASE) to a
+large model (e.g., BERT_LARGE) through parameter initialization and
+significantly improve the pre-training efficiency of the large model.
+Specifically, we extend the previous function-preserving on Transformer-based
+language model, and further improve it by proposing advanced knowledge for
+large model's initialization. In addition, a two-stage pre-training method is
+proposed to further accelerate the training process. We did extensive
+experiments on representative PLMs (e.g., BERT and GPT) and demonstrate that
+(1) our method can save a significant amount of training cost compared with
+baselines including learning from scratch, StackBERT and MSLT; (2) our method
+is generic and applicable to different types of pre-trained models. In
+particular, bert2BERT saves about 45% and 47% computational cost of
+pre-training BERT_BASE and GPT_BASE by reusing the models of almost their half
+sizes. The source code will be publicly available upon publication.
+"
+text,large language models transformers pretraining,16,2508.00544,cs.CL cs.LG,0.4792434573173523,PaPaformer: Language Model from Pre-trained Parallel Paths,"The training of modern large-language models requires an increasingly amount of computation power and time. Even smaller variants, such as small-language models (SLMs), take several days to train in the best-case scenarios, often requiring multiple GPUs. This paper explores methods to train and evaluate decoder-only transformer-based language models in hours instead of days/weeks. We introduces \textit{PaPaformer}, a decoder-only transformer architecture variant, whose lower-dimensional parallel paths are combined into larger model. The paper shows that these lower-dimensional paths can be trained individually with different types of training data and then combined into one larger model. This method gives the option to reduce the total number of model parameters and the training time with increasing performance. Moreover, the use of parallel path structure opens interesting possibilities to customize paths to accommodate specific task requirements."
+text,large language models transformers pretraining,17,2103.05247,cs.LG cs.AI,0.4787868559360504,Pretrained Transformers as Universal Computation Engines,"  We investigate the capability of a transformer pretrained on natural language
+to generalize to other modalities with minimal finetuning -- in particular,
+without finetuning of the self-attention and feedforward layers of the residual
+blocks. We consider such a model, which we call a Frozen Pretrained Transformer
+(FPT), and study finetuning it on a variety of sequence classification tasks
+spanning numerical computation, vision, and protein fold prediction. In
+contrast to prior works which investigate finetuning on the same modality as
+the pretraining dataset, we show that pretraining on natural language can
+improve performance and compute efficiency on non-language downstream tasks.
+Additionally, we perform an analysis of the architecture, comparing the
+performance of a random initialized transformer to a random LSTM. Combining the
+two insights, we find language-pretrained transformers can obtain strong
+performance on a variety of non-language tasks.
+"
+text,large language models transformers pretraining,18,2008.07027,cs.CL,0.4638621211051941,"Adding Recurrence to Pretrained Transformers for Improved Efficiency and
+  Context Size","  Fine-tuning a pretrained transformer for a downstream task has become a
+standard method in NLP in the last few years. While the results from these
+models are impressive, applying them can be extremely computationally
+expensive, as is pretraining new models with the latest architectures. We
+present a novel method for applying pretrained transformer language models
+which lowers their memory requirement both at training and inference time. An
+additional benefit is that our method removes the fixed context size constraint
+that most transformer models have, allowing for more flexible use. When applied
+to the GPT-2 language model, we find that our method attains better perplexity
+than an unmodified GPT-2 model on the PG-19 and WikiText-103 corpora, for a
+given amount of computation or memory.
+"
+text,large language models transformers pretraining,19,2111.04909,cs.CL cs.AI,0.4567633271217346,FPM: A Collection of Large-scale Foundation Pre-trained Language Models,"  Large-scale Transformer models have significantly promoted the recent
+development of natural language processing applications. However, little effort
+has been made to unify the effective models. In this paper, driven by providing
+a new set of baseline models in the future, we adopt various novel transformer
+architectures and launch a model set with the help of recent mainstream
+technologies. We focus the discussions on optimizing the depth of the networks
+based on the existing powerful encode-decoder structures. We show that by
+properly avoiding training defects such as non-convergence and degradation,
+scaling up off-the-shelf transformer architectures consistently delivers better
+performance. To stimulate future research on large-scale language model
+pretraining, we present extensive results and detailed discussions on network
+performance improvements with respect to the network depth and confirm the
+existence of the optimal number of layers under specific tasks. To the best of
+our knowledge, we provide the largest Chinese generative model and the largest
+Chinese encoding model. The BERT language models we trained on English datasets
+deliver a 14.45% higher F1 score than the Turing-NLR.
+"
+text,large language models transformers pretraining,20,2010.13369,cs.LG,0.4409945607185364,"Accelerating Training of Transformer-Based Language Models with
+  Progressive Layer Dropping","  Recently, Transformer-based language models have demonstrated remarkable
+performance across many NLP domains. However, the unsupervised pre-training
+step of these models suffers from unbearable overall computational expenses.
+Current methods for accelerating the pre-training either rely on massive
+parallelism with advanced hardware or are not applicable to language modeling.
+In this work, we propose a method based on progressive layer dropping that
+speeds the training of Transformer-based language models, not at the cost of
+excessive hardware resources but from model architecture change and training
+technique boosted efficiency. Extensive experiments on BERT show that the
+proposed method achieves a 24% time reduction on average per sample and allows
+the pre-training to be 2.5 times faster than the baseline to get a similar
+accuracy on downstream tasks. While being faster, our pre-trained models are
+equipped with strong knowledge transferability, achieving comparable and
+sometimes higher GLUE score than the baseline when pre-trained with the same
+number of samples.
+"

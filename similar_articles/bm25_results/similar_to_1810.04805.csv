@@ -1,0 +1,670 @@
+query_type,query_value,query_title,query_abstract,rank,doc_id,score,title,abstract,categories
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",1,1905.03197,232.15002,"Unified Language Model Pre-training for Natural Language Understanding
+  and Generation","  This paper presents a new Unified pre-trained Language Model (UniLM) that can
+be fine-tuned for both natural language understanding and generation tasks. The
+model is pre-trained using three types of language modeling tasks:
+unidirectional, bidirectional, and sequence-to-sequence prediction. The unified
+modeling is achieved by employing a shared Transformer network and utilizing
+specific self-attention masks to control what context the prediction conditions
+on. UniLM compares favorably with BERT on the GLUE benchmark, and the SQuAD 2.0
+and CoQA question answering tasks. Moreover, UniLM achieves new
+state-of-the-art results on five natural language generation datasets,
+including improving the CNN/DailyMail abstractive summarization ROUGE-L to
+40.51 (2.04 absolute improvement), the Gigaword abstractive summarization
+ROUGE-L to 35.75 (0.86 absolute improvement), the CoQA generative question
+answering F1 score to 82.5 (37.1 absolute improvement), the SQuAD question
+generation BLEU-4 to 22.12 (3.75 absolute improvement), and the DSTC7
+document-grounded dialog response generation NIST-4 to 2.67 (human performance
+is 2.65). The code and pre-trained models are available at
+https://github.com/microsoft/unilm.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",2,1908.01767,207.52466,"Exploring Neural Net Augmentation to BERT for Question Answering on
+  SQUAD 2.0","  Enhancing machine capabilities to answer questions has been a topic of
+considerable focus in recent years of NLP research. Language models like
+Embeddings from Language Models (ELMo)[1] and Bidirectional Encoder
+Representations from Transformers (BERT) [2] have been very successful in
+developing general purpose language models that can be optimized for a large
+number of downstream language tasks. In this work, we focused on augmenting the
+pre-trained BERT language model with different output neural net architectures
+and compared their performance on question answering task posed by the Stanford
+Question Answering Dataset 2.0 (SQUAD 2.0) [3]. Additionally, we also
+fine-tuned the pre-trained BERT model parameters to demonstrate its
+effectiveness in adapting to specialized language tasks. Our best output
+network, is the contextualized CNN that performs on both the unanswerable and
+answerable question answering tasks with F1 scores of 75.32 and 64.85
+respectively.
+",cs.CL cs.AI cs.LG
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",3,1902.10909,201.44641,BERT for Joint Intent Classification and Slot Filling,"  Intent classification and slot filling are two essential tasks for natural
+language understanding. They often suffer from small-scale human-labeled
+training data, resulting in poor generalization capability, especially for rare
+words. Recently a new language representation model, BERT (Bidirectional
+Encoder Representations from Transformers), facilitates pre-training deep
+bidirectional representations on large-scale unlabeled corpora, and has created
+state-of-the-art models for a wide variety of natural language processing tasks
+after simple fine-tuning. However, there has not been much effort on exploring
+BERT for natural language understanding. In this work, we propose a joint
+intent classification and slot filling model based on BERT. Experimental
+results demonstrate that our proposed model achieves significant improvement on
+intent classification accuracy, slot filling F1, and sentence-level semantic
+frame accuracy on several public benchmark datasets, compared to the
+attention-based recurrent neural network models and slot-gated models.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",4,2003.07000,200.72362,"TRANS-BLSTM: Transformer with Bidirectional LSTM for Language
+  Understanding","  Bidirectional Encoder Representations from Transformers (BERT) has recently
+achieved state-of-the-art performance on a broad range of NLP tasks including
+sentence classification, machine translation, and question answering. The BERT
+model architecture is derived primarily from the transformer. Prior to the
+transformer era, bidirectional Long Short-Term Memory (BLSTM) has been the
+dominant modeling architecture for neural machine translation and question
+answering. In this paper, we investigate how these two modeling techniques can
+be combined to create a more powerful model architecture. We propose a new
+architecture denoted as Transformer with BLSTM (TRANS-BLSTM) which has a BLSTM
+layer integrated to each transformer block, leading to a joint modeling
+framework for transformer and BLSTM. We show that TRANS-BLSTM models
+consistently lead to improvements in accuracy compared to BERT baselines in
+GLUE and SQuAD 1.1 experiments. Our TRANS-BLSTM model obtains an F1 score of
+94.01% on the SQuAD 1.1 development dataset, which is comparable to the
+state-of-the-art result.
+",cs.CL cs.LG cs.SD eess.AS
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",5,2108.07789,195.70125,"Adapting GPT, GPT-2 and BERT Language Models for Speech Recognition","  Language models (LMs) pre-trained on massive amounts of text, in particular
+bidirectional encoder representations from Transformers (BERT), generative
+pre-training (GPT), and GPT-2, have become a key technology for many natural
+language processing tasks. In this paper, we present results using fine-tuned
+GPT, GPT-2, and their combination for automatic speech recognition (ASR).
+Unlike unidirectional LM GPT and GPT-2, BERT is bidirectional whose direct
+product of the output probabilities is no longer a valid language prior
+probability. A conversion method is proposed to compute the correct language
+prior probability based on bidirectional LM outputs in a mathematically exact
+way. Experimental results on the widely used AMI and Switchboard ASR tasks
+showed that the combination of the fine-tuned GPT and GPT-2 outperformed the
+combination of three neural LMs with different architectures trained from
+scratch on the in-domain text by up to a 12% relative word error rate reduction
+(WERR). Furthermore, on the AMI corpus, the proposed conversion for language
+prior probabilities enables BERT to obtain an extra 3% relative WERR, and the
+combination of BERT, GPT and GPT-2 results in further improvements.
+",cs.CL cs.SD eess.AS
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",6,1901.08746,195.39299,"BioBERT: a pre-trained biomedical language representation model for
+  biomedical text mining","  Biomedical text mining is becoming increasingly important as the number of
+biomedical documents rapidly grows. With the progress in natural language
+processing (NLP), extracting valuable information from biomedical literature
+has gained popularity among researchers, and deep learning has boosted the
+development of effective biomedical text mining models. However, directly
+applying the advancements in NLP to biomedical text mining often yields
+unsatisfactory results due to a word distribution shift from general domain
+corpora to biomedical corpora. In this article, we investigate how the recently
+introduced pre-trained language model BERT can be adapted for biomedical
+corpora. We introduce BioBERT (Bidirectional Encoder Representations from
+Transformers for Biomedical Text Mining), which is a domain-specific language
+representation model pre-trained on large-scale biomedical corpora. With almost
+the same architecture across tasks, BioBERT largely outperforms BERT and
+previous state-of-the-art models in a variety of biomedical text mining tasks
+when pre-trained on biomedical corpora. While BERT obtains performance
+comparable to that of previous state-of-the-art models, BioBERT significantly
+outperforms them on the following three representative biomedical text mining
+tasks: biomedical named entity recognition (0.62% F1 score improvement),
+biomedical relation extraction (2.80% F1 score improvement) and biomedical
+question answering (12.24% MRR improvement). Our analysis results show that
+pre-training BERT on biomedical corpora helps it to understand complex
+biomedical texts. We make the pre-trained weights of BioBERT freely available
+at https://github.com/naver/biobert-pretrained, and the source code for
+fine-tuning BioBERT available at https://github.com/dmis-lab/biobert.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",7,1901.11504,191.13168,Multi-Task Deep Neural Networks for Natural Language Understanding,"  In this paper, we present a Multi-Task Deep Neural Network (MT-DNN) for
+learning representations across multiple natural language understanding (NLU)
+tasks. MT-DNN not only leverages large amounts of cross-task data, but also
+benefits from a regularization effect that leads to more general
+representations in order to adapt to new tasks and domains. MT-DNN extends the
+model proposed in Liu et al. (2015) by incorporating a pre-trained
+bidirectional transformer language model, known as BERT (Devlin et al., 2018).
+MT-DNN obtains new state-of-the-art results on ten NLU tasks, including SNLI,
+SciTail, and eight out of nine GLUE tasks, pushing the GLUE benchmark to 82.7%
+(2.2% absolute improvement). We also demonstrate using the SNLI and SciTail
+datasets that the representations learned by MT-DNN allow domain adaptation
+with substantially fewer in-domain labels than the pre-trained BERT
+representations. The code and pre-trained models are publicly available at
+https://github.com/namisan/mt-dnn.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",8,2411.18021,187.22795,"Can bidirectional encoder become the ultimate winner for downstream
+  applications of foundation models?","  Over the past few decades, Artificial Intelligence(AI) has progressed from
+the initial machine learning stage to the deep learning stage, and now to the
+stage of foundational models. Foundational models have the characteristics of
+pre-training, transfer learning, and self-supervised learning, and pre-trained
+models can be fine-tuned and applied to various downstream tasks. Under the
+framework of foundational models, models such as Bidirectional Encoder
+Representations from Transformers(BERT) and Generative Pre-trained
+Transformer(GPT) have greatly advanced the development of natural language
+processing(NLP), especially the emergence of many models based on BERT. BERT
+broke through the limitation of only using one-way methods for language
+modeling in pre-training by using a masked language model. It can capture
+bidirectional context information to predict the masked words in the sequence,
+this can improve the feature extraction ability of the model. This makes the
+model very useful for downstream tasks, especially for specialized
+applications. The model using the bidirectional encoder can better understand
+the domain knowledge and be better applied to these downstream tasks. So we
+hope to help understand how this technology has evolved and improved model
+performance in various natural language processing tasks under the background
+of foundational models and reveal its importance in capturing context
+information and improving the model's performance on downstream tasks. This
+article analyzes one-way and bidirectional models based on GPT and BERT and
+compares their differences based on the purpose of the model. It also briefly
+analyzes BERT and the improvements of some models based on BERT. The model's
+performance on the Stanford Question Answering Dataset(SQuAD) and General
+Language Understanding Evaluation(GLUE) was compared.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",9,2011.07208,186.20567,"Utilizing Bidirectional Encoder Representations from Transformers for
+  Answer Selection","  Pre-training a transformer-based model for the language modeling task in a
+large dataset and then fine-tuning it for downstream tasks has been found very
+useful in recent years. One major advantage of such pre-trained language models
+is that they can effectively absorb the context of each word in a sentence.
+However, for tasks such as the answer selection task, the pre-trained language
+models have not been extensively used yet. To investigate their effectiveness
+in such tasks, in this paper, we adopt the pre-trained Bidirectional Encoder
+Representations from Transformer (BERT) language model and fine-tune it on two
+Question Answering (QA) datasets and three Community Question Answering (CQA)
+datasets for the answer selection task. We find that fine-tuning the BERT model
+for the answer selection task is very effective and observe a maximum
+improvement of 13.1% in the QA datasets and 18.7% in the CQA datasets compared
+to the previous state-of-the-art.
+",cs.CL cs.IR
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",10,2110.09665,185.70265,Ensemble ALBERT on SQuAD 2.0,"  Machine question answering is an essential yet challenging task in natural
+language processing. Recently, Pre-trained Contextual Embeddings (PCE) models
+like Bidirectional Encoder Representations from Transformers (BERT) and A Lite
+BERT (ALBERT) have attracted lots of attention due to their great performance
+in a wide range of NLP tasks. In our Paper, we utilized the fine-tuned ALBERT
+models and implemented combinations of additional layers (e.g. attention layer,
+RNN layer) on top of them to improve model performance on Stanford Question
+Answering Dataset (SQuAD 2.0). We implemented four different models with
+different layers on top of ALBERT-base model, and two other models based on
+ALBERT-xlarge and ALBERT-xxlarge. We compared their performance to our baseline
+model ALBERT-base-v2 + ALBERT-SQuAD-out with details. Our best-performing
+individual model is ALBERT-xxlarge + ALBERT-SQuAD-out, which achieved an F1
+score of 88.435 on the dev set. Furthermore, we have implemented three
+different ensemble algorithms to boost overall performance. By passing in
+several best-performing models' results into our weighted voting ensemble
+algorithm, our final result ranks first on the Stanford CS224N Test PCE SQuAD
+Leaderboard with F1 = 90.123.
+",cs.CL cs.AI
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",11,1909.04120,184.10086,Span Selection Pre-training for Question Answering,"  BERT (Bidirectional Encoder Representations from Transformers) and related
+pre-trained Transformers have provided large gains across many language
+understanding tasks, achieving a new state-of-the-art (SOTA). BERT is
+pre-trained on two auxiliary tasks: Masked Language Model and Next Sentence
+Prediction. In this paper we introduce a new pre-training task inspired by
+reading comprehension to better align the pre-training from memorization to
+understanding. Span Selection Pre-Training (SSPT) poses cloze-like training
+instances, but rather than draw the answer from the model's parameters, it is
+selected from a relevant passage. We find significant and consistent
+improvements over both BERT-BASE and BERT-LARGE on multiple reading
+comprehension (MRC) datasets. Specifically, our proposed model has strong
+empirical evidence as it obtains SOTA results on Natural Questions, a new
+benchmark MRC dataset, outperforming BERT-LARGE by 3 F1 points on short answer
+prediction. We also show significant impact in HotpotQA, improving answer
+prediction F1 by 4 points and supporting fact prediction F1 by 1 point and
+outperforming the previous best system. Moreover, we show that our pre-training
+approach is particularly effective when training data is limited, improving the
+learning curve by a large amount.
+",cs.CL cs.AI cs.LG
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",12,1905.05583,181.97427,How to Fine-Tune BERT for Text Classification?,"  Language model pre-training has proven to be useful in learning universal
+language representations. As a state-of-the-art language model pre-training
+model, BERT (Bidirectional Encoder Representations from Transformers) has
+achieved amazing results in many language understanding tasks. In this paper,
+we conduct exhaustive experiments to investigate different fine-tuning methods
+of BERT on text classification task and provide a general solution for BERT
+fine-tuning. Finally, the proposed solution obtains new state-of-the-art
+results on eight widely-studied text classification datasets.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",13,2202.06335,181.39476,"ET-BERT: A Contextualized Datagram Representation with Pre-training
+  Transformers for Encrypted Traffic Classification","  Encrypted traffic classification requires discriminative and robust traffic
+representation captured from content-invisible and imbalanced traffic data for
+accurate classification, which is challenging but indispensable to achieve
+network security and network management. The major limitation of existing
+solutions is that they highly rely on the deep features, which are overly
+dependent on data size and hard to generalize on unseen data. How to leverage
+the open-domain unlabeled traffic data to learn representation with strong
+generalization ability remains a key challenge. In this paper,we propose a new
+traffic representation model called Encrypted Traffic Bidirectional Encoder
+Representations from Transformer (ET-BERT), which pre-trains deep
+contextualized datagram-level representation from large-scale unlabeled data.
+The pre-trained model can be fine-tuned on a small number of task-specific
+labeled data and achieves state-of-the-art performance across five encrypted
+traffic classification tasks, remarkably pushing the F1 of ISCX-Tor to 99.2%
+(4.4% absolute improvement), ISCX-VPN-Service to 98.9% (5.2% absolute
+improvement), Cross-Platform (Android) to 92.5% (5.4% absolute improvement),
+CSTNET-TLS 1.3 to 97.4% (10.0% absolute improvement). Notably, we provide
+explanation of the empirically powerful pre-training model by analyzing the
+randomness of ciphers. It gives us insights in understanding the boundary of
+classification ability over encrypted traffic. The code is available at:
+https://github.com/linwhitehat/ET-BERT.
+",cs.CR cs.AI cs.NI
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",14,1909.12486,180.49284,Reweighted Proximal Pruning for Large-Scale Language Representation,"  Recently, pre-trained language representation flourishes as the mainstay of
+the natural language understanding community, e.g., BERT. These pre-trained
+language representations can create state-of-the-art results on a wide range of
+downstream tasks. Along with continuous significant performance improvement,
+the size and complexity of these pre-trained neural models continue to increase
+rapidly. Is it possible to compress these large-scale language representation
+models? How will the pruned language representation affect the downstream
+multi-task transfer learning objectives? In this paper, we propose Reweighted
+Proximal Pruning (RPP), a new pruning method specifically designed for a
+large-scale language representation model. Through experiments on SQuAD and the
+GLUE benchmark suite, we show that proximal pruned BERT keeps high accuracy for
+both the pre-training task and the downstream multiple fine-tuning tasks at
+high prune ratio. RPP provides a new perspective to help us analyze what
+large-scale language representation might learn. Additionally, RPP makes it
+possible to deploy a large state-of-the-art language representation model such
+as BERT on a series of distinct devices (e.g., online servers, mobile phones,
+and edge devices).
+",cs.LG cs.CL cs.NE stat.ML
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",15,1908.04577,176.98798,"StructBERT: Incorporating Language Structures into Pre-training for Deep
+  Language Understanding","  Recently, the pre-trained language model, BERT (and its robustly optimized
+version RoBERTa), has attracted a lot of attention in natural language
+understanding (NLU), and achieved state-of-the-art accuracy in various NLU
+tasks, such as sentiment classification, natural language inference, semantic
+textual similarity and question answering. Inspired by the linearization
+exploration work of Elman [8], we extend BERT to a new model, StructBERT, by
+incorporating language structures into pre-training. Specifically, we pre-train
+StructBERT with two auxiliary tasks to make the most of the sequential order of
+words and sentences, which leverage language structures at the word and
+sentence levels, respectively. As a result, the new model is adapted to
+different levels of language understanding required by downstream tasks. The
+StructBERT with structural pre-training gives surprisingly good empirical
+results on a variety of downstream tasks, including pushing the
+state-of-the-art on the GLUE benchmark to 89.0 (outperforming all published
+models), the F1 score on SQuAD v1.1 question answering to 93.0, the accuracy on
+SNLI to 91.7.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",16,2106.11483,176.37512,A Comprehensive Comparison of Pre-training Language Models,"  Recently, the development of pre-trained language models has brought natural
+language processing (NLP) tasks to the new state-of-the-art. In this paper we
+explore the efficiency of various pre-trained language models. We pre-train a
+list of transformer-based models with the same amount of text and the same
+training steps. The experimental results shows that the most improvement upon
+the origin BERT is adding the RNN-layer to capture more contextual information
+for short text understanding. But the conclusion is: There are no remarkable
+improvement for short text understanding for similar BERT structures.
+Data-centric method[12] can achieve better performance.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",17,1908.06725,176.04916,"Align, Mask and Select: A Simple Method for Incorporating Commonsense
+  Knowledge into Language Representation Models","  The state-of-the-art pre-trained language representation models, such as
+Bidirectional Encoder Representations from Transformers (BERT), rarely
+incorporate commonsense knowledge or other knowledge explicitly. We propose a
+pre-training approach for incorporating commonsense knowledge into language
+representation models. We construct a commonsense-related multi-choice question
+answering dataset for pre-training a neural language representation model. The
+dataset is created automatically by our proposed ""align, mask, and select""
+(AMS) method. We also investigate different pre-training tasks. Experimental
+results demonstrate that pre-training models using the proposed approach
+followed by fine-tuning achieve significant improvements over previous
+state-of-the-art models on two commonsense-related benchmarks, including
+CommonsenseQA and Winograd Schema Challenge. We also observe that fine-tuned
+models after the proposed pre-training approach maintain comparable performance
+on other NLP tasks, such as sentence classification and natural language
+inference tasks, compared to the original BERT models. These results verify
+that the proposed approach, while significantly improving commonsense-related
+NLP tasks, does not degrade the general language representation capabilities.
+",cs.CL
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",18,2103.16110,175.5994,Kaleido-BERT: Vision-Language Pre-training on Fashion Domain,"  We present a new vision-language (VL) pre-training model dubbed Kaleido-BERT,
+which introduces a novel kaleido strategy for fashion cross-modality
+representations from transformers. In contrast to random masking strategy of
+recent VL models, we design alignment guided masking to jointly focus more on
+image-text semantic relations. To this end, we carry out five novel tasks,
+i.e., rotation, jigsaw, camouflage, grey-to-color, and blank-to-color for
+self-supervised VL pre-training at patches of different scale. Kaleido-BERT is
+conceptually simple and easy to extend to the existing BERT framework, it
+attains new state-of-the-art results by large margins on four downstream tasks,
+including text retrieval (R@1: 4.03% absolute improvement), image retrieval
+(R@1: 7.13% abs imv.), category recognition (ACC: 3.28% abs imv.), and fashion
+captioning (Bleu4: 1.2 abs imv.). We validate the efficiency of Kaleido-BERT on
+a wide range of e-commerical websites, demonstrating its broader potential in
+real-world applications.
+",cs.CV
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",19,1908.03548,174.12463,BERT-based Ranking for Biomedical Entity Normalization,"  Developing high-performance entity normalization algorithms that can
+alleviate the term variation problem is of great interest to the biomedical
+community. Although deep learning-based methods have been successfully applied
+to biomedical entity normalization, they often depend on traditional
+context-independent word embeddings. Bidirectional Encoder Representations from
+Transformers (BERT), BERT for Biomedical Text Mining (BioBERT) and BERT for
+Clinical Text Mining (ClinicalBERT) were recently introduced to pre-train
+contextualized word representation models using bidirectional Transformers,
+advancing the state-of-the-art for many natural language processing tasks. In
+this study, we proposed an entity normalization architecture by fine-tuning the
+pre-trained BERT / BioBERT / ClinicalBERT models and conducted extensive
+experiments to evaluate the effectiveness of the pre-trained models for
+biomedical entity normalization using three different types of datasets. Our
+experimental results show that the best fine-tuned models consistently
+outperformed previous methods and advanced the state-of-the-art for biomedical
+entity normalization, with up to 1.17% increase in accuracy.
+",cs.IR cs.CL cs.LG
+id,1810.04805,"BERT: Pre-training of Deep Bidirectional Transformers for Language
+  Understanding","  We introduce a new language representation model called BERT, which stands
+for Bidirectional Encoder Representations from Transformers. Unlike recent
+language representation models, BERT is designed to pre-train deep
+bidirectional representations from unlabeled text by jointly conditioning on
+both left and right context in all layers. As a result, the pre-trained BERT
+model can be fine-tuned with just one additional output layer to create
+state-of-the-art models for a wide range of tasks, such as question answering
+and language inference, without substantial task-specific architecture
+modifications.
+  BERT is conceptually simple and empirically powerful. It obtains new
+state-of-the-art results on eleven natural language processing tasks, including
+pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI
+accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering
+Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1
+(5.1 point absolute improvement).
+",20,1911.05604,173.36009,"Adapting and evaluating a deep learning language model for clinical
+  why-question answering","  Objectives: To adapt and evaluate a deep learning language model for
+answering why-questions based on patient-specific clinical text. Materials and
+Methods: Bidirectional encoder representations from transformers (BERT) models
+were trained with varying data sources to perform SQuAD 2.0 style why-question
+answering (why-QA) on clinical notes. The evaluation focused on: 1) comparing
+the merits from different training data, 2) error analysis. Results: The best
+model achieved an accuracy of 0.707 (or 0.760 by partial match). Training
+toward customization for the clinical language helped increase 6% in accuracy.
+Discussion: The error analysis suggested that the model did not really perform
+deep reasoning and that clinical why-QA might warrant more sophisticated
+solutions. Conclusion: The BERT model achieved moderate accuracy in clinical
+why-QA and should benefit from the rapidly evolving technology. Despite the
+identified limitations, it could serve as a competent proxy for question-driven
+clinical information extraction.
+",cs.CL

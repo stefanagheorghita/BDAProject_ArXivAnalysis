@@ -1,0 +1,62 @@
+{
+  "0": [
+    "discipline",
+    "language",
+    "text",
+    "pattern",
+    "term",
+    "parallel",
+    "syntactic",
+    "approach",
+    "pragmatic",
+    "dynamic"
+  ],
+  "1": [
+    "constraint",
+    "hpsg",
+    "grammar",
+    "semantic",
+    "logic",
+    "structure",
+    "clear",
+    "dependency",
+    "parser",
+    "formalism"
+  ],
+  "2": [
+    "language",
+    "dialogue",
+    "discourse",
+    "model",
+    "system",
+    "structure",
+    "speech",
+    "base",
+    "paper",
+    "natural"
+  ],
+  "3": [
+    "grammar",
+    "algorithm",
+    "categorial",
+    "sequence",
+    "paper",
+    "model",
+    "value",
+    "context",
+    "tone",
+    "state"
+  ],
+  "4": [
+    "language",
+    "base",
+    "model",
+    "word",
+    "paper",
+    "grammar",
+    "system",
+    "method",
+    "semantic",
+    "result"
+  ]
+}

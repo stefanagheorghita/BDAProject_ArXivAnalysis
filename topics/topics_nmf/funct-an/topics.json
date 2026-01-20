@@ -1,0 +1,62 @@
+{
+  "0": [
+    "action",
+    "product",
+    "partial",
+    "group",
+    "crossed",
+    "cross",
+    "semigroup",
+    "automorphism",
+    "g",
+    "bundle"
+  ],
+  "1": [
+    "operator",
+    "hilbert",
+    "space",
+    "function",
+    "banach",
+    "module",
+    "self",
+    "non",
+    "property",
+    "compact"
+  ],
+  "2": [
+    "equation",
+    "solution",
+    "differential",
+    "delay",
+    "t",
+    "stability",
+    "impulsive",
+    "functional",
+    "linear",
+    "stochastic"
+  ],
+  "3": [
+    "free",
+    "product",
+    "factor",
+    "finite",
+    "group",
+    "state",
+    "von",
+    "neumann",
+    "dimensional",
+    "reduce"
+  ],
+  "4": [
+    "algebra",
+    "representation",
+    "cuntz",
+    "limit",
+    "matrix",
+    "infinite",
+    "relation",
+    "group",
+    "quantum",
+    "theory"
+  ]
+}

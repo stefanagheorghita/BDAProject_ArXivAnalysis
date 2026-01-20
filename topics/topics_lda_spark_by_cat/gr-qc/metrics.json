@@ -1,0 +1,14 @@
+{
+  "category": "gr-qc",
+  "n_documents": 69693,
+  "n_topics": 5,
+  "topic_diversity": 0.6,
+  "log_likelihood": -36222785.64996722,
+  "log_perplexity": 6.7886033044887775,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

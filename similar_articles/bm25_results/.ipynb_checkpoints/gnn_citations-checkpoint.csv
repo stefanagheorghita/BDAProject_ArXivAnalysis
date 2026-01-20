@@ -1,0 +1,158 @@
+"query_id","query_text","rank","score","doc_id","title","abstract","categories"
+"gnn_citations","graph neural networks for citation analysis","6","20.3876","2506.22165","The Missing Link: Joint Legal Citation Prediction using Heterogeneous Graph Enrichment","Legal systems heavily rely on cross-citations of legal norms as well as previous court decisions. Practitioners, novices and legal AI systems need access to these relevant data to inform appraisals and judgments. We propose a Graph-Neural-Network (GNN) link prediction model that can identify Case-Law and Case-Case citations with high proficiency through fusion of semantic and topological information. We introduce adapted relational graph convolutions operating on an extended and enriched version of the original citation graph that allow the topological integration of semantic meta-information. This further improves prediction by 3.1 points of average precision and by 8.5 points in data sparsity as well as showing robust performance over time and in challenging fully inductive prediction. Jointly learning and predicting case and norm citations achieves a large synergistic effect that improves case citation prediction by up to 4.7 points, at almost doubled efficiency.","cs.SI cs.IR"
+"gnn_citations","graph neural networks for citation analysis","7","20.191597","1909.11715","GraphMix: Improved Training of GNNs for Semi-Supervised Learning","We present GraphMix, a regularization method for Graph Neural Network based
+semi-supervised object classification, whereby we propose to train a
+fully-connected network jointly with the graph neural network via parameter
+sharing and interpolation-based regularization. Further, we provide a
+theoretical analysis of how GraphMix improves the generalization bounds of the
+underlying graph neural network, without making any assumptions about the
+""aggregation"" layer or the depth of the graph neural networks. We
+experimentally validate this analysis by applying GraphMix to various
+architectures such as Graph Convolutional Networks, Graph Attention Networks
+and Graph-U-Net. Despite its simplicity, we demonstrate that GraphMix can
+consistently improve or closely match state-of-the-art performance using even
+simpler architectures such as Graph Convolutional Networks, across three
+established graph benchmarks: Cora, Citeseer and Pubmed citation network
+datasets, as well as three newly proposed datasets: Cora-Full, Co-author-CS and
+Co-author-Physics.","cs.LG stat.ML"
+"gnn_citations","graph neural networks for citation analysis","10","19.60185","2012.05742","Longitudinal Citation Prediction using Temporal Graph Neural Networks","Citation count prediction is the task of predicting the number of citations a
+paper has gained after a period of time. Prior work viewed this as a static
+prediction task. As papers and their citations evolve over time, considering
+the dynamics of the number of citations a paper will receive would seem
+logical. Here, we introduce the task of sequence citation prediction. The goal
+is to accurately predict the trajectory of the number of citations a scholarly
+work receives over time. We propose to view papers as a structured network of
+citations, allowing us to use topological information as a learning signal.
+Additionally, we learn how this dynamic citation network changes over time and
+the impact of paper meta-data such as authors, venues and abstracts. To
+approach the new task, we derive a dynamic citation network from Semantic
+Scholar spanning over 42 years. We present a model which exploits topological
+and temporal information using graph convolution networks paired with sequence
+prediction, and compare it against multiple baselines, testing the importance
+of topological and temporal information and analyzing model performance. Our
+experiments show that leveraging both the temporal and topological information
+greatly increases the performance of predicting citation counts over time.","cs.CL cs.LG"
+"gnn_citations","graph neural networks for citation analysis","9","20.058746","2309.17417","Networked Inequality: Preferential Attachment Bias in Graph Neural
+  Network Link Prediction","Graph neural network (GNN) link prediction is increasingly deployed in
+citation, collaboration, and online social networks to recommend academic
+literature, collaborators, and friends. While prior research has investigated
+the dyadic fairness of GNN link prediction, the within-group (e.g., queer
+women) fairness and ""rich get richer"" dynamics of link prediction remain
+underexplored. However, these aspects have significant consequences for degree
+and power imbalances in networks. In this paper, we shed light on how degree
+bias in networks affects Graph Convolutional Network (GCN) link prediction. In
+particular, we theoretically uncover that GCNs with a symmetric normalized
+graph filter have a within-group preferential attachment bias. We validate our
+theoretical analysis on real-world citation, collaboration, and online social
+networks. We further bridge GCN's preferential attachment bias with unfairness
+in link prediction and propose a new within-group fairness metric. This metric
+quantifies disparities in link prediction scores within social groups, towards
+combating the amplification of degree and power disparities. Finally, we
+propose a simple training-time strategy to alleviate within-group unfairness,
+and we show that it is effective on citation, social, and credit networks.","cs.LG cs.CY cs.SI"
+"gnn_citations","graph neural networks for citation analysis","2","21.45781","2305.01572","H2CGL: Modeling Dynamics of Citation Network for Impact Prediction","The potential impact of a paper is often quantified by how many citations it
+will receive. However, most commonly used models may underestimate the
+influence of newly published papers over time, and fail to encapsulate this
+dynamics of citation network into the graph. In this study, we construct
+hierarchical and heterogeneous graphs for target papers with an annual
+perspective. The constructed graphs can record the annual dynamics of target
+papers' scientific context information. Then, a novel graph neural network,
+Hierarchical and Heterogeneous Contrastive Graph Learning Model (H2CGL), is
+proposed to incorporate heterogeneity and dynamics of the citation network.
+H2CGL separately aggregates the heterogeneous information for each year and
+prioritizes the highly-cited papers and relationships among references,
+citations, and the target paper. It then employs a weighted GIN to capture
+dynamics between heterogeneous subgraphs over years. Moreover, it leverages
+contrastive learning to make the graph representations more sensitive to
+potential citations. Particularly, co-cited or co-citing papers of the target
+paper with large citation gap are taken as hard negative samples, while
+randomly dropping low-cited papers could generate positive samples. Extensive
+experimental results on two scholarly datasets demonstrate that the proposed
+H2CGL significantly outperforms a series of baseline approaches for both
+previously and freshly published papers. Additional analyses highlight the
+significance of the proposed modules. Our codes and settings have been released
+on Github (https://github.com/ECNU-Text-Computing/H2CGL)","cs.DL cs.AI"
+"gnn_citations","graph neural networks for citation analysis","8","20.115713","2110.02585","Simplicial Convolutional Neural Networks","Graphs can model networked data by representing them as nodes and their
+pairwise relationships as edges. Recently, signal processing and neural
+networks have been extended to process and learn from data on graphs, with
+achievements in tasks like graph signal reconstruction, graph or node
+classifications, and link prediction. However, these methods are only suitable
+for data defined on the nodes of a graph. In this paper, we propose a
+simplicial convolutional neural network (SCNN) architecture to learn from data
+defined on simplices, e.g., nodes, edges, triangles, etc. We study the SCNN
+permutation and orientation equivariance, complexity, and spectral analysis.
+Finally, we test the SCNN performance for imputing citations on a coauthorship
+complex.","cs.LG eess.SP"
+"gnn_citations","graph neural networks for citation analysis","3","21.123756","2202.1136","Deep Graph Learning for Anomalous Citation Detection","Anomaly detection is one of the most active research areas in various
+critical domains, such as healthcare, fintech, and public security. However,
+little attention has been paid to scholarly data, i.e., anomaly detection in a
+citation network. Citation is considered as one of the most crucial metrics to
+evaluate the impact of scientific research, which may be gamed in multiple
+ways. Therefore, anomaly detection in citation networks is of significant
+importance to identify manipulation and inflation of citations. To address this
+open issue, we propose a novel deep graph learning model, namely GLAD (Graph
+Learning for Anomaly Detection), to identify anomalies in citation networks.
+GLAD incorporates text semantic mining to network representation learning by
+adding both node attributes and link attributes via graph neural networks. It
+exploits not only the relevance of citation contents but also hidden
+relationships between papers. Within the GLAD framework, we propose an
+algorithm called CPU (Citation PUrpose) to discover the purpose of citation
+based on citation texts. The performance of GLAD is validated through a
+simulated anomalous citation dataset. Experimental results demonstrate the
+effectiveness of GLAD on the anomalous citation detection task.","cs.LG cs.DL cs.SI"
+"gnn_citations","graph neural networks for citation analysis","1","22.66139","2104.02562","Structured Citation Trend Prediction Using Graph Neural Networks","Academic citation graphs represent citation relationships between
+publications across the full range of academic fields. Top cited papers
+typically reveal future trends in their corresponding domains which is of
+importance to both researchers and practitioners. Prior citation prediction
+methods often require initial citation trends to be established and do not take
+advantage of the recent advancements in graph neural networks (GNNs). We
+present GNN-based architecture that predicts the top set of papers at the time
+of publication. For experiments, we curate a set of academic citation graphs
+for a variety of conferences and show that the proposed model outperforms other
+classic machine learning models in terms of the F1-score.","cs.LG cs.SI"
+"gnn_citations","graph neural networks for citation analysis","5","20.423195","2009.13294","Virtual Proximity Citation (VCP): A Supervised Deep Learning Method to
+  Relate Uncited Papers On Grounds of Citation Proximity","Citation based approaches have seen good progress for recommending research
+papers using citations in the paper. Citation proximity analysis which uses the
+in-text citation proximity to find relatedness between two research papers is
+better than co-citation analysis and bibliographic analysis. However, one
+common problem which exists in each approach is that paper should be well
+cited. If documents are not cited properly or not cited at all, then using
+these approaches will not be helpful. To overcome the problem, this paper
+discusses the approach Virtual Citation Proximity (VCP) which uses Siamese
+Neural Network along with the notion of citation proximity analysis and
+content-based filtering. To train this model, the actual distance between the
+two citations in a document is used as ground truth, this distance is the word
+count between the two citations. VCP is trained on Wikipedia articles for which
+the actual word count is available which is used to calculate the similarity
+between the documents. This can be used to calculate relatedness between two
+documents in a way they would have been cited in the proximity even if the
+documents are uncited. This approach has shown a great improvement in
+predicting proximity with basic neural networks over the approach which uses
+the Average Citation Proximity index value as the ground truth. This can be
+improved by using a complex neural network and proper hyper tuning of
+parameters.","cs.DL cs.IR cs.LG"
+"gnn_citations","graph neural networks for citation analysis","4","20.90852","2411.15458","TANGNN: a Concise, Scalable and Effective Graph Neural Networks with
+  Top-m Attention Mechanism for Graph Representation Learning","In the field of deep learning, Graph Neural Networks (GNNs) and Graph
+Transformer models, with their outstanding performance and flexible
+architectural designs, have become leading technologies for processing
+structured data, especially graph data. Traditional GNNs often face challenges
+in capturing information from distant vertices effectively. In contrast, Graph
+Transformer models are particularly adept at managing long-distance node
+relationships. Despite these advantages, Graph Transformer models still
+encounter issues with computational and storage efficiency when scaled to large
+graph datasets. To address these challenges, we propose an innovative Graph
+Neural Network (GNN) architecture that integrates a Top-m attention mechanism
+aggregation component and a neighborhood aggregation component, effectively
+enhancing the model's ability to aggregate relevant information from both local
+and extended neighborhoods at each layer. This method not only improves
+computational efficiency but also enriches the node features, facilitating a
+deeper analysis of complex graph structures. Additionally, to assess the
+effectiveness of our proposed model, we have applied it to citation sentiment
+prediction, a novel task previously unexplored in the GNN field. Accordingly,
+we constructed a dedicated citation network, ArXivNet. In this dataset, we
+specifically annotated the sentiment polarity of the citations (positive,
+neutral, negative) to enable in-depth sentiment analysis. Our approach has
+shown superior performance across a variety of tasks including vertex
+classification, link prediction, sentiment prediction, graph regression, and
+visualization. It outperforms existing methods in terms of effectiveness, as
+demonstrated by experimental results on multiple datasets.","cs.LG cs.AI"

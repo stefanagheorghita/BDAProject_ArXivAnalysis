@@ -1,0 +1,62 @@
+{
+  "0": [
+    "system",
+    "network",
+    "model",
+    "dynamic",
+    "state",
+    "oscillator",
+    "time",
+    "phase",
+    "synchronization",
+    "chaotic"
+  ],
+  "1": [
+    "wave",
+    "soliton",
+    "nonlinear",
+    "equation",
+    "solution",
+    "mode",
+    "lattice",
+    "system",
+    "stability",
+    "breather"
+  ],
+  "2": [
+    "system",
+    "flow",
+    "model",
+    "dimensional",
+    "structure",
+    "function",
+    "number",
+    "result",
+    "soliton",
+    "study"
+  ],
+  "3": [
+    "equation",
+    "solution",
+    "system",
+    "integrable",
+    "nonlinear",
+    "method",
+    "model",
+    "function",
+    "hierarchy",
+    "order"
+  ],
+  "4": [
+    "wave",
+    "time",
+    "model",
+    "system",
+    "energy",
+    "particle",
+    "chaotic",
+    "field",
+    "dynamic",
+    "scale"
+  ]
+}

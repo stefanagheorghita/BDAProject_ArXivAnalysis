@@ -1,0 +1,14 @@
+{
+  "category": "cond-mat",
+  "n_documents": 340330,
+  "n_topics": 5,
+  "topic_diversity": 0.68,
+  "log_likelihood": -196676462.15779054,
+  "log_perplexity": 7.039828512512405,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

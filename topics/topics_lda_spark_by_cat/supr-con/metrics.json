@@ -1,0 +1,14 @@
+{
+  "category": "supr-con",
+  "n_documents": 69,
+  "n_topics": 5,
+  "topic_diversity": 0.94,
+  "log_likelihood": -32383.841677376735,
+  "log_perplexity": 7.506685599762802,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

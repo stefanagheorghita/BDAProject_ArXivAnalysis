@@ -1,0 +1,62 @@
+{
+  "0": [
+    "network",
+    "model",
+    "learning",
+    "image",
+    "method",
+    "datum",
+    "propose",
+    "base",
+    "neural",
+    "learn"
+  ],
+  "1": [
+    "mass",
+    "star",
+    "energy",
+    "field",
+    "magnetic",
+    "galaxy",
+    "model",
+    "phase",
+    "high",
+    "temperature"
+  ],
+  "2": [
+    "equation",
+    "solution",
+    "function",
+    "space",
+    "problem",
+    "group",
+    "operator",
+    "prove",
+    "theory",
+    "result"
+  ],
+  "3": [
+    "quantum",
+    "state",
+    "system",
+    "spin",
+    "qubit",
+    "entanglement",
+    "classical",
+    "phase",
+    "circuit",
+    "photon"
+  ],
+  "4": [
+    "graph",
+    "vertex",
+    "edge",
+    "number",
+    "node",
+    "algorithm",
+    "network",
+    "set",
+    "tree",
+    "subgraph"
+  ]
+}

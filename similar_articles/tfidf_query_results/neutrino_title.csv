@@ -1,0 +1,282 @@
+id,categories,similarity,query_value,title,abstract
+2308.03838,hep-ph astro-ph.SR,0.7014290084636193,Neutrino decays as a natural explanation of the neutrino mass tension,Solar neutrinos and $\nu_2$ visible decays to $\nu_1$,"  Experimental bounds on the neutrino lifetime depend on the nature of the
+neutrinos and the details of the potentially new physics responsible for
+neutrino decay. In the case where the decays involve active neutrinos in the
+final state, the neutrino masses also qualitatively impact how these manifest
+themselves experimentally. In order to further understand the impact of nonzero
+neutrino masses, we explore how observations of solar neutrinos constrain a
+very simple toy model. We assume that neutrinos are Dirac fermions and there is
+a new massless scalar that couples to neutrinos such that a heavy neutrino -
+$\nu_2$ with mass $m_2$ - can decay into a lighter neutrino - $\nu_1$ with mass
+$m_1$ - and a massless scalar. We find that the constraints on the new physics
+coupling depend, sometimes significantly, on the ratio of the
+daughter-to-parent neutrino masses, and that, for large enough values of the
+new physics coupling, the ""dark side"" of the solar neutrino parameter space -
+$\sin^2\theta_{12}\sim 0.7$ - provides a reasonable fit to solar neutrino data.
+Our results generalize to other neutrino-decay scenarios, including those that
+mediate $\nu_2\to\nu_1\bar{\nu}_3\nu_3$ when the neutrino mass ordering is
+inverted mass and $m_2>m_1\gg m_3$, the mass of $\nu_3$.
+"
+hep-ph/0010206,hep-ph,0.6498874688679757,Neutrino decays as a natural explanation of the neutrino mass tension,Neutrino Mass: The Present and the Future,"  We argue that the evidence for neutrino mass is quite compelling. This mass
+raises a number of questions, which we enumerate, about neutrinos. Then we
+focus on one of these questions---the issue of the possible neutrino mass
+spectra. In particular, we explain that one can have a four-neutrino spectrum
+which does not require significant sterile-neutrino involvement in either the
+atmospheric or solar neutrino oscillations.
+"
+2011.14481,astro-ph.CO gr-qc hep-ph hep-th,0.6659480416692758,Neutrino decays as a natural explanation of the neutrino mass tension,Cosmological bound on neutrino masses in the light of $H_0$ tension,"  Although cosmic microwave background (CMB) is the most powerful cosmological
+probe of neutrino masses, it is in trouble with local direct measurements of
+$H_0$, which is called the $H_0$ tension. Since neutrino masses are correlated
+with $H_0$ in CMB, one can expect the cosmological bound on neutrino masses
+would be much affected by the $H_0$ tension. We investigate what impact this
+tension brings to cosmological bound on neutrino masses by assuming a model
+with modified recombination which has been shown to resolve the tension. We
+argue that constraints on neutrino masses become significantly weaker in models
+where the $H_0$ tension can be resolved.
+"
+1705.03599,hep-ph hep-ex,0.6608510667365645,Neutrino decays as a natural explanation of the neutrino mass tension,Visible neutrino decay at DUNE,"  If the heaviest neutrino mass eigenstate is unstable, its decay modes could
+include lighter neutrino eigenstates. In this case part of the decay products
+could be visible, as they would interact at neutrino detectors via mixing. At
+neutrino oscillation experiments, a characteristic signature of such
+\emph{visible neutrino decay} would be an apparent excess of events at low
+energies. We focus on a simple phenomenological model in which the heaviest
+neutrino decays as $\nu_3 \rightarrow \nu_{1,2} + \phi$, where $\phi$ is a new
+light scalar. If neutrinos are Majorana particles the helicity-flipping decays
+would be observable (i.e., $\nu \to \bar\nu + \phi$), leading to interesting
+observable consequences on the event rates. We compute the sensitivities of the
+Deep Underground Neutrino Experiment (DUNE) to the couplings of the new scalar
+as a function of the lightest neutrino mass. Under the assumption that only the
+heaviest neutrino is unstable, and for a normal mass ordering, we find that
+DUNE will be sensitive to values of $\tau_3/m_3 > 1.95 - 2.6\times
+10^{-10}$~s/eV (90\% C.L.) (depending on the lightest neutrino mass), where
+$\tau_3$ and $m_3$ are the lifetime and mass of $\nu_3$, respectively.
+"
+2204.09130,hep-ph hep-ex,0.6572841287241356,Neutrino decays as a natural explanation of the neutrino mass tension,Very Light Sterile Neutrinos at NOvA and T2K,"  Over the last several years, our understanding of neutrino oscillations has
+developed significantly due to the long-baseline measurements of muon-neutrino
+disappearance and muon-to-electron-neutrino appearance at the T2K and NOvA
+experiments. However, when interpreted under the
+standard-three-massive-neutrinos paradigm, a tension has emerged between the
+two experiments' data. Here, we examine whether this tension can be alleviated
+when a fourth, very light neutrino is added to the picture. Specifically, we
+focus on the scenario in which this new neutrino has a mass similar to, or even
+lighter than, the three mostly-active neutrinos that have been identified to
+date. We find that, for some regions of parameter space, the four-neutrino
+framework is favored over the three-neutrino one with moderate (a little under
+two sigma) significance. Interpreting these results, we provide future outlook
+for near-term and long-term experiments if this four-neutrino framework is
+indeed true.
+"
+1602.03191,hep-ph astro-ph.CO gr-qc hep-th,0.6511843583929259,Neutrino decays as a natural explanation of the neutrino mass tension,Small neutrino masses from gravitational $\theta$-term,"  We present how a neutrino condensate and small neutrino masses emerge from a
+topological formulation of gravitational anomaly. We first recapitulate how a
+gravitational $\theta$-term leads to the emergence of a new bound neutrino
+state analogous to the $\eta'$ meson of QCD. Then we show the consequent
+formation of a neutrino vacuum condensate, which effectively generates small
+neutrino masses. Afterwards we outline several phenomenological consequences of
+our neutrino mass generation model. The cosmological neutrino mass bound
+vanishes since we predict the neutrinos to be massless until the phase
+transition in the late Universe, $T\sim {\rm meV}$. Deviations from an equal
+flavor rate due to enhanced neutrino decays in extraterrestrial neutrino fluxes
+can be observed in future IceCube data. The current cosmological neutrino
+background only consists of the lightest neutrinos, which, due to enhanced
+neutrino-neutrino interactions, either bind up, form a superfluid, or
+completely annihilate into massless bosons. Strongly coupled relic neutrinos
+could provide a contribution to cold dark matter in the late Universe, together
+with the new proposed particles and topological defects, which may have formed
+during neutrino condensation. These enhanced interactions could also be a
+source of relic neutrino clustering in our Galaxy, which possibly makes the
+overdense cosmic neutrino background detectable in the KATRIN experiment. The
+neutrino condensate provides a mass for the hypothetical $B-L$ gauge boson,
+leading to a gravity-competing force detectable in short-distance measurements.
+Gravitational waves detections have the potential to probe our neutrino mass
+generation mechanism.
+"
+0810.2297,hep-ph astro-ph,0.6432630633593006,Neutrino decays as a natural explanation of the neutrino mass tension,Nonstandard neutrino-neutrino refractive effects in dense neutrino gases,"  We investigate the effects of nonstandard four-fermion neutrino-neutrino
+interactions on the flavor evolution of dense neutrino gases. We find that in
+the regions where the neutrino-neutrino refractive index leads to collective
+flavor oscillations, the presence of new neutrino interactions can produce
+flavor equilibration in both normal and inverted neutrino mass hierarchy. In
+realistic supernova environments, these effects are significant if the
+nonstandard neutrino-neutrino interaction strength is comparable to the one
+expected in the standard case, dominating the ordinary matter potential.
+However, very small nonstandard neutrino-neutrino couplings are enough to
+trigger the usual collective neutrino flavor transformations in the inverted
+neutrino mass hierarchy, even if the mixing angle vanishes exactly.
+"
+hep-ph/0110166,hep-ph,0.6480250689655015,Neutrino decays as a natural explanation of the neutrino mass tension,In Quest of Neutrino Masses at ${\cal{O}}$(eV) Scale,"  Neutrino oscillation and tritium beta decay experiments taken simultaneously
+into account are able to access the so far imperceptible absolute neutrino
+masses at the electronvolt level. The neutrino mass spectrum derived in this
+way is independent of the nature of neutrinos (Dirac or Majorana). Furthermore,
+the lack of neutrinoless double beta decay gives additional constraints on the
+Majorana neutrino mass spectrum. A case of three neutrinos is examined.
+Influence of different solutions to the solar neutrino deficit problem on the
+results is discussed. Apart from the present situation, four qualitatively
+distinct experimental situations which are possible in the future are
+investigated: when the two decay experiments give only upper bounds on
+effective neutrino masses, when either one of them gives a positive result, and
+when both give positive results. The discussion is carried out by taking into
+account the present experimental errors of relevant neutrino parameters as well
+as their much more precise expected estimations (e.g. by $\nu$ factories). It
+is shown in which cases the upgraded decay experiments simultaneously with
+neutrino oscillation data may be able to fix the absolute scale of the neutrino
+mass spectrum, answer the question of the neutrino nature and put some light on
+CP phases in the lepton sector.
+"
+hep-ph/0305317,hep-ph astro-ph hep-ex,0.6457023636252195,Neutrino decays as a natural explanation of the neutrino mass tension,Neutrino Decays and Neutrino Telescopes,"  It is shown how deviations of neutrino flavor mix from the canonical 1 : 1 :
+1 in high energy astrophysical neutrinos can provide evidence for neutrino
+decays with lifetimes as long as $10^4 s/eV$.
+"
+2501.11336,hep-ex,0.6557627150263547,Neutrino decays as a natural explanation of the neutrino mass tension,"Probing invisible neutrino decay with the first six detection units of
+  KM3NeT/ORCA","  In the era of precision measurements of neutrino oscillation parameters, it
+is necessary for experiments to disentangle discrepancies that may indicate
+physics beyond the Standard Model in the neutrino sector. KM3NeT/ORCA is a
+water Cherenkov neutrino detector under construction and anchored at the bottom
+of the Mediterranean Sea. The detector is designed to study the oscillations of
+atmospheric neutrinos and determine the neutrino mass ordering. This paper
+focuses on the initial configuration of ORCA, referred to as ORCA6, which
+comprises six out of the foreseen 115 detection units of photosensors. A
+high-purity neutrino sample was extracted during 2020 and 2021, corresponding
+to an exposure of 433 kton-years. This sample is analysed following a binned
+log-likelihood approach to search for invisible neutrino decay, in a
+three-flavour neutrino oscillation scenario, where the third neutrino mass
+state $\nu_3$ decays into an invisible state, e.g. a sterile neutrino. The
+resulting best fit of the invisible neutrino decay parameter is $\alpha_3 =
+0.92^{+1.08}_{-0.57}\times 10^{-4}~\mathrm{eV^2}$, corresponding to a scenario
+with $\theta_{23}$ in the second octant and normal neutrino mass ordering. The
+results are consistent with the Standard Model, within a $2.1\,\sigma$
+interval.
+"
+1106.4479,hep-ph astro-ph.CO hep-ex,0.6468408626425911,Neutrino decays as a natural explanation of the neutrino mass tension,Sterile Neutrino Fits,"  After a brief review of the results of solar, atmospheric and long-baseline
+neutrino oscillation experiments which led to the current three-neutrino mixing
+paradigm, we discuss indications of neutrino oscillation experiments in favor
+of short-baseline oscillations which require the existence of one or more
+sterile neutrinos. We show that the simplest possibility of existence of one
+sterile neutrino is not enough to fit all data of short-baseline neutrino
+oscillation experiments because of two tensions: a tension between neutrino and
+antineutrino data and a tension between appearance and disappearance data. The
+tension between neutrino and antineutrino data is eliminated with the addition
+of a second sterile neutrino which allows CP-violating effects in
+short-baseline experiments. In this case the tension between appearance and
+disappearance data is reduced, but cannot be eliminated.
+"
+2007.04994,hep-ph astro-ph.CO hep-ex,0.6449303261470383,Neutrino decays as a natural explanation of the neutrino mass tension,Relaxing Cosmological Neutrino Mass Bounds with Unstable Neutrinos,"  At present, cosmological observations set the most stringent bound on the
+neutrino mass scale. Within the standard cosmological model ($\Lambda$CDM), the
+Planck collaboration reports $\sum m_\nu < 0.12\,\text{eV}$ at 95% CL. This
+bound, taken at face value, excludes many neutrino mass models. However,
+unstable neutrinos, with lifetimes shorter than the age of the universe
+$\tau_\nu \lesssim t_U$, represent a particle physics avenue to relax this
+constraint. Motivated by this fact, we present a taxonomy of neutrino decay
+modes, categorizing them in terms of particle content and final decay products.
+Taking into account the relevant phenomenological bounds, our analysis shows
+that 2-body decaying neutrinos into BSM particles are a promising option to
+relax cosmological neutrino mass bounds. We then build a simple extension of
+the type I seesaw scenario by adding one sterile state $\nu_4$ and a Goldstone
+boson $\phi$, in which $\nu_i \to \nu_4 \, \phi$ decays can loosen the neutrino
+mass bounds up to $\sum m_\nu \sim 1\,\text{eV}$, without spoiling the light
+neutrino mass generation mechanism. Remarkably, this is possible for a large
+range of the right-handed neutrino masses, from the electroweak up to the GUT
+scale. We successfully implement this idea in the context of minimal neutrino
+mass models based on a $U(1)_{\mu-\tau}$ flavor symmetry, which are otherwise
+in tension with the current bound on $\sum m_\nu$.
+"
+hep-ph/9611465,hep-ph,0.6666738679302792,Neutrino decays as a natural explanation of the neutrino mass tension,Neutrino Masses and Oscillations,"  New effects related to refraction of neutrinos in different media are
+reviewed and implication of the effects to neutrino mass and mixing are
+discussed. Patterns of neutrino masses and mixing implied by existing
+hints/bounds are described. Recent results on neutrino mass generation are
+presented. They include neutrino masses in SO(10) GUT's and models with
+anomalous $U(1)$, generation of neutrino mass via neutrino-neutralino mixing,
+models of sterile neutrino.
+"
+1608.02358,astro-ph.CO gr-qc hep-ph,0.6646023894790838,Neutrino decays as a natural explanation of the neutrino mass tension,Dynamics of neutrino lumps in growing neutrino quintessence,"  We investigate the formation and dissipation of large scale neutrino
+structures in cosmologies where the time evolution of dynamical dark energy is
+stopped by a growing neutrino mass. In models where the coupling between
+neutrinos and dark energy grows with the value of the scalar cosmon field, the
+evolution of neutrino lumps depends on the neutrino mass. For small masses the
+lumps form and dissolve periodically, leaving only a small backreaction of the
+neutrino structures on the cosmic evolution. This process heats the neutrinos
+to temperatures much above the photon temperature such that neutrinos acquire
+again an almost relativistic equation of state. The present equation of state
+of the combined cosmon-neutrino fluid is very close to -1. In contrast, for
+larger neutrino masses the lumps become stable. The highly concentrated
+neutrino structures entail a large backreaction similar to the case of a
+constant neutrino-cosmon coupling. A present average neutrino mass of around
+0.5 eV seems so far compatible with observation. For masses lower than this
+value, neutrino induced gravitational potentials remain small, making the lumps
+difficult to detect.
+"
+astro-ph/9602104,astro-ph hep-ph,0.669194384660305,Neutrino decays as a natural explanation of the neutrino mass tension,"Can a ``natural'' three-generation neutrino mixing scheme satisfy
+  everything?","  We examine the potential for a ``natural'' three-neutrino mixing scheme to
+satisfy available data and astrophysical arguments. By ``natural'' we mean no
+sterile neutrinos, and a neutrino mass hierarchy similar to that of the charged
+leptons. We seek to satisfy (or solve): 1. Accelerator and reactor neutrino
+oscillation constraints, including LSND; 2. The atmospheric muon neutrino
+deficit problem; 3. The solar neutrino problem; 4. Supernova $r$-process
+nucleosynthesis in neutrino-heated supernova ejecta; 5. Cold+hot dark matter
+models. We argue that putative supernova $r$-process nucleosynthesis bounds on
+two-neutrino flavor mixing can be applied directly to three-neutrino mixing in
+the case where one vacuum neutrino mass eigenvalue difference dominates the
+others. We show that in this ``one mass scale dominance'' limit, a natural
+three-neutrino oscillation solution meeting all the above constraints exists
+only if the atmospheric neutrino data {\em and} the LSND data can be explained
+with one neutrino mass difference. In this model, an explanation for the solar
+neutrino data can be effected by employing the {\em other} independent neutrino
+mass difference. Such a solution is only marginally allowed by the current
+data, and proposed long-baseline neutrino oscillation experiments can
+definitively rule it out. If it were ruled out, the simultaneous solution of
+the above constraints by neutrino oscillations would then require sterile
+neutrinos and/or a neutrino mass hierarchy of a different nature than that of
+the charged leptons.
+"
+hep-ph/9905426,hep-ph hep-ex,0.6486463032525968,Neutrino decays as a natural explanation of the neutrino mass tension,Exotic Explanations for Neutrino Anomalies,"  I review explanations for the three neutrino anomalies (solar, atmospheric
+and LSND) which go beyond the ``conventional'' neutrino oscillations induced by
+mass-mixing. Several of these require non-zero neutrino masses as well.
+"
+2205.15350,hep-ph hep-ex,0.6534839728189566,Neutrino decays as a natural explanation of the neutrino mass tension,The physics case for neutrino-neutrino collisions,"  Addressing the mass origin and properties of neutrinos is of strong interest
+to particle physics, baryogenesis and cosmology. Popular explanations involve
+physics beyond the standard model, for example, the dimension-5 Weinberg
+operator or heavy Majorana neutrinos arising from ``seesaw'' models. The
+current best direct limits on the electron neutrino mass, derived from nuclei
+beta decay or neutrinoless double beta decay processes, are at the
+sub-electronvolt level. Here we propose a novel neutrino neutrino collider
+where the neutrino beam is generated from TeV scale muon decays. Such
+collisions can happen between either neutrinos and anti-neutrinos, or neutrinos
+and neutrinos. We find that with a tiny integrated luminosity of about
+$10^{-5}$/fb we can already expect to observe direct neutrino anti-neutrino
+annihilation, $\nu\bar{\nu}\rightarrow {\rm Z}$, which also opens the door to
+explore neutrino related resonances $\nu\bar{\nu}\rightarrow {\rm X}$. The low
+luminosity requirement can accommodate a relatively large emittance muon beam.
+Such a device would also allow for probing heavy Majorana neutrino and
+effective Majorana neutrino mass through $\nu\nu\rightarrow {\rm H H}$ to a
+competitive level, for both electron and muon types.
+"
+2302.02717,hep-ex,0.6803664139134572,Neutrino decays as a natural explanation of the neutrino mass tension,Probing invisible neutrino decay with KM3NeT-ORCA,"  In the era of precision measurements of the neutrino oscillation parameters,
+upcoming neutrino experiments will also be sensitive to physics beyond the
+Standard Model. KM3NeT/ORCA is a neutrino detector optimised for measuring
+atmospheric neutrinos from a few GeV to around 100 GeV. In this paper, the
+sensitivity of the KM3NeT/ORCA detector to neutrino decay has been explored. A
+three-flavour neutrino oscillation scenario, where the third neutrino mass
+state $\nu_3$ decays into an invisible state, e.g. a sterile neutrino, is
+considered. We find that KM3NeT/ORCA would be sensitive to invisible neutrino
+decays with $1/\alpha_3=\tau_3/m_3 < 180$~$\mathrm{ps/eV}$ at $90\%$ confidence
+level, assuming true normal ordering. Finally, the impact of neutrino decay on
+the precision of KM3NeT/ORCA measurements for $\theta_{23}$, $\Delta m^2_{31}$
+and mass ordering have been studied. No significant effect of neutrino decay on
+the sensitivity to these measurements has been found.
+"
+1805.05950,hep-ph astro-ph.HE,0.6538986156577815,Neutrino decays as a natural explanation of the neutrino mass tension,Invisible Neutrino Decay Resolves IceCube's Track and Cascade Tension,"  The IceCube Neutrino Observatory detects high energy astrophysical neutrinos
+in two event topologies: tracks and cascades. Since the flavor composition of
+each event topology differs, tracks and cascades can be used to test the
+neutrino properties and the mechanisms behind the neutrino production in
+astrophysical sources. Assuming a conventional model for the neutrino
+production, the IceCube data sets related to the two channels are in $>3\sigma$
+tension with each other. Invisible neutrino decay with lifetime $\tau/m=10^2$
+s/eV solves this tension. Noticeably, it leads to an improvement over the
+standard non-decay scenario of more than $3\sigma$ while remaining consistent
+with all other multi-messenger observations. In addition, our invisible
+neutrino decay model predicts a reduction of $59\%$ in the number of observed
+$\nu_\tau$ events which is consistent with the current observational deficit.
+"
+1207.2167,hep-ph,0.662044376786262,Neutrino decays as a natural explanation of the neutrino mass tension,Tensions with the Three-Neutrino Paradigm,"  We review the tensions with the standard three-neutrino framework for
+neutrino oscillation. These tensions hint at the possible existence of sterile
+neutrinos. We briefly describe some of the diverse ideas for probing the
+existence of such neutrinos in a definitive way through future experiments.
+"

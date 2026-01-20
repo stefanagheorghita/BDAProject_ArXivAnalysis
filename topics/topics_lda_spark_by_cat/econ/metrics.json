@@ -1,0 +1,14 @@
+{
+  "category": "econ",
+  "n_documents": 10419,
+  "n_topics": 5,
+  "topic_diversity": 0.76,
+  "log_likelihood": -6764430.973478677,
+  "log_perplexity": 7.332422410676946,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

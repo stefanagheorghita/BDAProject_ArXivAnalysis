@@ -1,0 +1,241 @@
+query_type,query_value,rank,doc_id,specter_score,title,categories,abstract
+text,graph neural networks for citation analysis,1,1806.04641,0.7871609926223755,Predicting Citation Counts with a Neural Network,cs.DL cs.NE,"  We here describe and present results of a simple neural network that predicts
+individual researchers' future citation counts based on a variety of data from
+the researchers' past. For publications available on the open access-server
+arXiv.org we find a higher predictability than previous studies.
+"
+text,graph neural networks for citation analysis,2,2410.24021,0.7653957605361938,"Detecting text level intellectual influence with knowledge graph
+  embeddings",cs.CL,"  Introduction: Tracing the spread of ideas and the presence of influence is a
+question of special importance across a wide range of disciplines, ranging from
+intellectual history to cultural analytics, computational social science, and
+the science of science.
+  Method: We collect a corpus of open source journal articles, generate
+Knowledge Graph representations using the Gemini LLM, and attempt to predict
+the existence of citations between sampled pairs of articles using previously
+published methods and a novel Graph Neural Network based embedding model.
+  Results: We demonstrate that our knowledge graph embedding method is superior
+at distinguishing pairs of articles with and without citation. Once trained, it
+runs efficiently and can be fine-tuned on specific corpora to suit individual
+researcher needs.
+  Conclusion(s): This experiment demonstrates that the relationships encoded in
+a knowledge graph, especially the types of concepts brought together by
+specific relations can encode information capable of revealing intellectual
+influence. This suggests that further work in analyzing document level
+knowledge graphs to understand latent structures could provide valuable
+insights.
+"
+text,graph neural networks for citation analysis,3,2505.21162,0.7626416683197021,Leveraging GANs for citation intent classification and its impact on citation network analysis,cs.DL cs.CL cs.SI,"Citations play a fundamental role in the scientific ecosystem, serving as a foundation for tracking the flow of knowledge, acknowledging prior work, and assessing scholarly influence. In scientometrics, they are also central to the construction of quantitative indicators. Not all citations, however, serve the same function: some provide background, others introduce methods, or compare results. Therefore, understanding citation intent allows for a more nuanced interpretation of scientific impact. In this paper, we adopted a GAN-based method to classify citation intents. Our results revealed that the proposed method achieves competitive classification performance, closely matching state-of-the-art results with substantially fewer parameters. This demonstrates the effectiveness and efficiency of leveraging GAN architectures combined with contextual embeddings in intent classification task. We also investigated whether filtering citation intents affects the centrality of papers in citation networks. Analyzing the network constructed from the unArXiv dataset, we found that paper rankings can be significantly influenced by citation intent. All four centrality metrics examined- degree, PageRank, closeness, and betweenness - were sensitive to the filtering of citation types. The betweenness centrality displayed the greatest sensitivity, showing substantial changes in ranking when specific citation intents were removed."
+text,graph neural networks for citation analysis,4,2304.11534,0.7626054286956787,Graph Neural Networks for Text Classification: A Survey,cs.CL,"  Text Classification is the most essential and fundamental problem in Natural
+Language Processing. While numerous recent text classification models applied
+the sequential deep learning technique, graph neural network-based models can
+directly deal with complex structured text data and exploit global information.
+Many real text classification applications can be naturally cast into a graph,
+which captures words, documents, and corpus global features. In this survey, we
+bring the coverage of methods up to 2023, including corpus-level and
+document-level graph neural networks. We discuss each of these methods in
+detail, dealing with the graph construction mechanisms and the graph-based
+learning process. As well as the technological survey, we look at issues behind
+and future directions addressed in text classification using graph neural
+networks. We also cover datasets, evaluation metrics, and experiment design and
+present a summary of published performance on the publicly available
+benchmarks. Note that we present a comprehensive comparison between different
+techniques and identify the pros and cons of various evaluation metrics in this
+survey.
+"
+text,graph neural networks for citation analysis,5,2104.02562,0.7614059448242188,Structured Citation Trend Prediction Using Graph Neural Networks,cs.LG cs.SI,"  Academic citation graphs represent citation relationships between
+publications across the full range of academic fields. Top cited papers
+typically reveal future trends in their corresponding domains which is of
+importance to both researchers and practitioners. Prior citation prediction
+methods often require initial citation trends to be established and do not take
+advantage of the recent advancements in graph neural networks (GNNs). We
+present GNN-based architecture that predicts the top set of papers at the time
+of publication. For experiments, we curate a set of academic citation graphs
+for a variety of conferences and show that the proposed model outperforms other
+classic machine learning models in terms of the F1-score.
+"
+text,graph neural networks for citation analysis,6,1904.09981,0.7608433961868286,GraphNAS: Graph Neural Architecture Search with Reinforcement Learning,cs.LG cs.AI stat.ML,"  Graph Neural Networks (GNNs) have been popularly used for analyzing
+non-Euclidean data such as social network data and biological data. Despite
+their success, the design of graph neural networks requires a lot of manual
+work and domain knowledge. In this paper, we propose a Graph Neural
+Architecture Search method (GraphNAS for short) that enables automatic search
+of the best graph neural architecture based on reinforcement learning.
+Specifically, GraphNAS first uses a recurrent network to generate
+variable-length strings that describe the architectures of graph neural
+networks, and then trains the recurrent network with reinforcement learning to
+maximize the expected accuracy of the generated architectures on a validation
+data set. Extensive experimental results on node classification tasks in both
+transductive and inductive learning settings demonstrate that GraphNAS can
+achieve consistently better performance on the Cora, Citeseer, Pubmed citation
+network, and protein-protein interaction network. On node classification tasks,
+GraphNAS can design a novel network architecture that rivals the best
+human-invented architecture in terms of test set accuracy.
+"
+text,graph neural networks for citation analysis,7,2501.06656,0.7602908611297607,"OpenAlex2Pajek -- an R Package for converting OpenAlex bibliographic
+  data into Pajek networks",cs.DL stat.AP,"  For analysis of bibliographic data, we can obtain from bibliographic
+databases the corresponding collection of bibliographic networks. Recently
+OpenAlex, a new open-access bibliographic database, became available. We
+present OpenAlex2Pajek, an R package for converting OpenAlex data into a
+collection of Pajek's networks. For an illustration, we created a temporal
+weighted network describing the co-authorship between world countries for years
+from 1990 to 2023. We present some analyses of this network.
+"
+text,graph neural networks for citation analysis,8,1910.08144,0.7597841024398804,"Explainable Authorship Verification in Social Media via Attention-based
+  Similarity Learning",cs.CL,"  Authorship verification is the task of analyzing the linguistic patterns of
+two or more texts to determine whether they were written by the same author or
+not. The analysis is traditionally performed by experts who consider linguistic
+features, which include spelling mistakes, grammatical inconsistencies, and
+stylistics for example. Machine learning algorithms, on the other hand, can be
+trained to accomplish the same, but have traditionally relied on so-called
+stylometric features. The disadvantage of such features is that their
+reliability is greatly diminished for short and topically varied social media
+texts. In this interdisciplinary work, we propose a substantial extension of a
+recently published hierarchical Siamese neural network approach, with which it
+is feasible to learn neural features and to visualize the decision-making
+process. For this purpose, a new large-scale corpus of short Amazon reviews for
+text comparison research is compiled and we show that the Siamese network
+topologies outperform state-of-the-art approaches that were built up on
+stylometric features. Our linguistic analysis of the internal attention weights
+of the network shows that the proposed method is indeed able to latch on to
+some traditional linguistic categories.
+"
+text,graph neural networks for citation analysis,9,physics/0506056,0.7588752508163452,Citation Statistics from 110 Years of Physical Review,physics.soc-ph physics.data-an,"  Publicly available data reveal long-term systematic features about citation
+statistics and how papers are referenced. The data also tell fascinating
+citation histories of individual articles.
+"
+text,graph neural networks for citation analysis,10,1609.00435,0.7560726404190063,Citation Classification for Behavioral Analysis of a Scientific Field,cs.CL cs.DL,"  Citations are an important indicator of the state of a scientific field,
+reflecting how authors frame their work, and influencing uptake by future
+scholars. However, our understanding of citation behavior has been limited to
+small-scale manual citation analysis. We perform the largest behavioral study
+of citations to date, analyzing how citations are both framed and taken up by
+scholars in one entire field: natural language processing. We introduce a new
+dataset of nearly 2,000 citations annotated for function and centrality, and
+use it to develop a state-of-the-art classifier and label the entire ACL
+Reference Corpus. We then study how citations are framed by authors and use
+both papers and online traces to track how citations are followed by readers.
+We demonstrate that authors are sensitive to discourse structure and
+publication venue when citing, that online readers follow temporal links to
+previous and future work rather than methodological links, and that how a paper
+cites related work is predictive of its citation count. Finally, we use changes
+in citation roles to show that the field of NLP is undergoing a significant
+increase in consensus.
+"
+text,graph neural networks for citation analysis,11,2308.15706,0.7557281255722046,"Representing the Disciplinary Structure of Physics: A Comparative
+  Evaluation of Graph and Text Embedding Methods",cs.SI physics.soc-ph,"  Recent advances in machine learning offer new ways to represent and study
+scholarly works and the space of knowledge. Graph and text embeddings provide a
+convenient vector representation of scholarly works based on citations and
+text. Yet, it is unclear whether their representations are consistent or
+provide different views of the structure of science. Here, we compare graph and
+text embedding by testing their ability to capture the hierarchical structure
+of the Physics and Astronomy Classification Scheme (PACS) of papers published
+by the American Physical Society (APS). We also provide a qualitative
+comparison of the overall structure of the graph and text embeddings for
+reference. We find that neural network-based methods outperform traditional
+methods and graph embedding methods such as node2vec are better than other
+methods at capturing the PACS structure. Our results call for further
+investigations into how different contexts of scientific papers are captured by
+different methods, and how we can combine and leverage such information in an
+interpretable manner.
+"
+text,graph neural networks for citation analysis,12,2305.02691,0.751514732837677,"PGB: A PubMed Graph Benchmark for Heterogeneous Network Representation
+  Learning",cs.LG cs.SI,"  There has been rapid growth in biomedical literature, yet capturing the
+heterogeneity of the bibliographic information of these articles remains
+relatively understudied. Although graph mining research via heterogeneous graph
+neural networks has taken center stage, it remains unclear whether these
+approaches capture the heterogeneity of the PubMed database, a vast digital
+repository containing over 33 million articles. We introduce PubMed Graph
+Benchmark (PGB), a new benchmark dataset for evaluating heterogeneous graph
+embeddings for biomedical literature. The benchmark contains rich metadata
+including abstract, authors, citations, MeSH terms, MeSH hierarchy, and some
+other information. The benchmark contains three different evaluation tasks
+encompassing systematic reviews, node classification, and node clustering. In
+PGB, we aggregate the metadata associated with the biomedical articles from
+PubMed into a unified source and make the benchmark publicly available for any
+future works.
+"
+text,graph neural networks for citation analysis,13,2410.21315,0.7506448030471802,"GraphLSS: Integrating Lexical, Structural, and Semantic Features for
+  Long Document Extractive Summarization",cs.CL cs.AI,"  Heterogeneous graph neural networks have recently gained attention for long
+document summarization, modeling the extraction as a node classification task.
+Although effective, these models often require external tools or additional
+machine learning models to define graph components, producing highly complex
+and less intuitive structures. We present GraphLSS, a heterogeneous graph
+construction for long document extractive summarization, incorporating Lexical,
+Structural, and Semantic features. It defines two levels of information (words
+and sentences) and four types of edges (sentence semantic similarity, sentence
+occurrence order, word in sentence, and word semantic similarity) without any
+need for auxiliary learning models. Experiments on two benchmark datasets show
+that GraphLSS is competitive with top-performing graph-based methods,
+outperforming recent non-graph models. We release our code on GitHub.
+"
+text,graph neural networks for citation analysis,14,2212.06574,0.7505663633346558,"Artificial intelligence technologies to support research assessment: A
+  review",cs.DL cs.AI,"  This literature review identifies indicators that associate with higher
+impact or higher quality research from article text (e.g., titles, abstracts,
+lengths, cited references and readability) or metadata (e.g., the number of
+authors, international or domestic collaborations, journal impact factors and
+authors' h-index). This includes studies that used machine learning techniques
+to predict citation counts or quality scores for journal articles or conference
+papers. The literature review also includes evidence about the strength of
+association between bibliometric indicators and quality score rankings from
+previous UK Research Assessment Exercises (RAEs) and REFs in different subjects
+and years and similar evidence from other countries (e.g., Australia and
+Italy). In support of this, the document also surveys studies that used public
+datasets of citations, social media indictors or open review texts (e.g.,
+Dimensions, OpenCitations, Altmetric.com and Publons) to help predict the
+scholarly impact of articles. The results of this part of the literature review
+were used to inform the experiments using machine learning to predict REF
+journal article quality scores, as reported in the AI experiments report for
+this project. The literature review also covers technology to automate
+editorial processes, to provide quality control for papers and reviewers'
+suggestions, to match reviewers with articles, and to automatically categorise
+journal articles into fields. Bias and transparency in technology assisted
+assessment are also discussed.
+"
+text,graph neural networks for citation analysis,15,1909.11715,0.7505359649658203,GraphMix: Improved Training of GNNs for Semi-Supervised Learning,cs.LG stat.ML,"  We present GraphMix, a regularization method for Graph Neural Network based
+semi-supervised object classification, whereby we propose to train a
+fully-connected network jointly with the graph neural network via parameter
+sharing and interpolation-based regularization. Further, we provide a
+theoretical analysis of how GraphMix improves the generalization bounds of the
+underlying graph neural network, without making any assumptions about the
+""aggregation"" layer or the depth of the graph neural networks. We
+experimentally validate this analysis by applying GraphMix to various
+architectures such as Graph Convolutional Networks, Graph Attention Networks
+and Graph-U-Net. Despite its simplicity, we demonstrate that GraphMix can
+consistently improve or closely match state-of-the-art performance using even
+simpler architectures such as Graph Convolutional Networks, across three
+established graph benchmarks: Cora, Citeseer and Pubmed citation network
+datasets, as well as three newly proposed datasets: Cora-Full, Co-author-CS and
+Co-author-Physics.
+"
+text,graph neural networks for citation analysis,16,2309.11341,0.7502740621566772,Article Classification with Graph Neural Networks and Multigraphs,cs.LG cs.CL,"  Classifying research output into context-specific label taxonomies is a
+challenging and relevant downstream task, given the volume of existing and
+newly published articles. We propose a method to enhance the performance of
+article classification by enriching simple Graph Neural Network (GNN) pipelines
+with multi-graph representations that simultaneously encode multiple signals of
+article relatedness, e.g. references, co-authorship, shared publication source,
+shared subject headings, as distinct edge types. Fully supervised transductive
+node classification experiments are conducted on the Open Graph Benchmark
+OGBN-arXiv dataset and the PubMed diabetes dataset, augmented with additional
+metadata from Microsoft Academic Graph and PubMed Central, respectively. The
+results demonstrate that multi-graphs consistently improve the performance of a
+variety of GNN models compared to the default graphs. When deployed with SOTA
+textual node embedding methods, the transformed multi-graphs enable simple and
+shallow 2-layer GNN pipelines to achieve results on par with more complex
+architectures.
+"
+text,graph neural networks for citation analysis,17,2407.13329,0.749759316444397,CiteFusion: An Ensemble Framework for Citation Intent Classification Harnessing Dual-Model Binary Couples and SHAP Analyses,cs.CL,"Understanding the motivations underlying scholarly citations is essential to evaluate research impact and promote transparent scholarly communication. This study introduces CiteFusion, an ensemble framework designed to address the multi-class Citation Intent Classification task on two benchmark datasets: SciCite and ACL-ARC. The framework employs a one-vs-all decomposition of the multi-class task into class-specific binary subtasks, leveraging complementary pairs of SciBERT and XLNet models, independently tuned, for each citation intent. The outputs of these base models are aggregated through a feedforward neural network meta-classifier to reconstruct the original classification task. To enhance interpretability, SHAP (SHapley Additive exPlanations) is employed to analyze token-level contributions, and interactions among base models, providing transparency into the classification dynamics of CiteFusion, and insights about the kind of misclassifications of the ensemble. In addition, this work investigates the semantic role of structural context by incorporating section titles, as framing devices, into input sentences, assessing their positive impact on classification accuracy. CiteFusion ultimately demonstrates robust performance in imbalanced and data-scarce scenarios: experimental results show that CiteFusion achieves state-of-the-art performance, with Macro-F1 scores of 89.60% on SciCite, and 76.24% on ACL-ARC. Furthermore, to ensure interoperability and reusability, citation intents from both datasets schemas are mapped to Citation Typing Ontology (CiTO) object properties, highlighting some overlaps. Finally, we describe and release a web-based application that classifies citation intents leveraging the CiteFusion models developed on SciCite."
+text,graph neural networks for citation analysis,18,2409.18240,0.7497552037239075,Measuring Research Interest Similarity with Transition Probabilities,cs.DL cs.SI stat.AP,"We introduce a family of paper and author similarity measures based on the concept that papers are more similar if they are more likely to be retrieved during a literature search following backward and forward citations. Since this browsing process resembles a walk in a citation network, we operationalize the concept using the transition probability (TP) of random walkers. The proposed measures are continuous, symmetric, and can be implemented on any citation network. We conduct validation tests of the TP concept and other extant alternatives to gauge which metric can classify papers and predict future co-authors most consistently across different scales of analysis (co-authorships, journals, and disciplines). Our results show that the proposed basic TP measure outperforms alternative metrics such as personalized PageRank and the Node2vec machine-learning technique in classification tasks at various scales. Additionally, we discuss how publication-level data can be leveraged to approximate the research interest similarity of individual scientists. This paper is accompanied by a Python package that implements all the tested metrics."
+text,graph neural networks for citation analysis,19,2303.07539,0.749450147151947,"HCI Papers Cite HCI Papers, Increasingly So",cs.HC,"  To measure how HCI papers are cited across disciplinary boundaries, we
+collected a citation dataset of CHI, UIST, and CSCW papers published between
+2010 and 2020. Our analysis indicates that HCI papers have been more and more
+likely to be cited by HCI papers rather than by non-HCI papers.
+"
+text,graph neural networks for citation analysis,20,2109.10007,0.7474945783615112,Generating Local Maps of Science using Deep Bibliographic Coupling,cs.DL cs.AI,"  Bibliographic and co-citation coupling are two analytical methods widely used
+to measure the degree of similarity between scientific papers. These approaches
+are intuitive, easy to put into practice, and computationally cheap. Moreover,
+they have been used to generate a map of science, allowing visualizing research
+field interactions. Nonetheless, these methods do not work unless two papers
+share a standard reference, limiting the two papers usability with no direct
+connection. In this work, we propose to extend bibliographic coupling to the
+deep neighborhood, by using graph diffusion methods. This method allows
+defining similarity between any two papers, making it possible to generate a
+local map of science, highlighting field organization.
+"

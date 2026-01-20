@@ -1,0 +1,62 @@
+{
+  "0": [
+    "coordinate",
+    "convective",
+    "cloud",
+    "moist",
+    "convection",
+    "air",
+    "cumulus",
+    "field",
+    "fractal",
+    "hadley"
+  ],
+  "1": [
+    "model",
+    "variability",
+    "thc",
+    "scale",
+    "atmosphere",
+    "couple",
+    "circulation",
+    "stochastic",
+    "predictability",
+    "linear"
+  ],
+  "2": [
+    "ice",
+    "troposphere",
+    "value",
+    "develop",
+    "observe",
+    "latitude",
+    "rms",
+    "gcm",
+    "combination",
+    "kardar"
+  ],
+  "3": [
+    "boundary",
+    "wave",
+    "interdecadal",
+    "adjustment",
+    "associate",
+    "oscillation",
+    "condition",
+    "propagation",
+    "thermohaline",
+    "density"
+  ],
+  "4": [
+    "rapidly",
+    "kind",
+    "stratification",
+    "ascent",
+    "north",
+    "state",
+    "concentrate",
+    "damped",
+    "modeling",
+    "process"
+  ]
+}

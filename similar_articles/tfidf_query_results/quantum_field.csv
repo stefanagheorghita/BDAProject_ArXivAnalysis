@@ -1,0 +1,264 @@
+query,id,categories,similarity,text
+quantum_field,1609.00985,cond-mat.str-el cond-mat.stat-mech quant-ph,0.6754522717172979,"Symmetry Enrichment in Three-Dimensional Topological Phases.   While two-dimensional symmetry-enriched topological phases ($\mathsf{SET}$s)
+have been studied intensively and systematically, three-dimensional ones are
+still open issues. We propose an algorithmic approach of imposing global
+symmetry $G_s$ on gauge theories (denoted by $\mathsf{GT}$) with gauge group
+$G_g$. The resulting symmetric gauge theories are dubbed ""symmetry-enriched
+gauge theories"" ($\mathsf{SEG}$), which may be served as low-energy effective
+theories of three-dimensional symmetric topological quantum spin liquids. We
+focus on $\mathsf{SEG}$s with gauge group
+$G_g=\mathbb{Z}_{N_1}\times\mathbb{Z}_{N_2}\times\cdots$ and on-site unitary
+symmetry group $G_s=\mathbb{Z}_{K_1}\times\mathbb{Z}_{K_2}\times\cdots$ or
+$G_s=\mathrm{U(1)}\times \mathbb{Z}_{K_1}\times\cdots$. Each
+$\mathsf{SEG}(G_g,G_s)$ is described in the path integral formalism associated
+with certain symmetry assignment. From the path-integral expression, we propose
+how to physically diagnose the ground state properties (i.e., $\mathsf{SET}$
+orders) of $\mathsf{SEG}$s in experiments of charge-loop braidings (patterns of
+symmetry fractionalization) and the \emph{mixed} multi-loop braidings among
+deconfined loop excitations and confined symmetry fluxes. From these
+symmetry-enriched properties, one can obtain the map from $\mathsf{SEG}$s to
+$\mathsf{SET}$s. By giving full dynamics to background gauge fields,
+$\mathsf{SEG}$s may be eventually promoted to a set of new gauge theories
+(denoted by $\mathsf{GT}^*$). Based on their gauge groups, $\mathsf{GT}^*$s may
+be further regrouped into different classes each of which is labeled by a gauge
+group ${G}^*_g$. Finally, a web of gauge theories involving $\mathsf{GT}$,
+$\mathsf{SEG}$, $\mathsf{SET}$ and $\mathsf{GT}^*$ is achieved. We demonstrate
+the above symmetry-enrichment physics and the web of gauge theories through
+many concrete examples.
+"
+quantum_field,1904.04038,hep-th,0.6861201265032633,"A note on unfree gauge symmetry.   We study the general structure of field theories with the unfree gauge
+symmetry where the gauge parameters are restricted by differential equations.
+The examples of unfree gauge symmetries include volume preserving
+diffeomorphisms in the unimodular gravity and various higher spin field
+theories with transverse gauge symmetries. All the known examples of the models
+with unfree gauge symmetry share one common feature. They admit local
+quantities which vanish on shell, though they are not linear combinations of
+Lagrangian equations and their derivatives. We term these quantities as mass
+shell completion functions.
+  In the case of usual gauge symmetry with unconstrained gauge parameters, the
+irreducible gauge algebra involves the two basic constituents: the action
+functional and gauge symmetry generators. For the case of unfree gauge
+symmetry, we identify two more basic constituents: operators of gauge parameter
+constraints and completion functions. These two extra constituents are involved
+in the algebra of unfree gauge symmetry on equal footing with action and gauge
+symmetry generators.
+  Proceeding from the algebra, we adjust the Faddeev-Popov (FP) path integral
+quantization scheme to the case of unfree gauge symmetry. The modified FP
+action involves the operators of the constraints imposed on the gauge
+parameters, while the corresponding BRST transformation involves the completion
+functions. The BRST symmetry ensures gauge independence of the path integral.
+We provide two examples which admit the alternative unconstrained
+parametrization of gauge symmetry and demonstrate that they lead to the
+equivalent FP path integral.
+"
+quantum_field,2301.10207,hep-lat quant-ph,0.6976192820241488,"Robustness of Gauge Digitization to Quantum Noise.   Quantum noise limits the use of quantum memory in high energy physics
+simulations. In particular, it breaks the gauge symmetry of stored quantum
+states. We examine this effect for abelian and nonabelian theories and
+demonstrate that optimizing the digitization of gauge theories to quantum
+memory to account for noise channels can extend the lifetime before complete
+loss of gauge symmetry by $2-10\times$ over some other digitizations. These
+constructions also allow for quantum error correction to integrate the
+symmetries of quantum fields and prioritize the largest gauge violations.
+"
+quantum_field,1812.04716,hep-th cond-mat.str-el,0.6671670566717335,"Comments on One-Form Global Symmetries and Their Gauging in 3d and 4d.   We study 3d and 4d systems with a one-form global symmetry, explore their
+consequences, and analyze their gauging. For simplicity, we focus on
+$\mathbb{Z}_N$ one-form symmetries. A 3d topological quantum field theory
+(TQFT) $\mathcal{T}$ with such a symmetry has $N$ special lines that generate
+it. The braiding of these lines and their spins are characterized by a single
+integer $p$ modulo $2N$. Surprisingly, if $\gcd(N,p)=1$ the TQFT factorizes
+$\mathcal{T}=\mathcal{T}'\otimes \mathcal{A}^{N,p}$. Here $\mathcal{T}'$ is a
+decoupled TQFT, whose lines are neutral under the global symmetry and
+$\mathcal{A}^{N,p}$ is a minimal TQFT with the $\mathbb{Z}_N$ one-form symmetry
+of label $p$. The parameter $p$ labels the obstruction to gauging the
+$\mathbb{Z}_N$ one-form symmetry; i.e.\ it characterizes the 't Hooft anomaly
+of the global symmetry. When $p=0$ mod $2N$, the symmetry can be gauged.
+Otherwise, it cannot be gauged unless we couple the system to a 4d bulk with
+gauge fields extended to the bulk. This understanding allows us to consider
+$SU(N)$ and $PSU(N)$ 4d gauge theories. Their dynamics is gapped and it is
+associated with confinement and oblique confinement -- probe quarks are
+confined. In the $PSU(N)$ theory the low-energy theory can include a discrete
+gauge theory. We will study the behavior of the theory with a space-dependent
+$\theta$-parameter, which leads to interfaces. Typically, the theory on the
+interface is not confining. Furthermore, the liberated probe quarks are anyons
+on the interface. The $PSU(N)$ theory is obtained by gauging the $\mathbb{Z}_N$
+one-form symmetry of the $SU(N)$ theory. Our understanding of the symmetries in
+3d TQFTs allows us to describe the interface in the $PSU(N)$ theory.
+"
+quantum_field,2304.10042,hep-th,0.6886930600876938,"Unfree gauge symmetry.   The gauge symmetry is said unfree if the gauge transformation leaves the
+action functional unchanged provided for the gauge parameters are constrained
+by the system of partial differential equations. The best known example of this
+phenomenon is the volume preserving diffeomorphism being the gauge symmetry of
+unimodular gravity (UG). Various extensions are known of the UG, including the
+higher spin analogs - all with unfree gauge symmetry. Given the distinctions of
+the unfree gauge symmetry from the symmetry with unrestricted gauge parameters,
+the algebra of gauge transformations is essentially different. These
+distinctions have consequences for all the key constituents of general gauge
+theory, starting from the second Noether theorem, Hamiltonian constrained
+formalism, BRST complex, and quantization. In this review article, we summarise
+the modifications of general gauge theory worked out in recent years to cover
+the case of unfree gauge symmetry.
+"
+quantum_field,1702.02027,physics.gen-ph hep-th,0.680372619610242,"Quantum gauge symmetry of reducible gauge theory.   We derive the gaugeon formalism of the Kalb-Ramond field theory, a reducible
+gauge theory, which discusses the quantum gauge freedom. In gaugeon formalism,
+theory admits quantum gauge symmetry which leaves the action form-invariant.
+The BRST symmetric gaugeon formalism is also studied which introduces the
+gaugeon ghost fields and gaugeon ghosts of ghosts fields. To replace the
+Yokoyama subsidiary conditions by a single Kugo-Ojima type condition the virtue
+of BRST symmetry is utilized. Under generalized BRST transformations, we show
+that the gaugeon fields appear naturally in the reducible gauge theory.
+"
+quantum_field,math-ph/0702061,math-ph math.DG math.MP,0.6609473767716513,"Gauge Theory in Riem(M).   This paper has been withdrawn.
+"
+quantum_field,hep-ph/9807416,hep-ph,0.7272198962571339,"General Gauge Field Theory And Its Application.   A gauge field model, which simultaneously has strict local gauge symmetry and
+contains massive general gauge bosons, is discussed in this paper. The model
+has SU(N) gauge symmetry. In order to introduce the mass term of gauge fields
+directly without violating the gauge symmetry of the theory, two sets of gauge
+fields will be introduced into the theory. After some transformations, one set
+of gauge fields obtain masses and another set of gauge fields keep massless. In
+the limit $\alpha \longrightarrow 0$ or $\alpha \longrightarrow \infty$, the
+gauge field model discussed in this paper will return to Yang-Mills gauge field
+model. Finally, some applications of this model are discussed.
+"
+quantum_field,2010.07338,cond-mat.quant-gas cond-mat.stat-mech cond-mat.str-el hep-lat quant-ph,0.7380183606925437,"Gauge-Symmetry Violation Quantum Phase Transition in Lattice Gauge
+  Theories.   Gauge symmetry plays a key role in our description of subatomic matter. The
+vanishing photon mass, the long-ranged Coulomb law, and asymptotic freedom are
+all due to gauge invariance. Recent years have seen tantalizing progress in the
+microscopic reconstruction of gauge theories in engineered quantum simulators.
+Yet, many of these are plagued by a fundamental question: When gauge symmetry
+is only approximate in the quantum device, do we actually quantum-simulate a
+gauge theory? Here, we answer this question in the affirmative for a paradigm
+gauge theory akin to quantum electrodynamics. Analytically, we derive a
+renormalized gauge symmetry that is at least exponentially accurate. Further,
+numerically computing the phase diagram in the thermodynamic limit, we find
+that the long-distance behavior of the gauge theory is only compromised upon
+reaching a sharp quantum phase transition. This behavior is enabled by an
+energy penalty term, which lends a mass to the Higgs boson to which the
+coherent gauge breaking couples. Our results not only lend validity to ongoing
+gauge-theory quantum simulations, they also probe the fundamental question of
+how gauge symmetry could emerge in nature.
+"
+quantum_field,2104.09892,hep-lat cond-mat.stat-mech hep-th,0.6614833299381961,"Breaking of the gauge symmetry in lattice gauge theories.   We study perturbations that break gauge symmetries in lattice gauge theories.
+As a paradigmatic model, we consider the three-dimensional Abelian-Higgs (AH)
+model with an N-component scalar field and a noncompact gauge field, which is
+invariant under U(1) gauge and SU(N) transformations. We consider
+gauge-symmetry breaking perturbations that are quadratic in the gauge field,
+such as a photon mass term, and determine their effect on the critical behavior
+of the gauge-invariant model, focusing mainly on the continuous transitions
+associated with the charged fixed point of the AH field theory. We discuss
+their relevance and compute the (gauge-dependent) exponents that parametrize
+the departure from the critical behavior (continuum limit) of the
+gauge-invariant model. We also address the critical behavior of lattice AH
+models with broken gauge symmetry, showing an effective enlargement of the
+global symmetry, from U(N) to O(2N), which reflects a peculiar cyclic
+renormalization-group flow in the space of the lattice AH parameters and of the
+photon mass.
+"
+quantum_field,1107.4664,physics.hist-ph,0.7196639642008076,"Gauge symmetry breaking in gauge theories---In search of clarification.   The paper investigates the spontaneous breaking of gauge symmetries in gauge
+theories from a philosophical angle, taking into account the fact that the
+notion of a spontaneously broken local gauge symmetry, though widely employed
+in textbook expositions of the Higgs mechanism, is not supported by our leading
+theoretical frameworks of gauge quantum theories. In the context of lattice
+gauge theory, the statement that local gauge symmetry cannot be spontaneously
+broken can even be made rigorous in the form of Elitzur's theorem.
+Nevertheless, gauge symmetry breaking does occur in gauge quantum field
+theories in the form of the breaking of remnant subgroups of the original local
+gauge group under which the theories typically remain invariant after gauge
+fixing. The paper discusses the relation between these instances of symmetry
+breaking and phase transitions and draws some more general conclusions for the
+philosophical interpretation of gauge symmetries and their breaking.
+"
+quantum_field,2304.00756,hep-th hep-ph,0.7069121543750079,"Gauge fixing and physical symmetries.   We analyze how gauge fixing, which is required by any practical continuum
+approach to gauge systems, can interfere with the physical symmetries of such
+systems. In principle, the gauge fixing procedure, which deals with the
+(unphysical) gauge symmetry, should not interfere with the other (physical)
+symmetries. In practice, however, there can be an interference which takes two
+different forms. First, depending on the considered gauge, it might not always
+be simple or possible to devise approximation schemes that preserve the
+physical symmetry constraints on (gauge-independent) observables. Second, even
+at an exact level of discussion, the (gauge-dependent) effective action for the
+gauge field, and thus the related vertex functions, may not reflect the
+physical symmetries of the problem. We illustrate these difficulties using a
+very general class of gauge fixings that contains the usual gauge fixings as
+particular cases. Using background field techniques, we then propose specific
+gauge choices that allow one to keep the physical symmetries explicit, both at
+the level of the observables and at the level of the effective action for the
+gauge field. Our analysis is based on the notion of invariance modulo gauge
+transformations. This is not only a convenient framework to discuss symmetries
+in the presence of unphysical degrees of freedom, but it also allows one to
+reinterpret certain well known phenomena in gauge theories without the need to
+invoke the conceptually annoying ``breaking of a gauge symmetry''.
+"
+quantum_field,2110.07941,hep-lat cond-mat.stat-mech,0.7067470924381555,"Breaking the gauge symmetry in lattice gauge-invariant models.   We consider the role that gauge symmetry breaking terms play on the continuum
+limit of gauge theories in three dimensions. As a paradigmatic example we
+consider scalar electrodynamics in which $N_f$ complex scalar fields interact
+with a U(1) gauge field. We discuss under which conditions a gauge-symmetry
+breaking term destabilizes the critical behavior (continuum limit) of the
+gauge-invariant theory. We find that the gauge symmetry is robust at
+transitions at which gauge fields are not critical. At charged transitions,
+where gauge fields are critical, gauge symmetry is lost as soon as the
+perturbation is added.
+"
+quantum_field,2503.04546,hep-th,0.6737483896571921,"Symmetry Topological Field Theory for Flavor Symmetry.   In this Letter, we demonstrate that the Symmetry Topological Field Theory
+(SymTFT) associated to a Quantum Field Theory (QFT) with continuous non-abelian
+$G$-flavor symmetry is a $BF$-theory with gauge group $G$. We show that gauging
+$G$-symmetry with a flat connection yields a theory with global symmetry
+characterized by exchanging the conjugate variables in the quantization of
+$BF$-theory. We construct the extended operators that generate the $G$-flavor
+symmetry and the $(d-2)$-form $\text{Rep}(G)$-symmetry of the gauged QFT. We
+demonstrate that $BF$-theory arises as the theory characterizing $G$-flavor
+symmetry of a QFT in the AdS/CFT setup. 't Hooft anomalies of the $G$-flavor
+symmetry are realized as extra terms in the action.
+"
+quantum_field,1312.2671,math-ph hep-th math.MP,0.6880310356117905,"Gauge symmetries in 2D field theory.   A simple algorithm is proposed for constructing generators of gauge symmetry
+as well as reducibility relations for arbitrary systems of field equations in
+two dimensions.
+"
+quantum_field,0906.4955,physics.pop-ph,0.6738247689192931,"At the root of things.   Modern theories of fundamental interactions describe strong, electromagnetic
+and weak interactions as quantum field theories with certain kinds of embedded
+internal symmetries called `gauge symmetries'. This article introduces quantum
+field theories and gauge symmetries to the uninitiated.
+"
+quantum_field,1205.0890,hep-th hep-lat hep-ph,0.6622991870393018,"(Non-)Aligned gauges and global gauge symmetry breaking.   The concept of (global) gauge symmetry breaking plays an important role in
+many areas of physics. Since the corresponding symmetry is a gauge symmetry,
+its breaking is actually gauge-dependent. Thus, it is possible to design gauges
+which restore the symmetry as good as possible. Such gauge constructions will
+be detailed here, illustrated with the use of lattice gauge theory. Their use
+will be discussed for the cases of the Higgs effect, high-baryon density color
+superconductors, and BRST symmetry.
+"
+quantum_field,2305.00117,hep-th gr-qc,0.672539709632709,"Henneaux-Teitelboim gauge symmetry and its applications to higher gauge
+  theories.   When discussing the gauge symmetries of any theory, the Henneaux-Teitelboim
+transformations are often underappreciated or even completely ignored, due to
+their on-shell triviality. Nevertheless, these gauge transformations play an
+important role in understanding the structure of the full gauge symmetry group
+of any theory, especially regarding the subgroup of diffeomorphisms. We give a
+review of the Henneaux-Teitelboim transformations and the resulting gauge group
+in the general case, and then discuss its role in the applications to the class
+of topological theories called nBF models, relevant for the constructions of
+higher gauge theories and quantum gravity.
+"
+quantum_field,hep-th/0004190,hep-th hep-ph,0.6890321915698059,"Quantum and Classical Gauge Symmetries in a Modified Quantization Scheme.   The use of the mass term as a gauge fixing term has been studied by
+Zwanziger, Parrinello and Jona-Lasinio, which is related to the non-linear
+gauge $A_{\mu}^{2}=\lambda$ of Dirac and Nambu in the large mass limit. We have
+recently shown that this modified quantization scheme is in fact identical to
+the conventional {\em local} Faddeev-Popov formula {\em without} taking the
+large mass limit, if one takes into account the variation of the gauge field
+along the entire gauge orbit and if the Gribov complications can be ignored.
+This suggests that the classical massive vector theory, for example, is
+interpreted in a more flexible manner either as a gauge invariant theory with a
+gauge fixing term added, or as a conventional massive non-gauge theory. As for
+massive gauge particles, the Higgs mechanics, where the mass term is gauge
+invariant, has a more intrinsic meaning.
+  It is suggested to extend the notion of quantum gauge symmetry (BRST
+symmetry) not only to classical gauge theory but also to a wider class of
+theories whose gauge symmetry is broken by some extra terms in the classical
+action. We comment on the implications of this extended notion of quantum gauge
+symmetry.
+"
+quantum_field,hep-th/0006080,hep-th gr-qc,0.7337542396356596,"Gauge symmetries of the teleparallel theory of gravity.   We study gauge properties of the general teleparallel theory of gravity,
+defined in the framework of Poincare gauge theory. It is found that the general
+theory is characterized by two kinds of gauge symmetries: a specific gauge
+symmetry that acts on Lagrange multipliers, and the standard Poincare gauge
+symmetry. The canonical generators of these symmetries are explicitly
+constructed and investigated.
+"

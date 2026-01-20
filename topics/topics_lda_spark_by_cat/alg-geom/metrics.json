@@ -1,0 +1,14 @@
+{
+  "category": "alg-geom",
+  "n_documents": 1209,
+  "n_topics": 5,
+  "topic_diversity": 0.88,
+  "log_likelihood": -378458.0711641839,
+  "log_perplexity": 6.8128039308776405,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}

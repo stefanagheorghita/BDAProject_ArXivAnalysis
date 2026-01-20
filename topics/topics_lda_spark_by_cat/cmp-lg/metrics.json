@@ -1,0 +1,14 @@
+{
+  "category": "cmp-lg",
+  "n_documents": 894,
+  "n_topics": 5,
+  "topic_diversity": 0.76,
+  "log_likelihood": -443792.2300490657,
+  "log_perplexity": 7.497376886609324,
+  "parameters": {
+    "vocab_size": 30000,
+    "min_df": 0.001,
+    "max_df": 0.9,
+    "max_iter": 20
+  }
+}
