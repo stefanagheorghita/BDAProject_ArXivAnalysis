@@ -1,0 +1,13 @@
+[time] load+select: 0m01s
+Train size: 1458968
+Test size:  364668
+[time] split+count: 0m05s
+[time] fit: 26m18s
+[time] transform+cache: 0m11s
+Metrics: {'accuracy': 0.7072460429760768, 'f1': 0.6986972613533871}
+[time] eval+write-metrics: 0m00s
+[time] confusion: 0m00s
+Saved Word2Vec+LR model to: ../outputs/w2v_lr_top30_full/model
+[time] save-model: 0m04s
+[time] offdiag: 0m00s
+[time] TOTAL: 26m46s
